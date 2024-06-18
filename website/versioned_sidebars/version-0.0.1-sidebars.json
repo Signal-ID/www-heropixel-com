@@ -1,0 +1,46 @@
+{
+  "docs": {
+    "Introduction": [
+      "intro-to-pixel-tech",
+      "intro-to-leads",
+      "intro-to-dashboard"
+    ],
+    "Getting Started": [
+      "start-registration",
+      "start-create-a-pixel",
+      "start-pixel-installation",
+      "start-get-your-leads"
+    ],
+    "The Pixel In-Depth": [
+      "events",
+      {
+        "type": "category",
+        "label": "Event Tracking",
+        "collapsible": false,
+        "collapsed": false,
+        "items": ["event-pageview"]
+      }
+    ],
+    "Your Leads": ["events"],
+    "Suppression Lists": ["intro-to-suppressing"],
+    "Dashboard & Reports": ["events"],
+    "Integrations": ["events"],
+    "Observability": ["events"],
+    "Organizations": ["events"],
+    "Managing Team Members": ["events"],
+    "Billing": ["events"],
+    "FAQ": ["events"],
+    "Glossary": ["events"],
+    "Community": ["events"]
+  },
+  "integrations": {
+    "DESTINATIONS": ["intro-to-integrations"],
+    "SOURCES": ["events"]
+  },
+  "graphql": {
+    "GRAPHQL APIs": ["intro-to-graphql"]
+  },
+  "rest": {
+    "REST APIs": ["intro-to-rest"]
+  }
+}

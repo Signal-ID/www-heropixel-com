@@ -214,44 +214,6 @@ module.exports = {
         style: 'primary',
         items: [
           {
-            label: 'Development',
-            type: 'dropdown',
-            position: 'right',
-            items: [
-              {
-                label: 'Documentation',
-                type: 'doc',
-                docId: 'intro-to-pixel-tech',
-              },
-              // {
-              //   label: 'Components',
-              //   type: 'doc',
-              //   docId: 'components-and-apis',
-              // },
-              // {
-              //   label: 'APIs',
-              //   type: 'doc',
-              //   docId: 'accessibilityinfo',
-              // },
-              // {
-              //   label: 'Architecture',
-              //   type: 'doc',
-              //   docId: 'architecture-overview',
-              //   docsPluginId: 'architecture',
-              // },
-            ],
-          },
-          // {
-          //   to: '/showcase',
-          //   label: 'Showcase',
-          //   position: 'right',
-          // },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'right',
-          },
-          {
             type: 'docsVersionDropdown',
             position: 'left',
             dropdownActiveClassDisabled: true,
@@ -261,6 +223,44 @@ module.exports = {
                 label: 'All versions',
               },
             ],
+          },
+          {
+            type: 'doc',
+            docId: 'intro-to-pixel-tech',
+            label: 'How it Works',
+            position: 'right',
+          },
+          {
+            label: 'Guides & Docs',
+            type: 'dropdown',
+            position: 'right',
+            items: [
+              {
+                label: 'Documentation',
+                type: 'doc',
+                docId: 'start-registration',
+              },
+              {
+                label: 'Integrations',
+                type: 'doc',
+                docId: 'intro-to-integrations',
+              },
+              {
+                label: 'GraphQL APIs',
+                type: 'doc',
+                docId: 'intro-to-graphql',
+              },
+              {
+                label: 'REST APIs',
+                type: 'doc',
+                docId: 'intro-to-rest',
+              },
+            ],
+          },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'right',
           },
           // {
           //   href: 'https://github.com/facebook/react-native',
@@ -275,40 +275,36 @@ module.exports = {
         style: 'light',
         links: [
           {
-            title: 'Develop',
+            title: 'Documentation',
             items: [
               {
-                label: 'Guides',
-                to: 'docs/intro-to-pixel-tech',
+                label: 'Getting Started',
+                to: 'docs/start-registration',
               },
-              // {
-              //   label: 'Components',
-              //   to: 'docs/components-and-apis',
-              // },
-              // {
-              //   label: 'APIs',
-              //   to: 'docs/accessibilityinfo',
-              // },
-              // {
-              //   label: 'Architecture',
-              //   to: 'architecture/overview',
-              // },
+              {
+                label: 'Integrations',
+                to: 'docs/intro-to-integrations',
+              },
+              {
+                label: 'GraphQL APIs',
+                to: 'docs/intro-to-graphql',
+              },
+              {
+                label: 'REST APIs',
+                to: 'docs/intro-to-rest',
+              },
             ],
           },
           {
-            title: 'Participate',
+            title: 'Contact Us',
             items: [
               {
-                label: 'Showcase',
+                label: 'Sales',
                 to: 'showcase',
               },
               {
-                label: 'Directory',
-                href: 'https://reactnative.directory/',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/react-native',
+                label: 'Support',
+                href: 'https://app.heropixel.com/support-tickets/',
               },
             ],
           },
@@ -320,22 +316,14 @@ module.exports = {
                 to: 'blog',
               },
               {
-                label: 'X',
-                href: 'https://x.com/reactnative',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/react-native',
+                href: 'https://github.com/Signal-ID/',
               },
             ],
           },
           {
-            title: 'Explore More',
+            title: 'Corporate',
             items: [
-              {
-                label: 'ReactJS',
-                href: 'https://react.dev/',
-              },
               {
                 label: 'Privacy Policy',
                 href: 'https://opensource.fb.com/legal/privacy/',
@@ -350,7 +338,7 @@ module.exports = {
         logo: {
           alt: 'Hero Pixel Logo',
           src: 'img/heropixel/hero-pixel-logo.png',
-          href: 'https://opensource.fb.com/',
+          href: 'https://heropixel.com/',
         },
         copyright,
       },

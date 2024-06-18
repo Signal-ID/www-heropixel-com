@@ -4,22 +4,6 @@
       "intro-to-pixel-tech",
       "intro-to-leads",
       "intro-to-dashboard"
-    ],
-    "Getting Started": [
-      "start-registration",
-      "start-create-a-pixel",
-      "start-pixel-installation",
-      "start-get-your-leads"
-    ],
-    "The Pixel In-Depth": [
-      "events",
-      {
-        "type": "category",
-        "label": "Event Tracking",
-        "collapsible": false,
-        "collapsed": false,
-        "items": ["event-pageview"]
-      }
     ]
   }
 }

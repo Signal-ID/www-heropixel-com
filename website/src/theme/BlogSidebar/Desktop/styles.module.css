@@ -11,7 +11,7 @@
   position: sticky;
   top: var(--ifm-navbar-height);
   padding: 20px 12px 0 0;
-  margin-left: -20px;
+  margin-left: 60px;
 }
 
 .sidebarHeader {
