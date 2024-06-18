@@ -68,29 +68,29 @@
 /docs/next/ram-bundles-inline-requires       /docs/next/optimizing-javascript-loading
 
 # Architecture pages move to unversioned docs
-/docs/architecture-overview             /architecture/overview
-/docs/fabric-renderer                   /architecture/fabric-renderer
-/docs/render-pipeline                   /architecture/render-pipeline
-/docs/xplat-implementation              /architecture/xplat-implementation
-/docs/view-flattening                   /architecture/view-flattening
-/docs/threading-model                   /architecture/threading-model
-/docs/architecture-glossary             /architecture/glossary
+/docs/architecture-overview             https://reactnative.dev/architecture/overview
+/docs/fabric-renderer                   https://reactnative.dev/architecture/fabric-renderer
+/docs/render-pipeline                   https://reactnative.dev/architecture/render-pipeline
+/docs/xplat-implementation              https://reactnative.dev/architecture/xplat-implementation
+/docs/view-flattening                   https://reactnative.dev/architecture/view-flattening
+/docs/threading-model                   https://reactnative.dev/architecture/threading-model
+/docs/architecture-glossary             https://reactnative.dev/architecture/glossary
 
-/docs/next/architecture-overview             /architecture/overview
-/docs/next/fabric-renderer                   /architecture/fabric-renderer
-/docs/next/render-pipeline                   /architecture/render-pipeline
-/docs/next/xplat-implementation              /architecture/xplat-implementation
-/docs/next/view-flattening                   /architecture/view-flattening
-/docs/next/threading-model                   /architecture/threading-model
-/docs/next/architecture-glossary             /architecture/glossary
+/docs/next/architecture-overview             https://reactnative.dev/architecture/overview
+/docs/next/fabric-renderer                   https://reactnative.dev/architecture/fabric-renderer
+/docs/next/render-pipeline                   https://reactnative.dev/architecture/render-pipeline
+/docs/next/xplat-implementation              https://reactnative.dev/architecture/xplat-implementation
+/docs/next/view-flattening                   https://reactnative.dev/architecture/view-flattening
+/docs/next/threading-model                   https://reactnative.dev/architecture/threading-model
+/docs/next/architecture-glossary             https://reactnative.dev/architecture/glossary
 
-/docs/0.66/architecture-overview             /architecture/overview
-/docs/0.66/fabric-renderer                   /architecture/fabric-renderer
-/docs/0.66/render-pipeline                   /architecture/render-pipeline
-/docs/0.66/xplat-implementation              /architecture/xplat-implementation
-/docs/0.66/view-flattening                   /architecture/view-flattening
-/docs/0.66/threading-model                   /architecture/threading-model
-/docs/0.66/architecture-glossary             /architecture/glossary
+/docs/0.66/architecture-overview             https://reactnative.dev/architecture/overview
+/docs/0.66/fabric-renderer                   https://reactnative.dev/architecture/fabric-renderer
+/docs/0.66/render-pipeline                   https://reactnative.dev/architecture/render-pipeline
+/docs/0.66/xplat-implementation              https://reactnative.dev/architecture/xplat-implementation
+/docs/0.66/view-flattening                   https://reactnative.dev/architecture/view-flattening
+/docs/0.66/threading-model                   https://reactnative.dev/architecture/threading-model
+/docs/0.66/architecture-glossary             https://reactnative.dev/architecture/glossary
 
 # Point to new release documentation
 /contributing/release-branch-cut-and-rc0     https://github.com/reactwg/react-native-releases#release-documentation

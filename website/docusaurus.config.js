@@ -40,10 +40,6 @@ module.exports = {
       src: 'https://cdn.jsdelivr.net/npm/focus-visible@5.2.0/dist/focus-visible.min.js',
       defer: true,
     },
-    {
-      src: 'https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd8ryO5qrZo8Exadq9qmt1wtm4_2FdZGEAKHDFEt_2BBlwwM4.js',
-      defer: true,
-    },
     {src: 'https://snack.expo.dev/embed.js', defer: true},
     {src: 'https://platform.twitter.com/widgets.js', async: true},
   ],
@@ -51,13 +47,13 @@ module.exports = {
   titleDelimiter: '·',
   customFields: {
     users,
-    facebookAppId: '123',
+    // facebookAppId: '123',
   },
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore', //'throw',
   webpack: {
     jsLoader: isServer => ({
       loader: require.resolve('esbuild-loader'),
@@ -101,33 +97,32 @@ module.exports = {
             require.resolve('./src/css/_shared.scss'),
             require.resolve('./src/css/styles.hasura.css'),
             require.resolve('./src/css/heropixel-custom.scss'),
-            // require.resolve('./src/css/showcase.scss'),
             require.resolve('./src/css/versions.scss'),
           ],
         },
         // TODO: GA is deprecated, remove once we're sure data is streaming in GA4 via gtag.
-        googleAnalytics: {
-          trackingID: '123',
-        },
-        gtag: {
-          trackingID: '123',
-        },
+        // googleAnalytics: {
+        //   trackingID: '123',
+        // },
+        // gtag: {
+        //   trackingID: '123',
+        // },
       }),
     ],
   ],
   plugins: [
     'docusaurus-plugin-sass',
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        id: 'architecture',
-        path: 'architecture',
-        routeBasePath: '/architecture',
-        sidebarPath: require.resolve('./sidebarsArchitecture.json'),
-        ...commonDocsOptions,
-      }),
-    ],
+    // [
+    //   'content-docs',
+    //   /** @type {import('@docusaurus/plugin-content-docs').Options} */
+    //   ({
+    //     id: 'architecture',
+    //     path: 'architecture',
+    //     routeBasePath: '/architecture',
+    //     sidebarPath: require.resolve('./sidebarsArchitecture.json'),
+    //     ...commonDocsOptions,
+    //   }),
+    // ],
     [
       '@docusaurus/plugin-pwa',
       {
@@ -224,33 +219,33 @@ module.exports = {
             position: 'right',
             items: [
               {
-                label: 'Guides',
+                label: 'Documentation',
                 type: 'doc',
-                docId: 'getting-started',
+                docId: 'intro-to-pixel-tech',
               },
-              {
-                label: 'Components',
-                type: 'doc',
-                docId: 'components-and-apis',
-              },
-              {
-                label: 'APIs',
-                type: 'doc',
-                docId: 'accessibilityinfo',
-              },
-              {
-                label: 'Architecture',
-                type: 'doc',
-                docId: 'architecture-overview',
-                docsPluginId: 'architecture',
-              },
+              // {
+              //   label: 'Components',
+              //   type: 'doc',
+              //   docId: 'components-and-apis',
+              // },
+              // {
+              //   label: 'APIs',
+              //   type: 'doc',
+              //   docId: 'accessibilityinfo',
+              // },
+              // {
+              //   label: 'Architecture',
+              //   type: 'doc',
+              //   docId: 'architecture-overview',
+              //   docsPluginId: 'architecture',
+              // },
             ],
           },
-          {
-            to: '/showcase',
-            label: 'Showcase',
-            position: 'right',
-          },
+          // {
+          //   to: '/showcase',
+          //   label: 'Showcase',
+          //   position: 'right',
+          // },
           {
             to: '/blog',
             label: 'Blog',
@@ -284,20 +279,20 @@ module.exports = {
             items: [
               {
                 label: 'Guides',
-                to: 'docs/getting-started',
+                to: 'docs/intro-to-pixel-tech',
               },
-              {
-                label: 'Components',
-                to: 'docs/components-and-apis',
-              },
-              {
-                label: 'APIs',
-                to: 'docs/accessibilityinfo',
-              },
-              {
-                label: 'Architecture',
-                to: 'architecture/overview',
-              },
+              // {
+              //   label: 'Components',
+              //   to: 'docs/components-and-apis',
+              // },
+              // {
+              //   label: 'APIs',
+              //   to: 'docs/accessibilityinfo',
+              // },
+              // {
+              //   label: 'Architecture',
+              //   to: 'architecture/overview',
+              // },
             ],
           },
           {
@@ -360,20 +355,20 @@ module.exports = {
         copyright,
       },
       algolia: {
-        appId: '8TDSE0OHGQ',
-        apiKey: '83cd239c72f9f8b0ed270a04b1185288',
+        appId: 'OXSIEUMH6D',
+        apiKey: '0be456a6896a69b14b8b9dd1e33347d7',
         indexName: 'react-native-v2',
         contextualSearch: true,
       },
       metadata: [
         {
           property: 'og:image',
-          content: 'https://reactnative.dev/img/logo-og.png',
+          content: 'https://heropixel.com/img/heropixel/hero-pixel-icon.png',
         },
         {name: 'twitter:card', content: 'summary_large_image'},
         {
           name: 'twitter:image',
-          content: 'https://reactnative.dev/img/logo-og.png',
+          content: 'https://heropixel.com/img/heropixel/hero-pixel-icon.png',
         },
         {name: 'twitter:site', content: '@reactnative'},
       ],
