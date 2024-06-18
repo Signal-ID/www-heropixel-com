@@ -10,6 +10,7 @@
     "url": "https://github.com/facebook/react-native-website/issues"
   },
   "scripts": {
+    "clean": "rm -rf build .docusaurus",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build && yarn run update-redirect ./build/_redirects ./versions.json",
@@ -52,6 +53,9 @@
     "@docusaurus/plugin-google-gtag": "3.2.0",
     "@docusaurus/plugin-pwa": "3.2.0",
     "@docusaurus/preset-classic": "3.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "docusaurus-plugin-sass": "^0.2.5",
     "esbuild-loader": "^2.21.0",
     "react": "^18.2.0",

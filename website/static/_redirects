@@ -3,15 +3,15 @@
 # Renamed pages
 /docs/android-setup             /docs/getting-started
 /docs/building-for-apple-tv     /docs/building-for-tv
-/docs/building-from-source      /contributing/how-to-build-from-source
-/docs/contributing              /contributing/overview
+/docs/building-from-source      https://reactnative.dev/contributing/how-to-build-from-source
+/docs/contributing              https://reactnative.dev/contributing/overview
 /docs/next/sourcemaps           /docs/next/debugging-release-builds
 /docs/next/symbolication        /docs/next/debugging-release-builds
-/docs/publishing-forks          /contributing/how-to-build-from-source#publish-your-own-version-of-react-native
-/docs/testing                   /contributing/how-to-run-and-write-tests
+/docs/publishing-forks          https://reactnative.dev/contributing/how-to-build-from-source#publish-your-own-version-of-react-native
+/docs/testing                   https://reactnative.dev/contributing/how-to-run-and-write-tests
 /docs/understanding-cli         https://github.com/react-native-community/cli#react-native-cli
 
-/contributing/how-to-contribute         /contributing/overview
+/contributing/how-to-contribute         https://reactnative.dev/contributing/overview
 /releases/release-candidate-minor         /releases/release-branch-cut-and-rc0
 
 # Redirect New Architecture docs of all versions
@@ -106,7 +106,7 @@
 /contributing/updating-upgrade-helper        https://github.com/reactwg/react-native-releases#release-documentation
 
 # Rework of the community
-/help         /community/overview
+/help         https://reactnative.dev/community/overview
 
 # Latest version might be linked to directly and should redirect
 /docs/$LATEST_VERSION$/*  /docs/:splat

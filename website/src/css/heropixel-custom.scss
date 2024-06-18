@@ -1,0 +1,402 @@
+@use "shared" as *;
+
+/**
+* @license
+*
+* Font Family: General Sans
+* Designed by: Frode Helland
+* URL: https://www.fontshare.com/fonts/general-sans
+* © 2024 Indian Type Foundry
+*
+* General Sans Extralight 
+* General Sans ExtralightItalic 
+* General Sans Light 
+* General Sans LightItalic 
+* General Sans Regular 
+* General Sans Italic 
+* General Sans Medium 
+* General Sans MediumItalic 
+* General Sans Semibold 
+* General Sans SemiboldItalic 
+* General Sans Bold 
+* General Sans BoldItalic 
+* General Sans Variable (Variable font)
+* General Sans VariableItalic (Variable font)
+
+*
+*/
+@font-face {
+  font-family: "GeneralSans-Extralight";
+  src: url("./fonts/GeneralSans-Extralight.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Extralight.woff") format("woff"),
+    url("./fonts/GeneralSans-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-ExtralightItalic";
+  src: url("./fonts/GeneralSans-ExtralightItalic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-ExtralightItalic.woff") format("woff"),
+    url("./fonts/GeneralSans-ExtralightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Light";
+  src: url("./fonts/GeneralSans-Light.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Light.woff") format("woff"),
+    url("./fonts/GeneralSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-LightItalic";
+  src: url("./fonts/GeneralSans-LightItalic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-LightItalic.woff") format("woff"),
+    url("./fonts/GeneralSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Regular";
+  src: url("./fonts/GeneralSans-Regular.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Regular.woff") format("woff"),
+    url("./fonts/GeneralSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-Italic";
+  src: url("./fonts/GeneralSans-Italic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Italic.woff") format("woff"),
+    url("./fonts/GeneralSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Medium";
+  src: url("./fonts/GeneralSans-Medium.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Medium.woff") format("woff"),
+    url("./fonts/GeneralSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-MediumItalic";
+  src: url("./fonts/GeneralSans-MediumItalic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-MediumItalic.woff") format("woff"),
+    url("./fonts/GeneralSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Semibold";
+  src: url("./fonts/GeneralSans-Semibold.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Semibold.woff") format("woff"),
+    url("./fonts/GeneralSans-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-SemiboldItalic";
+  src: url("./fonts/GeneralSans-SemiboldItalic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-SemiboldItalic.woff") format("woff"),
+    url("./fonts/GeneralSans-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Bold";
+  src: url("./fonts/GeneralSans-Bold.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Bold.woff") format("woff"),
+    url("./fonts/GeneralSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-BoldItalic";
+  src: url("./fonts/GeneralSans-BoldItalic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-BoldItalic.woff") format("woff"),
+    url("./fonts/GeneralSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 700.0;
+  *
+  * available axes:
+  'wght' (range from 200.0 to 700.0
+  */
+@font-face {
+  font-family: "GeneralSans-Variable";
+  src: url("./fonts/GeneralSans-Variable.woff2") format("woff2"),
+    url("./fonts/GeneralSans-Variable.woff") format("woff"),
+    url("./fonts/GeneralSans-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 700.0;
+  *
+  * available axes:
+  'wght' (range from 200.0 to 700.0
+  */
+@font-face {
+  font-family: "GeneralSans-VariableItalic";
+  src: url("./fonts/GeneralSans-VariableItalic.woff2") format("woff2"),
+    url("./fonts/GeneralSans-VariableItalic.woff") format("woff"),
+    url("./fonts/GeneralSans-VariableItalic.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Doc Item footer metadata */
+
+.theme-doc-footer {
+  margin-top: 40px !important;
+  margin-bottom: 16px !important;
+  font-size: 15px;
+  color: var(--subtle);
+
+  a {
+    @extend %button-link-style;
+
+    svg {
+      color: var(--ifm-color-primary);
+      display: inline;
+    }
+  }
+
+  .lastUpdated {
+    font-size: 13px;
+    text-align: right;
+  }
+
+  time,
+  strong {
+    font-weight: 600;
+  }
+
+  .theme-last-updated {
+    line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 996px) {
+  .theme-doc-footer .col {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .theme-doc-footer .col {
+    text-align: center;
+
+    &:first-child {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+/* Doc Item footer metadata */
+
+.theme-doc-footer {
+  margin-top: 40px !important;
+  margin-bottom: 16px !important;
+  font-size: 15px;
+  color: var(--subtle);
+
+  a {
+    @extend %button-link-style;
+
+    svg {
+      color: var(--ifm-color-primary);
+    }
+  }
+
+  .lastUpdated {
+    font-size: 13px;
+    text-align: right;
+  }
+
+  time,
+  strong {
+    font-weight: 600;
+  }
+
+  .theme-last-updated {
+    line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 996px) {
+  .theme-doc-footer .col {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .theme-doc-footer .col {
+    text-align: center;
+
+    &:first-child {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+/* Docs Rating Box */
+
+.docsRating {
+  display: inline-block;
+  padding: 16px 30px 16px 40px;
+  min-height: 66px;
+  margin-top: 42px;
+  margin-left: -82px;
+  background-color: rgba(100, 215, 255, 0.3);
+  text-align: center;
+  color: #057594;
+  line-height: 32px;
+  font-weight: 500;
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
+
+  svg {
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0 0 0 6px;
+    display: inline;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      fill: var(--ifm-color-primary);
+    }
+  }
+
+  .i_thumbsup {
+    fill: #56a211;
+    transform: translateY(0.25em);
+    margin-left: 12px;
+  }
+
+  .i_thumbsdown {
+    fill: #e9430f;
+    transform: scale(-1, -1) translateY(-0.25em);
+  }
+}
+
+html[data-theme="dark"] .docsRating {
+  color: #cee9f3;
+}
+
+@media only screen and (max-width: 996px) {
+  .docsRating {
+    width: 100%;
+    margin: 36px 0 0 !important;
+    border-radius: var(--ifm-global-radius);
+  }
+}
+
+/* Footer */
+
+.footer {
+  &.footer--dark {
+    --ifm-footer-background-color: var(--deepdark);
+  }
+
+  .container {
+    max-width: 900px;
+    background-color: transparent;
+  }
+
+  .text--center {
+    color: #858a96;
+    font-size: 13px;
+  }
+
+  .footer__item {
+    font-size: 14px;
+    padding: 8px 0 0;
+    min-height: 30px;
+
+    a:hover svg {
+      color: var(--brand);
+    }
+  }
+
+  .footer__title {
+    color: #858a96;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+  }
+
+  .footer__col {
+    margin: 4px 0 12px 2%;
+    padding: 2.5rem 5rem !important;
+    padding-left: 0 !important;
+  }
+
+  .footer__link-item {
+    line-height: 1.44;
+    display: inline-block;
+  }
+
+  .footer__links {
+    margin-bottom: 8px;
+  }
+
+  svg[class^="iconExternalLink"] {
+    color: var(--subtle);
+    right: -1px;
+    width: 9px;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .footer {
+    .footer__col {
+      text-align: center;
+      flex-basis: 48% !important;
+      max-width: 48% !important;
+      margin-bottom: 28px;
+    }
+
+    .footer__links {
+      padding: 0 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    .footer__col {
+      flex-basis: 99% !important;
+      max-width: 99% !important;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+  }
+}

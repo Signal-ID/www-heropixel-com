@@ -9,7 +9,7 @@ const users = require('./showcase.json');
 const versions = require('./versions.json');
 
 const lastVersion = versions[0];
-const copyright = `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc.`;
+const copyright = `Copyright © ${new Date().getFullYear()} Signal ID, LLC.`;
 
 const commonDocsOptions = {
   breadcrumbs: false,
@@ -24,11 +24,11 @@ const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'React Native',
-  tagline: 'A framework for building native apps using React',
-  organizationName: 'facebook',
-  projectName: 'react-native',
-  url: 'https://reactnative.dev',
+  title: 'Hero Pixel by Signal ID',
+  tagline: 'Our most advanced remarketing pixel to date.',
+  organizationName: 'Signal ID',
+  projectName: 'hero-pixel',
+  url: 'https://heropixel.com',
   baseUrl: '/',
   clientModules: [
     require.resolve('./modules/snackPlayerInitializer.js'),
@@ -47,11 +47,11 @@ module.exports = {
     {src: 'https://snack.expo.dev/embed.js', defer: true},
     {src: 'https://platform.twitter.com/widgets.js', async: true},
   ],
-  favicon: 'img/favicon.ico',
+  favicon: 'img/heropixel/hero-pixel-icon.png',
   titleDelimiter: '·',
   customFields: {
     users,
-    facebookAppId: '1677033832619985',
+    facebookAppId: '123',
   },
   i18n: {
     defaultLocale: 'en',
@@ -98,18 +98,19 @@ module.exports = {
         },
         theme: {
           customCss: [
-            require.resolve('./src/css/customTheme.scss'),
-            require.resolve('./src/css/index.scss'),
-            require.resolve('./src/css/showcase.scss'),
+            require.resolve('./src/css/_shared.scss'),
+            require.resolve('./src/css/styles.hasura.css'),
+            require.resolve('./src/css/heropixel-custom.scss'),
+            // require.resolve('./src/css/showcase.scss'),
             require.resolve('./src/css/versions.scss'),
           ],
         },
         // TODO: GA is deprecated, remove once we're sure data is streaming in GA4 via gtag.
         googleAnalytics: {
-          trackingID: 'UA-41298772-2',
+          trackingID: '123',
         },
         gtag: {
-          trackingID: 'G-58L13S6BDP',
+          trackingID: '123',
         },
       }),
     ],
@@ -124,28 +125,6 @@ module.exports = {
         path: 'architecture',
         routeBasePath: '/architecture',
         sidebarPath: require.resolve('./sidebarsArchitecture.json'),
-        ...commonDocsOptions,
-      }),
-    ],
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        id: 'contributing',
-        path: 'contributing',
-        routeBasePath: '/contributing',
-        sidebarPath: require.resolve('./sidebarsContributing.json'),
-        ...commonDocsOptions,
-      }),
-    ],
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        id: 'community',
-        path: 'community',
-        routeBasePath: '/community',
-        sidebarPath: require.resolve('./sidebarsCommunity.json'),
         ...commonDocsOptions,
       }),
     ],
@@ -208,14 +187,14 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'support_ukraine',
-        content:
-          'Support Ukraine 🇺🇦 <a target="_blank" rel="noopener noreferrer" href="https://opensource.facebook.com/support-ukraine"> Help Provide Humanitarian Aid to Ukraine</a>.',
-        backgroundColor: '#20232a',
-        textColor: '#fff',
-        isCloseable: false,
-      },
+      // announcementBar: {
+      //   id: 'support_ukraine',
+      //   content:
+      //     '',
+      //   backgroundColor: '#20232a',
+      //   textColor: '#fff',
+      //   isCloseable: false,
+      // },
       prism: {
         defaultLanguage: 'jsx',
         theme: require('./core/PrismTheme'),
@@ -233,12 +212,11 @@ module.exports = {
         ],
       },
       navbar: {
-        title: 'React Native',
         logo: {
-          src: 'img/header_logo.svg',
-          alt: 'React Native',
+          src: 'img/heropixel/hero-pixel-logo.png',
+          alt: 'Hero Pixel',
         },
-        style: 'dark',
+        style: 'primary',
         items: [
           {
             label: 'Development',
@@ -269,20 +247,6 @@ module.exports = {
             ],
           },
           {
-            type: 'doc',
-            docId: 'overview',
-            label: 'Contributing',
-            position: 'right',
-            docsPluginId: 'contributing',
-          },
-          {
-            type: 'doc',
-            docId: 'overview',
-            label: 'Community',
-            position: 'right',
-            docsPluginId: 'community',
-          },
-          {
             to: '/showcase',
             label: 'Showcase',
             position: 'right',
@@ -303,17 +267,17 @@ module.exports = {
               },
             ],
           },
-          {
-            href: 'https://github.com/facebook/react-native',
-            'aria-label': 'GitHub repository',
-            position: 'right',
-            className: 'navbar-github-link',
-          },
+          // {
+          //   href: 'https://github.com/facebook/react-native',
+          //   'aria-label': 'GitHub repository',
+          //   position: 'right',
+          //   className: 'navbar-github-link',
+          // },
         ],
       },
       image: 'img/logo-og.png',
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Develop',
@@ -342,14 +306,6 @@ module.exports = {
               {
                 label: 'Showcase',
                 to: 'showcase',
-              },
-              {
-                label: 'Contributing',
-                to: 'contributing/overview',
-              },
-              {
-                label: 'Community',
-                to: 'community/overview',
               },
               {
                 label: 'Directory',
@@ -397,8 +353,8 @@ module.exports = {
           },
         ],
         logo: {
-          alt: 'Meta Open Source Logo',
-          src: 'img/oss_logo.svg',
+          alt: 'Hero Pixel Logo',
+          src: 'img/heropixel/hero-pixel-logo.png',
           href: 'https://opensource.fb.com/',
         },
         copyright,

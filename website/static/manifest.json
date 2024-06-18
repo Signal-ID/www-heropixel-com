@@ -1,7 +1,7 @@
 {
-  "name": "React Native Documentation",
-  "short_name": "React Native",
-  "description": "Learn once, write anywhere.",
+  "name": "Hero Pixel Documentation",
+  "short_name": "Hero Pixel",
+  "description": "A Remarketing Pixel for automated lead generation",
   "theme_color": "#20232a",
   "background_color": "#20232a",
   "display": "minimal-ui",
@@ -26,12 +26,6 @@
       "name": "Core APIs",
       "short_name": "APIs",
       "url": "/docs/accessibilityinfo",
-      "icons": [{ "src": "img/pwa/manifest-icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Community",
-      "short_name": "Community",
-      "url": "/community/overview",
       "icons": [{ "src": "img/pwa/manifest-icon-192.png", "sizes": "192x192" }]
     },
     {
