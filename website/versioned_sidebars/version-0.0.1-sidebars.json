@@ -22,9 +22,15 @@
     ],
     "Suppression Lists": ["intro-to-suppressing"],
     "Dashboard & Reports": ["dashboard"],
-    "Organizations": ["organizations"],
-    "Managing Team Members": ["teams"],
-    "Billing": ["billing"],
+    "Organizations": [
+      "organizations",
+      "teams",
+      "inviting",
+      "changing-member-roles",
+      "removing-a-member",
+      "changing-ownership"
+    ],
+    "Billing": ["billing", "add-bank-account"],
     "FAQ": ["faq"],
     "Glossary": ["glossary"]
   },

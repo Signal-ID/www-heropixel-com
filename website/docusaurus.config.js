@@ -53,7 +53,7 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  onBrokenLinks: 'ignore', //'throw',
+  onBrokenLinks: 'throw', //'throw',
   webpack: {
     jsLoader: isServer => ({
       loader: require.resolve('esbuild-loader'),
@@ -301,7 +301,7 @@ module.exports = {
             items: [
               {
                 label: 'Sales',
-                to: 'showcase',
+                to: '/',
               },
               {
                 label: 'Support',

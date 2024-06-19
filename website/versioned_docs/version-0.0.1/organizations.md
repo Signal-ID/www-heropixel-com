@@ -1,6 +1,6 @@
 ---
 id: organizations
-title: Overview
+title: Organization Overview
 description: desc
 ---
 
