@@ -17,6 +17,8 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .MetricCard1,
@@ -171,12 +173,14 @@
 .HeaderSection {
   height: 1157.95px;
   left: 0;
-  top: 150px;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  position: relative;
+  z-index: 10000;
 }
 
 .Container {

@@ -11,6 +11,43 @@ import {
 const Hero = () => {
   return (
     <div className={styles.LandingPageNewV2}>
+      <div className={styles.HeaderSection}>
+        <div className={styles.Container}>
+          <div className={styles.HeadlineContent}>
+            <div className={styles.Text}>
+              <div className={styles.BlueText}>
+                Your Lead Prices Keep Increasing. Now What?
+              </div>
+              <div className={styles.HeadingText}>
+                <div className={styles.MainHeading}>
+                  Your leads cost $5 - $10+
+                </div>
+                <div className={styles.SubHeading}>
+                  <div className={styles.SubText}>
+                    We'll give them to you for
+                  </div>
+                  <div className={styles.PriceText}>$0.50</div>
+                </div>
+              </div>
+              <div className={styles.Description}>
+                If you're spending above $50,000 a month on advertising, book a
+                call with our team to learn more.
+              </div>
+            </div>
+            <a href="#" className={styles.Button}>
+              <div className={styles.ButtonText}>Get started</div>
+              <div className={styles.Right}>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+            </a>
+          </div>
+          <img
+            className={styles.DashboardImage}
+            src="/img/heropixel/hero-dash.png"
+            alt="Dashboard"
+          />
+        </div>
+      </div>
       <div className={styles.AsetOrnamen}>
         <div className={styles.MetricCard1}>
           <div className={styles.Icon1}>
@@ -77,43 +114,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles.HeaderSection}>
-        <div className={styles.Container}>
-          <div className={styles.HeadlineContent}>
-            <div className={styles.Text}>
-              <div className={styles.BlueText}>
-                Your Lead Prices Keep Increasing. Now What?
-              </div>
-              <div className={styles.HeadingText}>
-                <div className={styles.MainHeading}>
-                  Your leads cost $5 - $10+
-                </div>
-                <div className={styles.SubHeading}>
-                  <div className={styles.SubText}>
-                    We'll give them to you for
-                  </div>
-                  <div className={styles.PriceText}>$0.50</div>
-                </div>
-              </div>
-              <div className={styles.Description}>
-                If you're spending above $50,000 a month on advertising, book a
-                call with our team to learn more.
-              </div>
-            </div>
-            <div className={styles.Button}>
-              <div className={styles.ButtonText}>Get started</div>
-              <div className={styles.Right}>
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
-            </div>
-          </div>
-          <img
-            className={styles.DashboardImage}
-            src="/img/heropixel/hero-dash.png"
-            alt="Dashboard"
-          />
         </div>
       </div>
     </div>

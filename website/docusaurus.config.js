@@ -210,6 +210,7 @@ module.exports = {
         logo: {
           src: 'img/heropixel/hero-pixel-logo.png',
           alt: 'Hero Pixel',
+          href: 'https://heropixel.com/home',
         },
         style: 'primary',
         items: [
@@ -317,7 +318,7 @@ module.exports = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Signal-ID/',
+                href: 'https://github.com/Signal-ID/www-heropixel-com/discussions',
               },
             ],
           },
@@ -326,11 +327,11 @@ module.exports = {
             items: [
               {
                 label: 'Privacy Policy',
-                href: 'https://opensource.fb.com/legal/privacy/',
+                href: '/privacy-policy',
               },
               {
-                label: 'Terms of Service',
-                href: 'https://opensource.fb.com/legal/terms/',
+                label: 'Terms and Conditions',
+                href: '/terms-and-conditions',
               },
             ],
           },
@@ -338,7 +339,7 @@ module.exports = {
         logo: {
           alt: 'Hero Pixel Logo',
           src: 'img/heropixel/hero-pixel-logo.png',
-          href: 'https://heropixel.com/',
+          href: 'https://heropixel.com/home',
         },
         copyright,
       },

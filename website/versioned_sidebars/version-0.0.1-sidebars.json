@@ -12,7 +12,6 @@
       "start-get-your-leads"
     ],
     "The Pixel In-Depth": [
-      "events",
       {
         "type": "category",
         "label": "Event Tracking",
@@ -21,21 +20,16 @@
         "items": ["event-pageview"]
       }
     ],
-    "Your Leads": ["events"],
     "Suppression Lists": ["intro-to-suppressing"],
-    "Dashboard & Reports": ["events"],
-    "Integrations": ["events"],
-    "Observability": ["events"],
-    "Organizations": ["events"],
-    "Managing Team Members": ["events"],
-    "Billing": ["events"],
-    "FAQ": ["events"],
-    "Glossary": ["events"],
-    "Community": ["events"]
+    "Dashboard & Reports": ["dashboard"],
+    "Organizations": ["organizations"],
+    "Managing Team Members": ["teams"],
+    "Billing": ["billing"],
+    "FAQ": ["faq"],
+    "Glossary": ["glossary"]
   },
   "integrations": {
-    "DESTINATIONS": ["intro-to-integrations"],
-    "SOURCES": ["events"]
+    "DESTINATIONS": ["intro-to-integrations"]
   },
   "graphql": {
     "GRAPHQL APIs": ["intro-to-graphql"]

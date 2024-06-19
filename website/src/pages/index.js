@@ -7,30 +7,16 @@
 
 import React from 'react';
 
-import Head from '@docusaurus/Head';
-
+import Hero from './Home/Hero';
 import Layout from '@theme/Layout';
 
-import Home from './Home';
+//import Home from './Home';
 
 const Index = () => {
   return (
-    <Layout
-      description="A framework for building native apps using React"
-      wrapperClassName="homepage">
-      <Head>
-        <title>React Native · Learn once, write anywhere</title>
-        <meta
-          property="og:title"
-          content="React Native · Learn once, write anywhere"
-        />
-        <meta
-          property="twitter:title"
-          content="React Native · Learn once, write anywhere"
-        />
-      </Head>
-      <Home />
-    </Layout>
+    <>
+      <Hero />
+    </>
   );
 };
 
