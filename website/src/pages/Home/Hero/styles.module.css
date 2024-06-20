@@ -59,6 +59,36 @@
   transform: rotate(8deg);
 }
 
+@media only screen and (max-width: 1050px) {
+  .MetricCard2 {
+    display: none;
+  }
+  .HeaderSection {
+    justify-content: flex-start !important;
+  }
+  .SubText {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .MetricCard3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .MetricCard1 {
+    display: none;
+  }
+  div.Description {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  div.BlueText {
+    font-size: 20px;
+  }
+}
+
 .Icon1 {
   padding: 6px 12px;
   background: #fffaec;
@@ -103,7 +133,7 @@
 
 .Content {
   width: 145.94px;
-  height: 40.96px;
+  min-height: 40.96px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -167,11 +197,11 @@
 
 .Typography {
   width: 133.36px;
-  height: 133.36px;
+  min-height: 133.36px;
 }
 
 .HeaderSection {
-  height: 1157.95px;
+  min-height: 1157.95px;
   left: 0;
   top: 0;
   display: flex;
@@ -180,20 +210,21 @@
   align-items: center;
   gap: 10px;
   position: relative;
-  z-index: 10000;
+  z-index: 100;
 }
 
 .Container {
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 100px;
 }
 
 .HeadlineContent {
   align-self: stretch;
-  height: 345.95px;
+  min-height: 345.95px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -203,7 +234,7 @@
 
 .Text {
   align-self: stretch;
-  height: 253.95px;
+  min-height: 253.95px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -213,7 +244,7 @@
 }
 
 .BlueText {
-  height: 42px;
+  min-height: 42px;
   padding: 8px 15px;
   transform: rotate(-1deg);
   transform-origin: 0 0;
@@ -226,9 +257,20 @@
   color: #fff;
 }
 
+.MobileHeader {
+  align-self: stretch;
+  min-height: 140px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  display: none;
+}
+
 .HeadingText {
   align-self: stretch;
-  height: 140px;
+  min-height: 140px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -248,12 +290,13 @@
 .SubHeading {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
   font-family: "GeneralSans-Medium";
 }
 
 .SubText {
+  text-align: center;
   color: #1f1f1f;
   font-size: 60px;
   font-weight: 500;
@@ -267,6 +310,55 @@
   font-weight: 500;
   line-height: 66px;
   word-wrap: break-word;
+}
+
+@media only screen and (max-width: 800px) {
+  .HeadingText {
+    display: none !important;
+  }
+  .MobileHeader {
+    display: flex !important;
+  }
+  .PriceText,
+  .SubText,
+  .MainHeading {
+    font-size: 50px;
+  }
+  div.BlueText {
+    font-size: 18px;
+  }
+}
+
+.MobileLogo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 38px;
+  height: auto;
+  border-radius: 0px;
+  display: none;
+}
+.Logo {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  width: 125px;
+  height: auto;
+  border-radius: 0px;
+}
+
+@media only screen and (max-width: 531px) {
+  .PriceText,
+  .SubText,
+  .MainHeading {
+    font-size: 50px;
+  }
+  .MobileLogo {
+    display: block;
+  }
+  .Logo {
+    display: none;
+  }
 }
 
 .Description {

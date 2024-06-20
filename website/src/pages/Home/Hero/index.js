@@ -11,6 +11,16 @@ import {
 const Hero = () => {
   return (
     <div className={styles.LandingPageNewV2}>
+      <img
+        src="/img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png"
+        alt="Logo"
+        className={styles.Logo}
+      />
+      <img
+        src="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
+        alt="MobileLogo"
+        className={styles.MobileLogo}
+      />
       <div className={styles.HeaderSection}>
         <div className={styles.Container}>
           <div className={styles.HeadlineContent}>
@@ -24,9 +34,20 @@ const Hero = () => {
                 </div>
                 <div className={styles.SubHeading}>
                   <div className={styles.SubText}>
-                    We'll give them to you for
+                    We'll give them to you for&nbsp;
+                    <span className={styles.PriceText}>$0.50</span>
                   </div>
-                  <div className={styles.PriceText}>$0.50</div>
+                </div>
+              </div>
+              <div className={styles.MobileHeader}>
+                <div className={styles.MainHeading}>
+                  <div className={styles.MainHeading}>Your leads cost</div>
+                  <div className={styles.SubHeading}>
+                    <div className={styles.SubText}>
+                      $5 - $10+, We'll give them to you for&nbsp;
+                      <span className={styles.PriceText}>$0.50</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className={styles.Description}>

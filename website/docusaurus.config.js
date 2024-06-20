@@ -132,7 +132,7 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/pwa/manifest-icon-512.png',
+            href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
           },
           {
             tagName: 'link',
@@ -157,18 +157,18 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/pwa/manifest-icon-512.png',
+            href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/pwa/manifest-icon-512.png',
+            href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
             color: '#06bcee',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            href: '/img/pwa/manifest-icon-512.png',
+            href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
           },
           {
             tagName: 'meta',
@@ -210,7 +210,7 @@ module.exports = {
         logo: {
           src: 'img/heropixel/hero-pixel-logo.png',
           alt: 'Hero Pixel',
-          href: 'https://heropixel.com/docs/',
+          href: '/docs',
         },
         style: 'primary',
         items: [
@@ -339,7 +339,7 @@ module.exports = {
         logo: {
           alt: 'Hero Pixel Logo',
           src: 'img/heropixel/hero-pixel-logo.png',
-          href: 'https://heropixel.com/docs/',
+          href: '/docs',
         },
         copyright,
       },
@@ -352,12 +352,14 @@ module.exports = {
       metadata: [
         {
           property: 'og:image',
-          content: 'https://heropixel.com/img/heropixel/hero-pixel-icon.png',
+          content:
+            'https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
         },
         {name: 'twitter:card', content: 'summary_large_image'},
         {
           name: 'twitter:image',
-          content: 'https://heropixel.com/img/heropixel/hero-pixel-icon.png',
+          content:
+            'https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
         },
         {name: 'twitter:site', content: '@reactnative'},
       ],

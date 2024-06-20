@@ -3319,6 +3319,7 @@ ol {
 .navbar {
   background-color: var(--main-bg-color);
   padding: 24px 48px;
+  z-index: 200;
 }
 
 .DocSearch-Button-Keys .DocSearch-Button-Key:last-child,

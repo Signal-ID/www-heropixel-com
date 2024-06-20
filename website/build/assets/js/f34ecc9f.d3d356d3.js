@@ -1,4 +1,4 @@
-/*! For license information please see f34ecc9f.73d879eb.js.LICENSE.txt */
+/*! For license information please see f34ecc9f.d3d356d3.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -71,6 +71,7 @@
             'https://github.com/facebook/react-native-website/blob/main/website/../docs/index.md',
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1718865907e3,
           frontMatter: {
             id: 'index',
             title: 'Hero Pixel Documentation',

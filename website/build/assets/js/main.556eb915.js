@@ -1,4 +1,4 @@
-/*! For license information please see main.8c3bc539.js.LICENSE.txt */
+/*! For license information please see main.556eb915.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -832,7 +832,7 @@
         {path: '/versions', component: b('/versions', 'cce'), exact: !0},
         {
           path: '/docs',
-          component: b('/docs', '5ce'),
+          component: b('/docs', '632'),
           routes: [
             {
               path: '/docs/next',
@@ -939,13 +939,13 @@
             },
             {
               path: '/docs',
-              component: b('/docs', 'ca5'),
+              component: b('/docs', 'a00'),
               routes: [
                 {
                   path: '/docs',
-                  component: b('/docs', 'bfb'),
+                  component: b('/docs', '14c'),
                   routes: [
-                    {path: '/docs', component: b('/docs', 'e5f'), exact: !0},
+                    {path: '/docs', component: b('/docs', 'a38'), exact: !0},
                     {
                       path: '/docs/add-bank-account',
                       component: b('/docs/add-bank-account', 'bd3'),
@@ -1329,8 +1329,8 @@
         R = Object.getOwnPropertyDescriptors,
         j = Object.getOwnPropertySymbols,
         D = Object.prototype.hasOwnProperty,
-        F = Object.prototype.propertyIsEnumerable,
-        M = (e, t, n) =>
+        M = Object.prototype.propertyIsEnumerable,
+        F = (e, t, n) =>
           t in e
             ? L(e, t, {
                 enumerable: !0,
@@ -1340,8 +1340,8 @@
               })
             : (e[t] = n),
         B = (e, t) => {
-          for (var n in t || (t = {})) D.call(t, n) && M(e, n, t[n]);
-          if (j) for (var n of j(t)) F.call(t, n) && M(e, n, t[n]);
+          for (var n in t || (t = {})) D.call(t, n) && F(e, n, t[n]);
+          if (j) for (var n of j(t)) M.call(t, n) && F(e, n, t[n]);
           return e;
         },
         z = (e, t) => I(e, R(t));
@@ -1912,8 +1912,8 @@
           L &&
           (R = (0, o.applyTrailingSlash)(R, {trailingSlash: A, baseUrl: O}));
         const D = (0, r.useRef)(!1),
-          F = b ? a.k2 : a.N_,
-          M = s.A.canUseIntersectionObserver,
+          M = b ? a.k2 : a.N_,
+          F = s.A.canUseIntersectionObserver,
           B = (0, r.useRef)(),
           z = () => {
             D.current ||
@@ -1922,12 +1922,12 @@
           };
         (0, r.useEffect)(
           () => (
-            !M && L && null != R && window.docusaurus.prefetch(R),
+            !F && L && null != R && window.docusaurus.prefetch(R),
             () => {
-              M && B.current && B.current.disconnect();
+              F && B.current && B.current.disconnect();
             }
           ),
-          [B, R, M, L]
+          [B, R, F, L]
         );
         const $ = null != (n = null == R ? void 0 : R.startsWith('#')) && n,
           U = !_.target || '_self' === _.target,
@@ -1947,7 +1947,7 @@
                 )
               )
             : r.createElement(
-                F,
+                M,
                 y(
                   ((W = y({}, _)),
                   p(
@@ -1957,7 +1957,7 @@
                       onTouchStart: z,
                       innerRef: e => {
                         (P.current = e),
-                          M &&
+                          F &&
                             e &&
                             L &&
                             ((B.current = new window.IntersectionObserver(t => {
@@ -2684,7 +2684,7 @@
               t.indexOf(r) < 0 && I.call(e, r) && (n[r] = e[r]);
           return n;
         };
-      function F(e) {
+      function M(e) {
         var t = e,
           {
             width: n = 21,
@@ -2704,7 +2704,7 @@
           )
         );
       }
-      const M = {closeButton: 'closeButton_CVFx'};
+      const F = {closeButton: 'closeButton_CVFx'};
       var B = Object.defineProperty,
         z = Object.defineProperties,
         $ = Object.getOwnPropertyDescriptors,
@@ -2742,9 +2742,9 @@
               },
               e
             ),
-            {className: (0, a.A)('clean-btn close', M.closeButton, e.className)}
+            {className: (0, a.A)('clean-btn close', F.closeButton, e.className)}
           ),
-          r.createElement(F, {width: 14, height: 14, strokeWidth: 3.1})
+          r.createElement(M, {width: 14, height: 14, strokeWidth: 3.1})
         );
       }
       const Y = {content: 'content_knG7'};
@@ -2925,15 +2925,15 @@
                 value: n,
               })
             : (e[t] = n),
-        Fe = (e, t) => {
+        Me = (e, t) => {
           for (var n in t || (t = {})) Re.call(t, n) && De(e, n, t[n]);
           if (Ie) for (var n of Ie(t)) je.call(t, n) && De(e, n, t[n]);
           return e;
         };
-      function Me(e) {
+      function Fe(e) {
         return r.createElement(
           'svg',
-          Fe({viewBox: '0 0 24 24', width: 24, height: 24}, e),
+          Me({viewBox: '0 0 24 24', width: 24, height: 24}, e),
           r.createElement('path', {
             fill: 'currentColor',
             d: 'M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z',
@@ -2998,7 +2998,7 @@
               r.createElement(Ne, {
                 className: (0, a.A)(Be.toggleIcon, Be.lightToggleIcon),
               }),
-              r.createElement(Me, {
+              r.createElement(Fe, {
                 className: (0, a.A)(Be.toggleIcon, Be.darkToggleIcon),
               })
             )
@@ -3041,7 +3041,7 @@
             className: 'clean-btn navbar-sidebar__close',
             onClick: () => e.toggle(),
           },
-          r.createElement(F, {color: 'var(--ifm-color-emphasis-600)'})
+          r.createElement(M, {color: 'var(--ifm-color-emphasis-600)'})
         );
       }
       function qe() {
@@ -3420,14 +3420,14 @@
         const o = n ? jt : Rt;
         return r.createElement(o, Pt({}, a));
       }
-      var Ft = n(7606),
-        Mt = Object.defineProperty,
+      var Mt = n(7606),
+        Ft = Object.defineProperty,
         Bt = Object.getOwnPropertySymbols,
         zt = Object.prototype.hasOwnProperty,
         $t = Object.prototype.propertyIsEnumerable,
         Ut = (e, t, n) =>
           t in e
-            ? Mt(e, t, {
+            ? Ft(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
@@ -4108,8 +4108,8 @@
       var Rn = n(8560),
         jn = n(5513),
         Dn = Object.defineProperty,
-        Fn = Object.defineProperties,
-        Mn = Object.getOwnPropertyDescriptors,
+        Mn = Object.defineProperties,
+        Fn = Object.getOwnPropertyDescriptors,
         Bn = Object.getOwnPropertySymbols,
         zn = Object.prototype.hasOwnProperty,
         $n = Object.prototype.propertyIsEnumerable,
@@ -4290,7 +4290,7 @@
           const {
               i18n: {currentLocale: u, locales: d, localeConfigs: p},
             } = (0, kt.A)(),
-            f = (0, Ft.o)(),
+            f = (0, Mt.o)(),
             {search: m, hash: g} = (0, l.zy)(),
             h = [
               ...a,
@@ -4397,7 +4397,7 @@
                   label: null != a ? a : s.id,
                   to: s.path,
                 }),
-                Fn(u, Mn(d)))
+                Mn(u, Fn(d)))
               );
           var u, d;
         },
@@ -4534,12 +4534,12 @@
                 value: n,
               })
             : (e[t] = n),
-        Fr = (e, t) => {
+        Mr = (e, t) => {
           for (var n in t || (t = {})) Rr.call(t, n) && Dr(e, n, t[n]);
           if (Ir) for (var n of Ir(t)) jr.call(t, n) && Dr(e, n, t[n]);
           return e;
         },
-        Mr = (e, t) => Nr(e, Lr(t));
+        Fr = (e, t) => Nr(e, Lr(t));
       function Br() {
         const e = (0, se.M)(),
           t = (0, T.p)().navbar.items;
@@ -4549,7 +4549,7 @@
           t.map((t, n) =>
             r.createElement(
               Cr,
-              Mr(Fr({mobile: !0}, t), {onClick: () => e.toggle(), key: n})
+              Fr(Mr({mobile: !0}, t), {onClick: () => e.toggle(), key: n})
             )
           )
         );
@@ -4853,12 +4853,12 @@
                 value: n,
               })
             : (e[t] = n),
-        Fa = (e, t) => {
+        Ma = (e, t) => {
           for (var n in t || (t = {})) Ra.call(t, n) && Da(e, n, t[n]);
           if (Ia) for (var n of Ia(t)) ja.call(t, n) && Da(e, n, t[n]);
           return e;
         };
-      function Ma({items: e}) {
+      function Fa({items: e}) {
         return r.createElement(
           r.Fragment,
           null,
@@ -4877,7 +4877,7 @@
                     {cause: t}
                   ),
               },
-              r.createElement(Cr, Fa({}, e))
+              r.createElement(Cr, Ma({}, e))
             )
           )
         );
@@ -4911,12 +4911,12 @@
             null,
             !e.disabled && r.createElement(Pa, null),
             r.createElement(We, null),
-            r.createElement(Ma, {items: n})
+            r.createElement(Fa, {items: n})
           ),
           right: r.createElement(
             r.Fragment,
             null,
-            r.createElement(Ma, {items: a}),
+            r.createElement(Fa, {items: a}),
             r.createElement(Ue, {className: Na.colorModeToggle}),
             !o && r.createElement(In, null, r.createElement(Nn, null))
           ),
@@ -7146,7 +7146,7 @@
                     var r = j.indexOf(e.key);
                     -1 === r && (r = 0);
                     var a = n - r;
-                    a && ((L = !0), F(a));
+                    a && ((L = !0), M(a));
                   })(e);
             });
           }
@@ -7156,15 +7156,15 @@
         function D(e) {
           return _ + p(e);
         }
-        function F(e) {
+        function M(e) {
           n.go(e);
         }
-        var M = 0;
+        var F = 0;
         function B(e) {
-          1 === (M += e) && 1 === e
+          1 === (F += e) && 1 === e
             ? (window.addEventListener(b, P),
               o && window.addEventListener(y, N))
-            : 0 === M &&
+            : 0 === F &&
               (window.removeEventListener(b, P),
               o && window.removeEventListener(y, N));
         }
@@ -7213,12 +7213,12 @@
               }
             });
           },
-          go: F,
+          go: M,
           goBack: function () {
-            F(-1);
+            M(-1);
           },
           goForward: function () {
-            F(1);
+            M(1);
           },
           block: function (e) {
             void 0 === e && (e = !1);
@@ -7339,11 +7339,11 @@
         function D(e) {
           t.go(e);
         }
-        var F = 0;
-        function M(e) {
-          1 === (F += e) && 1 === e
+        var M = 0;
+        function F(e) {
+          1 === (M += e) && 1 === e
             ? window.addEventListener(k, N)
-            : 0 === F && window.removeEventListener(k, N);
+            : 0 === M && window.removeEventListener(k, N);
         }
         var B = !1;
         var z = {
@@ -7401,18 +7401,18 @@
             void 0 === e && (e = !1);
             var t = O.setPrompt(e);
             return (
-              B || (M(1), (B = !0)),
+              B || (F(1), (B = !0)),
               function () {
-                return B && ((B = !1), M(-1)), t();
+                return B && ((B = !1), F(-1)), t();
               }
             );
           },
           listen: function (e) {
             var t = O.appendListener(e);
             return (
-              M(1),
+              F(1),
               function () {
-                M(-1), t();
+                F(-1), t();
               }
             );
           },
@@ -9389,8 +9389,8 @@
           : null;
       }
       var D,
-        F = Object.assign;
-      function M(e) {
+        M = Object.assign;
+      function F(e) {
         if (void 0 === D)
           try {
             throw Error();
@@ -9472,18 +9472,18 @@
         } finally {
           (B = !1), (Error.prepareStackTrace = n);
         }
-        return (e = e ? e.displayName || e.name : '') ? M(e) : '';
+        return (e = e ? e.displayName || e.name : '') ? F(e) : '';
       }
       function $(e) {
         switch (e.tag) {
           case 5:
-            return M(e.type);
+            return F(e.type);
           case 16:
-            return M('Lazy');
+            return F('Lazy');
           case 13:
-            return M('Suspense');
+            return F('Suspense');
           case 19:
-            return M('SuspenseList');
+            return F('SuspenseList');
           case 0:
           case 2:
           case 15:
@@ -9681,7 +9681,7 @@
       }
       function Y(e, t) {
         var n = t.checked;
-        return F({}, t, {
+        return M({}, t, {
           defaultChecked: void 0,
           defaultValue: void 0,
           value: void 0,
@@ -9769,7 +9769,7 @@
       }
       function re(e, t) {
         if (null != t.dangerouslySetInnerHTML) throw Error(o(91));
-        return F({}, t, {
+        return M({}, t, {
           value: void 0,
           defaultValue: void 0,
           children: '' + e._wrapperState.initialValue,
@@ -9930,7 +9930,7 @@
           (t = t + e.charAt(0).toUpperCase() + e.substring(1)), (fe[t] = fe[e]);
         });
       });
-      var be = F(
+      var be = M(
         {menuitem: !0},
         {
           area: !0,
@@ -10084,16 +10084,16 @@
         }
       }
       var De = !1,
-        Fe = null,
-        Me = !1,
+        Me = null,
+        Fe = !1,
         Be = null,
         ze = {
           onError: function (e) {
-            (De = !0), (Fe = e);
+            (De = !0), (Me = e);
           },
         };
       function $e(e, t, n, r, a, o, i, l, s) {
-        (De = !1), (Fe = null), je.apply(ze, arguments);
+        (De = !1), (Me = null), je.apply(ze, arguments);
       }
       function Ue(e) {
         var t = e,
@@ -10412,7 +10412,7 @@
             null !== a && -1 === t.indexOf(a) && t.push(a),
             e);
       }
-      function Ft(e) {
+      function Mt(e) {
         var t = ya(e.target);
         if (null !== t) {
           var n = Ue(t);
@@ -10434,7 +10434,7 @@
         }
         e.blockedOn = null;
       }
-      function Mt(e) {
+      function Ft(e) {
         if (null !== e.blockedOn) return !1;
         for (var t = e.targetContainers; 0 < t.length; ) {
           var n = Yt(e.domEventName, e.eventSystemFlags, t[0], e.nativeEvent);
@@ -10446,13 +10446,13 @@
         return !0;
       }
       function Bt(e, t, n) {
-        Mt(e) && n.delete(t);
+        Ft(e) && n.delete(t);
       }
       function zt() {
         (At = !1),
-          null !== Tt && Mt(Tt) && (Tt = null),
-          null !== Ct && Mt(Ct) && (Ct = null),
-          null !== Pt && Mt(Pt) && (Pt = null),
+          null !== Tt && Ft(Tt) && (Tt = null),
+          null !== Ct && Ft(Ct) && (Ct = null),
+          null !== Pt && Ft(Pt) && (Pt = null),
           Nt.forEach(Bt),
           Lt.forEach(Bt);
       }
@@ -10486,7 +10486,7 @@
         )
           (r = It[n]).blockedOn === e && (r.blockedOn = null);
         for (; 0 < It.length && null === (n = It[0]).blockedOn; )
-          Ft(n), null === n.blockedOn && It.shift();
+          Mt(n), null === n.blockedOn && It.shift();
       }
       var Ht = w.ReactCurrentBatchConfig,
         Wt = !0;
@@ -10713,7 +10713,7 @@
           );
         }
         return (
-          F(t.prototype, {
+          M(t.prototype, {
             preventDefault: function () {
               this.defaultPrevented = !0;
               var e = this.nativeEvent;
@@ -10751,9 +10751,9 @@
           isTrusted: 0,
         },
         un = an(cn),
-        dn = F({}, cn, {view: 0, detail: 0}),
+        dn = M({}, cn, {view: 0, detail: 0}),
         pn = an(dn),
-        fn = F({}, dn, {
+        fn = M({}, dn, {
           screenX: 0,
           screenY: 0,
           clientX: 0,
@@ -10790,12 +10790,12 @@
           },
         }),
         mn = an(fn),
-        gn = an(F({}, fn, {dataTransfer: 0})),
-        hn = an(F({}, dn, {relatedTarget: 0})),
+        gn = an(M({}, fn, {dataTransfer: 0})),
+        hn = an(M({}, dn, {relatedTarget: 0})),
         bn = an(
-          F({}, cn, {animationName: 0, elapsedTime: 0, pseudoElement: 0})
+          M({}, cn, {animationName: 0, elapsedTime: 0, pseudoElement: 0})
         ),
-        yn = F({}, cn, {
+        yn = M({}, cn, {
           clipboardData: function (e) {
             return 'clipboardData' in e
               ? e.clipboardData
@@ -10803,7 +10803,7 @@
           },
         }),
         vn = an(yn),
-        wn = an(F({}, cn, {data: 0})),
+        wn = an(M({}, cn, {data: 0})),
         kn = {
           Esc: 'Escape',
           Spacebar: ' ',
@@ -10871,7 +10871,7 @@
       function _n() {
         return xn;
       }
-      var An = F({}, dn, {
+      var An = M({}, dn, {
           key: function (e) {
             if (e.key) {
               var t = kn[e.key] || e.key;
@@ -10910,7 +10910,7 @@
         }),
         On = an(An),
         Tn = an(
-          F({}, fn, {
+          M({}, fn, {
             pointerId: 0,
             width: 0,
             height: 0,
@@ -10924,7 +10924,7 @@
           })
         ),
         Cn = an(
-          F({}, dn, {
+          M({}, dn, {
             touches: 0,
             targetTouches: 0,
             changedTouches: 0,
@@ -10935,8 +10935,8 @@
             getModifierState: _n,
           })
         ),
-        Pn = an(F({}, cn, {propertyName: 0, elapsedTime: 0, pseudoElement: 0})),
-        Nn = F({}, fn, {
+        Pn = an(M({}, cn, {propertyName: 0, elapsedTime: 0, pseudoElement: 0})),
+        Nn = M({}, fn, {
           deltaX: function (e) {
             return 'deltaX' in e
               ? e.deltaX
@@ -10962,8 +10962,8 @@
         jn = null;
       u && 'documentMode' in document && (jn = document.documentMode);
       var Dn = u && 'TextEvent' in window && !jn,
-        Fn = u && (!Rn || (jn && 8 < jn && 11 >= jn)),
-        Mn = String.fromCharCode(32),
+        Mn = u && (!Rn || (jn && 8 < jn && 11 >= jn)),
+        Fn = String.fromCharCode(32),
         Bn = !1;
       function zn(e, t) {
         switch (e) {
@@ -11013,7 +11013,7 @@
       var qn = null,
         Gn = null;
       function Kn(e) {
-        Mr(e, 0);
+        Fr(e, 0);
       }
       function Yn(e) {
         if (G(wa(e))) return e;
@@ -11334,19 +11334,19 @@
         Dr = new Set(
           'cancel close invalid load scroll toggle'.split(' ').concat(jr)
         );
-      function Fr(e, t, n) {
+      function Mr(e, t, n) {
         var r = e.type || 'unknown-event';
         (e.currentTarget = n),
           (function (e, t, n, r, a, i, l, s, c) {
             if (($e.apply(this, arguments), De)) {
               if (!De) throw Error(o(198));
-              var u = Fe;
-              (De = !1), (Fe = null), Me || ((Me = !0), (Be = u));
+              var u = Me;
+              (De = !1), (Me = null), Fe || ((Fe = !0), (Be = u));
             }
           })(r, t, void 0, e),
           (e.currentTarget = null);
       }
-      function Mr(e, t) {
+      function Fr(e, t) {
         t = !!(4 & t);
         for (var n = 0; n < e.length; n++) {
           var r = e[n],
@@ -11361,7 +11361,7 @@
                   c = l.currentTarget;
                 if (((l = l.listener), s !== o && a.isPropagationStopped()))
                   break e;
-                Fr(a, l, c), (o = s);
+                Mr(a, l, c), (o = s);
               }
             else
               for (i = 0; i < r.length; i++) {
@@ -11372,11 +11372,11 @@
                   s !== o && a.isPropagationStopped())
                 )
                   break e;
-                Fr(a, l, c), (o = s);
+                Mr(a, l, c), (o = s);
               }
           }
         }
-        if (Me) throw ((e = Be), (Me = !1), (Be = null), e);
+        if (Fe) throw ((e = Be), (Fe = !1), (Be = null), e);
       }
       function Br(e, t) {
         var n = t[ga];
@@ -11698,7 +11698,7 @@
                   229 === n.keyCode &&
                   (v = 'onCompositionStart');
             v &&
-              (Fn &&
+              (Mn &&
                 'ko' !== n.locale &&
                 (Un || 'onCompositionStart' !== v
                   ? 'onCompositionEnd' === v && Un && (y = en())
@@ -11714,9 +11714,9 @@
                       case 'compositionend':
                         return $n(t);
                       case 'keypress':
-                        return 32 !== t.which ? null : ((Bn = !0), Mn);
+                        return 32 !== t.which ? null : ((Bn = !0), Fn);
                       case 'textInput':
-                        return (e = t.data) === Mn && Bn ? null : e;
+                        return (e = t.data) === Fn && Bn ? null : e;
                       default:
                         return null;
                     }
@@ -11740,7 +11740,7 @@
                         }
                         return null;
                       case 'compositionend':
-                        return Fn && 'ko' !== t.locale ? null : t.data;
+                        return Mn && 'ko' !== t.locale ? null : t.data;
                     }
                   })(e, n)) &&
                 0 < (r = qr(r, 'onBeforeInput')).length &&
@@ -11748,7 +11748,7 @@
                 i.push({event: a, listeners: r}),
                 (a.data = y));
           }
-          Mr(i, t);
+          Fr(i, t);
         });
       }
       function Vr(e, t, n) {
@@ -11956,7 +11956,7 @@
           return n;
         for (var a in (r = r.getChildContext()))
           if (!(a in t)) throw Error(o(108, H(e) || 'Unknown', a));
-        return F({}, n, r);
+        return M({}, n, r);
       }
       function Da(e) {
         return (
@@ -11970,7 +11970,7 @@
           !0
         );
       }
-      function Fa(e, t, n) {
+      function Ma(e, t, n) {
         var r = e.stateNode;
         if (!r) throw Error(o(169));
         n
@@ -11982,28 +11982,28 @@
           : _a(Ca),
           Aa(Ca, n);
       }
-      var Ma = null,
+      var Fa = null,
         Ba = !1,
         za = !1;
       function $a(e) {
-        null === Ma ? (Ma = [e]) : Ma.push(e);
+        null === Fa ? (Fa = [e]) : Fa.push(e);
       }
       function Ua() {
-        if (!za && null !== Ma) {
+        if (!za && null !== Fa) {
           za = !0;
           var e = 0,
             t = vt;
           try {
-            var n = Ma;
+            var n = Fa;
             for (vt = 1; e < n.length; e++) {
               var r = n[e];
               do {
                 r = r(!0);
               } while (null !== r);
             }
-            (Ma = null), (Ba = !1);
+            (Fa = null), (Ba = !1);
           } catch (a) {
-            throw (null !== Ma && (Ma = Ma.slice(e + 1)), Ge(Je, Ua), a);
+            throw (null !== Fa && (Fa = Fa.slice(e + 1)), Ge(Je, Ua), a);
           } finally {
             (vt = t), (za = !1);
           }
@@ -12185,7 +12185,7 @@
       var ho = w.ReactCurrentBatchConfig;
       function bo(e, t) {
         if (e && e.defaultProps) {
-          for (var n in ((t = F({}, t)), (e = e.defaultProps)))
+          for (var n in ((t = M({}, t)), (e = e.defaultProps)))
             void 0 === t[n] && (t[n] = e[n]);
           return t;
         }
@@ -12311,7 +12311,7 @@
           (n |= r &= e.pendingLanes), (t.lanes = n), yt(e, n);
         }
       }
-      function Fo(e, t) {
+      function Mo(e, t) {
         var n = e.updateQueue,
           r = e.alternate;
         if (null !== r && n === (r = r.updateQueue)) {
@@ -12347,7 +12347,7 @@
           : (e.next = t),
           (n.lastBaseUpdate = t);
       }
-      function Mo(e, t, n, r) {
+      function Fo(e, t, n, r) {
         var a = e.updateQueue;
         No = !1;
         var o = a.firstBaseUpdate,
@@ -12402,7 +12402,7 @@
                           : m)
                     )
                       break e;
-                    d = F({}, d, p);
+                    d = M({}, d, p);
                     break e;
                   case 2:
                     No = !0;
@@ -12443,7 +12443,7 @@
               (i |= a.lane), (a = a.next);
             } while (a !== t);
           } else null === o && (a.shared.lanes = 0);
-          (Fs |= i), (e.lanes = i), (e.memoizedState = d);
+          (Ms |= i), (e.lanes = i), (e.memoizedState = d);
         }
       }
       function Bo(e, t, n) {
@@ -12460,7 +12460,7 @@
       }
       var zo = new r.Component().refs;
       function $o(e, t, n, r) {
-        (n = null == (n = n(r, (t = e.memoizedState))) ? t : F({}, t, n)),
+        (n = null == (n = n(r, (t = e.memoizedState))) ? t : M({}, t, n)),
           (e.memoizedState = n),
           0 === e.lanes && (e.updateQueue.baseState = n);
       }
@@ -12554,7 +12554,7 @@
             'function' == typeof a.UNSAFE_componentWillMount &&
               a.UNSAFE_componentWillMount(),
             t !== a.state && Uo.enqueueReplaceState(a, a.state, null),
-            Mo(e, n, a, r),
+            Fo(e, n, a, r),
             (a.state = e.memoizedState)),
           'function' == typeof a.componentDidMount && (e.flags |= 4194308);
       }
@@ -12644,7 +12644,7 @@
         }
         function s(e, t, n, r) {
           return null === t || 6 !== t.tag
-            ? (((t = Mc(n, e.mode, r)).return = e), t)
+            ? (((t = Fc(n, e.mode, r)).return = e), t)
             : (((t = a(t, n)).return = e), t);
         }
         function c(e, t, n, r) {
@@ -12681,7 +12681,7 @@
         }
         function p(e, t, n) {
           if (('string' == typeof t && '' !== t) || 'number' == typeof t)
-            return ((t = Mc('' + t, e.mode, n)).return = e), t;
+            return ((t = Fc('' + t, e.mode, n)).return = e), t;
           if ('object' == typeof t && null !== t) {
             switch (t.$$typeof) {
               case k:
@@ -12923,7 +12923,7 @@
             ? ((i = '' + i),
               null !== o && 6 === o.tag
                 ? (n(r, o.sibling), ((o = a(o, i)).return = r), (r = o))
-                : (n(r, o), ((o = Mc(i, r.mode, s)).return = r), (r = o)),
+                : (n(r, o), ((o = Fc(i, r.mode, s)).return = r), (r = o)),
               l(r))
             : n(r, o);
         };
@@ -13130,7 +13130,7 @@
               };
               null === c ? ((s = c = p), (l = r)) : (c = c.next = p),
                 (gi.lanes |= d),
-                (Fs |= d);
+                (Ms |= d);
             }
             u = u.next;
           } while (null !== u && u !== i);
@@ -13144,7 +13144,7 @@
         if (null !== (e = n.interleaved)) {
           a = e;
           do {
-            (i = a.lane), (gi.lanes |= i), (Fs |= i), (a = a.next);
+            (i = a.lane), (gi.lanes |= i), (Ms |= i), (a = a.next);
           } while (a !== e);
         } else null === a && (n.lanes = 0);
         return [t.memoizedState, n.dispatch];
@@ -13204,11 +13204,11 @@
             : n.push(e);
       }
       function Ri(e, t, n, r) {
-        (t.value = n), (t.getSnapshot = r), Di(t) && Fi(e);
+        (t.value = n), (t.getSnapshot = r), Di(t) && Mi(e);
       }
       function ji(e, t, n) {
         return n(function () {
-          Di(t) && Fi(e);
+          Di(t) && Mi(e);
         });
       }
       function Di(e) {
@@ -13221,11 +13221,11 @@
           return !0;
         }
       }
-      function Fi(e) {
+      function Mi(e) {
         var t = Po(e, 1);
         null !== t && rc(t, e, 1, -1);
       }
-      function Mi(e) {
+      function Fi(e) {
         var t = Ai();
         return (
           'function' == typeof e && (e = e()),
@@ -13328,7 +13328,7 @@
       function Xi(e, t, n) {
         return 21 & mi
           ? (lr(n, t) ||
-              ((n = gt()), (gi.lanes |= n), (Fs |= n), (e.baseState = !0)),
+              ((n = gt()), (gi.lanes |= n), (Ms |= n), (e.baseState = !0)),
             t)
           : (e.baseState && ((e.baseState = !1), (wl = !0)),
             (e.memoizedState = n));
@@ -13483,13 +13483,13 @@
           useRef: function (e) {
             return (e = {current: e}), (Ai().memoizedState = e);
           },
-          useState: Mi,
+          useState: Fi,
           useDebugValue: Yi,
           useDeferredValue: function (e) {
             return (Ai().memoizedState = e);
           },
           useTransition: function () {
-            var e = Mi(!1),
+            var e = Fi(!1),
               t = e[0];
             return (e = Ji.bind(null, e[1])), (Ai().memoizedState = e), [t, e];
           },
@@ -13839,7 +13839,7 @@
             (No = !1);
           var p = t.memoizedState;
           (i.state = p),
-            Mo(t, r, i, a),
+            Fo(t, r, i, a),
             (s = t.memoizedState),
             l !== r || p !== s || Ca.current || No
               ? ('function' == typeof u &&
@@ -13886,7 +13886,7 @@
             (No = !1),
             (p = t.memoizedState),
             (i.state = p),
-            Mo(t, r, i, a);
+            Fo(t, r, i, a);
           var m = t.memoizedState;
           l !== d || p !== m || Ca.current || No
             ? ('function' == typeof f &&
@@ -13927,7 +13927,7 @@
       function Cl(e, t, n, r, a, o) {
         Al(e, t);
         var i = !!(128 & t.flags);
-        if (!r && !i) return a && Fa(t, n, !1), Vl(e, t, o);
+        if (!r && !i) return a && Ma(t, n, !1), Vl(e, t, o);
         (r = t.stateNode), (vl.current = t);
         var l =
           i && 'function' != typeof n.getDerivedStateFromError
@@ -13940,7 +13940,7 @@
               (t.child = Qo(t, null, l, o)))
             : kl(e, t, l, o),
           (t.memoizedState = r.state),
-          a && Fa(t, n, !0),
+          a && Ma(t, n, !0),
           t.child
         );
       }
@@ -13959,10 +13959,10 @@
         Rl,
         jl,
         Dl = {dehydrated: null, treeContext: null, retryLane: 0};
-      function Fl(e) {
+      function Ml(e) {
         return {baseLanes: e, cachePool: null, transitions: null};
       }
-      function Ml(e, t, n) {
+      function Fl(e, t, n) {
         var r,
           a = t.pendingProps,
           i = si.current,
@@ -13993,14 +13993,14 @@
                     (l = t.child),
                     (s = {mode: 'hidden', children: s}),
                     1 & a || null === l
-                      ? (l = Fc(s, a, 0, null))
+                      ? (l = Mc(s, a, 0, null))
                       : ((l.childLanes = 0), (l.pendingProps = s)),
                     (e = Dc(e, a, n, null)),
                     (l.return = t),
                     (e.return = t),
                     (l.sibling = e),
                     (t.child = l),
-                    (t.child.memoizedState = Fl(n)),
+                    (t.child.memoizedState = Ml(n)),
                     (t.memoizedState = Dl),
                     e)
                   : Bl(t, s))
@@ -14014,14 +14014,14 @@
                 ? ((t.child = e.child), (t.flags |= 128), null)
                 : ((i = r.fallback),
                   (a = t.mode),
-                  (r = Fc({mode: 'visible', children: r.children}, a, 0, null)),
+                  (r = Mc({mode: 'visible', children: r.children}, a, 0, null)),
                   ((i = Dc(i, a, l, null)).flags |= 2),
                   (r.return = t),
                   (i.return = t),
                   (r.sibling = i),
                   (t.child = r),
                   1 & t.mode && Qo(t, e.child, null, l),
-                  (t.child.memoizedState = Fl(l)),
+                  (t.child.memoizedState = Ml(l)),
                   (t.memoizedState = Dl),
                   i);
             if (!(1 & t.mode)) return zl(e, t, l, null);
@@ -14115,7 +14115,7 @@
             (l = t.child),
             (s =
               null === (s = e.child.memoizedState)
-                ? Fl(n)
+                ? Ml(n)
                 : {
                     baseLanes: s.baseLanes | n,
                     cachePool: null,
@@ -14144,7 +14144,7 @@
       }
       function Bl(e, t) {
         return (
-          ((t = Fc({mode: 'visible', children: t}, e.mode, 0, null)).return =
+          ((t = Mc({mode: 'visible', children: t}, e.mode, 0, null)).return =
             e),
           (e.child = t)
         );
@@ -14243,7 +14243,7 @@
       function Vl(e, t, n) {
         if (
           (null !== e && (t.dependencies = e.dependencies),
-          (Fs |= t.lanes),
+          (Ms |= t.lanes),
           !(n & t.childLanes))
         )
           return null;
@@ -14473,7 +14473,7 @@
                       break;
                     case 'select':
                       (e._wrapperState = {wasMultiple: !!r.multiple}),
-                        (a = F({}, r, {value: void 0})),
+                        (a = M({}, r, {value: void 0})),
                         Br('invalid', e);
                       break;
                     case 'textarea':
@@ -14797,8 +14797,8 @@
                 (a = Y(e, a)), (r = Y(e, r)), (i = []);
                 break;
               case 'select':
-                (a = F({}, a, {value: void 0})),
-                  (r = F({}, r, {value: void 0})),
+                (a = M({}, a, {value: void 0})),
+                  (r = M({}, r, {value: void 0})),
                   (i = []);
                 break;
               case 'textarea':
@@ -15607,8 +15607,8 @@
         Rs = xa(0),
         js = 0,
         Ds = null,
-        Fs = 0,
         Ms = 0,
+        Fs = 0,
         Bs = 0,
         zs = null,
         $s = null,
@@ -15643,7 +15643,7 @@
         if (50 < Qs) throw ((Qs = 0), (Xs = null), Error(o(185)));
         bt(e, n, r),
           (2 & Cs && e === Ps) ||
-            (e === Ps && (!(2 & Cs) && (Ms |= n), 4 === js && sc(e, Ls)),
+            (e === Ps && (!(2 & Cs) && (Fs |= n), 4 === js && sc(e, Ls)),
             ac(e, r),
             1 === n &&
               0 === Cs &&
@@ -15854,7 +15854,7 @@
       function sc(e, t) {
         for (
           t &= ~Bs,
-            t &= ~Ms,
+            t &= ~Fs,
             e.suspendedLanes |= t,
             e.pingedLanes &= ~t,
             e = e.expirationTimes;
@@ -15948,7 +15948,7 @@
           (Ls = Is = t),
           (js = 0),
           (Ds = null),
-          (Bs = Ms = Fs = 0),
+          (Bs = Fs = Ms = 0),
           ($s = zs = null),
           null !== Oo)
         ) {
@@ -16049,7 +16049,7 @@
                     (i.flags |= 65536),
                       (t &= -t),
                       (i.lanes |= t),
-                      Fo(i, ml(0, c, t));
+                      Mo(i, ml(0, c, t));
                     break e;
                   case 1:
                     s = c;
@@ -16067,7 +16067,7 @@
                       (i.flags |= 65536),
                         (t &= -t),
                         (i.lanes |= t),
-                        Fo(i, gl(i, s, t));
+                        Mo(i, gl(i, s, t));
                       break e;
                     }
                 }
@@ -16088,7 +16088,7 @@
       }
       function hc() {
         (0 !== js && 3 !== js && 2 !== js) || (js = 4),
-          null === Ps || (!(268435455 & Fs) && !(268435455 & Ms)) || sc(Ps, Ls);
+          null === Ps || (!(268435455 & Ms) && !(268435455 & Fs)) || sc(Ps, Ls);
       }
       function bc(e, t) {
         var n = Cs;
@@ -16631,7 +16631,7 @@
             case P:
               return ((e = Lc(19, n, t, a)).elementType = P), (e.lanes = i), e;
             case I:
-              return Fc(n, a, i, t);
+              return Mc(n, a, i, t);
             default:
               if ('object' == typeof e && null !== e)
                 switch (e.$$typeof) {
@@ -16660,7 +16660,7 @@
       function Dc(e, t, n, r) {
         return ((e = Lc(7, e, r, t)).lanes = n), e;
       }
-      function Fc(e, t, n, r) {
+      function Mc(e, t, n, r) {
         return (
           ((e = Lc(22, e, r, t)).elementType = I),
           (e.lanes = n),
@@ -16668,7 +16668,7 @@
           e
         );
       }
-      function Mc(e, t, n) {
+      function Fc(e, t, n) {
         return ((e = Lc(6, e, null, t)).lanes = n), e;
       }
       function Bc(e, t, n) {
@@ -16822,7 +16822,7 @@
                         return null !== r.dehydrated
                           ? (Aa(si, 1 & si.current), (t.flags |= 128), null)
                           : n & t.child.childLanes
-                          ? Ml(e, t, n)
+                          ? Fl(e, t, n)
                           : (Aa(si, 1 & si.current),
                             null !== (e = Vl(e, t, n)) ? e.sibling : null);
                       Aa(si, 1 & si.current);
@@ -16937,7 +16937,7 @@
               (r = t.pendingProps),
                 (a = (i = t.memoizedState).element),
                 Io(e, t),
-                Mo(t, r, null, n);
+                Fo(t, r, null, n);
               var l = t.memoizedState;
               if (((r = l.element), i.isDehydrated)) {
                 if (
@@ -16996,7 +16996,7 @@
           case 6:
             return null === e && co(t), null;
           case 13:
-            return Ml(e, t, n);
+            return Fl(e, t, n);
           case 4:
             return (
               ai(t, t.stateNode.containerInfo),
@@ -17229,7 +17229,7 @@
               n < It.length && 0 !== t && t < It[n].priority;
               n++
             );
-            It.splice(n, 0, e), 0 === n && Ft(e);
+            It.splice(n, 0, e), 0 === n && Mt(e);
           }
         }),
         (kt = function (e) {
@@ -17824,7 +17824,7 @@
             }, t)
           );
         },
-        F = function (e, t) {
+        M = function (e, t) {
           return t.map(function (t, n) {
             var a,
               o = (((a = {key: n})['data-rh'] = !0), a);
@@ -17841,7 +17841,7 @@
             );
           });
         },
-        M = function (e, t, n) {
+        F = function (e, t, n) {
           switch (e) {
             case h.TITLE:
               return {
@@ -17885,7 +17885,7 @@
             default:
               return {
                 toComponent: function () {
-                  return F(e, t);
+                  return M(e, t);
                 },
                 toString: function () {
                   return (function (e, t, n) {
@@ -17946,18 +17946,18 @@
                 priorityMethods: {
                   toComponent: function () {
                     return [].concat(
-                      F(h.META, a.priority),
-                      F(h.LINK, o.priority),
-                      F(h.SCRIPT, i.priority)
+                      M(h.META, a.priority),
+                      M(h.LINK, o.priority),
+                      M(h.SCRIPT, i.priority)
                     );
                   },
                   toString: function () {
                     return (
-                      M(h.META, a.priority, r) +
+                      F(h.META, a.priority, r) +
                       ' ' +
-                      M(h.LINK, o.priority, r) +
+                      F(h.LINK, o.priority, r) +
                       ' ' +
-                      M(h.SCRIPT, i.priority, r)
+                      F(h.SCRIPT, i.priority, r)
                     );
                   },
                 },
@@ -17973,15 +17973,15 @@
           }
           return {
             priority: f,
-            base: M(h.BASE, t, r),
-            bodyAttributes: M('bodyAttributes', n, r),
-            htmlAttributes: M('htmlAttributes', a, r),
-            link: M(h.LINK, u, r),
-            meta: M(h.META, d, r),
-            noscript: M(h.NOSCRIPT, o, r),
-            script: M(h.SCRIPT, p, r),
-            style: M(h.STYLE, i, r),
-            title: M(h.TITLE, {title: s, titleAttributes: c}, r),
+            base: F(h.BASE, t, r),
+            bodyAttributes: F('bodyAttributes', n, r),
+            htmlAttributes: F('htmlAttributes', a, r),
+            link: F(h.LINK, u, r),
+            meta: F(h.META, d, r),
+            noscript: F(h.NOSCRIPT, o, r),
+            script: F(h.SCRIPT, p, r),
+            style: F(h.STYLE, i, r),
+            title: F(h.TITLE, {title: s, titleAttributes: c}, r),
           };
         },
         z = [],
@@ -22954,10 +22954,10 @@
           nightOwl: () => L,
           nightOwlLight: () => I,
           oceanicNext: () => D,
-          okaidia: () => F,
+          okaidia: () => M,
           oneDark: () => q,
           oneLight: () => G,
-          palenight: () => M,
+          palenight: () => F,
           shadesOfPurple: () => B,
           synthwave84: () => z,
           ultramin: () => $,
@@ -23239,7 +23239,7 @@
             {types: ['namespace'], style: {opacity: 0.7}},
           ],
         },
-        F = {
+        M = {
           plain: {color: '#f8f8f2', backgroundColor: '#272822'},
           styles: [
             {
@@ -23282,7 +23282,7 @@
             {types: ['rule'], style: {color: '#e6db74'}},
           ],
         },
-        M = {
+        F = {
           plain: {color: '#bfc7d5', backgroundColor: '#292d3e'},
           styles: [
             {
@@ -24490,7 +24490,7 @@
                 {
                   tagName: 'link',
                   rel: 'icon',
-                  href: '/img/pwa/manifest-icon-512.png',
+                  href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
                 },
                 {tagName: 'link', rel: 'manifest', href: '/manifest.json'},
                 {tagName: 'meta', name: 'theme-color', content: '#20232a'},
@@ -24507,18 +24507,18 @@
                 {
                   tagName: 'link',
                   rel: 'apple-touch-icon',
-                  href: '/img/pwa/manifest-icon-512.png',
+                  href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
                 },
                 {
                   tagName: 'link',
                   rel: 'mask-icon',
-                  href: '/img/pwa/manifest-icon-512.png',
+                  href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
                   color: '#06bcee',
                 },
                 {
                   tagName: 'meta',
                   name: 'msapplication-TileImage',
-                  href: '/img/pwa/manifest-icon-512.png',
+                  href: '/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
                 },
                 {
                   tagName: 'meta',
@@ -24594,7 +24594,7 @@
             logo: {
               src: 'img/heropixel/hero-pixel-logo.png',
               alt: 'Hero Pixel',
-              href: 'https://heropixel.com/docs/',
+              href: '/docs',
             },
             style: 'primary',
             items: [
@@ -24685,7 +24685,7 @@
             logo: {
               alt: 'Hero Pixel Logo',
               src: 'img/heropixel/hero-pixel-logo.png',
-              href: 'https://heropixel.com/docs/',
+              href: '/docs',
             },
             copyright: 'Copyright \xa9 2024 Signal ID, LLC.',
           },
@@ -24701,13 +24701,13 @@
             {
               property: 'og:image',
               content:
-                'https://heropixel.com/img/heropixel/hero-pixel-icon.png',
+                'https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
             },
             {name: 'twitter:card', content: 'summary_large_image'},
             {
               name: 'twitter:image',
               content:
-                'https://heropixel.com/img/heropixel/hero-pixel-icon.png',
+                'https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
             },
             {name: 'twitter:site', content: '@reactnative'},
           ],
@@ -24745,7 +24745,7 @@
     4054: e => {
       'use strict';
       e.exports = JSON.parse(
-        '{"/blog-485":{"__comp":"a6aa9e1f","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"metadata":"b2b675dd"},"/blog/2024/06/18/0.73-real-time-processing-release-16c":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"c2776f76"},"sidebar":"814f3328","content":"2162e835"},"/blog/archive-893":{"__comp":"9e4087bc","__context":{"plugin":"c2776f76"},"archive":"b2f554cd"},"/blog/tags-d8f":{"__comp":"01a85c17","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","tags":"a7023ddc"},"/blog/tags/announcement-f29":{"__comp":"6875c492","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"tag":"283e63f8","listMetadata":"ece86388"},"/blog/tags/debugging-355":{"__comp":"6875c492","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"tag":"29f10043","listMetadata":"4709a4ae"},"/blog/tags/release-451":{"__comp":"6875c492","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"tag":"83d480e9","listMetadata":"9c021584"},"/Home-5b5":{"__comp":"213b1f5e","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/CallToAction-1bf":{"__comp":"48b70c36","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/components/Section-ae3":{"__comp":"f6c839d8","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/components/SectionTitle-ee4":{"__comp":"e665582c","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/components/ThemeImage-45f":{"__comp":"d22152a6","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Framework-595":{"__comp":"fb311b19","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero-3ba":{"__comp":"c2593061","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero/Devices-224":{"__comp":"c2f2f3e0","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero/FloorBackground-402":{"__comp":"37ec2bb8","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero/GridBackground-729":{"__comp":"0ffe704b","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Logo-533":{"__comp":"03a36a50","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Native-b1c":{"__comp":"af55db91","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Platforms-345":{"__comp":"cfcb5f93","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Platforms/FoxFact-ab1":{"__comp":"7b9d9f1b","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Watch-8e5":{"__comp":"46ce5674","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/privacy-policy-fc7":{"__comp":"002cd966","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/search-1e9":{"__comp":"1a4e3797","__context":{"plugin":"79b55fdf"}},"/terms-and-conditions-731":{"__comp":"dd40202d","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/versions-cce":{"__comp":"18b93cb3","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/docs-5ce":{"__comp":"5e95c892","__context":{"plugin":"464b2a7f"}},"/docs/next-d34":{"__comp":"a7bd4aaa","version":"935f2afb"},"/docs/next-4c4":{"__comp":"a94703ab"},"/docs/next/blank-a89":{"__comp":"17896441","content":"7c447515"},"/docs/next/event-add-to-cart-1c1":{"__comp":"17896441","content":"6b0755a6"},"/docs/next/event-pageview-de6":{"__comp":"17896441","content":"85dd1552"},"/docs/next/events-c7f":{"__comp":"17896441","content":"261d41ac"},"/docs/next/intro-to-dashboard-44e":{"__comp":"17896441","content":"32aaaf70"},"/docs/next/intro-to-graphql-4bf":{"__comp":"17896441","content":"086193cc"},"/docs/next/intro-to-integrations-fdf":{"__comp":"17896441","content":"14d8f0bf"},"/docs/next/intro-to-leads-b9b":{"__comp":"17896441","content":"46b4c412"},"/docs/next/intro-to-pixel-tech-039":{"__comp":"17896441","content":"bc27fdad"},"/docs/next/intro-to-rest-0f0":{"__comp":"17896441","content":"e5822b3c"},"/docs/next/intro-to-suppressing-8b8":{"__comp":"17896441","content":"54e04490"},"/docs/next/start-create-a-pixel-207":{"__comp":"17896441","content":"8c66913f"},"/docs/next/start-get-your-leads-46b":{"__comp":"17896441","content":"50ae88c6"},"/docs/next/start-pixel-installation-f9c":{"__comp":"17896441","content":"131e29b3"},"/docs/next/start-registration-691":{"__comp":"17896441","content":"e13aac12"},"/docs-ca5":{"__comp":"a7bd4aaa","version":"8107b385"},"/docs-bfb":{"__comp":"a94703ab"},"/docs-e5f":{"__comp":"17896441","content":"f34ecc9f"},"/docs/add-bank-account-bd3":{"__comp":"17896441","content":"6991a43c"},"/docs/billing-37d":{"__comp":"17896441","content":"0077c686"},"/docs/blank-edd":{"__comp":"17896441","content":"a19de0f8"},"/docs/changing-member-roles-a0b":{"__comp":"17896441","content":"37a94953"},"/docs/changing-ownership-bca":{"__comp":"17896441","content":"fca129b3"},"/docs/dashboard-51d":{"__comp":"17896441","content":"227c0f05"},"/docs/event-pageview-363":{"__comp":"17896441","content":"6e08b3ef"},"/docs/events-ed2":{"__comp":"17896441","content":"bf2aa723"},"/docs/faq-b2d":{"__comp":"17896441","content":"99a43cbf"},"/docs/glossary-6b9":{"__comp":"17896441","content":"ea659f99"},"/docs/intro-to-dashboard-650":{"__comp":"17896441","content":"efd7435c"},"/docs/intro-to-graphql-684":{"__comp":"17896441","content":"92317b88"},"/docs/intro-to-integrations-fda":{"__comp":"17896441","content":"695a3a77"},"/docs/intro-to-leads-36e":{"__comp":"17896441","content":"0b55a3c2"},"/docs/intro-to-pixel-tech-50c":{"__comp":"17896441","content":"dfbd2c11"},"/docs/intro-to-rest-8f4":{"__comp":"17896441","content":"ed58481b"},"/docs/intro-to-suppressing-8cf":{"__comp":"17896441","content":"98e2ae66"},"/docs/inviting-885":{"__comp":"17896441","content":"af1261ab"},"/docs/organizations-de2":{"__comp":"17896441","content":"1964a717"},"/docs/removing-a-member-27f":{"__comp":"17896441","content":"31595137"},"/docs/start-create-a-pixel-e1a":{"__comp":"17896441","content":"19a34acc"},"/docs/start-get-your-leads-181":{"__comp":"17896441","content":"4a9bda00"},"/docs/start-pixel-installation-f4d":{"__comp":"17896441","content":"b57a647f"},"/docs/start-registration-991":{"__comp":"17896441","content":"159171c3"},"/docs/teams-651":{"__comp":"17896441","content":"b1f5fc95"},"/-e35":{"__comp":"c4f5d8e4","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"}}'
+        '{"/blog-485":{"__comp":"a6aa9e1f","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"metadata":"b2b675dd"},"/blog/2024/06/18/0.73-real-time-processing-release-16c":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"c2776f76"},"sidebar":"814f3328","content":"2162e835"},"/blog/archive-893":{"__comp":"9e4087bc","__context":{"plugin":"c2776f76"},"archive":"b2f554cd"},"/blog/tags-d8f":{"__comp":"01a85c17","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","tags":"a7023ddc"},"/blog/tags/announcement-f29":{"__comp":"6875c492","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"tag":"283e63f8","listMetadata":"ece86388"},"/blog/tags/debugging-355":{"__comp":"6875c492","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"tag":"29f10043","listMetadata":"4709a4ae"},"/blog/tags/release-451":{"__comp":"6875c492","__context":{"plugin":"c2776f76"},"sidebar":"814f3328","items":[{"content":"c70f4716"}],"tag":"83d480e9","listMetadata":"9c021584"},"/Home-5b5":{"__comp":"213b1f5e","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/CallToAction-1bf":{"__comp":"48b70c36","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/components/Section-ae3":{"__comp":"f6c839d8","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/components/SectionTitle-ee4":{"__comp":"e665582c","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/components/ThemeImage-45f":{"__comp":"d22152a6","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Framework-595":{"__comp":"fb311b19","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero-3ba":{"__comp":"c2593061","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero/Devices-224":{"__comp":"c2f2f3e0","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero/FloorBackground-402":{"__comp":"37ec2bb8","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Hero/GridBackground-729":{"__comp":"0ffe704b","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Logo-533":{"__comp":"03a36a50","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Native-b1c":{"__comp":"af55db91","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Platforms-345":{"__comp":"cfcb5f93","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Platforms/FoxFact-ab1":{"__comp":"7b9d9f1b","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/Home/Watch-8e5":{"__comp":"46ce5674","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/privacy-policy-fc7":{"__comp":"002cd966","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/search-1e9":{"__comp":"1a4e3797","__context":{"plugin":"79b55fdf"}},"/terms-and-conditions-731":{"__comp":"dd40202d","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/versions-cce":{"__comp":"18b93cb3","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"},"/docs-632":{"__comp":"5e95c892","__context":{"plugin":"464b2a7f"}},"/docs/next-d34":{"__comp":"a7bd4aaa","version":"935f2afb"},"/docs/next-4c4":{"__comp":"a94703ab"},"/docs/next/blank-a89":{"__comp":"17896441","content":"7c447515"},"/docs/next/event-add-to-cart-1c1":{"__comp":"17896441","content":"6b0755a6"},"/docs/next/event-pageview-de6":{"__comp":"17896441","content":"85dd1552"},"/docs/next/events-c7f":{"__comp":"17896441","content":"261d41ac"},"/docs/next/intro-to-dashboard-44e":{"__comp":"17896441","content":"32aaaf70"},"/docs/next/intro-to-graphql-4bf":{"__comp":"17896441","content":"086193cc"},"/docs/next/intro-to-integrations-fdf":{"__comp":"17896441","content":"14d8f0bf"},"/docs/next/intro-to-leads-b9b":{"__comp":"17896441","content":"46b4c412"},"/docs/next/intro-to-pixel-tech-039":{"__comp":"17896441","content":"bc27fdad"},"/docs/next/intro-to-rest-0f0":{"__comp":"17896441","content":"e5822b3c"},"/docs/next/intro-to-suppressing-8b8":{"__comp":"17896441","content":"54e04490"},"/docs/next/start-create-a-pixel-207":{"__comp":"17896441","content":"8c66913f"},"/docs/next/start-get-your-leads-46b":{"__comp":"17896441","content":"50ae88c6"},"/docs/next/start-pixel-installation-f9c":{"__comp":"17896441","content":"131e29b3"},"/docs/next/start-registration-691":{"__comp":"17896441","content":"e13aac12"},"/docs-a00":{"__comp":"a7bd4aaa","version":"8107b385"},"/docs-14c":{"__comp":"a94703ab"},"/docs-a38":{"__comp":"17896441","content":"f34ecc9f"},"/docs/add-bank-account-bd3":{"__comp":"17896441","content":"6991a43c"},"/docs/billing-37d":{"__comp":"17896441","content":"0077c686"},"/docs/blank-edd":{"__comp":"17896441","content":"a19de0f8"},"/docs/changing-member-roles-a0b":{"__comp":"17896441","content":"37a94953"},"/docs/changing-ownership-bca":{"__comp":"17896441","content":"fca129b3"},"/docs/dashboard-51d":{"__comp":"17896441","content":"227c0f05"},"/docs/event-pageview-363":{"__comp":"17896441","content":"6e08b3ef"},"/docs/events-ed2":{"__comp":"17896441","content":"bf2aa723"},"/docs/faq-b2d":{"__comp":"17896441","content":"99a43cbf"},"/docs/glossary-6b9":{"__comp":"17896441","content":"ea659f99"},"/docs/intro-to-dashboard-650":{"__comp":"17896441","content":"efd7435c"},"/docs/intro-to-graphql-684":{"__comp":"17896441","content":"92317b88"},"/docs/intro-to-integrations-fda":{"__comp":"17896441","content":"695a3a77"},"/docs/intro-to-leads-36e":{"__comp":"17896441","content":"0b55a3c2"},"/docs/intro-to-pixel-tech-50c":{"__comp":"17896441","content":"dfbd2c11"},"/docs/intro-to-rest-8f4":{"__comp":"17896441","content":"ed58481b"},"/docs/intro-to-suppressing-8cf":{"__comp":"17896441","content":"98e2ae66"},"/docs/inviting-885":{"__comp":"17896441","content":"af1261ab"},"/docs/organizations-de2":{"__comp":"17896441","content":"1964a717"},"/docs/removing-a-member-27f":{"__comp":"17896441","content":"31595137"},"/docs/start-create-a-pixel-e1a":{"__comp":"17896441","content":"19a34acc"},"/docs/start-get-your-leads-181":{"__comp":"17896441","content":"4a9bda00"},"/docs/start-pixel-installation-f4d":{"__comp":"17896441","content":"b57a647f"},"/docs/start-registration-991":{"__comp":"17896441","content":"159171c3"},"/docs/teams-651":{"__comp":"17896441","content":"b1f5fc95"},"/-e35":{"__comp":"c4f5d8e4","__context":{"plugin":"a4871d7e"},"config":"5e9f5e1a"}}'
       );
     },
   },

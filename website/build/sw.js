@@ -5937,10 +5937,10 @@
     const params = parseSwParams();
     // eslint-disable-next-line no-underscore-dangle
     const precacheManifest = [
-      {revision: '4679cf68452dacef2e4d4838fa48b272', url: '404.html'},
+      {revision: 'fbd511f3c445c403a000d8ab70915dad', url: '404.html'},
       {
-        revision: 'f3cda171eaaa16b6fef5f64d6445780a',
-        url: 'assets/css/styles.ec85e01f.css',
+        revision: 'c1187a110c581770be6922b6224dad3b',
+        url: 'assets/css/styles.68c2956d.css',
       },
       {
         revision: 'e7f72d305cbd0be857144d9dd4e67498',
@@ -5967,8 +5967,8 @@
         url: 'assets/js/0b55a3c2.663a9878.js',
       },
       {
-        revision: '5820fcb6083ba016fdb820a007d7c607',
-        url: 'assets/js/0ffe704b.076cd729.js',
+        revision: '9318f78c99c29930e814995a2469c7f3',
+        url: 'assets/js/0ffe704b.1741d678.js',
       },
       {
         revision: '04283dd0f45467702b2fc29d66e37a50',
@@ -6007,8 +6007,8 @@
         url: 'assets/js/1a4e3797.69a46bcf.js',
       },
       {
-        revision: '21c1d91754e7fcd50697457d42f2c0e1',
-        url: 'assets/js/213b1f5e.7530cfd1.js',
+        revision: 'e170b1dcfeb2d24d47ba1a6d2fa4ba13',
+        url: 'assets/js/213b1f5e.05b3b52c.js',
       },
       {
         revision: '320b4af9764b96bdd4cd637b4a7e7395',
@@ -6055,8 +6055,8 @@
         url: 'assets/js/37a94953.5040738e.js',
       },
       {
-        revision: 'dd2c15290411f5c238569ca686224b80',
-        url: 'assets/js/37ec2bb8.9d56904c.js',
+        revision: '91b624ebcae6332eb541b012d07029e7',
+        url: 'assets/js/37ec2bb8.3e3d7026.js',
       },
       {
         revision: 'c510094eeef2ce9d7ee9894a500eecea',
@@ -6255,20 +6255,20 @@
         url: 'assets/js/bf2aa723.f33120c1.js',
       },
       {
-        revision: 'a2f0b8625c64115adb0f64bd8cb8fae7',
-        url: 'assets/js/c2593061.2f983272.js',
+        revision: '45dcbf040c000e80a075ec598705355e',
+        url: 'assets/js/c2593061.2e0929df.js',
       },
       {
         revision: '03fc691136b207630887142af612d51d',
         url: 'assets/js/c2776f76.0113a402.js',
       },
       {
-        revision: 'cc4a143476290a1a5af726437ec546d2',
-        url: 'assets/js/c2f2f3e0.82ffa2c0.js',
+        revision: '88e152089276869b3d0b22ff73198450',
+        url: 'assets/js/c2f2f3e0.d9dbdf31.js',
       },
       {
-        revision: 'b1ebae7f51f2a7e0e7406485aac52c82',
-        url: 'assets/js/c4f5d8e4.583b6714.js',
+        revision: '8698ca799cad505e0595fab43bbebfd6',
+        url: 'assets/js/c4f5d8e4.b4a21de5.js',
       },
       {
         revision: '8a2c555dca77f51a1ef35ae41b3c4619',
@@ -6323,8 +6323,8 @@
         url: 'assets/js/efd7435c.438486b6.js',
       },
       {
-        revision: '826c635c4a74988baae2aba0d4c32b2a',
-        url: 'assets/js/f34ecc9f.73d879eb.js',
+        revision: '83dc9465f5feebee7a81c5908847110f',
+        url: 'assets/js/f34ecc9f.d3d356d3.js',
       },
       {
         revision: '489fa48627716ce21b1cf47494b7523d',
@@ -6339,231 +6339,231 @@
         url: 'assets/js/fca129b3.b7f82b07.js',
       },
       {
-        revision: '0450e54cfc691a745676dca2ad1f3751',
-        url: 'assets/js/main.8c3bc539.js',
+        revision: 'a1f8722377e5575b78cfe29acc6b6525',
+        url: 'assets/js/main.556eb915.js',
       },
       {
-        revision: '1780d2752bbab0f977d027cc8b4cf745',
-        url: 'assets/js/runtime~main.0285c073.js',
+        revision: '82ebad36fcc1d61c8607c4e3ea8e99e2',
+        url: 'assets/js/runtime~main.2ed57a42.js',
       },
-      {revision: '91a15ce90b6c7cf8f73141176876bc9a', url: 'blog.html'},
+      {revision: '17265a3bcc66c01259c1a951ba4357dd', url: 'blog.html'},
       {
-        revision: '55e96d113c255fb4fc3633ee1c78e963',
+        revision: '894be823be49a596b411e70d271ab266',
         url: 'blog/2024/06/18/0.73-real-time-processing-release.html',
       },
-      {revision: '2061a40f6a88e3ee94765e1256aa06e9', url: 'blog/archive.html'},
+      {revision: '6448db05aef879b0c79b85151ade4de6', url: 'blog/archive.html'},
       {revision: '9f8a69c7e1596c5337eb4c0aef94f43d', url: 'blog/feed.json'},
-      {revision: '793b6d8d21703347d232bafec8518eb0', url: 'blog/tags.html'},
+      {revision: '40d90f2e77a3c4f2af135b5723304642', url: 'blog/tags.html'},
       {
-        revision: '22dfa15e8483b17790a9ec73eb73e808',
+        revision: '2c6df990c71df1bfb0d44e7d9588b217',
         url: 'blog/tags/announcement.html',
       },
       {
-        revision: '9063e0d8d275f1a879b0f18c9c9b5326',
+        revision: '4dd3f8eb679dfd400059493526c1ba36',
         url: 'blog/tags/debugging.html',
       },
       {
-        revision: '7349191a6a5cec5f783ca37883e947fd',
+        revision: 'cc4b58421e455d7777133e54f51ec4dc',
         url: 'blog/tags/release.html',
       },
-      {revision: '84787238249a679007570f9cba4edd52', url: 'docs.html'},
+      {revision: '27e1fb6cc2a596a122092b19655bed3c', url: 'docs.html'},
       {
-        revision: '785d9432a822f7bc5983e54c47303143',
+        revision: '305c25f28cd37f1f0433d766b0c755e3',
         url: 'docs/add-bank-account.html',
       },
-      {revision: 'b0288a402b1478d89252a07fe9a82b9a', url: 'docs/billing.html'},
-      {revision: '837a32f4eebb136b286eb90eab91cbb1', url: 'docs/blank.html'},
+      {revision: '3053763ac1e8f79ef6e4ad06698716e2', url: 'docs/billing.html'},
+      {revision: '4a366c9dafabf9acd8a3464d8d6531c8', url: 'docs/blank.html'},
       {
-        revision: 'e292884960fa0cd2a0a1850cc7e352ce',
+        revision: '6e3bc4ab40a168d97beed3296943d255',
         url: 'docs/changing-member-roles.html',
       },
       {
-        revision: '9d40025ad1126f3b58b44675595199b8',
+        revision: '406328dc685fccf498257f4c2dbdcb8b',
         url: 'docs/changing-ownership.html',
       },
       {
-        revision: '38799b0e73a35827cccd29dc2b5bfef2',
+        revision: '99418baee8a9880617e5b95055443563',
         url: 'docs/dashboard.html',
       },
       {
-        revision: '890cdd7b1e5bb9994ebfb69022c56059',
+        revision: 'd6e999a9b23238b696fab8b0259f5734',
         url: 'docs/event-pageview.html',
       },
-      {revision: 'eb4d738484ffbbbbe15c3ff08c3c220e', url: 'docs/events.html'},
-      {revision: 'd39bf1f39cf5ffcc0026e7c12ea08964', url: 'docs/faq.html'},
-      {revision: '0abce9d217c60a0f6bc61980d28ea3cd', url: 'docs/glossary.html'},
+      {revision: '048566a3920724d343067f777d604cdd', url: 'docs/events.html'},
+      {revision: 'c66b785122bebf4d945610be509ab369', url: 'docs/faq.html'},
+      {revision: '852fa6db6162d79902cb4417db8a871f', url: 'docs/glossary.html'},
       {
-        revision: 'f3b90afb603f6433a8794ef4d6940a77',
+        revision: '475754b28a6043875606bbd2bd726db4',
         url: 'docs/intro-to-dashboard.html',
       },
       {
-        revision: '5eb7d853cfb52653ed002fff9ee181fc',
+        revision: '7b5a4858ac79c774a2583a0962866e34',
         url: 'docs/intro-to-graphql.html',
       },
       {
-        revision: 'a8a44babdd1625ea25d187b8d1e7a17e',
+        revision: '5b7170086eb1b3b9462af170100694b8',
         url: 'docs/intro-to-integrations.html',
       },
       {
-        revision: '2787508078e36fc2420eef12fd90ac8b',
+        revision: '38e229478e47dc2ad62bf67cc0d4468d',
         url: 'docs/intro-to-leads.html',
       },
       {
-        revision: 'ed928e0f7f7c4813e490e14a28265efe',
+        revision: '75a45bc2b106a2d98b7c2d18b82b671e',
         url: 'docs/intro-to-pixel-tech.html',
       },
       {
-        revision: 'ed9f8ea22c8065bf5d342fe7acf32e05',
+        revision: 'a44d5f543b3b4e06e20ddb11ffb7dd3f',
         url: 'docs/intro-to-rest.html',
       },
       {
-        revision: '5f72c5ca35acb6bb7b5bbe8b389adf21',
+        revision: 'a249a4f4572b7638d764c78bdd3cedcf',
         url: 'docs/intro-to-suppressing.html',
       },
-      {revision: '06006319b25ac6cab7b155aed19ca1c6', url: 'docs/inviting.html'},
+      {revision: 'eac0fa04444b7f73898f98225706a666', url: 'docs/inviting.html'},
       {
-        revision: 'e02b790d3d9869e5d108ff3133251fc8',
+        revision: 'c3cfbf8db56f3142fb4c8bbf183e6a1c',
         url: 'docs/next/blank.html',
       },
       {
-        revision: 'eb747b8d2f7fd7bcaf762e65c87b1ca4',
+        revision: 'a2a2afd4f1bc98c994f4615cab6b0e3a',
         url: 'docs/next/event-add-to-cart.html',
       },
       {
-        revision: '83ef1f4e559dd6cabc47f269d9532ada',
+        revision: 'b24df6258c09b6fdd88428db1fcc0a38',
         url: 'docs/next/event-pageview.html',
       },
       {
-        revision: '2c53847368a687cb9103d8fc9f34c248',
+        revision: '709b28ded19a38ed4b9404625f9198a1',
         url: 'docs/next/events.html',
       },
       {
-        revision: '0e74c5f52c4a8757d264cf5b5c1aeb21',
+        revision: 'b14d565e080dac6c3c46c8e52f57db63',
         url: 'docs/next/intro-to-dashboard.html',
       },
       {
-        revision: '9c0a1e5c5f31ad2ac44bde5019837253',
+        revision: 'c3ffeb3619abaf490bfba2a458d83897',
         url: 'docs/next/intro-to-graphql.html',
       },
       {
-        revision: '04ffdd906a3e22b281032b0060a2b58d',
+        revision: '70776f9103ebf9574a073af5e4cab9c9',
         url: 'docs/next/intro-to-integrations.html',
       },
       {
-        revision: '85156766d6d152d49b74e2e4ed677949',
+        revision: 'b20db76f5dcba435292373f066539c48',
         url: 'docs/next/intro-to-leads.html',
       },
       {
-        revision: '8128a97670d68bd48e4317540160f0cd',
+        revision: '3a87a3b6d3c510c868fe740a5ffd3479',
         url: 'docs/next/intro-to-pixel-tech.html',
       },
       {
-        revision: 'c22c540cbaa437fe2f10c3ac1de7fb5f',
+        revision: '7b3a1012212f30762b6f4aee20896312',
         url: 'docs/next/intro-to-rest.html',
       },
       {
-        revision: 'a7248e522f5bdbf3ed12898046199850',
+        revision: '7bd6c33988a2b63888af9abf8b9a872b',
         url: 'docs/next/intro-to-suppressing.html',
       },
       {
-        revision: 'fbd057305949d1d86a33e742e291ba56',
+        revision: 'a4a91d903d7ff0eb3162120d71233946',
         url: 'docs/next/start-create-a-pixel.html',
       },
       {
-        revision: '05efda6b2a215a7ca109c4d233ecc122',
+        revision: '99c1dc11918beb22b201d3d5ad903412',
         url: 'docs/next/start-get-your-leads.html',
       },
       {
-        revision: '31cf22983523801297cbe596d3f19a39',
+        revision: '85bfc20998711c39018c4946f5fbb421',
         url: 'docs/next/start-pixel-installation.html',
       },
       {
-        revision: 'afda530ed5b9a87a702d493515e15b8f',
+        revision: '68f6c2f70bbd54dcc11bd4dc4c942877',
         url: 'docs/next/start-registration.html',
       },
       {
-        revision: '618328319c6849ce0c8a1fbba37f3a15',
+        revision: 'fe1db1c6b0c4579d489279648e0af035',
         url: 'docs/organizations.html',
       },
       {
-        revision: '807d9b16fcf89d52b0bf782c20d562d1',
+        revision: 'a1c56413b61d30c03a467ac1a809a014',
         url: 'docs/removing-a-member.html',
       },
       {
-        revision: '09da3d923aa222d2506874b6a2b397b5',
+        revision: '14dae4c4c2e855d88044494abb2127ed',
         url: 'docs/start-create-a-pixel.html',
       },
       {
-        revision: '1e71abfde7d60125c1c5f98b3226e43f',
+        revision: '5d4ae1c00d9ed475df305e3467fb985f',
         url: 'docs/start-get-your-leads.html',
       },
       {
-        revision: '74edf2fa0ce65fbd5f4f3c7ec78ab287',
+        revision: 'a49392939051e4b2a1c312141cf537a3',
         url: 'docs/start-pixel-installation.html',
       },
       {
-        revision: '3d68074213feff8e3f5c2a8aeca7f64f',
+        revision: 'ab1b9d7b8a6d5b99864e23268c6b22d9',
         url: 'docs/start-registration.html',
       },
-      {revision: 'f9c0d10f059e4b94d6817638f3311d23', url: 'docs/teams.html'},
-      {revision: 'd7750d6c36b3b771a22244f74904726e', url: 'Home.html'},
+      {revision: '0a65730862786896b5d49c2d997c3ad5', url: 'docs/teams.html'},
+      {revision: '4689e63ee632f37ac552f7da74e895d8', url: 'Home.html'},
       {
-        revision: 'fefc8491a71d12493c4c82cc92807402',
+        revision: '4ee066c142341a303b1f4dbe886220d4',
         url: 'Home/CallToAction.html',
       },
       {
-        revision: '0cd9f0992941a7a0057d3ca06ab5ae15',
+        revision: '1c2647ef2a3e11aff78dc0063eb99cd7',
         url: 'Home/components/Section.html',
       },
       {
-        revision: 'c56f498c1dbf5ba6045eb506bee17975',
+        revision: '19e4b515219f9d6f6204985a867d710a',
         url: 'Home/components/SectionTitle.html',
       },
       {
-        revision: '93ea51d076bada733d62f9471c52d3e6',
+        revision: 'acfcf172c2509707023f03bb41d8ae39',
         url: 'Home/components/ThemeImage.html',
       },
       {
-        revision: '1515af0472ca09014d640846ac99ab45',
+        revision: '6a79f0f15eee8c3446d7efe37be0d34a',
         url: 'Home/Framework.html',
       },
-      {revision: '61c88e7a095bce4f4cab75f641f82832', url: 'Home/Hero.html'},
+      {revision: 'fee581fc1b9b365a6f7ac17bfaaf4c29', url: 'Home/Hero.html'},
       {
-        revision: 'c48109ed4a6210ed6b06e8f79aa8f61b',
+        revision: '3cb3d53b6849c31e1db9072a8ea817d6',
         url: 'Home/Hero/Devices.html',
       },
       {
-        revision: 'd0635d6d1ba5a762aa3381fbe63a0eeb',
+        revision: '88c0c59f964f946f683b1f3bab70b55d',
         url: 'Home/Hero/FloorBackground.html',
       },
       {
-        revision: '17d392dd329ed50c7488710649c98e0f',
+        revision: '3f2a31ac373085d90abccd87bb376f00',
         url: 'Home/Hero/GridBackground.html',
       },
-      {revision: 'c001e0ec23219354548f02cb17c94d1e', url: 'Home/Logo.html'},
-      {revision: 'b07c6320269ab3911a999413e3526264', url: 'Home/Native.html'},
+      {revision: '4173b88790651e2334be51a1f8e237d6', url: 'Home/Logo.html'},
+      {revision: 'f007f89f447c87924c06fe1a662d321e', url: 'Home/Native.html'},
       {
-        revision: '8cb015a6ea970a0f72b37880ffa3b0a4',
+        revision: '435e3f5bf5db02155ca288644d2a5baa',
         url: 'Home/Platforms.html',
       },
       {
-        revision: '22ad98974e45b98f55d1e02993e932ef',
+        revision: '4a64bdb62da23079fb85628e23c0fe5c',
         url: 'Home/Platforms/FoxFact.html',
       },
-      {revision: 'a4cbe6fe5f5a8e74d893f792b9720c90', url: 'Home/Watch.html'},
-      {revision: '6474d61d66698d94ef59b9523ba01b6e', url: 'index.html'},
+      {revision: '05bee943d98999ad10fec191910b3b62', url: 'Home/Watch.html'},
+      {revision: '47e1d67deca99a4e807824a7a7f1d150', url: 'index.html'},
       {revision: 'b53a64ac274d2d34374d788259ffafc8', url: 'manifest.json'},
       {revision: '2d2a11cb9524bebd70d56b4c77b99d42', url: 'movies.json'},
       {
-        revision: 'b63432107c6428a47084524250416629',
+        revision: 'aa5a7e34fbbe76cfdbb0759140d1cd42',
         url: 'privacy-policy.html',
       },
-      {revision: 'fbecb3ca3824e609b04ea6fe0b612033', url: 'search.html'},
+      {revision: '09cce8d672aec0d1ebb34597b09179f4', url: 'search.html'},
       {
-        revision: 'e922c252a8ebc16a64085d173df9319c',
+        revision: '271214bc8e719b0f0d9b13c6f8164aed',
         url: 'terms-and-conditions.html',
       },
-      {revision: '95328a0a2bee91cbae5816f4a43fd9f3', url: 'versions.html'},
+      {revision: '5787f104113432d202af2be1b01e08b1', url: 'versions.html'},
       {
         revision: '89b76b52d3bfd5c51d6e4f8b8c02f479',
         url: 'assets/images/click-on-leads-761d8a50a3fc2933c0cc852bead683b6.gif',
@@ -7498,6 +7498,14 @@
       {
         revision: 'f9d7db996043a800e14ec39e36f5653c',
         url: 'img/heropixel/dashboard-ss.png',
+      },
+      {
+        revision: 'ba2fe9e4b88d1346589b1f63c76dc8ff',
+        url: 'img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png',
+      },
+      {
+        revision: 'e897f47a0aef5d59f08e60b6fe2fe8e9',
+        url: 'img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg',
       },
       {
         revision: '1bf309edc760044fc66a7e1a638f672f',

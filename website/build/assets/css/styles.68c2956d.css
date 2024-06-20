@@ -2956,6 +2956,7 @@ ol {
 .navbar {
   background-color: var(--main-bg-color);
   padding: 24px 48px;
+  z-index: 200;
 }
 .DocSearch-Button-Keys .DocSearch-Button-Key:last-child,
 .navbar__brand {
@@ -6446,6 +6447,7 @@ html[data-theme="dark"] .main-img {
   margin: 3px 0;
   width: 100%;
 }
+.HeadingText_ZyEO,
 .bot-message-container {
   display: flex;
   justify-content: flex-start;
@@ -7918,8 +7920,8 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   display: flex;
   flex-direction: column;
   gap: 1.28px;
-  height: 40.96px;
   justify-content: flex-start;
+  min-height: 40.96px;
   width: 145.94px;
 }
 .Heading_QhOp {
@@ -7968,21 +7970,22 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   width: 0;
 }
 .Typography_BsxT {
-  height: 133.36px;
+  min-height: 133.36px;
   width: 133.36px;
 }
 .HeaderSection_alIO {
   flex-direction: column;
   gap: 10px;
-  height: 1157.95px;
   justify-content: center;
   left: 0;
+  min-height: 1157.95px;
   position: relative;
   top: 0;
-  z-index: 10000;
+  z-index: 100;
 }
 .Container_H5oI {
-  gap: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .Container_H5oI,
 .HeadlineContent_bFMl {
@@ -7994,43 +7997,44 @@ html:not([data-theme]) .themedComponent--light_NVdE {
 .HeadlineContent_bFMl {
   align-self: stretch;
   gap: 32px;
-  height: 345.95px;
+  min-height: 345.95px;
 }
 .Text_DqxF {
   align-self: stretch;
   gap: 20px;
-  height: 253.95px;
   justify-content: flex-start;
   margin-top: 100px;
+  min-height: 253.95px;
 }
 .BlueText_2vTI {
   background: #559aff;
   border-radius: 58px;
   color: #fff;
-  height: 42px;
   justify-content: center;
+  min-height: 42px;
   padding: 8px 15px;
   transform: rotate(-1deg);
   transform-origin: 0 0;
 }
-.Button_wkaD,
-.HeadingText_ZyEO {
-  align-items: center;
-  display: flex;
+.MobileHeader_dx5g {
+  display: none;
+  justify-content: center;
+  text-align: center;
 }
-.HeadingText_ZyEO {
+.HeadingText_ZyEO,
+.MobileHeader_dx5g {
+  align-items: center;
   align-self: stretch;
   flex-direction: column;
   gap: 8px;
-  height: 140px;
-  justify-content: flex-start;
+  min-height: 140px;
 }
 .MainHeading_fGBl {
   color: #1f1f1f;
   font-family: GeneralSans-Medium;
 }
 .SubHeading_gcO8 {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   font-family: GeneralSans-Medium;
   gap: 12px;
@@ -8038,6 +8042,23 @@ html:not([data-theme]) .themedComponent--light_NVdE {
 }
 .SubText_lo0d {
   color: #1f1f1f;
+  text-align: center;
+}
+.MobileLogo_cG5C {
+  display: none;
+  left: 50px;
+  width: 38px;
+}
+.Logo_XyuT,
+.MobileLogo_cG5C {
+  border-radius: 0;
+  height: auto;
+  position: absolute;
+  top: 20px;
+}
+.Logo_XyuT {
+  left: 70px;
+  width: 125px;
 }
 .Description_Xtk7 {
   word-wrap: break-word;
@@ -8055,8 +8076,10 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   font-family: GeneralSans-Semibold;
 }
 .Button_wkaD {
+  align-items: center;
   background: #0068ff;
   border-radius: 100px;
+  display: flex;
   gap: 8px;
   justify-content: center;
   padding: 20px;
@@ -8836,6 +8859,22 @@ html:not([data-theme]) .themedComponent--light_NVdE {
     grid-template-columns: 1fr;
   }
 }
+@media only screen and (max-width: 1150px) {
+  .MetricCard3_AZGw {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .MetricCard2_e0Nt {
+    display: none;
+  }
+  .HeaderSection_alIO {
+    justify-content: flex-start !important;
+  }
+  .SubText_lo0d {
+    align-items: center;
+  }
+}
 @media (max-width: 997px) {
   .card-wrapper {
     grid-gap: 24px;
@@ -9001,6 +9040,27 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   .deviceContainer_M3IR {
     width: 350px;
   }
+  .MetricCard1_l3bd {
+    display: none;
+  }
+  div.Description_Xtk7 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .HeadingText_ZyEO {
+    display: none !important;
+  }
+  .MobileHeader_dx5g {
+    display: flex !important;
+  }
+  .MainHeading_fGBl,
+  .PriceText_ihnm,
+  .SubText_lo0d {
+    font-size: 50px;
+  }
+  div.BlueText_2vTI {
+    font-size: 18px;
+  }
 }
 @media (max-width: 768px) {
   .DocSearch-Cancel {
@@ -9156,6 +9216,19 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   }
   .theme-doc-footer .col:first-child {
     margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 531px) {
+  .MainHeading_fGBl,
+  .PriceText_ihnm,
+  .SubText_lo0d {
+    font-size: 50px;
+  }
+  .MobileLogo_cG5C {
+    display: block;
+  }
+  .Logo_XyuT {
+    display: none;
   }
 }
 @media only screen and (max-width: 500px) {
