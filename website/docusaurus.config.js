@@ -210,7 +210,7 @@ module.exports = {
         logo: {
           src: 'img/heropixel/hero-pixel-logo.png',
           alt: 'Hero Pixel',
-          href: 'https://heropixel.com/home',
+          href: 'https://heropixel.com/docs/',
         },
         style: 'primary',
         items: [
@@ -339,7 +339,7 @@ module.exports = {
         logo: {
           alt: 'Hero Pixel Logo',
           src: 'img/heropixel/hero-pixel-logo.png',
-          href: 'https://heropixel.com/home',
+          href: 'https://heropixel.com/docs/',
         },
         copyright,
       },

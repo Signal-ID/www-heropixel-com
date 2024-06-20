@@ -507,3 +507,93 @@ blockquote {
   float: right;
   padding: 0 0 20px 20px;
 }
+
+.docs-doc-id-index
+  .docRoot_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-styles-module {
+  display: block;
+}
+
+.docs-doc-id-index .main-wrapper .container .row .col,
+.docs-doc-id-index
+  .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Main-styles-module {
+  max-width: 100% !important;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.docs-doc-id-index .main-wrapper .container .row {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.docs-doc-id-index .main-wrapper div.container.padding-top--md {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.docs-doc-id-index .main-wrapper div.container {
+  background-color: transparent;
+}
+
+.docs-doc-id-index .theme-doc-footer-edit-meta-row,
+.docs-doc-id-index .docsRating {
+  display: none;
+}
+
+.docs-doc-id-index .main-wrapper .container > div > div:first-child {
+  padding: 0 !important;
+}
+
+.docs-doc-id-index .card-wrapper .card {
+  border: none;
+}
+.docs-doc-id-index .card a {
+  margin-left: 0px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: var(--ifm-color-primary-darker);
+}
+
+.dochero {
+  background-color: #f6f8fa;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.dochero h1 {
+  margin-bottom: 0 !important;
+}
+
+.dochero h2 {
+  margin-top: 0 !important;
+  font-size: 24px;
+  font-family: "GeneralSans-Regular";
+  color: var(--ifm-color-gray-600);
+}
+
+.container > div > div:first-child {
+  border-right: none;
+}
+.column {
+  --ifm-col-width: 100%;
+  flex: 1 0;
+  margin-left: 0;
+  max-width: var(--ifm-col-width);
+  width: 100%;
+}
+.column,
+.container {
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+.column {
+  --ifm-col-width: 100%;
+  flex: 1 0;
+  margin-left: 0;
+  max-width: var(--ifm-col-width);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+}

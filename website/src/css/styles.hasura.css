@@ -1893,7 +1893,8 @@ html {
 }
 
 .footer {
-  background-color: var(--ifm-footer-background-color);
+  border-top: 1px solid #dfdfdf;
+  background-color: var(--main-bg-color);
   color: var(--ifm-footer-color);
   padding: var(--ifm-footer-padding-vertical)
     var(--ifm-footer-padding-horizontal);
@@ -2128,7 +2129,7 @@ html[data-theme="dark"] {
 }
 
 .navbar {
-  background-color: var(--ifm-navbar-background-color);
+  background-color: var(--main-bg-color);
   box-shadow: var(--ifm-navbar-shadow);
   height: var(--ifm-navbar-height);
   padding: var(--ifm-navbar-padding-vertical)
@@ -3316,7 +3317,7 @@ ol {
 }
 
 .navbar {
-  background-color: var(--sidebar-bg-color);
+  background-color: var(--main-bg-color);
   padding: 24px 48px;
 }
 
