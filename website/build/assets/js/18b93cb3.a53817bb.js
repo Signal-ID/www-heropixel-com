@@ -1,0 +1,189 @@
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [4828],
+  {
+    876: (e, t, a) => {
+      a.r(t), a.d(t, {default: () => i});
+      var n = a(3696),
+        r = a(9848),
+        l = a(9568);
+      const s = a(6715),
+        c = a(2585),
+        o = ({version: e, archivedDocumentationUrl: t, currentVersion: a}) => {
+          const r = 'next' === e ? 'main' : e,
+            c = a === e,
+            o = 'next' === e,
+            i = -1 !== e.toUpperCase().indexOf('-RC'),
+            m = s[0].toUpperCase().replace('-RC', ''),
+            u = (0, l.A)(
+              null != t ? t : `/docs/${c ? '' : e + '/'}getting-started`
+            ),
+            h = n.createElement('a', {href: u}, 'Documentation');
+          let d = 'https://github.com/facebook/react-native/releases',
+            v = 'Changelog';
+          o
+            ? ((d = `https://github.com/facebook/react-native/compare/${m}-stable...main`),
+              (v = 'Commits since ' + m))
+            : i ||
+              (d = `https://github.com/facebook/react-native/releases/tag/v${e}.0`);
+          const b = n.createElement('a', {href: d}, v);
+          return n.createElement(
+            'tr',
+            null,
+            n.createElement('th', null, r),
+            n.createElement('td', null, h),
+            n.createElement('td', null, b)
+          );
+        },
+        i = () => {
+          const e = s.length > 0 ? s[0] : null,
+            t = ['next'].concat(s.filter(e => -1 !== e.indexOf('-RC'))),
+            a = s.filter(t => -1 === t.indexOf('-RC') && t !== e);
+          return n.createElement(
+            r.A,
+            {title: 'Versions', wrapperClassName: 'versions-page'},
+            n.createElement('h1', null, 'React Native versions'),
+            n.createElement(
+              'p',
+              null,
+              'Open source React Native releases follow a release train that is coordinated on GitHub through the',
+              ' ',
+              n.createElement(
+                'a',
+                {
+                  href: 'https://github.com/reactwg/react-native-releases/discussions',
+                },
+                n.createElement('code', null, 'react-native-releases')
+              ),
+              ' ',
+              'repository. New releases are created off the ',
+              n.createElement('code', null, 'main'),
+              ' branch of',
+              ' ',
+              n.createElement(
+                'a',
+                {href: 'https://github.com/facebook/react-native'},
+                n.createElement('code', null, 'facebook/react-native')
+              ),
+              '. They will follow a Release Candidate process to allow contributors like yourself to',
+              ' ',
+              n.createElement(
+                'a',
+                {href: (0, l.A)('docs/upgrading')},
+                'verify the changes'
+              ),
+              ' and to identify any issues by',
+              ' ',
+              n.createElement(
+                'a',
+                {href: 'https://github.com/facebook/react-native/issues'},
+                'writing clear, actionable bug reports'
+              ),
+              '. Eventually, the release candidate will be promoted to stable.'
+            ),
+            n.createElement('h2', null, 'Next version (Unreleased)'),
+            n.createElement(
+              'p',
+              null,
+              'To see what changes are coming and provide better feedback to React Native contributors, use the latest release candidate when possible. Changes introduced in a release candidate will have been shipped to production Facebook apps for over two weeks by the time the release candidate is cut.'
+            ),
+            n.createElement(
+              'table',
+              {className: 'versions'},
+              n.createElement(
+                'tbody',
+                null,
+                t.map(t =>
+                  n.createElement(o, {
+                    key: 'version_' + t,
+                    version: t,
+                    currentVersion: e,
+                  })
+                )
+              )
+            ),
+            n.createElement('h2', null, 'Latest version'),
+            n.createElement(
+              'p',
+              null,
+              'The most recent stable version will be used automatically whenever a new project is created using the ',
+              n.createElement('code', null, 'npx react-native init'),
+              ' command.'
+            ),
+            n.createElement(
+              'table',
+              {className: 'versions'},
+              n.createElement(
+                'tbody',
+                null,
+                n.createElement(o, {
+                  key: 'version_' + e,
+                  version: e,
+                  currentVersion: e,
+                })
+              )
+            ),
+            n.createElement('h2', null, 'Previous versions'),
+            n.createElement(
+              'table',
+              {className: 'versions'},
+              n.createElement(
+                'tbody',
+                null,
+                a.map(t =>
+                  n.createElement(o, {
+                    key: 'version_' + t,
+                    version: t,
+                    currentVersion: e,
+                  })
+                )
+              )
+            ),
+            n.createElement('h2', null, 'Archived versions'),
+            n.createElement(
+              'p',
+              null,
+              'The documentation for unmaintained versions can be found on website archive snapshots, hosted as separate sites.'
+            ),
+            n.createElement(
+              'table',
+              {className: 'versions'},
+              n.createElement(
+                'tbody',
+                null,
+                Object.entries(c).map(([t, a]) =>
+                  n.createElement(o, {
+                    key: 'version_' + t,
+                    version: t,
+                    archivedDocumentationUrl: a,
+                    currentVersion: e,
+                  })
+                )
+              )
+            ),
+            n.createElement(
+              'p',
+              null,
+              'The documentation for versions below ',
+              n.createElement('code', null, '0.60'),
+              ' can be found on the separate website called',
+              ' ',
+              n.createElement(
+                'a',
+                {href: 'https://archive.reactnative.dev/versions'},
+                'React Native Archive'
+              ),
+              '.'
+            )
+          );
+        };
+    },
+    6715: e => {
+      e.exports = ['0.0.1'];
+    },
+    2585: e => {
+      e.exports = {};
+    },
+  },
+]);

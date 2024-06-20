@@ -1,0 +1,12 @@
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [9267],
+  {
+    8289: e => {
+      e.exports = JSON.parse(
+        '[{"label":"announcement","permalink":"/blog/tags/announcement","count":1},{"label":"release","permalink":"/blog/tags/release","count":1},{"label":"debugging","permalink":"/blog/tags/debugging","count":1}]'
+      );
+    },
+  },
+]);
