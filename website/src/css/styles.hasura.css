@@ -1245,6 +1245,7 @@ hr {
   cursor: pointer;
   font-family: inherit;
   padding: 0;
+  color: var(--ifm-color-primary-contrast-foreground);
 }
 
 .alert,
@@ -2804,7 +2805,7 @@ img,
 object,
 svg,
 video {
-  display: block;
+  display: inline-block;
   vertical-align: middle;
 }
 

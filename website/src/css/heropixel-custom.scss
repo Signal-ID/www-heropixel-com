@@ -548,8 +548,10 @@ blockquote {
   padding: 0 !important;
 }
 
+.docs-doc-id-index .card-wrapper-2 .card,
 .docs-doc-id-index .card-wrapper .card {
   border: none;
+  box-shadow: none;
 }
 .docs-doc-id-index .card a {
   margin-left: 0px;
@@ -596,4 +598,10 @@ blockquote {
   max-width: var(--ifm-col-width);
   padding: 0 var(--ifm-spacing-horizontal);
   width: 100%;
+}
+
+iframe.statusiframe {
+  width: 250px;
+  max-width: 250px;
+  height: 30px;
 }

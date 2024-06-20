@@ -1,4 +1,4 @@
-/*! For license information please see main.556eb915.js.LICENSE.txt */
+/*! For license information please see main.341ae28e.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -24606,6 +24606,12 @@
                 dropdownItemsBefore: [],
               },
               {
+                type: 'html',
+                position: 'left',
+                value:
+                  '<iframe src="https://status.heropixel.com/badge?theme=light" class="statusiframe" width="250" height="30" frameborder="0" scrolling="no"></iframe>',
+              },
+              {
                 type: 'doc',
                 docId: 'intro-to-pixel-tech',
                 label: 'How it Works',
@@ -24635,6 +24641,11 @@
                 ],
               },
               {to: '/blog', label: 'Blog', position: 'right'},
+              {
+                href: 'https://app.heropixel.com/',
+                label: 'LOGIN',
+                position: 'right',
+              },
             ],
             hideOnScroll: !1,
           },

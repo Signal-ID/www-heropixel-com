@@ -226,6 +226,12 @@ module.exports = {
             ],
           },
           {
+            type: 'html',
+            position: 'left',
+            value:
+              '<iframe src="https://status.heropixel.com/badge?theme=light" class="statusiframe" width="250" height="30" frameborder="0" scrolling="no"></iframe>',
+          },
+          {
             type: 'doc',
             docId: 'intro-to-pixel-tech',
             label: 'How it Works',
@@ -261,6 +267,11 @@ module.exports = {
           {
             to: '/blog',
             label: 'Blog',
+            position: 'right',
+          },
+          {
+            href: 'https://app.heropixel.com/',
+            label: 'LOGIN',
             position: 'right',
           },
           // {
