@@ -10,7 +10,7 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:
-      - "./website/build:/var/www/html:rw"
+      - ".:/var/www/html:rw"
       - "../www-heropixel-com-config/:/var/www/www-heropixel-com-config:rw"
     ulimits:
       core:
