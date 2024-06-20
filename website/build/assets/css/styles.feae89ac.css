@@ -1816,6 +1816,9 @@ textarea {
   padding: var(--ifm-footer-padding-vertical)
     var(--ifm-footer-padding-horizontal);
 }
+.footer .container > div > div:first-child {
+  padding: 2.5rem 5rem 2.5rem 0 !important;
+}
 .footer--dark {
   --ifm-footer-background-color: #303846;
   --ifm-footer-color: var(--ifm-footer-link-color);
@@ -8919,6 +8922,7 @@ html:not([data-theme]) .themedComponent--light_NVdE {
     padding: 0;
   }
   .navbar__toggle {
+    color: var(--ifm-color-primary-contrast-foreground);
     display: inherit;
   }
   .navbar__search-input {

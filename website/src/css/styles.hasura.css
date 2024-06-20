@@ -1899,6 +1899,9 @@ html {
   padding: var(--ifm-footer-padding-vertical)
     var(--ifm-footer-padding-horizontal);
 }
+.footer .container > div > div:first-child {
+  padding: 2.5rem 5rem 2.5rem 0 !important;
+}
 
 .footer--dark {
   --ifm-footer-background-color: #303846;
@@ -3502,8 +3505,8 @@ div:has(> .DocSearch.DocSearch-Button) {
 
 .menu__link {
   color: var(--primary-neutral-800);
-  font-size: 0.7rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .menu__caret:before,
@@ -3559,6 +3562,7 @@ div:has(> .DocSearch.DocSearch-Button) {
 
 .menu__list .menu__list-item {
   border-bottom: 1px solid var(--next-prev-border-color);
+  padding: 20px 0 20px 20px;
 }
 
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-category,
@@ -9142,6 +9146,7 @@ html[data-theme="dark"] .messages-container code {
 
   .navbar__toggle {
     display: inherit;
+    color: var(--ifm-color-primary-contrast-foreground);
   }
 
   .navbar__search-input {
