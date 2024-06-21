@@ -1,4 +1,4 @@
-/*! For license information please see main.a9a39d87.js.LICENSE.txt */
+/*! For license information please see main.d5168db4.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -24767,8 +24767,9 @@
           algolia: {
             appId: 'LJFBTPOMFA',
             apiKey: 'c39d32c5be6710730744b17ae6d28155',
-            indexName: 'react-native-v2',
+            indexName: 'heropixel',
             contextualSearch: !0,
+            debug: !1,
             searchParameters: {},
             searchPagePath: 'search',
           },

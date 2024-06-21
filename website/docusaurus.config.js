@@ -357,8 +357,9 @@ module.exports = {
       algolia: {
         appId: 'LJFBTPOMFA',
         apiKey: 'c39d32c5be6710730744b17ae6d28155',
-        indexName: 'react-native-v2',
+        indexName: 'heropixel',
         contextualSearch: true,
+        debug: false,
       },
       metadata: [
         {
