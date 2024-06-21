@@ -208,7 +208,7 @@ module.exports = {
       },
       navbar: {
         logo: {
-          src: 'img/heropixel/hero-pixel-logo.png',
+          src: 'img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png',
           alt: 'Hero Pixel',
           href: '/docs',
         },
@@ -271,7 +271,7 @@ module.exports = {
           },
           {
             href: 'https://app.heropixel.com/',
-            label: 'LOGIN',
+            label: 'Login',
             position: 'right',
           },
           // {

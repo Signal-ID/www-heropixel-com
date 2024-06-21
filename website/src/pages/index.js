@@ -5,19 +5,5 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
-
-import Hero from './Home/Hero';
-import Layout from '@theme/Layout';
-
-//import Home from './Home';
-
-const Index = () => {
-  return (
-    <>
-      <Hero />
-    </>
-  );
-};
-
-export default Index;
+import Landing from './Landing';
+export default Landing;

@@ -1,0 +1,1255 @@
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [6929],
+  {
+    7595: (e, t, r) => {
+      r.r(t), r.d(t, {default: () => n});
+      var o = r(3696),
+        a = r(9848);
+      const n = function () {
+        return o.createElement(
+          a.A,
+          {title: 'Privacy Policy'},
+          o.createElement(
+            'div',
+            {className: 'privacy-policy-container'},
+            o.createElement(
+              'div',
+              {className: 'sidebar'},
+              o.createElement(
+                'ul',
+                {class: 'menu__list'},
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement('a', {href: '#introduction'}, 'Introduction')
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#information-collection'},
+                    'Information That We Collect and Use'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#information-use'},
+                    'How We Use the Information'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#information-sharing'},
+                    'How We Share Information'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#marketing-opt-out'},
+                    'Your Marketing and Opt-Out Choices'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#cookies'},
+                    'Cookies and Similar Technologies'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#corporate-website'},
+                    'Data Collected Through Our Corporate Website'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement('a', {href: '#links'}, 'Links')
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#security'},
+                    'Security and Data Integrity'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#policy-changes'},
+                    'Changes to this Privacy Policy'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#storage'},
+                    'Storage of Information in the United States'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#california-rights'},
+                    'Your California Privacy Rights'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement('a', {href: '#contact'}, 'Contact Us')
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#addendum'},
+                    'Addendum for Residents of California and Other Applicable States'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#personal-information'},
+                    'OUR COLLECTION OF PERSONAL INFORMATION'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#disclosure'},
+                    'OUR DISCLOSURE AND SALE OF PERSONAL INFORMATION'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#purposes'},
+                    'OUR BUSINESS PURPOSES FOR COLLECTING AND SHARING PERSONAL INFORMATION'
+                  )
+                ),
+                o.createElement(
+                  'li',
+                  null,
+                  o.createElement(
+                    'a',
+                    {href: '#rights'},
+                    'YOUR RIGHTS AND CHOICES UNDER CALIFORNIA AND OTHER APPLICABLE STATE LAWS'
+                  )
+                )
+              )
+            ),
+            o.createElement(
+              'div',
+              {className: 'content'},
+              o.createElement('h1', null, 'Privacy Policy'),
+              o.createElement(
+                'section',
+                {id: 'introduction'},
+                o.createElement('h2', null, 'Introduction'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID Inc. (\u201cWe\u201d \u201cOur\u201d \u201cSignal ID\u201d) provides data marketing services (the \u201cServices\u201d) that assist for-profit and not-profit organizations (and other companies that service them) to market their goods and services in a relevant and efficient way. Our solutions which are described on this website are used principally to support email marketing particularly targeted email marketing.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We take seriously the personal privacy interests of the individuals whose information we handle and maintain in our database. We provide this Privacy Policy (\u201cPrivacy Policy\u201d) to explain how we use and manage information and what rights consumers have to control how their information is used in marketing.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'To review the \u201cAddendum\u201d we have created specifically to address disclosures required under the California Consumer Privacy Act which also sets forth please see our \u201cPRIVACY NOTICE FOR CALIFORNIA AND OTHER PRIVACY STATES.\u201d'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We also operate corporate websites designed for our own customers and prospective customers and others who want to learn about our services. We address the information we collect and use for those business purposes (such as information we use to communicate with our corporate customers and potential customers) in Section 6 of this Privacy Policy.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'information-collection'},
+                o.createElement(
+                  'h2',
+                  null,
+                  'Information That We Collect and Use in Our Services'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'In order to provide our Services we make available collect or receive data including personal information to and from a variety of sources including from websites and apps that collect the information as well as other data compilers. We refer to the information that we collect and process throughout this Privacy Policy as \u201cInformation\u201d or \u201cthe Information.\u201d'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'The Information that we may collect receive (including from third parties) store or make available includes various identifying information such as:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'Name and home address (address may be mapped via street or geo-location coordinates)'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Personal or professional email addresses (which may be maintained as \u201chashed\u201d values)'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Other contact information such as email address and phone number'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'IP address (which we likewise may map to estimated geo-location coordinates)'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'A cookie or device identifier which uniquely identifies your browser or device along with other browser attributes such as user agents time stamps and page views'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Usage data related to your email interactions such as whether you receive open or respond to an email and related information'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Usage data related to your website interactions such as whether you visit or log in to a website page visits purchases data input or captured on a website and related information and what content you view or interact with'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Information and actions associated with an email such as whether an email has recently been in use and amount and type of marketing or \u201cemail open\u201d activity associated with an email'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Demographic information such as inferenced income or age/age range household size or home ownership or number of persons in a household'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Information regarding consumer interests such as what type of products you may be interested in or what types of hobbies you might have such as whether you are a likely pet owner or a sports or art enthusiast'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Other household information such as mortgage information mortgage rate amount owed lender and related information assets owned and other information from publicly available files'
+                  )
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Some of the above Information may be inferred \u2013 for instance if a household is in a particularly wealthy area we might infer a particular income range. We also sometimes associate personal information with aggregated information such as aggregated demographic or location data to help our customers understand their own data more effectively.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'information-use'},
+                o.createElement('h2', null, 'How We Use the Information'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID uses the Information for various purposes including the following:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'Data Marketing Services: Our Services include providing marketing information to our customers generally regarding which customers or prospective customers are most likely to be interested (or disinterested) in certain offers or have engaged with a particular website or brand. We also may help our customers identify and understand their customers better by providing insights about them. Our customers may include (but are not limited to) small and medium-sized businesses non-profit entities ad and media agencies brands and marketing data platforms that help their customers to market and advertise to their own customers (and prospective customers).'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Retargeting Services: We often help our customers to \u201cretarget\u201d marketing content to website visitors. In particular our Services help inform customers interested in delivering emails to people who have visited or logged in to their websites (or mobile apps). These Services may involve sending advertising content to these visitors across other devices or marketing channels including through digital email mobile or television or direct mail channels.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Additional Marketing Services: Other Services we may provide to our customers (or help them to provide to their own customers) which may supplement the above Services may involve assisting customers to target and optimize email campaigns display or other marketing; measuring how effective marketing campaigns have been by determining which messages are most likely to be seen or opened by which types of consumers or which types of ads are most likely to lead to purchases; analyzing and optimizing our customers\u2019 (or their service providers\u2019) proprietary databases; helping customers to detect and prevent fraud and provide \u201cvalidation\u201d or data hygiene services e.g. by verifying or removing or correcting old incorrect or outdated information or evaluating whether an email address recently has been active.'
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'information-sharing'},
+                o.createElement(
+                  'h2',
+                  null,
+                  'How We Share Information with Third Parties including Service Providers'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID may share the Information with customers marketing services and platforms as well as service providers that help us to provide the Services we\u2019ve described above (or other services we may add in the future). This includes sharing in the following ways:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'With Our Customers: As described above we license the Information in various ways to our customers (and something to partners and resellers who license the Information to their customer) when we provide our Services. We may sometimes share the Information with those customers\u2019 service providers (for instance a provider that prints or sends mailings for a customer).'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'With Our Partners: We also may share the Information including personally identifiable information and Audience Segments with business and data partners to help provide more tailored targeted marketing advertising and communications. Likewise we may do so for analytical purposes including to help these other parties measure campaign performance inform future campaigns or to handle analyze or segregate this Information on our or our customers\u2019 behalf.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'With Our Service Providers: We share the Information with a variety of service providers in order to operate protect and advertise our Services and maintain our website(s). For instance we may share the Information with our tech hosting and customer support providers marketing and advertising providers other data providers (such as to enhance or verify our Information) security vendors payment vendors (as to our business to business information) and other companies help us deliver secure or develop our Services.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Affiliates parent companies and subsidiaries: Signal ID may share some or all of the Information in our possession with any of our affiliated or subsidiary companies (to the extent that we ever have any).'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'As required by law or to protect any person or entity: Signal ID may disclose Information if we believe that such disclosure is necessary to (a) comply in good faith with relevant laws or to respond to subpoenas or warrants served on us; or (b) to protect or otherwise defend the rights property or safety of Signal ID our customers or any other person or entity.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Corporate transfers: If Signal ID its stock or its significant assets are acquired by or merged into another entity our information will be transferred to that entity and may be shared during due diligence in anticipation of any such transaction.'
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'marketing-opt-out'},
+                o.createElement(
+                  'h2',
+                  null,
+                  'Your Marketing and Opt-Out Choices'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'There are multiple ways that you can opt-out of having the Information used to market to you:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'You may visit our opt-out page at [________________] to have your personal information removed from our database. We will then in most cases remove your personal information from our active marketing databases within 15 business days from the time we received the opt-out request. We may in certain cases (where legally permissible) require that you verify any of the information that you submit such as through a verified email response or another verified response.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'If you would like to opt-out of email marketing from a particular brand (such as a customer of ours) click on the \u201copt out\u201d or \u201cunsubscribe\u201d link in the footer (at the bottom) of the marketing email you have received. Please also note that these emails do not generally come from us \u2013 you will need to contact the brand through their unsubscribe methods whether within their emails or on their websites.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'While we generally do not engage in \u201cdirect mail\u201d marketing some of our customers and partners may. If you are interested in opting out of this type of marketing \u2013 i.e. materials received in your physical mailbox -- we recommend that you visit the DMA Choice website at dmachoice.thedma.org. The DMA Choice service is run by the Direct Marketing Association and allows you to follow a few easy steps to ensure that your marketing preferences are honored.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'To opt out of our Retargeting Services described in section 2 go to [_______________________] and click on the \u201cCookie Based Opt Out\u201d bar on that page. You will need to do that from each browser that you use (because the retargeting and thus the \u201copt out\u201d are cookie-based) and if you clear your browser cookies you will need to opt out again. Alternatively you may provide us with your email address on that same page to opt out that particular email from our email-based Retargeting Services.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'If we market to you by email in our corporate capacity \u2013 such as if you are a customer or prospective customer of ours and we send you information about our Services -- you may \u201cunsubscribe\u201d from our marketing emails through a link placed in your emails.'
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'cookies'},
+                o.createElement('h2', null, 'Cookies and Similar Technologies'),
+                o.createElement('h3', null, 'Cookies and How We Use Them'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID and its business partners use certain industry-standard technologies including cookies and similarly functioning technologies which we describe below. (We and/or our service providers use these technologies on our website for instance and our partners may use these technologies in their own marketing services.)'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We may work with third parties or service providers to provide or enhance our services (e.g. for purposes of tailoring ads or placing browser cookies) or to offer marketers ways to access or use the personal Information that we make available. These business partners of ours may set and access their own cookies pixel tags and similar technologies on your browser which may have cookies with varying expiration periods. Those partners may likewise collect various types of information about your browser device or browsing activities through use of these cookies.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Cookies in turn are small data files that contain a string of characters such as a unique browser identifier. Cookies are stored on your computer or other device and act as tags that identify your device. Our (or other companies\u2019) servers send your device a cookie when you visit a website. A pixel tag (also commonly known as a web beacon or clear GIF) is an invisible 1 x 1 pixel that is placed on certain web pages. When you access web pages (such as the website of a marketer we work with) pixel tags may generate a generic notice of the visit and permit our partners (or sometimes us) to read the cookies that a respective company or server has deployed. Pixel tags are used in combination with cookies to track the activity on a site by a particular device. When you turn off cookies pixel tags simply detect a given website visit.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We or our service providers and other online marketing platforms that we or they work with may use cookies to among other things \u201cremember\u201d you determine visitor patterns and trends collect information about your activities on our clients\u2019 sites or interact with the advertising you see. Cookies can be used in this way to provide relevant content to you and replace non-relevant communications with ads that better match your interests.'
+                ),
+                o.createElement(
+                  'h3',
+                  null,
+                  'Retargeting and Cross-Channel Advertising'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We use cookies in our Retargeting Services which involves combining cookie identifiers and IP addresses \u2013 which identify your browser or device and/or network \u2013 with other personal information often that has been collected by third parties. (We may rely on third party data providers to perform this combination.) Based on these data combinations sometimes called an \u201cidentity graph\u201d when you visit or log into a website (such as a brand that you wish to purchase goods from) you may later receive an email \u2013 for instance reminding you that unpurchased goods are in your \u201ccart\u201d offering you additional discounts or making additional purchase suggestions. As described in Section 4 above you may opt out of this type of advertising.'
+                ),
+                o.createElement('h3', null, 'Disabling Cookies'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Most web browsers are set up to accept cookies or at least to accept certain types of cookies. You may be able to set your browser to warn you before accepting certain cookies or to refuse certain cookies. However if you disable the use of cookies in your web browser some features of our website and other services may be difficult to use or become inoperable.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'corporate-website'},
+                o.createElement(
+                  'h2',
+                  null,
+                  'Data Collected Through Our Corporate Website'
+                ),
+                o.createElement('h3', null, 'Information Collected'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID collects information from users of our website(s) (including any page on which this Privacy Policy is posted) including:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'The domain name and IP address of a user\u2019s web browser as well as a user agent time stamp and other information about a user\u2019s browser or device.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Information about what content and pages users access utilize or visit on our website or how they interact with our content \u2013 for instance if they spent a certain amount of time reviewing a particular blog post or description of particular services.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Information including personally identifiable and contact information that you provide which could include (for instance) survey information sign-up information (e.g. if you sign up for our webinars events or newsletters) requests for information mailing addresses and email addresses. This might include for instance your name email address and/or telephone number.'
+                  )
+                ),
+                o.createElement(
+                  'h3',
+                  null,
+                  'How Signal ID Uses the Information We Collect Through Our Website'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We use the Information we collect through our website(s) to do the following:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'Create and manage your user account.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Provide Services you have requested.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Respond to and communicate with you (including regarding news and updates about our services).'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Send you offers and ads for our products and services when you browse the website(s) or other companies\u2019 websites on the Internet (such as to \u201cretarget\u201d you with information about our Services).'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Send you offers and ads for products and services of partner brands or other offers we believe may be of interest to you such as invitations to events and webinars.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Perform data analysis (including market research).'
+                  )
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We may combine the Information with other information we obtain from third parties publicly available sources and any other product or service we provide to further improve the relevance and effectiveness of products and advertisements offered including (but not limited to) those provided on or through our services.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We may use IP addresses to help diagnose problems with our servers and to administer our website(s). We also may use IP addresses to help identify visitors to our website(s) for the duration of a session and to gather demographic information about our visitors. We may use clickstream data to determine how much time visitors spend on each web page of our website(s) how visitors navigate through the website(s) and how we may tailor our website(s) to better meet the needs of our visitors. We also use this Information for compliance with our legal obligations policies and procedures including the enforcement of our Terms and Conditions.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'If we collect Information from \u201coffline\u201d or other business sources \u2013 such as if you provide us your business card at a trade show or for purposes of a webinar we offer \u2013 we will maintain that information and use it for marketing and business purposes as well.'
+                ),
+                o.createElement(
+                  'h3',
+                  null,
+                  'How Signal ID Shares the Information We Collect Through Our Websites and For Corporate Purposes'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We may sometimes share or otherwise disclose the Information we collect about you as described in this Privacy Policy or otherwise disclosed to you when you provide us with the information including as follows:'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'We may share the Information with service providers who help us deliver the services you request or we provide. For instance we share the Information with tech and customer support providers marketing and advertising providers other data providers (such as to enhance or verify our Information) security and data hygiene vendors payment vendors (as to our business to business information) and other companies that may help us deliver or develop Services.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'We may share the Information to communicate with you and market to you including through email direct mail or display media.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'We will disclose your PII (or other Information) if we believe in good faith that we are required to do so by law regulation or other government authority or to protect the rights safety or property of ourselves or any person or entity. We may also cooperate with law enforcement agencies in any official investigation and we may disclose any Information to the requesting agency in doing so.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'If we or all or substantially all of our assets are purchased by another company (such as in a merger consolidation restructuring the sale of stock and/or assets or other corporate change or financing transaction) the Information in our possession will likely be transferred to the successor entity. We also may share the Information during the course of any due diligence process leading up to any such transaction.'
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'links'},
+                o.createElement('h2', null, 'Links'),
+                o.createElement(
+                  'p',
+                  null,
+                  'This website may provide links to other websites that Signal ID thinks users may be interested in. Signal ID is not responsible for the privacy practices of these other sites or companies.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'security'},
+                o.createElement('h2', null, 'Security and Data Integrity'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID takes steps to help ensure that the data we possess is housed and transmitted securely. This may include various types of physical and electronic security including firewall protections encryption hashing or truncation of data and access controls to personal information. However you should be aware that neither we nor any platform can guarantee 100 percent safety from hacks or illegal intrusion.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'policy-changes'},
+                o.createElement('h2', null, 'Changes to this Privacy Policy'),
+                o.createElement(
+                  'p',
+                  null,
+                  'From time to time we may update this Privacy Policy. Any changes to it will become effective when it is posted to our website or at another date specified. Please check back to learn of any changes to this Privacy Policy.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'storage'},
+                o.createElement(
+                  'h2',
+                  null,
+                  'Storage of Information in the United States'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'If you are accessing our website from outside of the United States you may wish to note that your connection likely will be through and to servers located in the United States and all Information you provide will likely be processed and securely maintained in our web servers and internal systems located within the United States. (We generally store the Information used in our Services in the United States.) Thus you should be aware that in accessing this website or otherwise communicating with us the information we collect or receive from you may be subject to laws with lesser or different privacy standards than those in your own country (such as if you are in a country located in the European Union).'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'california-rights'},
+                o.createElement('h2', null, 'Your California Privacy Rights'),
+                o.createElement(
+                  'p',
+                  null,
+                  'If you are a resident of California the California Consumer Protection Act (CCPA) provides certain rights of disclosure access and deletion of your Information as described below in the \u201cAddendum for Residents of California and Other Applicable States\u201d at the end of this Privacy Policy.'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'contact'},
+                o.createElement('h2', null, 'Contact Us'),
+                o.createElement(
+                  'p',
+                  null,
+                  'Signal ID has a designated privacy contact. If you have questions related to this Privacy Policy or regarding our products or services please contact us:'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Privacy Officer Signal ID Inc. [INSERT WHATEVER ADDRESS YOU WOULD LIKE]'
+                ),
+                o.createElement('p', null, 'Email: [_________________]'),
+                o.createElement(
+                  'p',
+                  null,
+                  'We appreciate your comments and questions regarding Signal ID\u2019s privacy practices.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Last updated: [UPDATE WITH NEW DATE OF POSTING]'
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'addendum'},
+                o.createElement(
+                  'h2',
+                  null,
+                  'ADDENDUM FOR RESIDENTS OF CALIFORNIA AND OTHER APPLICABLE STATES'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Last Modified: [______________________]'
+                ),
+                o.createElement(
+                  'h3',
+                  null,
+                  'NOTICE TO CALIFORNIA RESIDENTS [CONSUMERS] \u2013 CALIFORNIA CONSUMER PRIVACY PROTECTION ACT'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'The California Consumer Privacy Act of 2018 as amended by the California Privacy Rights Act (together the \u201cCCPA\u201d) provides certain rights to residents of California. A number of other states provide the same or similar rights to their residents \u2013 as their own respective privacy laws become effective. (These states include but are not limited to Virginia Colorado Utah Montana Connecticut Indiana Texas and others.) This section of the Privacy Policy applies if you are a natural person who is a resident of California or another applicable state (collectively \u201cApplicable States\u201d) and whose personal information we hold as a \u201ccontroller\u201d or \u201cbusiness\u201d \u2013 in other words when we decide how that information is used shared and stored.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'This Addendum supplements the information in the Privacy Policy. However this Addendum is intended solely for and is applicable only as to residents of Applicable States.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'In the below tables and sections we describe (as required by the CCPA and/or other laws):'
+                ),
+                o.createElement(
+                  'ul',
+                  null,
+                  o.createElement(
+                    'li',
+                    null,
+                    'Our Collection of Personal Information \u2013 the types of Personal Information (which the CCPA defines broadly) that we collect the types of sources we collect it from'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Our Disclosure and Sale (and Sharing) of Personal Information \u2013 the types of recipients to whom we disclose or sell Personal Information.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Our Business Purposes \u2013 our business purposes for (a) collecting and (b) sharing Personal Information which are generally the same.'
+                  ),
+                  o.createElement(
+                    'li',
+                    null,
+                    'Your California and other relevant Privacy Rights and Choices \u2013 what rights you have under the CCPA and similar laws of other states for instance to request that we \u201copt out\u201d your information from our marketing database (also called \u201cdo not sell\u201d rights) and/or cease using your information for targeted advertising or to request categories and personal information that we may have collected about you.'
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'personal-information'},
+                o.createElement(
+                  'h3',
+                  null,
+                  'OUR COLLECTION OF PERSONAL INFORMATION'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Depending on how you interact with us we may collect about you the categories of information summarized in the table below. The following table also describes how we collect and use such categories of information.'
+                ),
+                o.createElement(
+                  'table',
+                  null,
+                  o.createElement(
+                    'thead',
+                    null,
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement('th', null, 'Category'),
+                      o.createElement('th', null, 'Categories of Sources')
+                    )
+                  ),
+                  o.createElement(
+                    'tbody',
+                    null,
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Identifiers e.g. name; alias; postal address; mobile ad or cookie identifiers; IP address; telephone number; email address; social network handles'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Data compilers and consumer data resellers informational and retail websites (\u201cCommercial Source Categories\u201d) Public records and other publicly available sources Government entities Social networks'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Characteristics of protected classifications under California or US law (inferenced or actual including self-reported) E.g. race; color; religion; sex/gender; pregnancy marital status; military or veteran status; national origin; ancestry; age (over 40) (may be inferenced actual or self-reported)'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Source Categories Public records and other publicly available sources Government entities Social networks'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial or transactions information E.g. products or services purchased obtained or considered or other purchasing or consuming histories or tendencies.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Source Categories Public records and other publicly available sources'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Internet or other electronic network activity information E.g. browsing history; online interests.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Source Categories'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Professional or employment-related information E.g. current or past job history or job title.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Source Categories Public records and other publicly available sources'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Inference Data E.g. consumer information or preferences.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Source Categories'
+                      )
+                    )
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'disclosure'},
+                o.createElement(
+                  'h3',
+                  null,
+                  'OUR DISCLOSURE AND SALE OF PERSONAL INFORMATION'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We may sell or share the information collected from and about you as discussed above for various business purposes with service providers and with third parties including our customers. The chart below shows how and with whom we sell or share or disclose personal information and whether (based on the CCPA\u2019s and other applicable statute\u2019s definitions of \u201csell\u201d or \u201cshared\u201d) we believe we have \u201csold\u201d or \u201cshared\u201d a particular category of information in the prior 12 months.'
+                ),
+                o.createElement(
+                  'table',
+                  null,
+                  o.createElement(
+                    'thead',
+                    null,
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement('th', null, 'Category'),
+                      o.createElement(
+                        'th',
+                        null,
+                        'Categories of Third Parties We Share With'
+                      ),
+                      o.createElement(
+                        'th',
+                        null,
+                        'Whether We \u201cSold\u201d This Category of Personal Information in the Last 12 Months'
+                      )
+                    )
+                  ),
+                  o.createElement(
+                    'tbody',
+                    null,
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Identifiers e.g. name; alias; postal address; mobile ad identifiers; IP address; telephone number; email address; social network handles'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Data compilers and consumer data resellers consumer goods retailers informational and retail websites content publishers non-profit organizations business-to-business services and organizations consumer surveys and survey companies affiliate networks (\u201cCommercial Recipient Categories\u201d) Advertising networks and media platforms political campaigns internet service providers data analytics providers Social networks'
+                      ),
+                      o.createElement('td', null, 'Yes')
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Characteristics of protected classifications under California or US law (inferenced or actual) E.g. race; color; religion; sex/gender; pregnancy marital status; military or veteran status; national origin; ancestry; age (over 40) (may be inferenced actual or self-reported)'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Recipient Categories Advertising networks and media platforms political campaigns internet service providers data analytics providers Social networks'
+                      ),
+                      o.createElement('td', null, 'Yes')
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial or transactions information E.g. products or services purchased obtained or considered or other purchasing or consuming histories or tendencies.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Recipient Categories Advertising networks and media platforms political campaigns internet service providers data analytics providers Social networks'
+                      ),
+                      o.createElement('td', null, 'Yes')
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Internet or other electronic network activity information E.g. browsing history; online interests.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Recipient Categories Advertising networks and media platforms political campaigns internet service providers data analytics providers and social networks'
+                      ),
+                      o.createElement('td', null, 'Yes')
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Professional or employment-related information E.g. current or past job history or job title.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Recipient Categories Advertising networks and media platforms political campaigns internet service providers data analytics providers Social networks'
+                      ),
+                      o.createElement('td', null, 'Yes')
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Inference Data E.g. consumer information or preferences.'
+                      ),
+                      o.createElement(
+                        'td',
+                        null,
+                        'Commercial Recipient Categories Advertising networks and media platforms political campaigns internet service providers data analytics providers Social networks'
+                      ),
+                      o.createElement('td', null, 'Yes')
+                    )
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'purposes'},
+                o.createElement(
+                  'h3',
+                  null,
+                  'OUR BUSINESS PURPOSES FOR COLLECTING AND SHARING PERSONAL INFORMATION'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Generally speaking we collect and share the Personal Information that we collect for the following purposes as we also have described in our Privacy Policy and/or our website.'
+                ),
+                o.createElement(
+                  'table',
+                  null,
+                  o.createElement(
+                    'thead',
+                    null,
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'th',
+                        null,
+                        'Our Purposes for collecting using and sharing Personal Information'
+                      )
+                    )
+                  ),
+                  o.createElement(
+                    'tbody',
+                    null,
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Data marketing services for example:'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Generally creating data marketing tools and products for our marketer clients as more fully described in our Privacy Policy (and on our websites). This may include our provision of datasets data \u201cappends\u201d (connecting data across datasets) data \u201cscoring\u201d (providing inferences about potential identifiers) data hygiene services (helping customers to evaluate validate and correct personal information they hold) or security and anti-fraud services (helping customers to identify potentially fraudulent activity).'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Helping our Clients identify and understand their consumers better by providing insights about them and managing loyalty programs as well as providing financial and other scoring products.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Assisting our Clients through our Services to provide their current and prospective customers with better service generally related to the above.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Creating \u201cidentity\u201d graphs or associations between data points to help locate users across various channels such as based on common personal device-based or network-based identifiers (e.g. IP address cookie or device identifiers email address).'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Additional marketing services for example (which may overlap with \u201cdata marketing services\u201d above):'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Assisting in targeting and optimizing of direct mail and email campaigns display mobile and social media marketing.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Measuring the effectiveness of online or offline ad campaigns by determining which messages are most likely to be seen or opened by which types of consumers or which types of ads are most likely to lead to purchases.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Analyzing and optimizing our Clients\u2019 (or their service providers\u2019) proprietary databases or helping Clients to identify and mitigate potential fraud.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Providing \u201chygiene\u201d or \u201cverification\u201d services which is how companies update and/or \u201cclean\u201d their databases by either verifying or removing or correcting old incorrect or outdated information.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Operating our Services for example:'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Testing improving updating and verifying our own database.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement('td', null, 'Developing new products.')
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Operating analyzing improving and securing our Services.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'Other internal purposes for example:'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'For internal operations auditing research detecting security incidents debugging short-term and transient use quality control and legal compliance.'
+                      )
+                    ),
+                    o.createElement(
+                      'tr',
+                      null,
+                      o.createElement(
+                        'td',
+                        null,
+                        'We sometimes use the information collected from our own website from social networks from other \u201cbusiness to business\u201d interactions (such as information we collect at trade shows) or from data compilers for the above as well as for our own marketing purposes.'
+                      )
+                    )
+                  )
+                )
+              ),
+              o.createElement(
+                'section',
+                {id: 'rights'},
+                o.createElement(
+                  'h3',
+                  null,
+                  'YOUR RIGHTS AND CHOICES UNDER CALIFORNIA AND OTHER APPLICABLE STATE LAWS'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Without being discriminated against for exercising these rights residents of Applicable States (which includes California) have the right to request that we disclose what personal information we collect from you to delete that information and to opt-out of the sale of your personal information subject to certain restrictions. You also have the right to designate an agent to exercise these rights on your behalf. This section describes how to exercise those rights and our process for handling those requests. (To the extent permitted by applicable law we may charge a reasonable fee to comply with your request.)'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Sometimes we act only as a \u201cservice provider\u201d to our clients (for instance if they provide information to us for analytics processing or other data management services) in which case any consumer requests for opt-out deletion or access to data must be made through that client: we therefore will forward any such requests to a named client as feasible such as where a client has been identified.'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'A. Right to request that we \u201cdo not sell\u201d or \u201cdo not share\u201d your personal information'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'You may request that we not \u201csell\u201d your personal information. If you wish to make such a \u201cdo not sell\u201d (also called an \u201copt out\u201d request) please go to our \u201cDo Not Sell\u201d web form located at [___________]. Alternatively you may contact us by email at ________. When you make such a request we will retain your information on an internal \u201csuppression\u201d list so that we may remove your data from our active database in the event we obtain it again at a later'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Opting our from sale in the above way will also opt out out of our \u201csharing\u201d of your personal information. \u201cSharing\u201d is a term used in California privacy law that means use of personal information for cross-context behavioral advertising also known as targeted advertising.'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'B. Right to request deletion or correction of your personal information'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'You may request that we delete or correct any personal information that we collected from such as if you have been a customer of ours. Note that this is different from your right to \u201copt out\u201d of us selling your personal information which is described above; also note that we do not generally collect personal information directly from consumers.) You may make a deletion or correction request by visiting our Privacy Portal at [____________] or by calling our toll-free number at [_____________]. In our discretion we may interpret your \u201cdeletion\u201d request as a \u201cDo Not Sell\u201d request (and thus place it on a suppression list as described above) if we in good faith believe that is what you are requesting.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'After honoring a deletion request we may still retain personal information for certain important purposes such as (a) to protect our business systems and users from fraudulent activity (b) to address technical issues that impair existing functionality (such as de-bugging purposes) (c) as necessary for us or others to exercise their free speech or other rights (d) to comply with law enforcement requests pursuant to lawful process (e) for scientific or historical research (f) for our own internal purposes reasonably related to your relationship with us or to comply with legal obligations. Additionally we need certain types of information so that we can provide our Services to you. If you ask us to delete it you may no longer be able to access or use our Services.'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'C. Right to request access to your personal information'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'Residents of Applicable States also have the right to request that we disclose what categories of your personal information that we collect use or sell. As a resident of such a state you may also request the specific pieces of personal information that we have collected from you. You may make such an \u201caccess\u201d or \u201cright to know\u201d request by visiting our Privacy Portal at [__________] us [__________] or by calling our toll-free number at [_____________]. We may withhold some personal information where the risk to you or to others\u2019 privacy rights is too great to disclose the information.'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'For security purposes (and as required under California law) we will verify your identity \u2013 in part by requesting certain information from you \u2014 when you request to exercise your California privacy rights. For instance if you request specific pieces of personal information we have received about you you may need to confirm your possession of an identifier (such as an email address) that reasonably confirms you are the person you claim to be.'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'D. Right to nondiscrimination'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We will not deny charge different prices for or provide a different level of quality of goods or services if you choose to exercise these rights.'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'E. Right to Appeal our Decision'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'If you disagree with a decision we have made in response to your request that we exercise any of the rights we have described you may (depending what state you are a resident of) have a right to \u201cappeal\u201d our decision. You may do so by writing to us at [INSERT EMAIL ADDRESS]'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'F. Information about persons under the age of 16'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'We do not knowingly collect personal information from minors under 16 years of age in California or other Applicable States unless we have received legal consent to do so (where such consent is required). If we learn that personal information from such consumers has been collected we will take reasonable steps to remove their information from our database (or to obtain legally required consent).'
+                ),
+                o.createElement(
+                  'p',
+                  {class: 'text-bold'},
+                  'G. Authorized agents'
+                ),
+                o.createElement(
+                  'p',
+                  null,
+                  'You may also designate an agent to make requests to exercise your rights under CCPA as described above. We will take steps both to verify the identity of the person seeking to exercise their rights as listed above and to verify that your agent has been authorized to make a request on your behalf through providing us with a signed written authorization or a copy of a legally sufficient power of attorney. We likewise may require that you verify your own identity depending on the type of request you make.'
+                )
+              )
+            )
+          )
+        );
+      };
+    },
+  },
+]);

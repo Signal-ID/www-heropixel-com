@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import './PrivacyPolicy/css/PrivacyPolicy.css';
+import './privacy-policy/css/PrivacyPolicy.css';
 
 function TermsAndConditions() {
   return (
