@@ -1212,6 +1212,7 @@ hr {
 .text--danger {
   color: var(--ifm-color-danger);
 }
+.container_TgzH,
 .container_ajOU,
 .kitchen-image-container p,
 .text--center {
@@ -6936,6 +6937,22 @@ iframe.statusiframe {
   padding: 24px 0 0 48px;
   position: relative;
 }
+.AppList {
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0;
+}
+.AppList .item,
+.containsTaskList_QWGu,
+.containsTaskList_mC6p {
+  list-style: none;
+}
+.AppList .item img {
+  border-radius: 16px;
+  box-shadow: 0 6px 14px #14141414;
+  overflow: hidden;
+}
 .versions-page p a,
 .versions-page td a {
   background-color: #bbeffd4d;
@@ -6984,6 +7001,7 @@ html[data-theme="dark"] .versions-page td a:hover {
 .versions-page .versions {
   margin-bottom: 32px;
 }
+.wrapper_O4qR,
 .wrapper_jEoM {
   background: linear-gradient(
       to bottom,
@@ -6994,6 +7012,7 @@ html[data-theme="dark"] .versions-page td a:hover {
   display: flex;
   justify-content: center;
 }
+.container_jPHy,
 .container_mrKL {
   justify-content: center;
   max-width: 1000px;
@@ -7001,16 +7020,20 @@ html[data-theme="dark"] .versions-page td a:hover {
 }
 .BlueText_M6iY,
 .Text_e0EF,
+.container_TgzH,
 .container_ajOU,
+.container_jPHy,
 .container_mrKL {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.title_J9N3 {
+.title_J9N3,
+.title_QmeC {
   font-size: 48px;
 }
-.description_mE5Q {
+.description_mE5Q,
+.description_uhBg {
   color: var(--home-secondary-text);
   font-size: 20px;
   font-weight: 400;
@@ -7138,6 +7161,16 @@ html[data-theme="dark"] .versions-page td a:hover {
   margin: 4rem auto;
   max-width: calc(100% - 2rem);
   width: 600px;
+}
+.featureContainer_JCYB {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+.featureContainer_JCYB > :first-child {
+  border-right: 1px solid var(--home-border);
+  padding-right: 2rem;
 }
 .platformsContainer_FCsi {
   margin: 6rem 0;
@@ -8592,9 +8625,6 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   border: 1px solid var(--ifm-alert-border-color);
   margin: 0 0 var(--ifm-spacing-vertical);
 }
-.containsTaskList_mC6p {
-  list-style: none;
-}
 :not(.containsTaskList_mC6p > li) > .containsTaskList_mC6p {
   padding-left: 0;
 }
@@ -8996,6 +9026,15 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   }
 }
 @media only screen and (max-width: 900px) {
+  .featureContainer_JCYB {
+    flex-direction: column;
+    gap: 0;
+    max-width: 600px;
+  }
+  .featureContainer_JCYB > :first-child {
+    border-right: none;
+    padding-right: 0;
+  }
   .featureContainer_jayl {
     gap: 2rem;
   }

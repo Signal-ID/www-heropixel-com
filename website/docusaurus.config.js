@@ -355,8 +355,8 @@ module.exports = {
         copyright,
       },
       algolia: {
-        appId: 'OXSIEUMH6D',
-        apiKey: '0be456a6896a69b14b8b9dd1e33347d7',
+        appId: 'LJFBTPOMFA',
+        apiKey: 'c39d32c5be6710730744b17ae6d28155',
         indexName: 'react-native-v2',
         contextualSearch: true,
       },
