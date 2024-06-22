@@ -1,0 +1,123 @@
+/*! For license information please see 46b4c412.4196cb16.js.LICENSE.txt */
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [1159],
+  {
+    2192: (e, t, o) => {
+      var r = o(3696),
+        n = Symbol.for('react.element'),
+        s = Symbol.for('react.fragment'),
+        i = Object.prototype.hasOwnProperty,
+        a =
+          r.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+            .ReactCurrentOwner,
+        c = {key: !0, ref: !0, __self: !0, __source: !0};
+      function d(e, t, o) {
+        var r,
+          s = {},
+          d = null,
+          l = null;
+        for (r in (void 0 !== o && (d = '' + o),
+        void 0 !== t.key && (d = '' + t.key),
+        void 0 !== t.ref && (l = t.ref),
+        t))
+          i.call(t, r) && !c.hasOwnProperty(r) && (s[r] = t[r]);
+        if (e && e.defaultProps)
+          for (r in (t = e.defaultProps)) void 0 === s[r] && (s[r] = t[r]);
+        return {
+          $$typeof: n,
+          type: e,
+          key: d,
+          ref: l,
+          props: s,
+          _owner: a.current,
+        };
+      }
+      (t.Fragment = s), (t.jsx = d), (t.jsxs = d);
+    },
+    2540: (e, t, o) => {
+      e.exports = o(2192);
+    },
+    2104: (e, t, o) => {
+      o.r(t),
+        o.d(t, {
+          assets: () => c,
+          contentTitle: () => i,
+          default: () => u,
+          frontMatter: () => s,
+          metadata: () => a,
+          toc: () => d,
+        });
+      var r = o(2540),
+        n = o(3023);
+      const s = {id: 'intro-to-leads', title: 'Leads', description: 'desc'},
+        i = void 0,
+        a = {
+          id: 'intro-to-leads',
+          title: 'Leads',
+          description: 'desc',
+          source: '@site/../docs/intro-to-leads.md',
+          sourceDirName: '.',
+          slug: '/intro-to-leads',
+          permalink: '/docs/next/intro-to-leads',
+          draft: !1,
+          unlisted: !1,
+          editUrl:
+            'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/intro-to-leads.md',
+          tags: [],
+          version: 'current',
+          lastUpdatedAt: 1718748706e3,
+          frontMatter: {
+            id: 'intro-to-leads',
+            title: 'Leads',
+            description: 'desc',
+          },
+          sidebar: 'docs',
+          previous: {
+            title: 'Pixel Technology',
+            permalink: '/docs/next/intro-to-pixel-tech',
+          },
+          next: {
+            title: 'Dashboards & Reports',
+            permalink: '/docs/next/intro-to-dashboard',
+          },
+        },
+        c = {},
+        d = [];
+      function l(e) {
+        return (0, r.jsx)(r.Fragment, {});
+      }
+      function u(e = {}) {
+        const {wrapper: t} = {...(0, n.R)(), ...e.components};
+        return t ? (0, r.jsx)(t, {...e, children: (0, r.jsx)(l, {...e})}) : l();
+      }
+    },
+    3023: (e, t, o) => {
+      o.d(t, {R: () => i, x: () => a});
+      var r = o(3696);
+      const n = {},
+        s = r.createContext(n);
+      function i(e) {
+        const t = r.useContext(s);
+        return r.useMemo(
+          function () {
+            return 'function' == typeof e ? e(t) : {...t, ...e};
+          },
+          [t, e]
+        );
+      }
+      function a(e) {
+        let t;
+        return (
+          (t = e.disableParentContext
+            ? 'function' == typeof e.components
+              ? e.components(n)
+              : e.components || n
+            : i(e.components)),
+          r.createElement(s.Provider, {value: t}, e.children)
+        );
+      }
+    },
+  },
+]);

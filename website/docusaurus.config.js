@@ -15,8 +15,7 @@ const commonDocsOptions = {
   breadcrumbs: false,
   showLastUpdateAuthor: false,
   showLastUpdateTime: true,
-  editUrl:
-    'https://github.com/facebook/react-native-website/blob/main/website/',
+  editUrl: 'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/',
   remarkPlugins: [require('@react-native-website/remark-snackplayer')],
 };
 
@@ -275,6 +274,12 @@ module.exports = {
             href: 'https://app.heropixel.com/',
             label: 'Login',
             position: 'right',
+          },
+          {
+            href: 'https://github.com/Signal-ID/www-heropixel-com/discussions',
+            'aria-label': 'GitHub repository',
+            position: 'right',
+            className: 'navbar-github-link',
           },
           // {
           //   href: 'https://github.com/facebook/react-native',

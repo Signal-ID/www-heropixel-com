@@ -37,13 +37,13 @@
   ],
   "icons": [
     {
-      "src": "img/pwa/manifest-icon-192.png",
+      "src": "img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "img/pwa/manifest-icon-512.png",
+      "src": "img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
