@@ -1,4 +1,4 @@
-/*! For license information please see 4a9bda00.f08bd588.js.LICENSE.txt */
+/*! For license information please see 4a9bda00.a139d6df.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -82,7 +82,10 @@
             title: 'Pixel Installation',
             permalink: '/docs/start-pixel-installation',
           },
-          next: {title: 'Pageview', permalink: '/docs/event-pageview'},
+          next: {
+            title: 'Google Tag Manager Limitations',
+            permalink: '/docs/dont-install-with-gtm',
+          },
         },
         a = {},
         c = [

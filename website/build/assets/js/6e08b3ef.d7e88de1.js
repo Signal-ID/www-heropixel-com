@@ -1,4 +1,4 @@
-/*! For license information please see 6e08b3ef.0870111b.js.LICENSE.txt */
+/*! For license information please see 6e08b3ef.d7e88de1.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -75,8 +75,8 @@
           },
           sidebar: 'docs',
           previous: {
-            title: 'Get Your Leads',
-            permalink: '/docs/start-get-your-leads',
+            title: 'Shopify Settings Limitations',
+            permalink: '/docs/dont-install-with-shopify-settings',
           },
           next: {
             title: 'What are Supression Lists?',

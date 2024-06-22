@@ -12,6 +12,8 @@
       "start-get-your-leads"
     ],
     "The Pixel In-Depth": [
+      "dont-install-with-gtm",
+      "dont-install-with-shopify-settings",
       {
         "type": "category",
         "label": "Event Tracking",

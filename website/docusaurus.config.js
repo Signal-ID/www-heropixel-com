@@ -209,6 +209,8 @@ module.exports = {
       navbar: {
         logo: {
           src: 'img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png',
+          srcDark:
+            'img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-White-Medium.png',
           alt: 'Hero Pixel',
           href: '/docs',
         },

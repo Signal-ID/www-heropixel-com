@@ -1,4 +1,4 @@
-/*! For license information please see 159171c3.6e812326.js.LICENSE.txt */
+/*! For license information please see 159171c3.a3c1fb94.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -39,6 +39,12 @@
     2540: (e, t, r) => {
       e.exports = r(2192);
     },
+    7516: (e, t, r) => {
+      r.d(t, {A: () => n});
+      const n =
+        r.p +
+        'assets/images/registration-ss-8a0c9e949cf1dfc2b885f79966d0af24.png';
+    },
     9911: (e, t, r) => {
       r.r(t),
         r.d(t, {
@@ -71,7 +77,7 @@
             'https://github.com/facebook/react-native-website/blob/main/website/../docs/start-registration.md',
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1718828485e3,
+          lastUpdatedAt: 1719001274e3,
           frontMatter: {
             id: 'start-registration',
             title: 'Start by Registering',
@@ -100,6 +106,7 @@
           blockquote: 'blockquote',
           h1: 'h1',
           h2: 'h2',
+          img: 'img',
           li: 'li',
           ol: 'ol',
           p: 'p',
@@ -178,46 +185,53 @@
                   ],
                 }),
                 '\n',
+              ],
+            }),
+            '\n',
+            (0, n.jsxs)(t.p, {
+              children: [
+                (0, n.jsx)(t.img, {
+                  src: r(7516).A + '',
+                  width: '938',
+                  height: '1300',
+                }),
+                ' 2. ',
+                (0, n.jsx)(t.strong, {
+                  children: 'Fill in Personal Information',
+                }),
+              ],
+            }),
+            '\n',
+            (0, n.jsxs)(t.ul, {
+              children: [
+                '\n',
                 (0, n.jsxs)(t.li, {
                   children: [
-                    '\n',
-                    (0, n.jsx)(t.p, {
-                      children: (0, n.jsx)(t.strong, {
-                        children: 'Fill in Personal Information',
-                      }),
-                    }),
-                    '\n',
-                    (0, n.jsxs)(t.ul, {
-                      children: [
-                        '\n',
-                        (0, n.jsxs)(t.li, {
-                          children: [
-                            (0, n.jsx)(t.strong, {
-                              children: 'First & Last Name',
-                            }),
-                            ": This will be used to create your user account, you will not share this account. You'll be able to invite other users to create their own accounts and access your organization.",
-                          ],
-                        }),
-                        '\n',
-                        (0, n.jsxs)(t.li, {
-                          children: [
-                            (0, n.jsx)(t.strong, {children: 'Email Address'}),
-                            ': You will receive an email activation link, so make sure to double check the email you entered.',
-                          ],
-                        }),
-                        '\n',
-                        (0, n.jsxs)(t.li, {
-                          children: [
-                            (0, n.jsx)(t.strong, {children: 'Password Fields'}),
-                            ': Use 8 or more characters with a mix of letters, numbers & symbols. The four bars under your password will light green when all requirements are met.',
-                          ],
-                        }),
-                        '\n',
-                      ],
-                    }),
-                    '\n',
+                    (0, n.jsx)(t.strong, {children: 'First & Last Name'}),
+                    ": This will be used to create your user account, you will not share this account. You'll be able to invite other users to create their own accounts and access your organization.",
                   ],
                 }),
+                '\n',
+                (0, n.jsxs)(t.li, {
+                  children: [
+                    (0, n.jsx)(t.strong, {children: 'Email Address'}),
+                    ': You will receive an email activation link, so make sure to double check the email you entered.',
+                  ],
+                }),
+                '\n',
+                (0, n.jsxs)(t.li, {
+                  children: [
+                    (0, n.jsx)(t.strong, {children: 'Password Fields'}),
+                    ': Use 8 or more characters with a mix of letters, numbers & symbols. The four bars under your password will light green when all requirements are met.',
+                  ],
+                }),
+                '\n',
+              ],
+            }),
+            '\n',
+            (0, n.jsxs)(t.ol, {
+              start: '3',
+              children: [
                 '\n',
                 (0, n.jsxs)(t.li, {
                   children: [
