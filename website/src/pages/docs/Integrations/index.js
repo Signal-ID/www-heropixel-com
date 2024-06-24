@@ -9,9 +9,9 @@ import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-import Section from '../../components/Section';
-import SectionTitle from '../../components/SectionTitle';
-import SvgList from '../../components/IntegrationsList/svglist';
+import Section from '../../../components/Section';
+import SectionTitle from '../../../components/SectionTitle';
+import SvgList from '../../../components/IntegrationsList/svglist';
 
 import styles from './styles.module.css';
 

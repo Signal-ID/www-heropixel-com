@@ -1,0 +1,299 @@
+/*! For license information please see 3ced3daa.b87ce0ad.js.LICENSE.txt */
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [2373],
+  {
+    2192: (e, t, s) => {
+      var n = s(3696),
+        i = Symbol.for('react.element'),
+        r = Symbol.for('react.fragment'),
+        l = Object.prototype.hasOwnProperty,
+        d =
+          n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+            .ReactCurrentOwner,
+        o = {key: !0, ref: !0, __self: !0, __source: !0};
+      function a(e, t, s) {
+        var n,
+          r = {},
+          a = null,
+          c = null;
+        for (n in (void 0 !== s && (a = '' + s),
+        void 0 !== t.key && (a = '' + t.key),
+        void 0 !== t.ref && (c = t.ref),
+        t))
+          l.call(t, n) && !o.hasOwnProperty(n) && (r[n] = t[n]);
+        if (e && e.defaultProps)
+          for (n in (t = e.defaultProps)) void 0 === r[n] && (r[n] = t[n]);
+        return {
+          $$typeof: i,
+          type: e,
+          key: a,
+          ref: c,
+          props: r,
+          _owner: d.current,
+        };
+      }
+      (t.Fragment = r), (t.jsx = a), (t.jsxs = a);
+    },
+    2540: (e, t, s) => {
+      e.exports = s(2192);
+    },
+    7765: (e, t, s) => {
+      s.r(t),
+        s.d(t, {
+          assets: () => o,
+          contentTitle: () => l,
+          default: () => h,
+          frontMatter: () => r,
+          metadata: () => d,
+          toc: () => a,
+        });
+      var n = s(2540),
+        i = s(3023);
+      const r = {id: 'typesense', title: 'Typesense', description: 'typesense'},
+        l = 'Typesense',
+        d = {
+          id: 'destinations/typesense',
+          title: 'Typesense',
+          description: 'typesense',
+          source:
+            '@site/versioned_docs/version-0.0.1/destinations/typesense.md',
+          sourceDirName: 'destinations',
+          slug: '/destinations/typesense',
+          permalink: '/docs/destinations/typesense',
+          draft: !1,
+          unlisted: !1,
+          editUrl:
+            'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/destinations/typesense.md',
+          tags: [],
+          version: '0.0.1',
+          lastUpdatedAt: 1719260246e3,
+          frontMatter: {
+            id: 'typesense',
+            title: 'Typesense',
+            description: 'typesense',
+          },
+          sidebar: 'integrations',
+          previous: {
+            title: 'Texthub SMS',
+            permalink: '/docs/destinations/texthub',
+          },
+          next: {title: 'Vectara', permalink: '/docs/destinations/vectara'},
+        },
+        o = {},
+        a = [
+          {value: 'Overview', id: 'overview', level: 2},
+          {value: 'Sync overview', id: 'sync-overview', level: 3},
+          {value: 'Output schema', id: 'output-schema', level: 4},
+          {value: 'Features', id: 'features', level: 4},
+          {value: 'Getting started', id: 'getting-started', level: 2},
+          {value: 'Requirements', id: 'requirements', level: 3},
+          {value: 'Setup guide', id: 'setup-guide', level: 3},
+        ];
+      function c(e) {
+        const t = {
+          a: 'a',
+          code: 'code',
+          h1: 'h1',
+          h2: 'h2',
+          h3: 'h3',
+          h4: 'h4',
+          p: 'p',
+          table: 'table',
+          tbody: 'tbody',
+          td: 'td',
+          th: 'th',
+          thead: 'thead',
+          tr: 'tr',
+          ...(0, i.R)(),
+          ...e.components,
+        };
+        return (0, n.jsxs)(n.Fragment, {
+          children: [
+            (0, n.jsx)(t.h1, {id: 'typesense', children: 'Typesense'}),
+            '\n',
+            (0, n.jsx)(t.h2, {id: 'overview', children: 'Overview'}),
+            '\n',
+            (0, n.jsx)(t.p, {
+              children:
+                'The Hero Pixel Typesense destination allows you to sync data to Typesense. Typesense is a modern, privacy-friendly, open source search engine built from the ground up using cutting-edge search algorithms, that take advantage of the latest advances in hardware capabilities.',
+            }),
+            '\n',
+            (0, n.jsx)(t.h3, {id: 'sync-overview', children: 'Sync overview'}),
+            '\n',
+            (0, n.jsxs)(t.p, {
+              children: [
+                'Using overwrite sync, the ',
+                (0, n.jsx)(t.a, {
+                  href: 'https://typesense.org/docs/0.23.1/api/collections.html#with-auto-schema-detection',
+                  children: 'auto schema detection',
+                }),
+                ' is used and all the fields in a document are automatically indexed for searching and filtering',
+              ],
+            }),
+            '\n',
+            (0, n.jsxs)(t.p, {
+              children: [
+                'With append mode, you have to create the collection first and can use ',
+                (0, n.jsx)(t.a, {
+                  href: 'https://typesense.org/docs/0.23.1/api/collections.html#with-pre-defined-schema',
+                  children: 'pre-defined schema',
+                }),
+                ' that gives you fine-grained control over your document fields.',
+              ],
+            }),
+            '\n',
+            (0, n.jsx)(t.h4, {id: 'output-schema', children: 'Output schema'}),
+            '\n',
+            (0, n.jsx)(t.p, {
+              children:
+                'Each stream will be output into its own collection in Typesense. If an id column is not provided, it will be generated.',
+            }),
+            '\n',
+            (0, n.jsx)(t.h4, {id: 'features', children: 'Features'}),
+            '\n',
+            (0, n.jsxs)(t.table, {
+              children: [
+                (0, n.jsx)(t.thead, {
+                  children: (0, n.jsxs)(t.tr, {
+                    children: [
+                      (0, n.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Feature',
+                      }),
+                      (0, n.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Supported?(Yes/No)',
+                      }),
+                      (0, n.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Notes',
+                      }),
+                    ],
+                  }),
+                }),
+                (0, n.jsxs)(t.tbody, {
+                  children: [
+                    (0, n.jsxs)(t.tr, {
+                      children: [
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Full Refresh Sync',
+                        }),
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Yes',
+                        }),
+                        (0, n.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                    (0, n.jsxs)(t.tr, {
+                      children: [
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Incremental - Append Sync',
+                        }),
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Yes',
+                        }),
+                        (0, n.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                    (0, n.jsxs)(t.tr, {
+                      children: [
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Incremental - Append + Deduped',
+                        }),
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'No',
+                        }),
+                        (0, n.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                    (0, n.jsxs)(t.tr, {
+                      children: [
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Namespaces',
+                        }),
+                        (0, n.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'No',
+                        }),
+                        (0, n.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, n.jsx)(t.h2, {
+              id: 'getting-started',
+              children: 'Getting started',
+            }),
+            '\n',
+            (0, n.jsx)(t.h3, {id: 'requirements', children: 'Requirements'}),
+            '\n',
+            (0, n.jsxs)(t.p, {
+              children: [
+                "To use the Typesense destination, you'll need an existing Typesense instance. You can learn about how to create one in the ",
+                (0, n.jsx)(t.a, {
+                  href: 'https://typesense.org/docs/guide/install-typesense.html',
+                  children: 'Typesense docs',
+                }),
+                '.',
+              ],
+            }),
+            '\n',
+            (0, n.jsx)(t.h3, {id: 'setup-guide', children: 'Setup guide'}),
+            '\n',
+            (0, n.jsxs)(t.p, {
+              children: [
+                'The setup only requires two fields. First is the ',
+                (0, n.jsx)(t.code, {children: 'host'}),
+                ' which is the address at which Typesense can be reached. The second piece of information is the API key.',
+              ],
+            }),
+          ],
+        });
+      }
+      function h(e = {}) {
+        const {wrapper: t} = {...(0, i.R)(), ...e.components};
+        return t
+          ? (0, n.jsx)(t, {...e, children: (0, n.jsx)(c, {...e})})
+          : c(e);
+      }
+    },
+    3023: (e, t, s) => {
+      s.d(t, {R: () => l, x: () => d});
+      var n = s(3696);
+      const i = {},
+        r = n.createContext(i);
+      function l(e) {
+        const t = n.useContext(r);
+        return n.useMemo(
+          function () {
+            return 'function' == typeof e ? e(t) : {...t, ...e};
+          },
+          [t, e]
+        );
+      }
+      function d(e) {
+        let t;
+        return (
+          (t = e.disableParentContext
+            ? 'function' == typeof e.components
+              ? e.components(i)
+              : e.components || i
+            : l(e.components)),
+          n.createElement(r.Provider, {value: t}, e.children)
+        );
+      }
+    },
+  },
+]);

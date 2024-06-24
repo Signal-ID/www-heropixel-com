@@ -4,7 +4,7 @@ title: Overview of Destinations
 description: desc
 ---
 
-import SvgTable from '@site/src/pages/components/IntegrationsList/SvgTable';
+import SvgTable from '@site/src/components/IntegrationsList/SvgTable';
 
 # Hero Pixel Leads to Destinations
 
