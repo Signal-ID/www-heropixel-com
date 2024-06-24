@@ -1,0 +1,1058 @@
+/*! For license information please see b454a554.bbecb4a6.js.LICENSE.txt */
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [1567],
+  {
+    2192: (e, t, n) => {
+      var s = n(3696),
+        r = Symbol.for('react.element'),
+        i = Symbol.for('react.fragment'),
+        l = Object.prototype.hasOwnProperty,
+        a =
+          s.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+            .ReactCurrentOwner,
+        o = {key: !0, ref: !0, __self: !0, __source: !0};
+      function d(e, t, n) {
+        var s,
+          i = {},
+          d = null,
+          c = null;
+        for (s in (void 0 !== n && (d = '' + n),
+        void 0 !== t.key && (d = '' + t.key),
+        void 0 !== t.ref && (c = t.ref),
+        t))
+          l.call(t, s) && !o.hasOwnProperty(s) && (i[s] = t[s]);
+        if (e && e.defaultProps)
+          for (s in (t = e.defaultProps)) void 0 === i[s] && (i[s] = t[s]);
+        return {
+          $$typeof: r,
+          type: e,
+          key: d,
+          ref: c,
+          props: i,
+          _owner: a.current,
+        };
+      }
+      (t.Fragment = i), (t.jsx = d), (t.jsxs = d);
+    },
+    2540: (e, t, n) => {
+      e.exports = n(2192);
+    },
+    259: (e, t, n) => {
+      n.r(t),
+        n.d(t, {
+          assets: () => o,
+          contentTitle: () => l,
+          default: () => h,
+          frontMatter: () => i,
+          metadata: () => a,
+          toc: () => d,
+        });
+      var s = n(2540),
+        r = n(3023);
+      const i = {id: 'snowflake', title: 'Snowflake', description: 'snowflake'},
+        l = 'Snowflake',
+        a = {
+          id: 'destinations/snowflake',
+          title: 'Snowflake',
+          description: 'snowflake',
+          source:
+            '@site/versioned_docs/version-0.0.1/destinations/snowflake.md',
+          sourceDirName: 'destinations',
+          slug: '/destinations/snowflake',
+          permalink: '/docs/destinations/snowflake',
+          draft: !1,
+          unlisted: !1,
+          editUrl:
+            'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/destinations/snowflake.md',
+          tags: [],
+          version: '0.0.1',
+          frontMatter: {
+            id: 'snowflake',
+            title: 'Snowflake',
+            description: 'snowflake',
+          },
+          sidebar: 'integrations',
+          previous: {
+            title: 'Snowflake Cortex',
+            permalink: '/docs/destinations/snowflake-cortex',
+          },
+          next: {
+            title: 'Starburst Galaxy',
+            permalink: '/docs/destinations/starburst-galaxy',
+          },
+        },
+        o = {},
+        d = [
+          {value: 'Prerequisites', id: 'prerequisites', level: 2},
+          {value: 'Network policies', id: 'network-policies', level: 3},
+          {value: 'Setup guide', id: 'setup-guide', level: 2},
+          {
+            value: 'Step 1: Set up Hero Pixel-specific entities in Snowflake',
+            id: 'step-1-set-up-hero-pixel-specific-entities-in-snowflake',
+            level: 3,
+          },
+          {
+            value: 'Step 2: Set up a data loading method',
+            id: 'step-2-set-up-a-data-loading-method',
+            level: 3,
+          },
+          {
+            value: 'Step 3: Set up Snowflake as a destination in Hero Pixel',
+            id: 'step-3-set-up-snowflake-as-a-destination-in-hero-pixel',
+            level: 3,
+          },
+          {value: 'Login and Password', id: 'login-and-password', level: 3},
+          {
+            value: 'Key pair authentication',
+            id: 'key-pair-authentication',
+            level: 3,
+          },
+          {value: 'Output schema', id: 'output-schema', level: 2},
+          {value: 'Raw Table schema', id: 'raw-table-schema', level: 3},
+          {value: 'Data type map', id: 'data-type-map', level: 2},
+          {value: 'Supported sync modes', id: 'supported-sync-modes', level: 2},
+          {value: 'Troubleshooting', id: 'troubleshooting', level: 2},
+          {
+            value:
+              '&#39;Current role does not have permissions on the target schema&#39;',
+            id: 'current-role-does-not-have-permissions-on-the-target-schema',
+            level: 3,
+          },
+        ];
+      function c(e) {
+        const t = {
+          a: 'a',
+          code: 'code',
+          em: 'em',
+          h1: 'h1',
+          h2: 'h2',
+          h3: 'h3',
+          li: 'li',
+          ol: 'ol',
+          p: 'p',
+          pre: 'pre',
+          strong: 'strong',
+          table: 'table',
+          tbody: 'tbody',
+          td: 'td',
+          th: 'th',
+          thead: 'thead',
+          tr: 'tr',
+          ul: 'ul',
+          ...(0, r.R)(),
+          ...e.components,
+        };
+        return (0, s.jsxs)(s.Fragment, {
+          children: [
+            (0, s.jsx)(t.h1, {id: 'snowflake', children: 'Snowflake'}),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'Setting up the Snowflake destination connector involves setting up Snowflake entities (warehouse,\ndatabase, schema, user, and role) in the Snowflake console and configuring the Snowflake destination\nconnector using the Hero Pixel UI.',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'This page describes the step-by-step process of setting up the Snowflake destination connector.',
+            }),
+            '\n',
+            (0, s.jsx)(t.h2, {id: 'prerequisites', children: 'Prerequisites'}),
+            '\n',
+            (0, s.jsxs)(t.ul, {
+              children: [
+                '\n',
+                (0, s.jsxs)(t.li, {
+                  children: [
+                    'A Snowflake account with the\n',
+                    (0, s.jsx)(t.a, {
+                      href: 'https://docs.snowflake.com/en/user-guide/security-access-control-considerations.html',
+                      children: 'ACCOUNTADMIN',
+                    }),
+                    '\nrole. If you don\u2019t have an account with the ',
+                    (0, s.jsx)(t.code, {children: 'ACCOUNTADMIN'}),
+                    ' role, contact your Snowflake\nadministrator to set one up for you.',
+                  ],
+                }),
+                '\n',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'network-policies',
+              children: 'Network policies',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'By default, Snowflake allows users to connect to the service from any computer or device IP address.\nA security administrator (i.e. users with the SECURITYADMIN role) or higher can create a network\npolicy to allow or deny access to a single IP address or a list of addresses.',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'If you have any issues connecting with Hero Pixel Cloud please make sure that the list of IP addresses\nis on the allowed list',
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'To determine whether a network policy is set on your account or for a specific user, execute the\n',
+                (0, s.jsx)(t.em, {children: 'SHOW PARAMETERS'}),
+                ' command.',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children: (0, s.jsx)(t.strong, {children: 'Account'}),
+            }),
+            '\n',
+            (0, s.jsx)(t.pre, {
+              children: (0, s.jsx)(t.code, {
+                children: "SHOW PARAMETERS LIKE 'network_policy' IN ACCOUNT;\n",
+              }),
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children: (0, s.jsx)(t.strong, {children: 'User'}),
+            }),
+            '\n',
+            (0, s.jsx)(t.pre, {
+              children: (0, s.jsx)(t.code, {
+                children:
+                  "SHOW PARAMETERS LIKE 'network_policy' IN USER <username>;\n",
+              }),
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'To read more please check official\n',
+                (0, s.jsx)(t.a, {
+                  href: 'https://docs.snowflake.com/en/user-guide/network-policies.html#',
+                  children: 'Snowflake documentation',
+                }),
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h2, {id: 'setup-guide', children: 'Setup guide'}),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'step-1-set-up-hero-pixel-specific-entities-in-snowflake',
+              children:
+                'Step 1: Set up Hero Pixel-specific entities in Snowflake',
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'To set up the Snowflake destination connector, you first need to create Hero Pixel-specific Snowflake\nentities (a warehouse, database, schema, user, and role) with the ',
+                (0, s.jsx)(t.code, {children: 'OWNERSHIP'}),
+                ' permission to write\ndata into Snowflake, track costs pertaining to Hero Pixel, and control permissions at a granular level.',
+              ],
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'You can use the following script in a new\n',
+                (0, s.jsx)(t.a, {
+                  href: 'https://docs.snowflake.com/en/user-guide/ui-worksheet.html',
+                  children: 'Snowflake worksheet',
+                }),
+                ' to create the\nentities:',
+              ],
+            }),
+            '\n',
+            (0, s.jsxs)(t.ol, {
+              children: [
+                '\n',
+                (0, s.jsxs)(t.li, {
+                  children: [
+                    '\n',
+                    (0, s.jsxs)(t.p, {
+                      children: [
+                        (0, s.jsx)(t.a, {
+                          href: 'https://www.snowflake.com/login/',
+                          children: 'Log into your Snowflake account',
+                        }),
+                        '.',
+                      ],
+                    }),
+                    '\n',
+                  ],
+                }),
+                '\n',
+                (0, s.jsxs)(t.li, {
+                  children: [
+                    '\n',
+                    (0, s.jsx)(t.p, {
+                      children:
+                        'Edit the following script to change the password to a more secure password and to change the\nnames of other resources if you so desire.',
+                    }),
+                    '\n',
+                    (0, s.jsxs)(t.p, {
+                      children: [
+                        (0, s.jsx)(t.strong, {children: 'Note:'}),
+                        ' Make sure you follow the\n',
+                        (0, s.jsx)(t.a, {
+                          href: 'https://docs.snowflake.com/en/sql-reference/identifiers-syntax.html',
+                          children: 'Snowflake identifier requirements',
+                        }),
+                        '\nwhile renaming the resources.',
+                      ],
+                    }),
+                    '\n',
+                  ],
+                }),
+                '\n',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.pre, {
+              children: (0, s.jsx)(t.code, {
+                className: 'language-sql',
+                children:
+                  "-- set variables (these need to be uppercase)\nset airbyte_role = 'AIRBYTE_ROLE';\nset airbyte_username = 'AIRBYTE_USER';\nset airbyte_warehouse = 'AIRBYTE_WAREHOUSE';\nset airbyte_database = 'AIRBYTE_DATABASE';\nset airbyte_schema = 'AIRBYTE_SCHEMA';\n\n-- set user password\nset airbyte_password = 'password';\n\nbegin;\n\n-- create Hero Pixel role\nuse role securityadmin;\ncreate role if not exists identifier($airbyte_role);\ngrant role identifier($airbyte_role) to role SYSADMIN;\n\n-- create Hero Pixel user\ncreate user if not exists identifier($airbyte_username)\npassword = $airbyte_password\ndefault_role = $airbyte_role\ndefault_warehouse = $airbyte_warehouse;\n\ngrant role identifier($airbyte_role) to user identifier($airbyte_username);\n\n-- change role to sysadmin for warehouse / database steps\nuse role sysadmin;\n\n-- create Hero Pixel warehouse\ncreate warehouse if not exists identifier($airbyte_warehouse)\nwarehouse_size = xsmall\nwarehouse_type = standard\nauto_suspend = 60\nauto_resume = true\ninitially_suspended = true;\n\n-- create Hero Pixel database\ncreate database if not exists identifier($airbyte_database);\n\n-- grant Hero Pixel warehouse access\ngrant USAGE\non warehouse identifier($airbyte_warehouse)\nto role identifier($airbyte_role);\n\n-- grant Hero Pixel database access\ngrant OWNERSHIP\non database identifier($airbyte_database)\nto role identifier($airbyte_role);\n\ncommit;\n\nbegin;\n\nUSE DATABASE identifier($airbyte_database);\n\n-- create schema for Hero Pixel data\nCREATE SCHEMA IF NOT EXISTS identifier($airbyte_schema);\n\ncommit;\n\nbegin;\n\n-- grant Hero Pixel schema access\ngrant OWNERSHIP\non schema identifier($airbyte_schema)\nto role identifier($airbyte_role);\n\ncommit;\n",
+              }),
+            }),
+            '\n',
+            (0, s.jsxs)(t.ol, {
+              start: '3',
+              children: [
+                '\n',
+                (0, s.jsxs)(t.li, {
+                  children: [
+                    'Run the script using the\n',
+                    (0, s.jsx)(t.a, {
+                      href: 'https://docs.snowflake.com/en/user-guide/ui-worksheet.html',
+                      children: 'Worksheet page',
+                    }),
+                    ' or\n',
+                    (0, s.jsx)(t.a, {
+                      href: 'https://docs.snowflake.com/en/user-guide/ui-snowsight-gs.html',
+                      children: 'Snowsight',
+                    }),
+                    '. Make sure to select\nthe ',
+                    (0, s.jsx)(t.strong, {children: 'All Queries'}),
+                    ' checkbox.',
+                  ],
+                }),
+                '\n',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'step-2-set-up-a-data-loading-method',
+              children: 'Step 2: Set up a data loading method',
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'Hero Pixel uses Snowflake\u2019s\n',
+                (0, s.jsx)(t.a, {
+                  href: 'https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage.html',
+                  children: 'Internal Stage',
+                }),
+                '\nto load data.',
+              ],
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'Make sure the database and schema have the ',
+                (0, s.jsx)(t.code, {children: 'USAGE'}),
+                ' privilege.',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'step-3-set-up-snowflake-as-a-destination-in-hero-pixel',
+              children:
+                'Step 3: Set up Snowflake as a destination in Hero Pixel',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'Navigate to the Hero Pixel UI to set up Snowflake as a destination. You can authenticate using\nusername/password or key pair authentication:',
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'login-and-password',
+              children: 'Login and Password',
+            }),
+            '\n',
+            (0, s.jsxs)(t.table, {
+              children: [
+                (0, s.jsx)(t.thead, {
+                  children: (0, s.jsxs)(t.tr, {
+                    children: [
+                      (0, s.jsx)(t.th, {children: 'Field'}),
+                      (0, s.jsx)(t.th, {children: 'Description'}),
+                    ],
+                  }),
+                }),
+                (0, s.jsxs)(t.tbody, {
+                  children: [
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          children: (0, s.jsx)(t.a, {
+                            href: 'https://docs.snowflake.com/en/user-guide/admin-account-identifier.html',
+                            children: 'Host',
+                          }),
+                        }),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'The host domain of the snowflake instance (must include the account, region, cloud environment, and end with snowflakecomputing.com). Example: ',
+                            (0, s.jsx)(t.code, {
+                              children:
+                                'accountname.us-east-2.aws.snowflakecomputing.com',
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          children: (0, s.jsx)(t.a, {
+                            href: 'https://docs.snowflake.com/en/user-guide/security-access-control-overview.html#roles',
+                            children: 'Role',
+                          }),
+                        }),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'The role you created in Step 1 for Hero Pixel to access Snowflake. Example: ',
+                            (0, s.jsx)(t.code, {children: 'AIRBYTE_ROLE'}),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          children: (0, s.jsx)(t.a, {
+                            href: 'https://docs.snowflake.com/en/user-guide/warehouses-overview.html#overview-of-warehouses',
+                            children: 'Warehouse',
+                          }),
+                        }),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'The warehouse you created in Step 1 for Hero Pixel to sync data into. Example: ',
+                            (0, s.jsx)(t.code, {children: 'AIRBYTE_WAREHOUSE'}),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          children: (0, s.jsx)(t.a, {
+                            href: 'https://docs.snowflake.com/en/sql-reference/ddl-database.html#database-schema-share-ddl',
+                            children: 'Database',
+                          }),
+                        }),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'The database you created in Step 1 for Hero Pixel to sync data into. Example: ',
+                            (0, s.jsx)(t.code, {children: 'AIRBYTE_DATABASE'}),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          children: (0, s.jsx)(t.a, {
+                            href: 'https://docs.snowflake.com/en/sql-reference/ddl-database.html#database-schema-share-ddl',
+                            children: 'Schema',
+                          }),
+                        }),
+                        (0, s.jsx)(t.td, {
+                          children:
+                            'The default schema used as the target schema for all statements issued from the connection that do not explicitly specify a schema name.',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {children: 'Username'}),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'The username you created in Step 1 to allow Hero Pixel to access the database. Example: ',
+                            (0, s.jsx)(t.code, {children: 'AIRBYTE_USER'}),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {children: 'Password'}),
+                        (0, s.jsx)(t.td, {
+                          children:
+                            'The password associated with the username.',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            (0, s.jsx)(t.a, {
+                              href: 'https://docs.snowflake.com/en/user-guide/jdbc-parameters.html',
+                              children: 'JDBC URL Params',
+                            }),
+                            ' (Optional)',
+                          ],
+                        }),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'Additional properties to pass to the JDBC URL string when connecting to the database formatted as ',
+                            (0, s.jsx)(t.code, {children: 'key=value'}),
+                            ' pairs separated by the symbol ',
+                            (0, s.jsx)(t.code, {children: '&'}),
+                            '. Example: ',
+                            (0, s.jsx)(t.code, {
+                              children: 'key1=value1&key2=value2&key3=value3',
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          children: 'Disable Final Tables (Optional)',
+                        }),
+                        (0, s.jsxs)(t.td, {
+                          children: [
+                            'Disables writing final Typed tables See ',
+                            (0, s.jsx)(t.a, {
+                              href: '#output-schema',
+                              children: 'output schema',
+                            }),
+                            '. WARNING! The data format in _airbyte_data is likely stable but there are no guarantees that other metadata columns will remain the same in future versions',
+                          ],
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'key-pair-authentication',
+              children: 'Key pair authentication',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'In order to configure key pair authentication you will need a private/public key pair.\nIf you do not have the key pair yet, you can generate one using openssl command line tool\nUse this command in order to generate an unencrypted private key file:',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children: (0, s.jsx)(t.code, {
+                children:
+                  'openssl genrsa 2048 | openssl pkcs8 -topk8 -inform PEM -out rsa_key.p8 -nocrypt',
+              }),
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'Alternatively, use this command to generate an encrypted private key file:',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children: (0, s.jsx)(t.code, {
+                children:
+                  'openssl genrsa 2048 | openssl pkcs8 -topk8 -inform PEM -v1 PBE-SHA1-RC4-128 -out rsa_key.p8',
+              }),
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'Once you have your private key, you need to generate a matching public key.\nYou can do so with the following command:',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children: (0, s.jsx)(t.code, {
+                children: 'openssl rsa -in rsa_key.p8 -pubout -out rsa_key.pub',
+              }),
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'Finally, you need to add the public key to your Snowflake user account.\nYou can do so with the following SQL command in Snowflake:',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children: (0, s.jsx)(t.code, {
+                children:
+                  'alter user <user_name> set rsa_public_key=<public_key_value>;',
+              }),
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'and replace ',
+                (0, s.jsx)(t.code, {children: '<user_name>'}),
+                ' with your user name and ',
+                (0, s.jsx)(t.code, {children: '<public_key_value>'}),
+                ' with your public key.',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h2, {id: 'output-schema', children: 'Output schema'}),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'Hero Pixel outputs each stream into its own raw table in ',
+                (0, s.jsx)(t.code, {children: 'airbyte_internal'}),
+                ' schema by default (can be\noverriden by user) and a final table with Typed columns. Contents in raw table are ',
+                (0, s.jsx)(t.em, {children: 'NOT'}),
+                '\ndeduplicated.',
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'raw-table-schema',
+              children: 'Raw Table schema',
+            }),
+            '\n',
+            (0, s.jsxs)(t.table, {
+              children: [
+                (0, s.jsx)(t.thead, {
+                  children: (0, s.jsxs)(t.tr, {
+                    children: [
+                      (0, s.jsx)(t.th, {children: 'Hero Pixel field'}),
+                      (0, s.jsx)(t.th, {children: 'Description'}),
+                      (0, s.jsx)(t.th, {children: 'Column type'}),
+                    ],
+                  }),
+                }),
+                (0, s.jsxs)(t.tbody, {
+                  children: [
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {children: '_airbyte_raw_id'}),
+                        (0, s.jsx)(t.td, {
+                          children: 'A UUID assigned to each processed event',
+                        }),
+                        (0, s.jsx)(t.td, {children: 'VARCHAR'}),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {children: '_airbyte_extracted_at'}),
+                        (0, s.jsx)(t.td, {
+                          children:
+                            'A timestamp for when the event was pulled from the data source',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          children: 'TIMESTAMP WITH TIME ZONE',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {children: '_airbyte_loaded_at'}),
+                        (0, s.jsx)(t.td, {
+                          children:
+                            'Timestamp to indicate when the record was loaded into Typed tables',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          children: 'TIMESTAMP WITH TIME ZONE',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {children: '_airbyte_data'}),
+                        (0, s.jsx)(t.td, {
+                          children: 'A JSON blob with the event data.',
+                        }),
+                        (0, s.jsx)(t.td, {children: 'VARIANT'}),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                (0, s.jsx)(t.strong, {children: 'Note:'}),
+                ' Although the contents of the ',
+                (0, s.jsx)(t.code, {children: '_airbyte_data'}),
+                ' are fairly stable, schema of the raw table\ncould be subject to change in future versions.',
+              ],
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                (0, s.jsx)(t.strong, {children: 'Note:'}),
+                ' By default, Hero Pixel creates permanent tables. If you prefer transient tables, create a\ndedicated transient database for Hero Pixel. For more information, refer\nto',
+                (0, s.jsx)(t.a, {
+                  href: 'https://docs.snowflake.com/en/user-guide/tables-temp-transient.html',
+                  children: ' Working with Temporary and Transient Tables',
+                }),
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h2, {id: 'data-type-map', children: 'Data type map'}),
+            '\n',
+            (0, s.jsxs)(t.table, {
+              children: [
+                (0, s.jsx)(t.thead, {
+                  children: (0, s.jsxs)(t.tr, {
+                    children: [
+                      (0, s.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Hero Pixel type',
+                      }),
+                      (0, s.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Snowflake type',
+                      }),
+                    ],
+                  }),
+                }),
+                (0, s.jsxs)(t.tbody, {
+                  children: [
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TEXT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (BASE64)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TEXT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (BIG_NUMBER)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TEXT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (BIG_INTEGER)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TEXT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'NUMBER',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'FLOAT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'INTEGER',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'NUMBER',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'BOOLEAN',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'BOOLEAN',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (TIMESTAMP_WITH_TIMEZONE)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TIMESTAMP_TZ',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (TIMESTAMP_WITHOUT_TIMEZONE)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TIMESTAMP_NTZ',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (TIME_WITH_TIMEZONE)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TEXT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'STRING (TIME_WITHOUT_TIMEZONE)',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'TIME',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'DATE',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'DATE',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'OBJECT',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'OBJECT',
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'ARRAY',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'ARRAY',
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h2, {
+              id: 'supported-sync-modes',
+              children: 'Supported sync modes',
+            }),
+            '\n',
+            (0, s.jsx)(t.p, {
+              children:
+                'The Snowflake destination supports the following sync modes:',
+            }),
+            '\n',
+            (0, s.jsxs)(t.table, {
+              children: [
+                (0, s.jsx)(t.thead, {
+                  children: (0, s.jsxs)(t.tr, {
+                    children: [
+                      (0, s.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Feature',
+                      }),
+                      (0, s.jsx)(t.th, {
+                        style: {textAlign: 'center'},
+                        children: 'Support',
+                      }),
+                      (0, s.jsx)(t.th, {
+                        style: {textAlign: 'left'},
+                        children: 'Notes',
+                      }),
+                    ],
+                  }),
+                }),
+                (0, s.jsxs)(t.tbody, {
+                  children: [
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Full Refresh - Overwrite',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'center'},
+                          children: '\u2705',
+                        }),
+                        (0, s.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Full Refresh - Append',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'center'},
+                          children: '\u2705',
+                        }),
+                        (0, s.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Incremental Sync - Append',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'center'},
+                          children: '\u2705',
+                        }),
+                        (0, s.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                    (0, s.jsxs)(t.tr, {
+                      children: [
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'left'},
+                          children: 'Incremental - Append + Deduped',
+                        }),
+                        (0, s.jsx)(t.td, {
+                          style: {textAlign: 'center'},
+                          children: '\u2705',
+                        }),
+                        (0, s.jsx)(t.td, {style: {textAlign: 'left'}}),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, s.jsx)(t.h2, {
+              id: 'troubleshooting',
+              children: 'Troubleshooting',
+            }),
+            '\n',
+            (0, s.jsx)(t.h3, {
+              id: 'current-role-does-not-have-permissions-on-the-target-schema',
+              children:
+                "'Current role does not have permissions on the target schema'",
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                'If you receive an error stating ',
+                (0, s.jsx)(t.code, {
+                  children:
+                    'Current role does not have permissions on the target schema',
+                }),
+                ' make\nsure that the Snowflake destination ',
+                (0, s.jsx)(t.code, {children: 'SCHEMA'}),
+                " is one that the role you've provided has permissions\non. When creating a connection, it may allow you to select ",
+                (0, s.jsx)(t.code, {children: 'Mirror source structure'}),
+                ' for the\n',
+                (0, s.jsx)(t.code, {children: 'Destination namespace'}),
+                ', which if you have followed some of our default examples and tutorials may\nresult in the connection trying to write to a ',
+                (0, s.jsx)(t.code, {children: 'PUBLIC'}),
+                ' schema.',
+              ],
+            }),
+            '\n',
+            (0, s.jsxs)(t.p, {
+              children: [
+                "A quick fix could be to edit your connection's 'Replication' settings from ",
+                (0, s.jsx)(t.code, {children: 'Mirror source structure'}),
+                '\nto ',
+                (0, s.jsx)(t.code, {children: 'Destination Default'}),
+                '. Otherwise, make sure to grant the role the required permissions in the\ndesired namespace.',
+              ],
+            }),
+          ],
+        });
+      }
+      function h(e = {}) {
+        const {wrapper: t} = {...(0, r.R)(), ...e.components};
+        return t
+          ? (0, s.jsx)(t, {...e, children: (0, s.jsx)(c, {...e})})
+          : c(e);
+      }
+    },
+    3023: (e, t, n) => {
+      n.d(t, {R: () => l, x: () => a});
+      var s = n(3696);
+      const r = {},
+        i = s.createContext(r);
+      function l(e) {
+        const t = s.useContext(i);
+        return s.useMemo(
+          function () {
+            return 'function' == typeof e ? e(t) : {...t, ...e};
+          },
+          [t, e]
+        );
+      }
+      function a(e) {
+        let t;
+        return (
+          (t = e.disableParentContext
+            ? 'function' == typeof e.components
+              ? e.components(r)
+              : e.components || r
+            : l(e.components)),
+          s.createElement(i.Provider, {value: t}, e.children)
+        );
+      }
+    },
+  },
+]);

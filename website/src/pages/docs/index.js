@@ -29,7 +29,7 @@ export default function Docs() {
       </div>
 
       <QuickLinks />
-      {/* <Integrations /> */}
+      <Integrations />
     </Layout>
   );
 }

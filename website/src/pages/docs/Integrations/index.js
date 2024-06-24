@@ -11,6 +11,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import Section from '../../components/Section';
 import SectionTitle from '../../components/SectionTitle';
+import SvgList from '../../components/IntegrationsList/svglist';
 
 import styles from './styles.module.css';
 
@@ -26,68 +27,25 @@ function Integrations() {
       <div className={styles.featureContainer}>
         <div>
           <p>
-            Meta released React Native in 2015 and has been maintaining it ever
-            since.
+            Prior to providing integrations natively we saw our customers
+            spending thousands upon thousands of dollars on zapier connections.
           </p>
           <p>
-            In 2018, React Native had the{' '}
-            <a href="https://octoverse.github.com/2018/projects#repositories">
-              2nd highest
-            </a>{' '}
-            number of contributors for any repository in GitHub. Today, React
-            Native is supported by contributions from individuals and companies
-            around the world including{' '}
-            <span>
-              <a href="https://callstack.com/">Callstack</a>
-            </span>
-            ,{' '}
-            <span>
-              <a href="https://expo.io/">Expo</a>
-            </span>
-            , <a href="https://infinite.red/">Infinite Red</a>,{' '}
-            <a href="https://www.microsoft.com/">Microsoft</a> and{' '}
-            <a href="https://swmansion.com/">Software Mansion</a>.
+            We didn't want our service to impose uneccessary costs onto our
+            clients, just so they could take position of their leads. For that
+            reason, we decided to build and maintain the necessary integrations
+            to make our client's lives easier.
           </p>
           <p>
-            Our community is always shipping exciting new projects and exploring
-            platforms beyond Android and iOS with repos like{' '}
-            <span>
-              <a href="https://github.com/microsoft/react-native-windows#readme">
-                React Native Windows
-              </a>
-            </span>
-            ,{' '}
-            <a href="https://github.com/microsoft/react-native-macos#readme">
-              React Native macOS
-            </a>{' '}
-            and{' '}
-            <a href="https://github.com/necolas/react-native-web#readme">
-              React Native Web
-            </a>
-            .
+            If you don't find the integration you're looking for, just reach out
+            to our support team and they'll be happy to build it for you.
           </p>
         </div>
         <div>
-          <ul className="AppList">
-            {apps.map((app, i) => {
-              const imgSource = !app.icon.startsWith('http')
-                ? useBaseUrl('img/showcase/' + app.icon)
-                : app.icon;
-              return (
-                <li key={i} className="item">
-                  {app.infoLink ? (
-                    <a href={app.infoLink}>
-                      <img src={imgSource} alt={app.name} />
-                    </a>
-                  ) : (
-                    <img src={imgSource} alt={app.name} />
-                  )}
-                </li>
-              );
-            })}
-          </ul>
+          <SvgList />
           <p>
-            and <a href={useBaseUrl(`showcase`)}>many more</a>.
+            and{' '}
+            <a href={useBaseUrl(`/docs/intro-to-integrations`)}>many more</a>.
           </p>
         </div>
       </div>
