@@ -1,91 +1,91 @@
-/*! For license information please see 168894da.afd3b412.js.LICENSE.txt */
+/*! For license information please see 43421bd2.1b6bd064.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
-  [5972],
+  [8269],
   {
     2192: (e, t, n) => {
-      var i = n(3696),
-        s = Symbol.for('react.element'),
+      var s = n(3696),
+        i = Symbol.for('react.element'),
         o = Symbol.for('react.fragment'),
         r = Object.prototype.hasOwnProperty,
         l =
-          i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+          s.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
             .ReactCurrentOwner,
-        d = {key: !0, ref: !0, __self: !0, __source: !0};
-      function c(e, t, n) {
-        var i,
+        c = {key: !0, ref: !0, __self: !0, __source: !0};
+      function d(e, t, n) {
+        var s,
           o = {},
-          c = null,
-          h = null;
-        for (i in (void 0 !== n && (c = '' + n),
-        void 0 !== t.key && (c = '' + t.key),
-        void 0 !== t.ref && (h = t.ref),
+          d = null,
+          a = null;
+        for (s in (void 0 !== n && (d = '' + n),
+        void 0 !== t.key && (d = '' + t.key),
+        void 0 !== t.ref && (a = t.ref),
         t))
-          r.call(t, i) && !d.hasOwnProperty(i) && (o[i] = t[i]);
+          r.call(t, s) && !c.hasOwnProperty(s) && (o[s] = t[s]);
         if (e && e.defaultProps)
-          for (i in (t = e.defaultProps)) void 0 === o[i] && (o[i] = t[i]);
+          for (s in (t = e.defaultProps)) void 0 === o[s] && (o[s] = t[s]);
         return {
-          $$typeof: s,
+          $$typeof: i,
           type: e,
-          key: c,
-          ref: h,
+          key: d,
+          ref: a,
           props: o,
           _owner: l.current,
         };
       }
-      (t.Fragment = o), (t.jsx = c), (t.jsxs = c);
+      (t.Fragment = o), (t.jsx = d), (t.jsxs = d);
     },
     2540: (e, t, n) => {
       e.exports = n(2192);
     },
-    6653: (e, t, n) => {
+    4912: (e, t, n) => {
       n.r(t),
         n.d(t, {
-          assets: () => d,
+          assets: () => c,
           contentTitle: () => r,
-          default: () => a,
+          default: () => h,
           frontMatter: () => o,
           metadata: () => l,
-          toc: () => c,
+          toc: () => d,
         });
-      var i = n(2540),
-        s = n(3023);
+      var s = n(2540),
+        i = n(3023);
       const o = {
-          id: 'texthub',
-          title: 'Texthub',
-          description: 'A destination connector for Texthub',
+          id: 'hubspot',
+          title: 'HubSpot',
+          description: 'A destination connector for HubSpot',
         },
-        r = 'Texthub',
+        r = 'HubSpot',
         l = {
-          id: 'destinations/texthub',
-          title: 'Texthub',
-          description: 'A destination connector for Texthub',
-          source: '@site/versioned_docs/version-0.0.1/destinations/texthub.md',
+          id: 'destinations/hubspot',
+          title: 'HubSpot',
+          description: 'A destination connector for HubSpot',
+          source: '@site/versioned_docs/version-0.0.1/destinations/hubspot.md',
           sourceDirName: 'destinations',
-          slug: '/destinations/texthub',
-          permalink: '/docs/destinations/texthub',
+          slug: '/destinations/hubspot',
+          permalink: '/docs/destinations/hubspot',
           draft: !1,
           unlisted: !1,
           editUrl:
-            'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/destinations/texthub.md',
+            'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/destinations/hubspot.md',
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1719263167e3,
+          lastUpdatedAt: 1719276021e3,
           frontMatter: {
-            id: 'texthub',
-            title: 'Texthub',
-            description: 'A destination connector for Texthub',
+            id: 'hubspot',
+            title: 'HubSpot',
+            description: 'A destination connector for HubSpot',
           },
           sidebar: 'integrations',
           previous: {
-            title: 'Teradata',
-            permalink: '/docs/destinations/teradata',
+            title: 'Google Sheets',
+            permalink: '/docs/destinations/google-sheets',
           },
-          next: {title: 'Typesense', permalink: '/docs/destinations/typesense'},
+          next: {title: 'Iceberg', permalink: '/docs/destinations/iceberg'},
         },
-        d = {},
-        c = [
+        c = {},
+        d = [
           {value: 'Overview', id: 'overview', level: 2},
           {value: 'Supported Sync Modes', id: 'supported-sync-modes', level: 2},
           {value: 'Output schema', id: 'output-schema', level: 3},
@@ -97,14 +97,14 @@
             level: 3,
           },
           {
-            value: 'Step 2: Set up the Texthub Destination in Hero Pixel',
-            id: 'step-2-set-up-the-texthub-destination-in-hero-pixel',
+            value: 'Step 2: Set up the HubSpot Destination in Airbyte',
+            id: 'step-2-set-up-the-hubspot-destination-in-airbyte',
             level: 3,
           },
           {value: 'Troubleshooting', id: 'troubleshooting', level: 2},
           {value: 'Common Issues', id: 'common-issues', level: 3},
         ];
-      function h(e) {
+      function a(e) {
         const t = {
           a: 'a',
           h1: 'h1',
@@ -121,91 +121,91 @@
           thead: 'thead',
           tr: 'tr',
           ul: 'ul',
-          ...(0, s.R)(),
+          ...(0, i.R)(),
           ...e.components,
         };
-        return (0, i.jsxs)(i.Fragment, {
+        return (0, s.jsxs)(s.Fragment, {
           children: [
-            (0, i.jsx)(t.h1, {id: 'texthub', children: 'Texthub'}),
+            (0, s.jsx)(t.h1, {id: 'hubspot', children: 'HubSpot'}),
             '\n',
-            (0, i.jsx)(t.h2, {id: 'overview', children: 'Overview'}),
+            (0, s.jsx)(t.h2, {id: 'overview', children: 'Overview'}),
             '\n',
-            (0, i.jsx)(t.p, {
+            (0, s.jsx)(t.p, {
               children:
-                'The Texthub destination connector allows you to sync data to Texthub, a platform designed for SMS marketing and communication. This connector supports full refresh, incremental append, and incremental dedup sync modes, providing flexibility for various data integration needs.',
+                'The HubSpot destination connector allows you to sync data to HubSpot, a leading CRM platform. This connector supports incremental dedup sync mode, providing an efficient way to manage and integrate your data.',
             }),
             '\n',
-            (0, i.jsx)(t.h2, {
+            (0, s.jsx)(t.h2, {
               id: 'supported-sync-modes',
               children: 'Supported Sync Modes',
             }),
             '\n',
-            (0, i.jsx)(t.p, {
+            (0, s.jsx)(t.p, {
               children:
-                'The Texthub destination connector supports the following sync modes:',
+                'The HubSpot destination connector supports the following sync modes:',
             }),
             '\n',
-            (0, i.jsxs)(t.table, {
+            (0, s.jsxs)(t.table, {
               children: [
-                (0, i.jsx)(t.thead, {
-                  children: (0, i.jsxs)(t.tr, {
+                (0, s.jsx)(t.thead, {
+                  children: (0, s.jsxs)(t.tr, {
                     children: [
-                      (0, i.jsx)(t.th, {
+                      (0, s.jsx)(t.th, {
                         style: {textAlign: 'left'},
                         children: 'Feature',
                       }),
-                      (0, i.jsx)(t.th, {
+                      (0, s.jsx)(t.th, {
                         style: {textAlign: 'left'},
                         children: 'Supported?',
                       }),
                     ],
                   }),
                 }),
-                (0, i.jsxs)(t.tbody, {
+                (0, s.jsxs)(t.tbody, {
                   children: [
-                    (0, i.jsxs)(t.tr, {
+                    (0, s.jsxs)(t.tr, {
                       children: [
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
                           children: 'Full Refresh Sync',
                         }),
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
-                          children: 'Yes',
+                          children: 'No',
                         }),
                       ],
                     }),
-                    (0, i.jsxs)(t.tr, {
+                    (0, s.jsxs)(t.tr, {
                       children: [
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
                           children: 'Incremental - Append Sync',
                         }),
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
-                          children: 'Yes',
+                          children: 'No',
                         }),
                       ],
                     }),
-                    (0, i.jsxs)(t.tr, {
+                    (0, s.jsxs)(t.tr, {
                       children: [
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
                           children: 'Incremental - Deduped',
                         }),
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
                           children: 'Yes',
                         }),
                       ],
                     }),
-                    (0, i.jsxs)(t.tr, {
+                    (0, s.jsxs)(t.tr, {
                       children: [
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
                           children: 'Change Data Capture',
                         }),
-                        (0, i.jsx)(t.td, {
+                        (0, s.jsx)(t.td, {
                           style: {textAlign: 'left'},
                           children: 'No',
                         }),
@@ -216,109 +216,105 @@
               ],
             }),
             '\n',
-            (0, i.jsx)(t.h3, {id: 'output-schema', children: 'Output schema'}),
+            (0, s.jsx)(t.h3, {id: 'output-schema', children: 'Output schema'}),
             '\n',
-            (0, i.jsx)(t.p, {
+            (0, s.jsx)(t.p, {
               children:
-                'Each synced record will correspond to a contact in Texthub, with the data being written based on the provided API key and group ID.',
+                'Each synced record will correspond to a contact in HubSpot, with the data being written based on the provided access token and lifecycle stage.',
             }),
             '\n',
-            (0, i.jsx)(t.h3, {id: 'requirements', children: 'Requirements'}),
+            (0, s.jsx)(t.h3, {id: 'requirements', children: 'Requirements'}),
             '\n',
-            (0, i.jsx)(t.p, {
-              children: 'To use the Texthub destination connector, you need:',
+            (0, s.jsx)(t.p, {
+              children: 'To use the HubSpot destination connector, you need:',
             }),
             '\n',
-            (0, i.jsxs)(t.ul, {
+            (0, s.jsxs)(t.ul, {
               children: [
                 '\n',
-                (0, i.jsx)(t.li, {children: 'A Texthub account'}),
+                (0, s.jsx)(t.li, {children: 'A HubSpot account'}),
                 '\n',
-                (0, i.jsx)(t.li, {children: 'Account level API Key'}),
-                '\n',
-                (0, i.jsx)(t.li, {children: 'Group ID'}),
+                (0, s.jsx)(t.li, {children: 'Private app access token'}),
                 '\n',
               ],
             }),
             '\n',
-            (0, i.jsx)(t.h2, {id: 'setup-guide', children: 'Setup guide'}),
+            (0, s.jsx)(t.h2, {id: 'setup-guide', children: 'Setup guide'}),
             '\n',
-            (0, i.jsx)(t.h3, {
+            (0, s.jsx)(t.h3, {
               id: 'step-1-obtain-api-credentials',
               children: 'Step 1: Obtain API Credentials',
             }),
             '\n',
-            (0, i.jsxs)(t.ol, {
+            (0, s.jsxs)(t.ol, {
               children: [
                 '\n',
-                (0, i.jsx)(t.li, {children: 'Log in to your Texthub account.'}),
+                (0, s.jsx)(t.li, {children: 'Log in to your HubSpot account.'}),
                 '\n',
-                (0, i.jsx)(t.li, {
+                (0, s.jsx)(t.li, {
                   children:
-                    'Navigate to the "API Settings" section under "Account".',
+                    'Navigate to the "Private Apps" section under "Settings".',
                 }),
                 '\n',
-                (0, i.jsx)(t.li, {
+                (0, s.jsx)(t.li, {
                   children:
-                    "Generate a new API Key if you don't have one already. Copy this key for use in the connector setup.",
+                    "Create a new private app if you don't have one already.",
                 }),
                 '\n',
-                (0, i.jsx)(t.li, {
+                (0, s.jsx)(t.li, {
                   children:
-                    'Obtain the Group ID for the group you want to sync data to.',
+                    'Generate an access token for the private app. Copy this token for use in the connector setup.',
                 }),
                 '\n',
               ],
             }),
             '\n',
-            (0, i.jsx)(t.h3, {
-              id: 'step-2-set-up-the-texthub-destination-in-hero-pixel',
-              children: 'Step 2: Set up the Texthub Destination in Hero Pixel',
+            (0, s.jsx)(t.h3, {
+              id: 'step-2-set-up-the-hubspot-destination-in-airbyte',
+              children: 'Step 2: Set up the HubSpot Destination in Airbyte',
             }),
             '\n',
-            (0, i.jsxs)(t.ol, {
+            (0, s.jsxs)(t.ol, {
               children: [
                 '\n',
-                (0, i.jsxs)(t.li, {
+                (0, s.jsxs)(t.li, {
                   children: [
                     'Click ',
-                    (0, i.jsx)(t.strong, {children: 'Destinations'}),
+                    (0, s.jsx)(t.strong, {children: 'Destinations'}),
                     ' and then click ',
-                    (0, i.jsx)(t.strong, {children: '+ New destination'}),
+                    (0, s.jsx)(t.strong, {children: '+ New destination'}),
                     '.',
                   ],
                 }),
                 '\n',
-                (0, i.jsxs)(t.li, {
+                (0, s.jsxs)(t.li, {
                   children: [
                     'On the Set up the destination page, select ',
-                    (0, i.jsx)(t.strong, {children: 'Texthub'}),
+                    (0, s.jsx)(t.strong, {children: 'HubSpot'}),
                     ' from the ',
-                    (0, i.jsx)(t.strong, {children: 'Destination type'}),
+                    (0, s.jsx)(t.strong, {children: 'Destination type'}),
                     ' dropdown.',
                   ],
                 }),
                 '\n',
-                (0, i.jsxs)(t.li, {
+                (0, s.jsxs)(t.li, {
                   children: [
                     'Enter the following information:',
                     '\n',
-                    (0, i.jsxs)(t.ul, {
+                    (0, s.jsxs)(t.ul, {
                       children: [
                         '\n',
-                        (0, i.jsxs)(t.li, {
+                        (0, s.jsxs)(t.li, {
                           children: [
-                            (0, i.jsx)(t.strong, {
-                              children: 'Account level API Key',
-                            }),
-                            ': Your Texthub API key.',
+                            (0, s.jsx)(t.strong, {children: 'Access Token'}),
+                            ': Your HubSpot private app access token.',
                           ],
                         }),
                         '\n',
-                        (0, i.jsxs)(t.li, {
+                        (0, s.jsxs)(t.li, {
                           children: [
-                            (0, i.jsx)(t.strong, {children: 'Group ID'}),
-                            ': The ID of the group to add new contact numbers to.',
+                            (0, s.jsx)(t.strong, {children: 'Lifecycle Stage'}),
+                            ': The lifecycle stage to be applied to new contacts (optional).',
                           ],
                         }),
                         '\n',
@@ -328,10 +324,10 @@
                   ],
                 }),
                 '\n',
-                (0, i.jsxs)(t.li, {
+                (0, s.jsxs)(t.li, {
                   children: [
                     'Click ',
-                    (0, i.jsx)(t.strong, {children: 'Set up'}),
+                    (0, s.jsx)(t.strong, {children: 'Set up'}),
                     ' to complete the configuration.',
                   ],
                 }),
@@ -339,61 +335,61 @@
               ],
             }),
             '\n',
-            (0, i.jsx)(t.h2, {
+            (0, s.jsx)(t.h2, {
               id: 'troubleshooting',
               children: 'Troubleshooting',
             }),
             '\n',
-            (0, i.jsx)(t.h3, {id: 'common-issues', children: 'Common Issues'}),
+            (0, s.jsx)(t.h3, {id: 'common-issues', children: 'Common Issues'}),
             '\n',
-            (0, i.jsxs)(t.ul, {
+            (0, s.jsxs)(t.ul, {
               children: [
                 '\n',
-                (0, i.jsxs)(t.li, {
+                (0, s.jsxs)(t.li, {
                   children: [
-                    (0, i.jsx)(t.strong, {children: 'Invalid API Key'}),
-                    ': Ensure that you have copied the API key correctly from your Texthub account.',
+                    (0, s.jsx)(t.strong, {children: 'Invalid Access Token'}),
+                    ': Ensure that you have copied the access token correctly from your HubSpot account.',
                   ],
                 }),
                 '\n',
-                (0, i.jsxs)(t.li, {
+                (0, s.jsxs)(t.li, {
                   children: [
-                    (0, i.jsx)(t.strong, {children: 'Group ID not found'}),
-                    ': Verify that the Group ID is correct and exists in your Texthub account.',
+                    (0, s.jsx)(t.strong, {children: 'Permission Denied'}),
+                    ': Verify that the access token has the necessary permissions to write data to HubSpot.',
                   ],
                 }),
                 '\n',
               ],
             }),
             '\n',
-            (0, i.jsxs)(t.p, {
+            (0, s.jsxs)(t.p, {
               children: [
                 'For further assistance, refer to the ',
-                (0, i.jsx)(t.a, {
-                  href: 'https://texthub.com/api-docs',
-                  children: 'Texthub API Documentation',
+                (0, s.jsx)(t.a, {
+                  href: 'https://developers.hubspot.com/docs/api/overview',
+                  children: 'HubSpot API Documentation',
                 }),
-                ' or contact Texthub support.',
+                ' or contact HubSpot support.',
               ],
             }),
           ],
         });
       }
-      function a(e = {}) {
-        const {wrapper: t} = {...(0, s.R)(), ...e.components};
+      function h(e = {}) {
+        const {wrapper: t} = {...(0, i.R)(), ...e.components};
         return t
-          ? (0, i.jsx)(t, {...e, children: (0, i.jsx)(h, {...e})})
-          : h(e);
+          ? (0, s.jsx)(t, {...e, children: (0, s.jsx)(a, {...e})})
+          : a(e);
       }
     },
     3023: (e, t, n) => {
       n.d(t, {R: () => r, x: () => l});
-      var i = n(3696);
-      const s = {},
-        o = i.createContext(s);
+      var s = n(3696);
+      const i = {},
+        o = s.createContext(i);
       function r(e) {
-        const t = i.useContext(o);
-        return i.useMemo(
+        const t = s.useContext(o);
+        return s.useMemo(
           function () {
             return 'function' == typeof e ? e(t) : {...t, ...e};
           },
@@ -405,10 +401,10 @@
         return (
           (t = e.disableParentContext
             ? 'function' == typeof e.components
-              ? e.components(s)
-              : e.components || s
+              ? e.components(i)
+              : e.components || i
             : r(e.components)),
-          i.createElement(o.Provider, {value: t}, e.children)
+          s.createElement(o.Provider, {value: t}, e.children)
         );
       }
     },

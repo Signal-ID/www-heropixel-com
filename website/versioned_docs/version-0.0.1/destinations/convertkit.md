@@ -42,7 +42,21 @@ To use the ConvertKit destination connector, you need:
 2. Navigate to the Account Settings.
 3. Locate the API Key and API Secret Key. Copy these for use in the connector setup.
 
-### Step 2: Set up the ConvertKit Destination in Hero Pixel
+### Step 2: Create and configure a ConvertKit Form
+
+You are only allowed to add new subscribers to a specific form within Convertkit.
+
+1. Click on the **Grow** menu item, select **Landing Pages and Forms**
+1. Click **+ Create New** and choose **Form**
+1. Complete the form details to your liking
+1. While still on the form designer, Click **Settings**
+1. In the Form Settings Popup, Click **Incentive**
+1. Check the **Auto-confirm new subscribers** box or your subscribers will not show in your lists
+1. Copy the FormID from the ConverKit URL
+
+The FormID is located here `https://app.convertkit.com/forms/designers/{{form_id}}/edit`
+
+### Step 3: Set up the ConvertKit Destination in Hero Pixel
 
 1. Click **Destinations** and then click **+ New destination**.
 2. On the Set up the destination page, select **ConvertKit** from the **Destination type** dropdown.
@@ -58,5 +72,6 @@ To use the ConvertKit destination connector, you need:
 
 - **Invalid API Key or Secret**: Ensure that you have copied the API keys correctly from your ConvertKit account.
 - **Form ID not found**: Verify that the Form ID is correct and exists in your ConvertKit account.
+- **Subscribers are not displaying**: Verify that you have checked Auto-confirm new subscribers from step 2 above.
 
 For further assistance, refer to the [ConvertKit API Documentation](https://developers.convertkit.com/#getting-started) or contact ConvertKit support.
