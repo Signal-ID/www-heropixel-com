@@ -1,4 +1,4 @@
-/*! For license information please see 51907a4c.9d35d441.js.LICENSE.txt */
+/*! For license information please see 51907a4c.29bbd5b7.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -83,7 +83,7 @@
             title: 'GoHighLevel',
             permalink: '/docs/destinations/gohighlevel',
           },
-          next: {title: 'Hubspot', permalink: '/docs/destinations/hubspot'},
+          next: {title: 'HubSpot', permalink: '/docs/destinations/hubspot'},
         },
         a = {},
         c = [

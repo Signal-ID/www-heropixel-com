@@ -34,11 +34,7 @@ This guide will walk you through reviewing the leads that you've receiving and t
 
 ## Or Integrate it with your ecosystem
 
-import SvgList from '@site/src/components/IntegrationsList/svglist';
-
 Here's a short list of integrations that we offer natively from Hero Pixel. Choose from any of these integrations and send the leads directly into your ecosystem without incurring additional charges. [See all Integrations](/docs/intro-to-integrations).
-
-<SvgList />
 
 ## Troubleshooting
 

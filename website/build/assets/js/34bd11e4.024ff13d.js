@@ -1,4 +1,4 @@
-/*! For license information please see 34bd11e4.8b3222f9.js.LICENSE.txt */
+/*! For license information please see 34bd11e4.024ff13d.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -71,7 +71,10 @@
           frontMatter: {id: 'kafka', title: 'Kafka', description: 'desc'},
           sidebar: 'integrations',
           previous: {title: 'Iceberg', permalink: '/docs/destinations/iceberg'},
-          next: {title: 'Keap CRM', permalink: '/docs/destinations/keap'},
+          next: {
+            title: 'InfusionSoft/Keap',
+            permalink: '/docs/destinations/keap',
+          },
         },
         a = {},
         c = [

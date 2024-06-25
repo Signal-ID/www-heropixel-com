@@ -1,4 +1,4 @@
-/*! For license information please see 469943d3.a3fa1d39.js.LICENSE.txt */
+/*! For license information please see 469943d3.7beddfa6.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -80,7 +80,7 @@
           },
           sidebar: 'integrations',
           previous: {
-            title: 'Smartlead.ai',
+            title: 'Smartlead',
             permalink: '/docs/destinations/smartlead',
           },
           next: {title: 'Snowflake', permalink: '/docs/destinations/snowflake'},

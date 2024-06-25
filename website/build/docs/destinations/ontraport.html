@@ -47,8 +47,16 @@
       property="og:title"
       content="Ontraport · Hero Pixel by Signal ID"
     />
-    <meta data-rh="true" name="description" content="ontraport" />
-    <meta data-rh="true" property="og:description" content="ontraport" />
+    <meta
+      data-rh="true"
+      name="description"
+      content="A destination connector for Ontraport"
+    />
+    <meta
+      data-rh="true"
+      property="og:description"
+      content="A destination connector for Ontraport"
+    />
     <link data-rh="true" rel="icon" href="/img/heropixel/hero-pixel-icon.png" />
     <link
       data-rh="true"
@@ -128,8 +136,8 @@
     <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
     <script src="https://platform.twitter.com/widgets.js" async></script>
     <link rel="stylesheet" href="/assets/css/styles.1c006d19.css" />
-    <script src="/assets/js/runtime~main.c8d9c498.js" defer="defer"></script>
-    <script src="/assets/js/main.f296c245.js" defer="defer"></script>
+    <script src="/assets/js/runtime~main.2480c7cd.js" defer="defer"></script>
+    <script src="/assets/js/main.16ea6900.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -604,7 +612,7 @@
                               class="menu__link"
                               tabindex="0"
                               href="/docs/destinations/hubspot"
-                              >Hubspot</a
+                              >HubSpot</a
                             >
                           </li>
                           <li
@@ -634,7 +642,7 @@
                               class="menu__link"
                               tabindex="0"
                               href="/docs/destinations/keap"
-                              >Keap CRM</a
+                              >InfusionSoft/Keap</a
                             >
                           </li>
                           <li
@@ -825,7 +833,7 @@
                               class="menu__link"
                               tabindex="0"
                               href="/docs/destinations/smartlead"
-                              >Smartlead.ai</a
+                              >Smartlead</a
                             >
                           </li>
                           <li
@@ -875,7 +883,7 @@
                               class="menu__link"
                               tabindex="0"
                               href="/docs/destinations/texthub"
-                              >Texthub SMS</a
+                              >Texthub</a
                             >
                           </li>
                           <li
@@ -941,8 +949,249 @@
                   <div class="col docItemCol_VOVn">
                     <div class="docItemContainer_Djhp">
                       <article>
+                        <div
+                          class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"
+                        >
+                          <button
+                            type="button"
+                            class="clean-btn tocCollapsibleButton_TO0P"
+                          >
+                            On this page
+                          </button>
+                        </div>
                         <div class="theme-doc-markdown markdown">
-                          <header><h1>Ontraport</h1></header>
+                          <h1>Ontraport</h1>
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="overview"
+                          >
+                            Overview<a
+                              href="#overview"
+                              class="hash-link"
+                              aria-label="Direct link to Overview"
+                              title="Direct link to Overview"
+                              >​</a
+                            >
+                          </h2>
+                          <p>
+                            The Ontraport destination connector allows you to
+                            sync data to Ontraport, a comprehensive business
+                            automation platform. This connector supports full
+                            refresh, incremental append, and incremental dedup
+                            sync modes, providing flexibility for various data
+                            integration needs.
+                          </p>
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="supported-sync-modes"
+                          >
+                            Supported Sync Modes<a
+                              href="#supported-sync-modes"
+                              class="hash-link"
+                              aria-label="Direct link to Supported Sync Modes"
+                              title="Direct link to Supported Sync Modes"
+                              >​</a
+                            >
+                          </h2>
+                          <p>
+                            The Ontraport destination connector supports the
+                            following sync modes:
+                          </p>
+                          <table>
+                            <thead>
+                              <tr>
+                                <th style="text-align: left">Feature</th>
+                                <th style="text-align: left">Supported?</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td style="text-align: left">
+                                  Full Refresh Sync
+                                </td>
+                                <td style="text-align: left">Yes</td>
+                              </tr>
+                              <tr>
+                                <td style="text-align: left">
+                                  Incremental - Append Sync
+                                </td>
+                                <td style="text-align: left">Yes</td>
+                              </tr>
+                              <tr>
+                                <td style="text-align: left">
+                                  Incremental - Deduped
+                                </td>
+                                <td style="text-align: left">Yes</td>
+                              </tr>
+                              <tr>
+                                <td style="text-align: left">
+                                  Change Data Capture
+                                </td>
+                                <td style="text-align: left">No</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="output-schema"
+                          >
+                            Output schema<a
+                              href="#output-schema"
+                              class="hash-link"
+                              aria-label="Direct link to Output schema"
+                              title="Direct link to Output schema"
+                              >​</a
+                            >
+                          </h3>
+                          <p>
+                            Each synced record will correspond to a contact in
+                            Ontraport, with the data being written based on the
+                            provided API credentials and optional tags.
+                          </p>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="requirements"
+                          >
+                            Requirements<a
+                              href="#requirements"
+                              class="hash-link"
+                              aria-label="Direct link to Requirements"
+                              title="Direct link to Requirements"
+                              >​</a
+                            >
+                          </h3>
+                          <p>
+                            To use the Ontraport destination connector, you
+                            need:
+                          </p>
+                          <ul>
+                            <li>An Ontraport account</li>
+                            <li>APP ID</li>
+                            <li>API Key</li>
+                          </ul>
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="setup-guide"
+                          >
+                            Setup guide<a
+                              href="#setup-guide"
+                              class="hash-link"
+                              aria-label="Direct link to Setup guide"
+                              title="Direct link to Setup guide"
+                              >​</a
+                            >
+                          </h2>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="step-1-obtain-api-credentials"
+                          >
+                            Step 1: Obtain API Credentials<a
+                              href="#step-1-obtain-api-credentials"
+                              class="hash-link"
+                              aria-label="Direct link to Step 1: Obtain API Credentials"
+                              title="Direct link to Step 1: Obtain API Credentials"
+                              >​</a
+                            >
+                          </h3>
+                          <ol>
+                            <li>Log in to your Ontraport account.</li>
+                            <li>
+                              Navigate to the &quot;Administration&quot; section
+                              under &quot;Integrations&quot;.
+                            </li>
+                            <li>
+                              Go to &quot;API Keys&quot; and generate a new API
+                              Key. Copy the APP ID and API Key for use in the
+                              connector setup.
+                            </li>
+                          </ol>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="step-2-set-up-the-ontraport-destination-in-hero-pixel"
+                          >
+                            Step 2: Set up the Ontraport Destination in Hero
+                            Pixel<a
+                              href="#step-2-set-up-the-ontraport-destination-in-hero-pixel"
+                              class="hash-link"
+                              aria-label="Direct link to Step 2: Set up the Ontraport Destination in Hero Pixel"
+                              title="Direct link to Step 2: Set up the Ontraport Destination in Hero Pixel"
+                              >​</a
+                            >
+                          </h3>
+                          <ol>
+                            <li>
+                              Click <strong>Destinations</strong> and then click
+                              <strong>+ New destination</strong>.
+                            </li>
+                            <li>
+                              On the Set up the destination page, select
+                              <strong>Ontraport</strong> from the
+                              <strong>Destination type</strong> dropdown.
+                            </li>
+                            <li>
+                              Enter the following information:<!-- -->
+                              <ul>
+                                <li>
+                                  <strong>APP ID</strong>: Your Ontraport APP
+                                  ID.
+                                </li>
+                                <li>
+                                  <strong>API Key</strong>: Your Ontraport API
+                                  key.
+                                </li>
+                                <li>
+                                  <strong>Tags</strong>: A comma-separated list
+                                  of tags to add to the contacts being added to
+                                  the records (optional).
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              Click <strong>Set up</strong> to complete the
+                              configuration.
+                            </li>
+                          </ol>
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="troubleshooting"
+                          >
+                            Troubleshooting<a
+                              href="#troubleshooting"
+                              class="hash-link"
+                              aria-label="Direct link to Troubleshooting"
+                              title="Direct link to Troubleshooting"
+                              >​</a
+                            >
+                          </h2>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="common-issues"
+                          >
+                            Common Issues<a
+                              href="#common-issues"
+                              class="hash-link"
+                              aria-label="Direct link to Common Issues"
+                              title="Direct link to Common Issues"
+                              >​</a
+                            >
+                          </h3>
+                          <ul>
+                            <li>
+                              <strong>Invalid API Credentials</strong>: Ensure
+                              that you have copied the APP ID and API Key
+                              correctly from your Ontraport account.
+                            </li>
+                          </ul>
+                          <p>
+                            For further assistance, refer to the
+                            <a
+                              href="https://api.ontraport.com/doc/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Ontraport API Documentation</a
+                            >
+                            or contact Ontraport support.
+                          </p>
                         </div>
                         <footer class="theme-doc-footer docusaurus-mt-lg">
                           <div class="theme-doc-footer-edit-meta-row row">
@@ -968,7 +1217,19 @@
                                 >Edit this page</a
                               >
                             </div>
-                            <div class="col lastUpdated_VsjB"></div>
+                            <div class="col lastUpdated_VsjB">
+                              <span class="theme-last-updated"
+                                >Last updated<!-- -->
+                                on
+                                <b
+                                  ><time
+                                    datetime="2024-06-24T21:06:07.000Z"
+                                    itemprop="dateModified"
+                                    >Jun 24, 2024</time
+                                  ></b
+                                ></span
+                              >
+                            </div>
                           </div>
                         </footer>
                       </article>
@@ -988,6 +1249,86 @@
                           <div class="pagination-nav__label">Oracle</div></a
                         >
                       </nav>
+                    </div>
+                  </div>
+                  <div class="col col--3">
+                    <div
+                      class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"
+                    >
+                      <ul
+                        class="table-of-contents table-of-contents__left-border"
+                      >
+                        <li>
+                          <a
+                            href="#overview"
+                            class="table-of-contents__link toc-highlight"
+                            >Overview</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#supported-sync-modes"
+                            class="table-of-contents__link toc-highlight"
+                            >Supported Sync Modes</a
+                          >
+                          <ul>
+                            <li>
+                              <a
+                                href="#output-schema"
+                                class="table-of-contents__link toc-highlight"
+                                >Output schema</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="#requirements"
+                                class="table-of-contents__link toc-highlight"
+                                >Requirements</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            href="#setup-guide"
+                            class="table-of-contents__link toc-highlight"
+                            >Setup guide</a
+                          >
+                          <ul>
+                            <li>
+                              <a
+                                href="#step-1-obtain-api-credentials"
+                                class="table-of-contents__link toc-highlight"
+                                >Step 1: Obtain API Credentials</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="#step-2-set-up-the-ontraport-destination-in-hero-pixel"
+                                class="table-of-contents__link toc-highlight"
+                                >Step 2: Set up the Ontraport Destination in
+                                Hero Pixel</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            href="#troubleshooting"
+                            class="table-of-contents__link toc-highlight"
+                            >Troubleshooting</a
+                          >
+                          <ul>
+                            <li>
+                              <a
+                                href="#common-issues"
+                                class="table-of-contents__link toc-highlight"
+                                >Common Issues</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>

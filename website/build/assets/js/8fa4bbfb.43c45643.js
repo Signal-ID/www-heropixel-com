@@ -1,4 +1,4 @@
-/*! For license information please see 8fa4bbfb.bb81912d.js.LICENSE.txt */
+/*! For license information please see 8fa4bbfb.43c45643.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -70,7 +70,7 @@
           lastUpdatedAt: 1719260246e3,
           frontMatter: {id: 'iceberg', title: 'Iceberg', description: 'desc'},
           sidebar: 'integrations',
-          previous: {title: 'Hubspot', permalink: '/docs/destinations/hubspot'},
+          previous: {title: 'HubSpot', permalink: '/docs/destinations/hubspot'},
           next: {title: 'Kafka', permalink: '/docs/destinations/kafka'},
         },
         c = {},

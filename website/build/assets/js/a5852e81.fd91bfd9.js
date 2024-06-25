@@ -308,36 +308,8 @@
         },
       ];
     },
-    9825: (e, t, a) => {
-      a.d(t, {A: () => l});
-      var s = a(3696),
-        i = a(9568),
-        n = a(6158);
-      function l() {
-        const e = new Set(),
-          t = [];
-        for (const s of n.A) e.has(s.file) || (e.add(s.file), t.push(s));
-        const a = t.slice(0, 20);
-        return s.createElement(
-          'ul',
-          {className: 'AppList'},
-          a.map((e, t) => {
-            const a = (0, i.A)('img/connectors/' + e.file);
-            return s.createElement(
-              'li',
-              {key: t, className: 'item'},
-              s.createElement(
-                'a',
-                {href: e.url},
-                s.createElement('img', {src: a, alt: e.file})
-              )
-            );
-          })
-        );
-      }
-    },
-    7232: (e, t, a) => {
-      a.r(t), a.d(t, {default: () => h});
+    334: (e, t, a) => {
+      a.r(t), a.d(t, {default: () => g});
       var s = a(3696),
         i = a(9568),
         n = a(5067);
@@ -361,9 +333,31 @@
           s.createElement('h3', {className: m}, t)
         );
       };
-      var p = a(9825);
-      const f = 'featureContainer_JCYB';
-      const h = function () {
+      var p = a(6158);
+      function f() {
+        const e = new Set(),
+          t = [];
+        for (const s of p.A) e.has(s.file) || (e.add(s.file), t.push(s));
+        const a = t.slice(0, 20);
+        return s.createElement(
+          'ul',
+          {className: 'AppList'},
+          a.map((e, t) => {
+            const a = (0, i.A)('img/connectors/' + e.file);
+            return s.createElement(
+              'li',
+              {key: t, className: 'item'},
+              s.createElement(
+                'a',
+                {href: e.url},
+                s.createElement('img', {src: a, alt: e.file})
+              )
+            );
+          })
+        );
+      }
+      const h = 'featureContainer_JCYB';
+      const g = function () {
         const {siteConfig: e} = (0, n.A)();
         return (
           Object.values(e.customFields.users)
@@ -377,7 +371,7 @@
             }),
             s.createElement(
               'div',
-              {className: f},
+              {className: h},
               s.createElement(
                 'div',
                 null,
@@ -400,7 +394,7 @@
               s.createElement(
                 'div',
                 null,
-                s.createElement(p.A, null),
+                s.createElement(f, null),
                 s.createElement(
                   'p',
                   null,
@@ -897,7 +891,7 @@
       a.r(t), a.d(t, {default: () => c});
       var s = a(3696),
         i = a(9848),
-        n = a(7232),
+        n = a(334),
         l = a(1878),
         r = a(8237);
       function c() {

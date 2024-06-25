@@ -1,4 +1,4 @@
-/*! For license information please see 88bcb3ee.ddb6593b.js.LICENSE.txt */
+/*! For license information please see 88bcb3ee.511486ef.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -78,7 +78,7 @@
             title: 'Starburst Galaxy',
             permalink: '/docs/destinations/starburst-galaxy',
           },
-          next: {title: 'Texthub SMS', permalink: '/docs/destinations/texthub'},
+          next: {title: 'Texthub', permalink: '/docs/destinations/texthub'},
         },
         l = {},
         o = [

@@ -1,4 +1,4 @@
-/*! For license information please see 3ced3daa.b87ce0ad.js.LICENSE.txt */
+/*! For license information please see 3ced3daa.9df35bc1.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -75,10 +75,7 @@
             description: 'typesense',
           },
           sidebar: 'integrations',
-          previous: {
-            title: 'Texthub SMS',
-            permalink: '/docs/destinations/texthub',
-          },
+          previous: {title: 'Texthub', permalink: '/docs/destinations/texthub'},
           next: {title: 'Vectara', permalink: '/docs/destinations/vectara'},
         },
         o = {},
