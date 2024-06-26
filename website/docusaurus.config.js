@@ -351,6 +351,14 @@ module.exports = {
                 label: 'Terms and Conditions',
                 href: '/terms-and-conditions',
               },
+              {
+                label: 'Do Not Sell My Personal Info',
+                href: 'https://app.heropixel.com/optout',
+              },
+              {
+                label: 'Consumer Rights Request',
+                href: 'https://app.heropixel.com/consumer-rights-request',
+              },
             ],
           },
         ],

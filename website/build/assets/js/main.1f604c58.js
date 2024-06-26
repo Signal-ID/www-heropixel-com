@@ -1,4 +1,4 @@
-/*! For license information please see main.8c35a7bd.js.LICENSE.txt */
+/*! For license information please see main.1f604c58.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -25318,6 +25318,14 @@
                   {
                     label: 'Terms and Conditions',
                     href: '/terms-and-conditions',
+                  },
+                  {
+                    label: 'Do Not Sell My Personal Info',
+                    href: 'https://app.heropixel.com/optout',
+                  },
+                  {
+                    label: 'Consumer Rights Request',
+                    href: 'https://app.heropixel.com/consumer-rights-request',
                   },
                 ],
               },
