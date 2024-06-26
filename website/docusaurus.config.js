@@ -319,7 +319,7 @@ module.exports = {
             items: [
               {
                 label: 'Sales',
-                to: '/',
+                href: 'https://calendly.com/mark-heropixel/30min',
               },
               {
                 label: 'Support',

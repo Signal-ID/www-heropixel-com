@@ -45,7 +45,9 @@ const Hero = () => {
                 call with our team to learn more.
               </div>
             </div>
-            <a href="#" className={styles.Button}>
+            <a
+              href="https://calendly.com/mark-heropixel/30min"
+              className={styles.Button}>
               <div className={styles.ButtonText}>Get started</div>
               <div className={styles.Right}>
                 <FontAwesomeIcon icon={faArrowRight} />
