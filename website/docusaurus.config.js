@@ -235,7 +235,7 @@ module.exports = {
           {
             type: 'doc',
             docId: 'intro-to-pixel-tech',
-            label: 'How it Works',
+            label: 'What is Hero Pixel?',
             position: 'right',
           },
           {

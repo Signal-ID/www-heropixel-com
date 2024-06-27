@@ -1,4 +1,4 @@
-/*! For license information please see main.1f604c58.js.LICENSE.txt */
+/*! For license information please see main.70ee4fc3.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -25234,7 +25234,7 @@
               {
                 type: 'doc',
                 docId: 'intro-to-pixel-tech',
-                label: 'How it Works',
+                label: 'What is Hero Pixel?',
                 position: 'right',
               },
               {

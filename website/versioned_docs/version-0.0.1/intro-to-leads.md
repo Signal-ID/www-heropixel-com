@@ -1,14 +1,19 @@
 ---
 id: intro-to-leads
-title: What Can You Expect?
+title: How Does it Work?
 description: desc
 ---
 
-# What can you expect with Hero Pixel?
+## How does it work?
 
-With our White Glove onboarding process you'll be identifying a massive new audience within the first five minutes. Our library of more than 100+ integrations provide a seamless stream of new leads pouring into your organization.
+**1. Install the Hero Pixel**
+First, add the Hero Pixel Site Tag (aka. pixel) to your website. Our pixel will begin immediately reckognizing the identites of 30% to 40% of your visitors.
 
-We have thoroughly refined the user experience to provide you with a simple and intuitive interface, so you can quickly access the audiences and analytics you need to make informed decisions.
+**2. Build Your Audience**
+As visitors land on your website, the Hero Pixel collects their data even without them having to enter their details anywhere, allowing you to build a detailed audience list. This list includes contact details, which you can use to reach out to them directly.
+
+**3. Contact Your Audience**
+With the contact details provided by Hero Pixel, you can initiate personal conversations with your audience via email. This approach enables you to send tailored messages, increasing the chances of engagement and conversion.
 
 ## How do you access your leads?
 

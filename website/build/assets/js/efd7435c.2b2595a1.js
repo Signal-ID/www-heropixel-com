@@ -1,4 +1,4 @@
-/*! For license information please see efd7435c.e94d90ca.js.LICENSE.txt */
+/*! For license information please see efd7435c.2b2595a1.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -84,7 +84,7 @@
           },
           sidebar: 'docs',
           previous: {
-            title: 'What Can You Expect?',
+            title: 'How Does it Work?',
             permalink: '/docs/intro-to-leads',
           },
           next: {
