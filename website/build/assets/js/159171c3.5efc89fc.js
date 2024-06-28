@@ -1,4 +1,4 @@
-/*! For license information please see 159171c3.ec78fc9f.js.LICENSE.txt */
+/*! For license information please see 159171c3.5efc89fc.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -132,7 +132,7 @@
                     }),
                     ' To receive an invite please join our ',
                     (0, n.jsx)(t.a, {
-                      href: 'https://api.leadconnectorhq.com/widget/survey/hvXei37pOpvXANFxJvhb',
+                      href: 'mailto:mark@heropixel.com',
                       children: 'waiting list',
                     }),
                     '. We will contact you directly before sending out your invite.',

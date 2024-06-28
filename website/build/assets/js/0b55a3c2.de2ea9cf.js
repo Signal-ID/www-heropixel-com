@@ -1,4 +1,4 @@
-/*! For license information please see 0b55a3c2.19066ed3.js.LICENSE.txt */
+/*! For license information please see 0b55a3c2.de2ea9cf.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -77,7 +77,7 @@
             'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/intro-to-leads.md',
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1718828485e3,
+          lastUpdatedAt: 171952096e4,
           frontMatter: {
             id: 'intro-to-leads',
             title: 'How Does it Work?',
@@ -99,19 +99,18 @@
           {
             value: 'How do you access your leads?',
             id: 'how-do-you-access-your-leads',
-            level: 3,
+            level: 2,
           },
           {
             value: 'Automatically sync your leads',
             id: 'automatically-sync-your-leads',
-            level: 3,
+            level: 2,
           },
         ];
       function c(e) {
         const t = {
           a: 'a',
           h2: 'h2',
-          h3: 'h3',
           img: 'img',
           p: 'p',
           strong: 'strong',
@@ -146,7 +145,7 @@
               ],
             }),
             '\n',
-            (0, i.jsx)(t.h3, {
+            (0, i.jsx)(t.h2, {
               id: 'how-do-you-access-your-leads',
               children: 'How do you access your leads?',
             }),
@@ -177,7 +176,7 @@
               ],
             }),
             '\n',
-            (0, i.jsx)(t.h3, {
+            (0, i.jsx)(t.h2, {
               id: 'automatically-sync-your-leads',
               children: 'Automatically sync your leads',
             }),
