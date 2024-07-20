@@ -5937,7 +5937,7 @@
     const params = parseSwParams();
     // eslint-disable-next-line no-underscore-dangle
     const precacheManifest = [
-      {revision: '43ad1dce4a7480cc6888b32170b44b1e', url: '404.html'},
+      {revision: '0503e4d870cd4fe4a3d4176e88a27a9d', url: '404.html'},
       {
         revision: '5aed5c2d3c48dc8268b51c8becc09e71',
         url: 'assets/css/styles.1c006d19.css',
@@ -5953,6 +5953,10 @@
       {
         revision: 'a0aefbf83d8705c5d2aa194b5378a952',
         url: 'assets/js/03a36a50.ce1d3fe8.js',
+      },
+      {
+        revision: 'f6343c246d007573d04e8eaf2acb3e53',
+        url: 'assets/js/0711b9fd.29ce8280.js',
       },
       {
         revision: 'ec9405ebcd887067ce51ebac56eed537',
@@ -5995,8 +5999,8 @@
         url: 'assets/js/14d8f0bf.97707b8a.js',
       },
       {
-        revision: 'cffba50e7b3a6f647ec6febb61aff503',
-        url: 'assets/js/159171c3.5efc89fc.js',
+        revision: 'a2cb1288909377079ea5530b0ce367c4',
+        url: 'assets/js/159171c3.803d547d.js',
       },
       {
         revision: '98180206a648f0810971debda4129328',
@@ -6063,8 +6067,8 @@
         url: 'assets/js/29f10043.0f7d6256.js',
       },
       {
-        revision: '1e4fe2125bd6a05167d518594758f3ce',
-        url: 'assets/js/2bfcd05e.3e638cb2.js',
+        revision: 'be68006323d99517f82d731995fd9a45',
+        url: 'assets/js/2bfcd05e.4d45c7a0.js',
       },
       {
         revision: 'e2cee556d1839ef843983ac9a2750caa',
@@ -6223,8 +6227,8 @@
         url: 'assets/js/74984e5c.9054e2db.js',
       },
       {
-        revision: '2c3078488eb80fc51260b8644dd018bf',
-        url: 'assets/js/74af3424.e730b990.js',
+        revision: 'eede865a5addea1370d917ebe90d3d22',
+        url: 'assets/js/74af3424.bf997bca.js',
       },
       {
         revision: 'bf12f8a7c5fd2f4edbf21d78c2163752',
@@ -6323,8 +6327,8 @@
         url: 'assets/js/98e2ae66.0edbc5c1.js',
       },
       {
-        revision: 'b710220e516331692216cc678141930d',
-        url: 'assets/js/99a43cbf.e65dec64.js',
+        revision: 'cd3d82ee29f87fbb8cabccc480494a94',
+        url: 'assets/js/99a43cbf.42ca12de.js',
       },
       {
         revision: '36878fc174e77e4b2e08ba4fa6e3022c',
@@ -6447,8 +6451,8 @@
         url: 'assets/js/c46e29a3.a680abf1.js',
       },
       {
-        revision: '979d9b24d3d0274b92f8c81e6c607dc9',
-        url: 'assets/js/c4f5d8e4.a7f02b3d.js',
+        revision: '51111a0c919e5e688e882aef18960567',
+        url: 'assets/js/c4f5d8e4.c2acbdae.js',
       },
       {
         revision: '8a2c555dca77f51a1ef35ae41b3c4619',
@@ -6559,451 +6563,455 @@
         url: 'assets/js/fca129b3.ffbdcf1e.js',
       },
       {
-        revision: '1b13809a859b307dfdaa3f11e2f7c0c2',
-        url: 'assets/js/main.8a3efebb.js',
+        revision: '1a4016ddd7e4bc5a5145e99ad94e4b48',
+        url: 'assets/js/main.c14daa3f.js',
       },
       {
-        revision: 'b2f06bb22898ea11e154843ca0090aff',
-        url: 'assets/js/runtime~main.bda637df.js',
+        revision: '610fb1da7e0bbba77256023def32d89c',
+        url: 'assets/js/runtime~main.c7a63a68.js',
       },
-      {revision: 'b8ad6c4a075d9ecdb58370a20df87e21', url: 'blog.html'},
+      {revision: '8e27352db997340aca53d42f90f0465c', url: 'blog.html'},
       {
-        revision: '7a8d6fc5291dcd44bd5a1706ffb4dd62',
+        revision: '271b9c6bdb472e3ceae2b69e511aca4c',
         url: 'blog/2024/06/18/0.73-real-time-processing-release.html',
       },
-      {revision: '324c9a18c725a4c0c204c231d901d3bb', url: 'blog/archive.html'},
+      {revision: '0553a1d237d8480f796211b902eb9c90', url: 'blog/archive.html'},
       {revision: '9f8a69c7e1596c5337eb4c0aef94f43d', url: 'blog/feed.json'},
-      {revision: 'a64a8a47d0955d54c6b16b09ea72e7db', url: 'blog/tags.html'},
+      {revision: '022025ce991b0b8ec5fa7044bbbe3f03', url: 'blog/tags.html'},
       {
-        revision: '2264980afd3f5a2c66fdb915b43d3553',
+        revision: '7ec9b7047cd63cbb4f2f4f9c6dd1100a',
         url: 'blog/tags/announcement.html',
       },
       {
-        revision: 'b436f5d8dd86567a7600093ff11effe4',
+        revision: '5c1f9c5cf6bf33f1798149eff269b2d9',
         url: 'blog/tags/debugging.html',
       },
       {
-        revision: '82431ac07d2384d1093156dc1cfd3413',
+        revision: '2da651ae9498bb86f61dcf1cff9bd688',
         url: 'blog/tags/release.html',
       },
-      {revision: 'b1ae0bac09eabca888e5952fe542784a', url: 'docs.html'},
+      {revision: 'a80cda1b5fdd5b5f65282116bda7a999', url: 'docs.html'},
       {
-        revision: '9fe1081fce2d9da53e0ae1ab50b392ef',
+        revision: 'cd427088f7fd7878ce8afbcbff05036f',
         url: 'docs/add-bank-account.html',
       },
-      {revision: 'e598d4bbfe8ab75c4e4625ccd9f7b441', url: 'docs/billing.html'},
-      {revision: 'dc238a6c261da78f69e030e160bdee2b', url: 'docs/blank.html'},
+      {revision: '15e026dcf953a066f7ac445bef1d9efc', url: 'docs/billing.html'},
+      {revision: '4968af25251e95b7a4980e44ecc8fada', url: 'docs/blank.html'},
       {
-        revision: '0a177b8af39d87ee222bbc6dd1886685',
+        revision: '3ff0ab17c9e29ba520f47b281e9d696c',
         url: 'docs/changing-member-roles.html',
       },
       {
-        revision: '0dd9c40dab141a9b09e64798f0a9477a',
+        revision: 'e0ba6da0e59e3b110d7b735e6f938b30',
         url: 'docs/changing-ownership.html',
       },
       {
-        revision: '4e1d4365735df7acd426acf4d5ad03eb',
+        revision: '591fae1822a54a1c914a01780fcded64',
         url: 'docs/dashboard.html',
       },
       {
-        revision: '27342b1b20042cde53fec62d9eeeb9bd',
+        revision: 'bd72b9a170db97d16d1fdfdf85613d34',
         url: 'docs/destinations/astra.html',
       },
       {
-        revision: '198079e1cd86d4595c334e7241371279',
+        revision: '33782dc3cdb0ca793a34e68528a01ec0',
         url: 'docs/destinations/aws-datalake.html',
       },
       {
-        revision: '7c485c2d07a342c692ab4c3c34cb5ebc',
+        revision: 'd094c2f08b708d41bd2db9a1e37b7dc9',
         url: 'docs/destinations/azure-blob-storage.html',
       },
       {
-        revision: 'd0dbeea87992ee66eec640410b943942',
+        revision: '9f103e65c45c9ae4cb042b637f6c34d1',
         url: 'docs/destinations/bigquery.html',
       },
       {
-        revision: '92e569cd0ba9cdbb8b39b2ba1edb4ca2',
+        revision: 'f77602da8c2a007feed5a4007c31ea0d',
         url: 'docs/destinations/chroma.html',
       },
       {
-        revision: '82bf6522f3048020dca118ff5727e453',
+        revision: '4567181fdb2c9e6db9dcec0db0bf713b',
         url: 'docs/destinations/clickhouse.html',
       },
       {
-        revision: '02a74ebd3a101fd60cb49f0c4d478bf8',
+        revision: 'b9bdca14755487cef3778e0bb1c848da',
         url: 'docs/destinations/convertkit.html',
       },
       {
-        revision: '6f5be4e19dcec486476c45cf4c549f97',
+        revision: '0091b69d009333dbcb98462c3014720e',
         url: 'docs/destinations/convex.html',
       },
       {
-        revision: 'c0251360a4bf0fcae9e2b1ba157686b8',
+        revision: 'f94e71fa33638e2240398c14a76c71b8',
         url: 'docs/destinations/databricks.html',
       },
       {
-        revision: '3470b2155ccc0d012f39c64a19461028',
+        revision: 'ae72c3f1f1445c0e68ebb25f758b344d',
         url: 'docs/destinations/duckdb.html',
       },
       {
-        revision: 'da6054edf86835fd9b862ebba026055b',
+        revision: '437747ebeefec588e505334c1bd5dfe7',
         url: 'docs/destinations/dynamodb.html',
       },
       {
-        revision: '445f8e896083a3a535dbe7ecf53ba06e',
+        revision: '1ff253b307f343068ea01233fb584e09',
         url: 'docs/destinations/elasticsearch.html',
       },
       {
-        revision: '3900fb59887304cc8d8f1aa2fa2b5f09',
+        revision: '70edef019329996cb8a4a44ac97c44b7',
         url: 'docs/destinations/firebolt.html',
       },
       {
-        revision: '334262d9fc54e94576ee9bca81bc0910',
+        revision: '8bb3b9e61e060dbabee9d1f85d2b5136',
         url: 'docs/destinations/firestore.html',
       },
       {
-        revision: 'ff9b68af87a2b6d1af4c645836f42261',
+        revision: 'f2e240e99ef5996f87acb868f9f73ec5',
         url: 'docs/destinations/gcs.html',
       },
       {
-        revision: '71a873c6097936dd65148bf7f0920a80',
+        revision: '3c0ef8c408a172c4b33aedbab7a12053',
         url: 'docs/destinations/gohighlevel.html',
       },
       {
-        revision: '40500ccf3121b4bcc135d11231c80e66',
+        revision: 'd691f723ef91cb807cfb7879a9886c0a',
         url: 'docs/destinations/google-sheets.html',
       },
       {
-        revision: 'c33dd8111106f182ac7341d655aa5d4c',
+        revision: 'd97be7cb202886bfbbc17f6995dc2f60',
         url: 'docs/destinations/hubspot.html',
       },
       {
-        revision: 'b61d6db9d44dee401c7b5a3e94f5f293',
+        revision: '999174d3286c44cd531d992da7887245',
         url: 'docs/destinations/iceberg.html',
       },
       {
-        revision: 'ba2e8b3bd45cf2d4ff4bf6e4135cd07f',
+        revision: 'fa8fd2416a343add7a8fac69897801b1',
         url: 'docs/destinations/kafka.html',
       },
       {
-        revision: '3df37eb3d7c86289b439df8b731e34b5',
+        revision: '1aa29d520b8f51a329488cea599bdaa5',
         url: 'docs/destinations/keap.html',
       },
       {
-        revision: '258906076b18f93c2c8edf742a688818',
+        revision: '8bec6542681be6dfa18b53ad7ca7e5f0',
         url: 'docs/destinations/klaviyo.html',
       },
       {
-        revision: '71edf33b3bc13ca9b1afbfadd0d6c756',
+        revision: 'b4c3af9edbd7717db54592b2288de574',
         url: 'docs/destinations/mailchimp.html',
       },
       {
-        revision: '572be50491395ef692479cb246c8996f',
+        revision: 'eed2100422200533fa80700879fb7a13',
         url: 'docs/destinations/milvus.html',
       },
       {
-        revision: 'bf241f97430e86d87af836590e4dd29d',
+        revision: '333d9764014ca2344110dbd51e44fe1e',
         url: 'docs/destinations/mongodb.html',
       },
       {
-        revision: '2af5bb7bc065bef24ad791b5e2602d50',
+        revision: '38279846c1f73bb8b234f129056e5b12',
         url: 'docs/destinations/mssql.html',
       },
       {
-        revision: '7a87b1cd9a4722233782ffa782cf4f6d',
+        revision: '54815c0587f6be45e851bdf3cc4e7f14',
         url: 'docs/destinations/mysql.html',
       },
       {
-        revision: 'fb3f3b2e152c00db18616ef16492e88c',
+        revision: '488619bbd276b71e0913ebfdeffc8ed0',
         url: 'docs/destinations/ontraport.html',
       },
       {
-        revision: '3c4152bfa2ff54575e4b97539bdc8f0b',
+        revision: 'ce6767350b5fcc57874c1d4dcaac08c9',
         url: 'docs/destinations/oracle.html',
       },
       {
-        revision: 'ba5a9f591b2c04d7ab0fa248e356a184',
+        revision: '8dc91e9e82308459d04a3464a8e77629',
         url: 'docs/destinations/pinecone.html',
       },
       {
-        revision: 'b71986d94ac4e2d66722a094c1bb0e03',
+        revision: '62fc58298a025b8b91b83c2b9b2421a1',
         url: 'docs/destinations/postgres.html',
       },
       {
-        revision: 'c8f65c9130d8659c3a1403b6d7409cad',
+        revision: 'b314e61762d73567a419b7197e66c0d0',
         url: 'docs/destinations/pubsub.html',
       },
       {
-        revision: '0cd1a8ab3028d7a29a3c919e8daf8155',
+        revision: 'c43d24dc899a4debe74b8754b6f54aa3',
         url: 'docs/destinations/qdrant.html',
       },
       {
-        revision: '679d72a7fd3022520e00966f06505b0e',
+        revision: '5840a5b8c983681ccf30e67186f1320c',
         url: 'docs/destinations/rabbitmq.html',
       },
       {
-        revision: 'c38ac047bdd9ebf3acffc0ab0f9bb770',
+        revision: 'ac77ef09a7019a2877ffc5fa0bfbb451',
         url: 'docs/destinations/redis.html',
       },
       {
-        revision: '1f3cf58b0def9d5826c473e322999969',
+        revision: '39471ccae8109f44ecea65f2e5d6de28',
         url: 'docs/destinations/redshift.html',
       },
       {
-        revision: '619697f1d4b8b3d4fc94056ae8514146',
+        revision: '7a3da28c5e3a967948b300f8b2b6c85a',
         url: 'docs/destinations/s3-glue.html',
       },
       {
-        revision: '128b4c80b1e78b95b927e3c76faa658e',
+        revision: '1b7ef2012fefed21487bd8894ddc3aa7',
         url: 'docs/destinations/s3.html',
       },
       {
-        revision: 'bf2c8ce786a4b0eeacc54e6d754e0908',
+        revision: 'c103ea764dbcb19c245571bd8639a693',
         url: 'docs/destinations/sftp-json.html',
       },
       {
-        revision: '749709ec0f736142cd85b68195045d23',
+        revision: '39ad085b3c052a3a940bcff3ab28ac99',
         url: 'docs/destinations/smartlead.html',
       },
       {
-        revision: '3b2e7ec6fa0083934a8bdf4329573c3a',
+        revision: '6d41c7e32d6511bb7c7a7ae81e64bf82',
         url: 'docs/destinations/snowflake-cortex.html',
       },
       {
-        revision: '99b4c2129c7fe26a1782cb26b0bad934',
+        revision: '88214b7ed9962492869eb2d648112632',
         url: 'docs/destinations/snowflake.html',
       },
       {
-        revision: 'a73df9f161d465d0118707f86ed2dcd3',
+        revision: 'aafc7a17196d0f736842d6bc9f988775',
         url: 'docs/destinations/starburst-galaxy.html',
       },
       {
-        revision: '07d423cff79d43e239eb74ae46b8b8ad',
+        revision: '40b1cfbb2d6395863505bbcffa156073',
         url: 'docs/destinations/teradata.html',
       },
       {
-        revision: '4189da1292358bb36da519df9a981453',
+        revision: '7c92cbe88335333b5f527e6e55fed51c',
         url: 'docs/destinations/texthub.html',
       },
       {
-        revision: 'fa5ff29ae104c6ea756aaa115d700f9c',
+        revision: '55a2a675af7c32cde56d20a3e80416bb',
         url: 'docs/destinations/typesense.html',
       },
       {
-        revision: '7a191e47c53e41d4c4f70f8e9e415ee7',
+        revision: '1fd42cefa79d45e1b8d3e27237b26003',
         url: 'docs/destinations/vectara.html',
       },
       {
-        revision: 'dd9737d4b9ace4c6c3e01ebc8506c632',
+        revision: 'c4570f00e651d37ca22871e1eb3678bc',
         url: 'docs/destinations/weaviate.html',
       },
       {
-        revision: 'c2156440e5ae361edf2412276e3e37f5',
+        revision: '3f9698731d7f56efd8567907f4eac498',
         url: 'docs/destinations/webhook.html',
       },
       {
-        revision: '74d4e69b07bdfee2a058799f082213d4',
+        revision: 'e068f42ca46c4ce68fe4e23d6175d9ab',
         url: 'docs/destinations/yellowbrick.html',
       },
       {
-        revision: '36a76932ec84cc7b2787063f0902b652',
+        revision: '4dd7ed36973216a0554403c63e5e46b3',
         url: 'docs/dont-install-with-gtm.html',
       },
       {
-        revision: '217d539d25f54a9c1529c2e04f45c7ea',
+        revision: '9f2ceecd02dbe01b57ae9ba74365c310',
         url: 'docs/dont-install-with-shopify-settings.html',
       },
       {
-        revision: '41f6011262b6ee98da417b09c9167dc4',
+        revision: 'c0fd55fc7c006c7815bf8ddb1c89715e',
         url: 'docs/event-pageview.html',
       },
-      {revision: '9770ac32563ee5b328dd69ab287422f4', url: 'docs/events.html'},
-      {revision: '6c1ab148ee936b9efe084686c29c913e', url: 'docs/faq.html'},
-      {revision: 'd6ce609d09f91df60af6cd2c8008d5ad', url: 'docs/glossary.html'},
+      {revision: 'ae74a441f1d2dfa9b6411ccba20decb1', url: 'docs/events.html'},
+      {revision: 'bbc35bc700952414ff32f9cc5e035207', url: 'docs/faq.html'},
+      {revision: '375e84fa89c5405f17f45558784ed646', url: 'docs/glossary.html'},
       {
-        revision: '553bcdad17fde811793178bd04ed206c',
+        revision: '41ed78563c617e90ca0a7b14911f3e9b',
         url: 'docs/Integrations.html',
       },
       {
-        revision: '5ea19318cc69b195d8c834e3a55221f7',
+        revision: 'd6fcd0b66d7bf057b3c141fb91d6e550',
         url: 'docs/intro-to-dashboard.html',
       },
       {
-        revision: 'f045b62d19c7b06421d2a1048c47e966',
+        revision: 'b106c7819cb2889734a8eb92fcab3822',
         url: 'docs/intro-to-graphql.html',
       },
       {
-        revision: '9c3510c4671391d68683483a4048a2ab',
+        revision: 'c309ba07b7481cf39ebaed848f88a100',
         url: 'docs/intro-to-integrations.html',
       },
       {
-        revision: '25ac25c725458e20ca5ac88ac3bf272a',
+        revision: '8fd073f42266d741e4cfe19dcfce4054',
         url: 'docs/intro-to-leads.html',
       },
       {
-        revision: '440154a4bd28efc629fd3cb44218e7af',
+        revision: '0e57982d7b23ee137a72540f67250f18',
         url: 'docs/intro-to-pixel-tech.html',
       },
       {
-        revision: '22a92b6dad667c41cf8b901c7e53fa6a',
+        revision: '53299d5a3e9449d1b447e0e8a911d2f4',
         url: 'docs/intro-to-rest.html',
       },
       {
-        revision: '7986908fce889ab64aa4d0c717653b62',
+        revision: '4d48901a9cf202365d9a97655b0d5da9',
         url: 'docs/intro-to-suppressing.html',
       },
-      {revision: '99ed0c346e5001cf6fe84ab2009d634f', url: 'docs/inviting.html'},
+      {revision: '28291fa2a6c66966dbe71ded888db73a', url: 'docs/inviting.html'},
       {
-        revision: '573ad33bacaf14924726df5e7c983292',
+        revision: 'f111d0190738ebe337a24aad3f6b3e44',
         url: 'docs/Journeyimg.html',
       },
       {
-        revision: '07f216cfb29ff5fa04337a8c9f0d3821',
+        revision: '2e54d74b8d3f7f18129122194fd6ba79',
         url: 'docs/next/blank.html',
       },
       {
-        revision: 'a342d1d912eda59fad983ce292cd91b2',
+        revision: '1aafb0afe46f4c9676f920912c11eeb2',
         url: 'docs/next/event-add-to-cart.html',
       },
       {
-        revision: 'b02e3cfe7689f8e2fd90b60f413416ba',
+        revision: '422e98abc7eacf7e830ab5a04997b8d4',
         url: 'docs/next/event-pageview.html',
       },
       {
-        revision: '04470834cdd585143190f5714b06077d',
+        revision: '0a12af125c19affb7fb473848512f3fd',
         url: 'docs/next/events.html',
       },
       {
-        revision: '85625be1e76b351eba320d703b926387',
+        revision: 'de8776f4ae35bbe3bce5a99bc60c168a',
         url: 'docs/next/intro-to-dashboard.html',
       },
       {
-        revision: 'ca13caa7541d9a5baf8410528abf249a',
+        revision: '5068009ce1dc1730b503af3e71d7b90b',
         url: 'docs/next/intro-to-graphql.html',
       },
       {
-        revision: 'c04260c71ea4b30720dfe50f67270e9a',
+        revision: 'c17cd1aeedcdd2a7769610f1320f4f44',
         url: 'docs/next/intro-to-integrations.html',
       },
       {
-        revision: 'e31fa57caed0215dbc6b506c0be5a9cc',
+        revision: '15f0528ac4df14ecde7c290dcd694f05',
         url: 'docs/next/intro-to-leads.html',
       },
       {
-        revision: '08ea93a8d2b33938bb36163a2afdc156',
+        revision: '7ea6db8c9f7fa98519a06c70a442e693',
         url: 'docs/next/intro-to-pixel-tech.html',
       },
       {
-        revision: '68ecd4cfffec88e2cb31db0c07ef6f73',
+        revision: 'a72e3034ee7e808c4350cac3a6f1ffed',
         url: 'docs/next/intro-to-rest.html',
       },
       {
-        revision: '987e639b61127ae77624b778433109dd',
+        revision: '3e2696b2b5254b20bfca2cbf140a9c6c',
         url: 'docs/next/intro-to-suppressing.html',
       },
       {
-        revision: '9625f6f89a47df48aaf1090c203191ca',
+        revision: '45171b5d55ed664c74bda6ec88fb9158',
         url: 'docs/next/start-create-a-pixel.html',
       },
       {
-        revision: 'fb80c0f70105c33aa68d341b59a8f9d2',
+        revision: 'b8de9c99a63b2d50b33a1c892a72e665',
         url: 'docs/next/start-get-your-leads.html',
       },
       {
-        revision: 'f57120f23ee4572c12d706df413f06e6',
+        revision: '5643437525da88eef5157df3b6557fb5',
         url: 'docs/next/start-pixel-installation.html',
       },
       {
-        revision: 'fe0e7729344db6d337c53706d86facfd',
+        revision: '215ad99ff21141621f12da69577ced0c',
         url: 'docs/next/start-registration.html',
       },
       {
-        revision: '5a3d09b333bce6fe6615c40d39aa42a1',
+        revision: '0a8ff06141b7922b14c854cf5d586a84',
         url: 'docs/organizations.html',
       },
       {
-        revision: 'bc9a97ddd00785631fcd07cc3581cb95',
+        revision: '631def9924091d70566a9c16dcbde9fe',
         url: 'docs/QuickLinks.html',
       },
       {
-        revision: 'ba68591a5a2a6fd4e2494ea51ec8be51',
+        revision: '400492660e04d0098e1be65bf29b366a',
         url: 'docs/removing-a-member.html',
       },
       {
-        revision: 'd46e2fd1754b79ed2eb5ad0ddfd5bd31',
+        revision: '5406bcaeb4d12945377102eb971ba89e',
         url: 'docs/start-create-a-pixel.html',
       },
       {
-        revision: '006222400988886045919784e02cb5ff',
+        revision: 'ecf43bc64ea8b46ed78df1014b75689a',
         url: 'docs/start-get-your-leads.html',
       },
       {
-        revision: 'acf5e216da36915bedb763184e72a848',
+        revision: 'e317d919a1abef6fdf3a4d9b6733abf9',
         url: 'docs/start-pixel-installation.html',
       },
       {
-        revision: '2185d62a3b03f96b86cb9525c9a77060',
+        revision: 'ccf31c7d83a99a1eead7f03961c52de7',
         url: 'docs/start-registration.html',
       },
-      {revision: '1eb5bf6c87ab93ae85cc2b09d9962255', url: 'docs/teams.html'},
+      {revision: '0b418fb2362d442b7bcf310c4e06556e', url: 'docs/teams.html'},
       {
-        revision: 'c227bbf41bd4538e1ec81c909cac2f10',
+        revision: '6859f3574f6580c54da92168c768512a',
         url: 'Home/CallToAction.html',
       },
       {
-        revision: 'b697c46e94c873badb67ecfa8bbab26e',
+        revision: '9f31443d5d4a3569565a2f683c591e6b',
         url: 'Home/components/Section.html',
       },
       {
-        revision: '7fc7380ff0b08430f37ce6281bc6603f',
+        revision: '825abfbb4ef7b87d47de5a44418c9cb0',
         url: 'Home/components/SectionTitle.html',
       },
       {
-        revision: '337351b5da228b5f9e47c2efe5eae91c',
+        revision: '5ba72181de2cb751e0e32802689853fe',
         url: 'Home/components/ThemeImage.html',
       },
       {
-        revision: 'c804281c0314d2e063ad4a31f4a33b34',
+        revision: 'fed941a981ec386a3fd8ede146507a91',
         url: 'Home/Framework.html',
       },
-      {revision: '187b8c600c32fae37d106020e3d8964a', url: 'Home/Logo.html'},
-      {revision: '0d78aaa2b18c7a386030be98364c3437', url: 'Home/Native.html'},
+      {revision: '33cf0459a4eb0b83aa3f4c346b72c237', url: 'Home/Logo.html'},
+      {revision: 'd5fff3dbd99c174104ce11d4229e73e6', url: 'Home/Native.html'},
       {
-        revision: '7b13bfedd0c245c5d708d768637c440e',
+        revision: 'e233ee92b7b4d8924c005db26312cee8',
         url: 'Home/Platforms.html',
       },
       {
-        revision: '834b926163e04eed0933cad8fb491769',
+        revision: 'aa13f3d050f24829ce23178bcbdcc169',
         url: 'Home/Platforms/FoxFact.html',
       },
-      {revision: '6298977625e7b81f691cffc463210b7c', url: 'Home/Watch.html'},
-      {revision: '1ee2e73d81b5cad2f3a9ab55e5a1c373', url: 'index.html'},
-      {revision: '9a67e59507110446243833320e5d9481', url: 'Landing.html'},
-      {revision: '4de60a48d0aabf3b5040942d613274c3', url: 'Landing/Hero.html'},
+      {revision: 'c1afeb47e0673e5a6a62152bd13428b3', url: 'Home/Watch.html'},
+      {revision: 'a3bc81b50f6fc422b2a37017904e7405', url: 'index.html'},
+      {revision: '784c6dbf98593dcfa77865242a5072fa', url: 'Landing.html'},
+      {revision: '9e3bbce742f94ad564663364de1134eb', url: 'Landing/Hero.html'},
       {
-        revision: '9bd078ba44c763b6a62162804d7f23ab',
+        revision: '7e44fa9672978b906b1a8bbc622c190a',
         url: 'Landing/Hero/Devices.html',
       },
       {
-        revision: '7d360592e026aec246750be625693994',
+        revision: '966ac34824c2720c95b6c3b17b0f7fd2',
         url: 'Landing/Hero/FloorBackground.html',
       },
       {
-        revision: '198121dc2551610c15582a0e8ef2b44a',
+        revision: '38288c0249037aa77fc3109d3b120739',
         url: 'Landing/Hero/GridBackground.html',
       },
       {revision: '9c08fe691089d13a7c178407fa32e32b', url: 'manifest.json'},
       {revision: '2d2a11cb9524bebd70d56b4c77b99d42', url: 'movies.json'},
       {
-        revision: '81e19c5ca109f1ac36b878d30cf3932f',
+        revision: 'd990efda67713c8191928fca4908688e',
         url: 'privacy-policy.html',
       },
-      {revision: 'aa2db093527e5fd8686c11b869ba92cf', url: 'search.html'},
       {
-        revision: '275ed675f46832934b1864109d9a823f',
+        revision: 'e5740421123846779a44725206abd0a1',
+        url: 'privacy-policy%20copy.html',
+      },
+      {revision: '0780c2c55c2ac4983f61e7aac91ce206', url: 'search.html'},
+      {
+        revision: 'cadd3b4667689ecd65930f9bd6c194ef',
         url: 'terms-and-conditions.html',
       },
-      {revision: 'e450078cb8f6a94b6a9bf9fe92d1e757', url: 'versions.html'},
+      {revision: 'd5817a564054e2d0f88657171e55a4d3', url: 'versions.html'},
       {
         revision: '89b76b52d3bfd5c51d6e4f8b8c02f479',
         url: 'assets/images/click-on-leads-761d8a50a3fc2933c0cc852bead683b6.gif',

@@ -1,53 +1,53 @@
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
-  [3832],
+  [2640, 3832],
   {
     2434: (e, a, t) => {
-      t.r(a), t.d(a, {default: () => m});
+      t.r(a), t.d(a, {default: () => l});
       var n = t(3696),
-        c = t(8091),
-        r = t(2414),
+        r = t(8091),
+        c = t(2414),
         s = t(5958);
-      const m = () =>
+      const l = () =>
         n.createElement(
           'div',
-          {className: c.A.LandingPageNewV2},
+          {className: r.A.LandingPageNewV2},
           n.createElement(
             'div',
-            {className: c.A.HeaderSection},
+            {className: r.A.HeaderSection},
             n.createElement(
               'div',
-              {className: c.A.Container},
+              {className: r.A.Container},
               n.createElement(
                 'div',
-                {className: c.A.HeadlineContent},
+                {className: r.A.HeadlineContent},
                 n.createElement(
                   'div',
-                  {className: c.A.Text},
+                  {className: r.A.Text},
                   n.createElement(
                     'div',
-                    {className: c.A.BlueText},
+                    {className: r.A.BlueText},
                     'Your Lead Prices Keep Increasing. Now What?'
                   ),
                   n.createElement(
                     'div',
-                    {className: c.A.HeadingText},
+                    {className: r.A.HeadingText},
                     n.createElement(
                       'div',
-                      {className: c.A.MainHeading},
+                      {className: r.A.MainHeading},
                       'Your leads cost $5 - $10+'
                     ),
                     n.createElement(
                       'div',
-                      {className: c.A.SubHeading},
+                      {className: r.A.SubHeading},
                       n.createElement(
                         'div',
-                        {className: c.A.SubText},
+                        {className: r.A.SubText},
                         "We'll give them to you for\xa0",
                         n.createElement(
                           'span',
-                          {className: c.A.PriceText},
+                          {className: r.A.PriceText},
                           '$0.50'
                         )
                       )
@@ -55,25 +55,25 @@
                   ),
                   n.createElement(
                     'div',
-                    {className: c.A.MobileHeader},
+                    {className: r.A.MobileHeader},
                     n.createElement(
                       'div',
-                      {className: c.A.MainHeading},
+                      {className: r.A.MainHeading},
                       n.createElement(
                         'div',
-                        {className: c.A.MainHeading},
+                        {className: r.A.MainHeading},
                         'Your leads cost'
                       ),
                       n.createElement(
                         'div',
-                        {className: c.A.SubHeading},
+                        {className: r.A.SubHeading},
                         n.createElement(
                           'div',
-                          {className: c.A.SubText},
+                          {className: r.A.SubText},
                           "$5 - $10+, We'll give them to you for\xa0",
                           n.createElement(
                             'span',
-                            {className: c.A.PriceText},
+                            {className: r.A.PriceText},
                             '$0.50'
                           )
                         )
@@ -82,30 +82,30 @@
                   ),
                   n.createElement(
                     'div',
-                    {className: c.A.Description},
+                    {className: r.A.Description},
                     "If you're spending above $50,000 a month on advertising, book a call with our team to learn more."
                   )
                 ),
                 n.createElement(
                   'a',
                   {
-                    href: 'https://calendly.com/mark-heropixel/30min',
-                    className: c.A.Button,
+                    href: 'https://calendly.com/mark-heropixel/20min',
+                    className: r.A.Button,
                   },
                   n.createElement(
                     'div',
-                    {className: c.A.ButtonText},
+                    {className: r.A.ButtonText},
                     'Get started'
                   ),
                   n.createElement(
                     'div',
-                    {className: c.A.Right},
-                    n.createElement(r.g, {icon: s.dmS})
+                    {className: r.A.Right},
+                    n.createElement(c.g, {icon: s.dmS})
                   )
                 )
               ),
               n.createElement('img', {
-                className: c.A.DashboardImage,
+                className: r.A.DashboardImage,
                 src: '/img/heropixel/hero-dash.png',
                 alt: 'Dashboard',
               })
@@ -113,131 +113,150 @@
           ),
           n.createElement(
             'div',
-            {className: c.A.AsetOrnamen},
+            {className: r.A.AsetOrnamen},
             n.createElement(
               'div',
-              {className: c.A.MetricCard1},
+              {className: r.A.MetricCard1},
               n.createElement(
                 'div',
-                {className: c.A.Icon1},
+                {className: r.A.Icon1},
                 n.createElement(
                   'div',
-                  {className: c.A.Users01},
+                  {className: r.A.Users01},
                   n.createElement(
                     'div',
-                    {className: c.A.IconInner1},
-                    n.createElement(r.g, {icon: s.gdJ})
+                    {className: r.A.IconInner1},
+                    n.createElement(c.g, {icon: s.gdJ})
                   )
                 )
               ),
               n.createElement(
                 'div',
-                {className: c.A.Content},
-                n.createElement('div', {className: c.A.Heading}, 'Total Leads'),
+                {className: r.A.Content},
+                n.createElement('div', {className: r.A.Heading}, 'Total Leads'),
                 n.createElement(
                   'div',
-                  {className: c.A.NumberAndBadge},
-                  n.createElement('div', {className: c.A.Number}, '107,148'),
+                  {className: r.A.NumberAndBadge},
+                  n.createElement('div', {className: r.A.Number}, '107,148'),
                   n.createElement(
                     'div',
-                    {className: c.A.DashboardBadge},
+                    {className: r.A.DashboardBadge},
                     n.createElement(
                       'div',
-                      {className: c.A.Up16px},
-                      n.createElement('div', {className: c.A.Primary}),
-                      n.createElement('div', {className: c.A.PrimaryVertical})
+                      {className: r.A.Up16px},
+                      n.createElement('div', {className: r.A.Primary}),
+                      n.createElement('div', {className: r.A.PrimaryVertical})
                     ),
-                    n.createElement('div', {className: c.A.Typography})
+                    n.createElement('div', {className: r.A.Typography})
                   )
                 )
               )
             ),
             n.createElement(
               'div',
-              {className: c.A.MetricCard2},
+              {className: r.A.MetricCard2},
               n.createElement(
                 'div',
-                {className: c.A.Icon2},
+                {className: r.A.Icon2},
                 n.createElement(
                   'div',
-                  {className: c.A.UsersCheck},
+                  {className: r.A.UsersCheck},
                   n.createElement(
                     'div',
-                    {className: c.A.IconInner2},
-                    n.createElement(r.g, {icon: s.Os3})
+                    {className: r.A.IconInner2},
+                    n.createElement(c.g, {icon: s.Os3})
                   )
                 )
               ),
               n.createElement(
                 'div',
-                {className: c.A.Content},
+                {className: r.A.Content},
                 n.createElement(
                   'div',
-                  {className: c.A.Heading},
+                  {className: r.A.Heading},
                   'Total % Leads Identified'
                 ),
                 n.createElement(
                   'div',
-                  {className: c.A.NumberAndBadge},
-                  n.createElement('div', {className: c.A.Number}, '39%'),
+                  {className: r.A.NumberAndBadge},
+                  n.createElement('div', {className: r.A.Number}, '39%'),
                   n.createElement(
                     'div',
-                    {className: c.A.DashboardBadge},
+                    {className: r.A.DashboardBadge},
                     n.createElement(
                       'div',
-                      {className: c.A.Up16px},
-                      n.createElement('div', {className: c.A.Primary}),
-                      n.createElement('div', {className: c.A.PrimaryVertical})
+                      {className: r.A.Up16px},
+                      n.createElement('div', {className: r.A.Primary}),
+                      n.createElement('div', {className: r.A.PrimaryVertical})
                     ),
-                    n.createElement('div', {className: c.A.Typography})
+                    n.createElement('div', {className: r.A.Typography})
                   )
                 )
               )
             ),
             n.createElement(
               'div',
-              {className: c.A.MetricCard3},
+              {className: r.A.MetricCard3},
               n.createElement(
                 'div',
-                {className: c.A.Icon3},
+                {className: r.A.Icon3},
                 n.createElement(
                   'div',
-                  {className: c.A.CoinsStacked02},
+                  {className: r.A.CoinsStacked02},
                   n.createElement(
                     'div',
-                    {className: c.A.IconInner3},
-                    n.createElement(r.g, {icon: s.wq_})
+                    {className: r.A.IconInner3},
+                    n.createElement(c.g, {icon: s.wq_})
                   )
                 )
               ),
               n.createElement(
                 'div',
-                {className: c.A.Content},
+                {className: r.A.Content},
                 n.createElement(
                   'div',
-                  {className: c.A.Heading},
+                  {className: r.A.Heading},
                   'Total Savings'
                 ),
                 n.createElement(
                   'div',
-                  {className: c.A.NumberAndBadge},
-                  n.createElement('div', {className: c.A.Number}, '$27,985.00'),
+                  {className: r.A.NumberAndBadge},
+                  n.createElement('div', {className: r.A.Number}, '$27,985.00'),
                   n.createElement(
                     'div',
-                    {className: c.A.DashboardBadge},
+                    {className: r.A.DashboardBadge},
                     n.createElement(
                       'div',
-                      {className: c.A.Up16px},
-                      n.createElement('div', {className: c.A.Primary}),
-                      n.createElement('div', {className: c.A.PrimaryVertical})
+                      {className: r.A.Up16px},
+                      n.createElement('div', {className: r.A.Primary}),
+                      n.createElement('div', {className: r.A.PrimaryVertical})
                     ),
-                    n.createElement('div', {className: c.A.Typography})
+                    n.createElement('div', {className: r.A.Typography})
                   )
                 )
               )
             )
           )
         );
+    },
+    2389: (e, a, t) => {
+      t.r(a), t.d(a, {default: () => l});
+      var n = t(3696),
+        r = t(9848),
+        c = t(2434),
+        s = t(2201);
+      function l() {
+        return n.createElement(
+          r.A,
+          {wrapperClassName: 'homepage'},
+          n.createElement(
+            s.A,
+            null,
+            n.createElement('html', {className: 'LandingPage'})
+          ),
+          n.createElement(c.default, null)
+        );
+      }
     },
     8091: (e, a, t) => {
       t.d(a, {A: () => n});

@@ -1,4 +1,4 @@
-/*! For license information please see 99a43cbf.e65dec64.js.LICENSE.txt */
+/*! For license information please see 99a43cbf.42ca12de.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -71,7 +71,7 @@
             'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/faq.md',
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1718839459e3,
+          lastUpdatedAt: 1719598717e3,
           frontMatter: {
             id: 'faq',
             title: 'Frequently Asked Questions',

@@ -1,4 +1,4 @@
-/*! For license information please see 159171c3.5efc89fc.js.LICENSE.txt */
+/*! For license information please see 159171c3.803d547d.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -77,7 +77,7 @@
             'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/../docs/start-registration.md',
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1719001274e3,
+          lastUpdatedAt: 1719598717e3,
           frontMatter: {
             id: 'start-registration',
             title: 'Start by Registering',

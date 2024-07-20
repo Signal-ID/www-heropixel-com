@@ -1,15 +1,15 @@
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
-  [2640, 3832],
+  [2634, 3832, 2640],
   {
     2434: (e, a, t) => {
-      t.r(a), t.d(a, {default: () => l});
+      t.r(a), t.d(a, {default: () => s});
       var n = t(3696),
         r = t(8091),
         c = t(2414),
-        s = t(5958);
-      const l = () =>
+        l = t(5958);
+      const s = () =>
         n.createElement(
           'div',
           {className: r.A.LandingPageNewV2},
@@ -89,7 +89,7 @@
                 n.createElement(
                   'a',
                   {
-                    href: 'https://calendly.com/mark-heropixel/30min',
+                    href: 'https://calendly.com/mark-heropixel/20min',
                     className: r.A.Button,
                   },
                   n.createElement(
@@ -100,7 +100,7 @@
                   n.createElement(
                     'div',
                     {className: r.A.Right},
-                    n.createElement(c.g, {icon: s.dmS})
+                    n.createElement(c.g, {icon: l.dmS})
                   )
                 )
               ),
@@ -126,7 +126,7 @@
                   n.createElement(
                     'div',
                     {className: r.A.IconInner1},
-                    n.createElement(c.g, {icon: s.gdJ})
+                    n.createElement(c.g, {icon: l.gdJ})
                   )
                 )
               ),
@@ -164,7 +164,7 @@
                   n.createElement(
                     'div',
                     {className: r.A.IconInner2},
-                    n.createElement(c.g, {icon: s.Os3})
+                    n.createElement(c.g, {icon: l.Os3})
                   )
                 )
               ),
@@ -206,7 +206,7 @@
                   n.createElement(
                     'div',
                     {className: r.A.IconInner3},
-                    n.createElement(c.g, {icon: s.wq_})
+                    n.createElement(c.g, {icon: l.wq_})
                   )
                 )
               ),
@@ -240,23 +240,27 @@
         );
     },
     2389: (e, a, t) => {
-      t.r(a), t.d(a, {default: () => l});
+      t.r(a), t.d(a, {default: () => s});
       var n = t(3696),
         r = t(9848),
         c = t(2434),
-        s = t(2201);
-      function l() {
+        l = t(2201);
+      function s() {
         return n.createElement(
           r.A,
           {wrapperClassName: 'homepage'},
           n.createElement(
-            s.A,
+            l.A,
             null,
             n.createElement('html', {className: 'LandingPage'})
           ),
           n.createElement(c.default, null)
         );
       }
+    },
+    4649: (e, a, t) => {
+      t.r(a), t.d(a, {default: () => n});
+      const n = t(2389).default;
     },
     8091: (e, a, t) => {
       t.d(a, {A: () => n});
