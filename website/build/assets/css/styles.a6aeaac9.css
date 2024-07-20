@@ -9287,7 +9287,8 @@ html:not([data-theme]) .themedComponent--light_NVdE {
     line-height: 45px;
   }
   div.BlueText_M6iY {
-    font-size: 16px;
+    font-size: 15px;
+    transform: none !important;
   }
   .Container_EuSx {
     padding-left: 25px;
