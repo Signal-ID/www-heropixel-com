@@ -15,7 +15,7 @@ const commonDocsOptions = {
   breadcrumbs: false,
   showLastUpdateAuthor: false,
   showLastUpdateTime: true,
-  editUrl: 'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/',
+  // editUrl: 'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/',
   remarkPlugins: [require('@react-native-website/remark-snackplayer')],
 };
 
@@ -71,7 +71,7 @@ module.exports = {
         docs: {
           path: '../docs',
           sidebarPath: require.resolve('./sidebars.json'),
-          editCurrentVersion: true,
+          editCurrentVersion: false,
           onlyIncludeVersions: isDeployPreview
             ? ['current', ...versions.slice(0, 2)]
             : undefined,
