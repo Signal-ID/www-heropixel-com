@@ -1,4 +1,4 @@
-/*! For license information please see main.ee140f91.js.LICENSE.txt */
+/*! For license information please see main.05209338.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -24534,6 +24534,7 @@
           },
           {src: 'https://snack.expo.dev/embed.js', defer: !0},
           {src: 'https://platform.twitter.com/widgets.js', async: !0},
+          {src: '/js/heropixel.js', async: !0},
         ],
         favicon: 'img/heropixel/hero-pixel-icon.png',
         titleDelimiter: '\xb7',
@@ -25237,7 +25238,7 @@
                 type: 'html',
                 position: 'left',
                 value:
-                  '<iframe src="https://status.heropixel.com/badge?theme=light" class="statusiframe" width="250" height="30" frameborder="0" scrolling="no"></iframe><script>(function() {var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];g.async=true; g.src="https://app.heropixel.com/pixel/script.js"; s.parentNode.insertBefore(g,s);})();window.analyticsLayer = window.analyticsLayer || [];window.analyticsLayer.push({event: "pageview",websiteId:18});</script>',
+                  '<iframe src="https://status.heropixel.com/badge?theme=light" class="statusiframe" width="250" height="30" frameborder="0" scrolling="no"></iframe>',
               },
               {
                 type: 'doc',

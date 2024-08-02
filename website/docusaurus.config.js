@@ -41,6 +41,7 @@ module.exports = {
     },
     {src: 'https://snack.expo.dev/embed.js', defer: true},
     {src: 'https://platform.twitter.com/widgets.js', async: true},
+    {src: '/js/heropixel.js', async: true},
   ],
   favicon: 'img/heropixel/hero-pixel-icon.png',
   titleDelimiter: '·',
@@ -230,7 +231,7 @@ module.exports = {
             type: 'html',
             position: 'left',
             value:
-              '<iframe src="https://status.heropixel.com/badge?theme=light" class="statusiframe" width="250" height="30" frameborder="0" scrolling="no"></iframe><script>(function() {var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];g.async=true; g.src="https://app.heropixel.com/pixel/script.js"; s.parentNode.insertBefore(g,s);})();window.analyticsLayer = window.analyticsLayer || [];window.analyticsLayer.push({event: "pageview",websiteId:18});</script>',
+              '<iframe src="https://status.heropixel.com/badge?theme=light" class="statusiframe" width="250" height="30" frameborder="0" scrolling="no"></iframe>',
           },
           {
             type: 'doc',
