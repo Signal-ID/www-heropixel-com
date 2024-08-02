@@ -79,11 +79,11 @@ Unlike many of our competitors who charge an onboarding fee or a five-figure sub
 
 Hero Pixel saves you money one lead at a time, which is why we believe you should only pay for the leads we identify and provide for you.
 
-![](http://localhost:3000/img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png)
+![](/img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png)
 
 ## HOW CAN I START USING Hero Pixel?
 
-You can book a call directly with one of our founders, by [clicking here](https://calendly.com/mark-heropixel/30min).
+You can book a call directly with one of our founders, by [clicking here](https://calendly.com/mark-heropixel/20min).
 
 Thanks for reading!
 <br/>Mike, Mark & Jon
