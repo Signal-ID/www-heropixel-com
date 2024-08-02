@@ -1,4 +1,4 @@
-/*! For license information please see dfbd2c11.494f3e3e.js.LICENSE.txt */
+/*! For license information please see dfbd2c11.e21b5439.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -74,7 +74,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 171952096e4,
+          lastUpdatedAt: 1722568291e3,
           frontMatter: {
             id: 'intro-to-pixel-tech',
             title: 'What is Hero Pixel?',
