@@ -6982,7 +6982,7 @@
       },
       {revision: 'e40342ebcf11695ad6466fb74e4e852f', url: 'Home/Watch.html'},
       {revision: '8eb6fe0dacc0c9df114758d49f07b45c', url: 'index.html'},
-      {revision: 'f49aa176eaa97102f2e1b552f0154ef2', url: 'js/heropixel.js'},
+      {revision: '609fc1a676a9bde7a35b9c7c43d250b9', url: 'js/heropixel.js'},
       {revision: '7a28f6fe221e82169330b2ea955f99e9', url: 'Landing.html'},
       {revision: '72a872756360759964374da89c73b308', url: 'Landing/Hero.html'},
       {
