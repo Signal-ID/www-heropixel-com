@@ -1,4 +1,4 @@
-/*! For license information please see main.05209338.js.LICENSE.txt */
+/*! For license information please see main.21e4b772.js.LICENSE.txt */
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
   [8792],
@@ -24533,7 +24533,6 @@
             defer: !0,
           },
           {src: 'https://snack.expo.dev/embed.js', defer: !0},
-          {src: 'https://platform.twitter.com/widgets.js', async: !0},
           {src: '/js/heropixel.js', async: !0},
         ],
         favicon: 'img/heropixel/hero-pixel-icon.png',

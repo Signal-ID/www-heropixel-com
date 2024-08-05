@@ -40,7 +40,6 @@ module.exports = {
       defer: true,
     },
     {src: 'https://snack.expo.dev/embed.js', defer: true},
-    {src: 'https://platform.twitter.com/widgets.js', async: true},
     {src: '/js/heropixel.js', async: true},
   ],
   favicon: 'img/heropixel/hero-pixel-icon.png',
