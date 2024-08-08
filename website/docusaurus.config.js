@@ -258,6 +258,11 @@ module.exports = {
                 type: 'doc',
                 docId: 'intro-to-integrations',
               },
+              {
+                label: 'ConsentGuard ™',
+                type: 'doc',
+                docId: 'consentguard/consentguard-overview',
+              },
               // {
               //   label: 'GraphQL APIs',
               //   type: 'doc',
@@ -303,11 +308,19 @@ module.exports = {
             items: [
               {
                 label: 'Getting Started',
-                to: 'docs/start-registration',
+                to: '/docs/start-registration',
+              },
+              {
+                label: 'Personalization',
+                to: 'docs/personalization/personalized-landing-pages',
               },
               {
                 label: 'Integrations',
-                to: 'docs/intro-to-integrations',
+                to: '/docs/intro-to-integrations',
+              },
+              {
+                label: 'ConsentGuard ™ Cookie Banner',
+                to: '/docs/consentguard/consentguard-overview',
               },
               // {
               //   label: 'GraphQL APIs',

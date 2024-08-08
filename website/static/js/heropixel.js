@@ -15,7 +15,7 @@ window.cookieConsentOptions = {
     g = d.createElement('script'),
     s = d.getElementsByTagName('script')[0];
   g.async = true;
-  g.src = 'https://app.heropixel.com/cookie_consent_banner/index.js';
+  g.src = 'https://app.heropixel.com/consentguard_cookie_banner/index.js';
   s.parentNode.insertBefore(g, s);
 })();
 

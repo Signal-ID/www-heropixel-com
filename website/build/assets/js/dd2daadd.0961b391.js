@@ -1,0 +1,317 @@
+/*! For license information please see dd2daadd.0961b391.js.LICENSE.txt */
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [5343],
+  {
+    2192: (e, s, r) => {
+      var t = r(3696),
+        n = Symbol.for('react.element'),
+        i = Symbol.for('react.fragment'),
+        o = Object.prototype.hasOwnProperty,
+        d =
+          t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+            .ReactCurrentOwner,
+        a = {key: !0, ref: !0, __self: !0, __source: !0};
+      function l(e, s, r) {
+        var t,
+          i = {},
+          l = null,
+          p = null;
+        for (t in (void 0 !== r && (l = '' + r),
+        void 0 !== s.key && (l = '' + s.key),
+        void 0 !== s.ref && (p = s.ref),
+        s))
+          o.call(s, t) && !a.hasOwnProperty(t) && (i[t] = s[t]);
+        if (e && e.defaultProps)
+          for (t in (s = e.defaultProps)) void 0 === i[t] && (i[t] = s[t]);
+        return {
+          $$typeof: n,
+          type: e,
+          key: l,
+          ref: p,
+          props: i,
+          _owner: d.current,
+        };
+      }
+      (s.Fragment = i), (s.jsx = l), (s.jsxs = l);
+    },
+    2540: (e, s, r) => {
+      e.exports = r(2192);
+    },
+    6194: (e, s, r) => {
+      r.r(s),
+        r.d(s, {
+          assets: () => a,
+          contentTitle: () => o,
+          default: () => c,
+          frontMatter: () => i,
+          metadata: () => d,
+          toc: () => l,
+        });
+      var t = r(2540),
+        n = r(3023);
+      const i = {
+          id: 'address-type-property',
+          title: 'Address Type Property',
+          description: 'Guide to using the address type property',
+        },
+        o = 'Address Type Property',
+        d = {
+          id: 'personalization/address-type-property',
+          title: 'Address Type Property',
+          description: 'Guide to using the address type property',
+          source:
+            '@site/versioned_docs/version-0.0.1/personalization/hero-address-type-property.md',
+          sourceDirName: 'personalization',
+          slug: '/personalization/address-type-property',
+          permalink: '/docs/personalization/address-type-property',
+          draft: !1,
+          unlisted: !1,
+          tags: [],
+          version: '0.0.1',
+          lastUpdatedAt: 1723080994e3,
+          frontMatter: {
+            id: 'address-type-property',
+            title: 'Address Type Property',
+            description: 'Guide to using the address type property',
+          },
+          sidebar: 'personalization',
+          previous: {
+            title: 'Home Owner Property',
+            permalink: '/docs/personalization/home-owner-property',
+          },
+          next: {
+            title: 'Dwelling Type Property',
+            permalink: '/docs/personalization/dwelling-type-property',
+          },
+        },
+        a = {},
+        l = [
+          {value: 'Introduction', id: 'introduction', level: 2},
+          {value: 'Usage', id: 'usage', level: 2},
+          {value: 'Example', id: 'example', level: 3},
+          {value: 'Potential Values', id: 'potential-values', level: 2},
+          {value: 'Conclusion', id: 'conclusion', level: 2},
+          {value: 'Next Steps', id: 'next-steps', level: 2},
+        ];
+      function p(e) {
+        const s = {
+          a: 'a',
+          code: 'code',
+          h1: 'h1',
+          h2: 'h2',
+          h3: 'h3',
+          li: 'li',
+          p: 'p',
+          pre: 'pre',
+          strong: 'strong',
+          table: 'table',
+          tbody: 'tbody',
+          td: 'td',
+          th: 'th',
+          thead: 'thead',
+          tr: 'tr',
+          ul: 'ul',
+          ...(0, n.R)(),
+          ...e.components,
+        };
+        return (0, t.jsxs)(t.Fragment, {
+          children: [
+            (0, t.jsx)(s.h1, {
+              id: 'address-type-property',
+              children: 'Address Type Property',
+            }),
+            '\n',
+            (0, t.jsx)(s.h2, {id: 'introduction', children: 'Introduction'}),
+            '\n',
+            (0, t.jsxs)(s.p, {
+              children: [
+                'The ',
+                (0, t.jsx)(s.code, {children: 'address_type'}),
+                ' property allows you to tailor your content based on the type of address the visitor has. This guide provides an overview of how to use the ',
+                (0, t.jsx)(s.code, {children: 'address_type'}),
+                ' property to create personalized experiences and includes a list of potential address type values.',
+              ],
+            }),
+            '\n',
+            (0, t.jsx)(s.h2, {id: 'usage', children: 'Usage'}),
+            '\n',
+            (0, t.jsxs)(s.p, {
+              children: [
+                'The ',
+                (0, t.jsx)(s.code, {children: 'address_type'}),
+                " property can be used to display content that resonates with the visitor's address type, making your communication more relevant and effective.",
+              ],
+            }),
+            '\n',
+            (0, t.jsx)(s.h3, {id: 'example', children: 'Example'}),
+            '\n',
+            (0, t.jsx)(s.p, {
+              children: (0, t.jsx)(s.strong, {children: 'Usage:'}),
+            }),
+            '\n',
+            (0, t.jsx)(s.pre, {
+              children: (0, t.jsx)(s.code, {
+                className: 'language-html',
+                children:
+                  '{{#if (eq address_type "Street")}}\n<p>\n  Discover our special offers for residents in urban areas with\n  street addresses.\n</p>\n<img src="/images/street_address.jpg" alt="Street Address" />\n{{else if (eq address_type "Highway")}}\n<p>\n  Check out our services designed for those living along highways.\n</p>\n<img src="/images/highway_address.jpg" alt="Highway Address" />\n{{else if (eq address_type "PO Box")}}\n<p>\n  We have convenient solutions for customers using PO Box\n  addresses.\n</p>\n<img src="/images/po_box_address.jpg" alt="PO Box Address" />\n{{else if (eq address_type "Rural Route")}}\n<p>Explore our offers tailored for rural route residents.</p>\n<img\n  src="/images/rural_route_address.jpg"\n  alt="Rural Route Address" />\n{{else}}\n<p>Welcome! Discover our services tailored to your needs.</p>\n<img src="/images/general_services.jpg" alt="General Services" />\n{{/if}}\n',
+              }),
+            }),
+            '\n',
+            (0, t.jsx)(s.p, {
+              children:
+                "In this example, a message and image relevant to the visitor's address type are displayed, helping to create a more personalized and engaging experience.",
+            }),
+            '\n',
+            (0, t.jsx)(s.h2, {
+              id: 'potential-values',
+              children: 'Potential Values',
+            }),
+            '\n',
+            (0, t.jsxs)(s.p, {
+              children: [
+                'The following table lists the potential values for the ',
+                (0, t.jsx)(s.code, {children: 'address_type'}),
+                ' property:',
+              ],
+            }),
+            '\n',
+            (0, t.jsxs)(s.table, {
+              children: [
+                (0, t.jsx)(s.thead, {
+                  children: (0, t.jsxs)(s.tr, {
+                    children: [
+                      (0, t.jsx)(s.th, {children: 'Value'}),
+                      (0, t.jsx)(s.th, {children: 'Description'}),
+                    ],
+                  }),
+                }),
+                (0, t.jsxs)(s.tbody, {
+                  children: [
+                    (0, t.jsxs)(s.tr, {
+                      children: [
+                        (0, t.jsx)(s.td, {
+                          children: (0, t.jsx)(s.code, {children: 'Street'}),
+                        }),
+                        (0, t.jsx)(s.td, {
+                          children: "Visitor's address is a street address",
+                        }),
+                      ],
+                    }),
+                    (0, t.jsxs)(s.tr, {
+                      children: [
+                        (0, t.jsx)(s.td, {
+                          children: (0, t.jsx)(s.code, {children: 'Highway'}),
+                        }),
+                        (0, t.jsx)(s.td, {
+                          children: "Visitor's address is along a highway",
+                        }),
+                      ],
+                    }),
+                    (0, t.jsxs)(s.tr, {
+                      children: [
+                        (0, t.jsx)(s.td, {
+                          children: (0, t.jsx)(s.code, {children: 'PO Box'}),
+                        }),
+                        (0, t.jsx)(s.td, {
+                          children: "Visitor's address is a PO Box",
+                        }),
+                      ],
+                    }),
+                    (0, t.jsxs)(s.tr, {
+                      children: [
+                        (0, t.jsx)(s.td, {
+                          children: (0, t.jsx)(s.code, {
+                            children: 'Rural Route',
+                          }),
+                        }),
+                        (0, t.jsx)(s.td, {
+                          children:
+                            "Visitor's address is a rural route address",
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, t.jsx)(s.h2, {id: 'conclusion', children: 'Conclusion'}),
+            '\n',
+            (0, t.jsxs)(s.p, {
+              children: [
+                'Using the ',
+                (0, t.jsx)(s.code, {children: 'address_type'}),
+                " property allows you to personalize your landing pages based on the visitor's address type. By leveraging this property, you can deliver content that resonates with different address types, enhancing user engagement and effectiveness.",
+              ],
+            }),
+            '\n',
+            (0, t.jsx)(s.h2, {id: 'next-steps', children: 'Next Steps'}),
+            '\n',
+            (0, t.jsx)(s.p, {children: 'Explore more features:'}),
+            '\n',
+            (0, t.jsxs)(s.ul, {
+              children: [
+                '\n',
+                (0, t.jsx)(s.li, {
+                  children: (0, t.jsx)(s.a, {
+                    href: '/docs/personalization/hero-string-number-functions',
+                    children: 'String and Number Functions',
+                  }),
+                }),
+                '\n',
+                (0, t.jsx)(s.li, {
+                  children: (0, t.jsx)(s.a, {
+                    href: '/docs/personalization/hero-conditional-helpers',
+                    children: 'Conditional Helpers',
+                  }),
+                }),
+                '\n',
+                (0, t.jsx)(s.li, {
+                  children: (0, t.jsx)(s.a, {
+                    href: '/docs/personalization/hero-advanced-techniques',
+                    children: 'Advanced Templating Techniques',
+                  }),
+                }),
+                '\n',
+              ],
+            }),
+          ],
+        });
+      }
+      function c(e = {}) {
+        const {wrapper: s} = {...(0, n.R)(), ...e.components};
+        return s
+          ? (0, t.jsx)(s, {...e, children: (0, t.jsx)(p, {...e})})
+          : p(e);
+      }
+    },
+    3023: (e, s, r) => {
+      r.d(s, {R: () => o, x: () => d});
+      var t = r(3696);
+      const n = {},
+        i = t.createContext(n);
+      function o(e) {
+        const s = t.useContext(i);
+        return t.useMemo(
+          function () {
+            return 'function' == typeof e ? e(s) : {...s, ...e};
+          },
+          [s, e]
+        );
+      }
+      function d(e) {
+        let s;
+        return (
+          (s = e.disableParentContext
+            ? 'function' == typeof e.components
+              ? e.components(n)
+              : e.components || n
+            : o(e.components)),
+          t.createElement(i.Provider, {value: s}, e.children)
+        );
+      }
+    },
+  },
+]);

@@ -137,6 +137,20 @@
       "destinations/yellowbrick"
     ]
   },
+  "consentguard": {
+    "Getting Started": [
+      "consentguard/consentguard-overview",
+      "consentguard/consentguard-installation",
+      "consentguard/consent-categories"
+    ],
+    "Consent Management": [
+      "consentguard/implicit-consent",
+      "consentguard/explicit-consent",
+      "consentguard/using-jitsu"
+    ],
+    "Customization": ["consentguard/customizing-colors"],
+    "Support": ["consentguard/consentguard-oss-license"]
+  },
   "graphql": {
     "GRAPHQL APIs": ["intro-to-graphql"]
   },
