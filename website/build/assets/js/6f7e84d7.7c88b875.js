@@ -1,0 +1,1822 @@
+/*! For license information please see 6f7e84d7.7c88b875.js.LICENSE.txt */
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [9804],
+  {
+    2192: (e, d, n) => {
+      var i = n(3696),
+        r = Symbol.for('react.element'),
+        s = Symbol.for('react.fragment'),
+        c = Object.prototype.hasOwnProperty,
+        l =
+          i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+            .ReactCurrentOwner,
+        t = {key: !0, ref: !0, __self: !0, __source: !0};
+      function h(e, d, n) {
+        var i,
+          s = {},
+          h = null,
+          x = null;
+        for (i in (void 0 !== n && (h = '' + n),
+        void 0 !== d.key && (h = '' + d.key),
+        void 0 !== d.ref && (x = d.ref),
+        d))
+          c.call(d, i) && !t.hasOwnProperty(i) && (s[i] = d[i]);
+        if (e && e.defaultProps)
+          for (i in (d = e.defaultProps)) void 0 === s[i] && (s[i] = d[i]);
+        return {
+          $$typeof: r,
+          type: e,
+          key: h,
+          ref: x,
+          props: s,
+          _owner: l.current,
+        };
+      }
+      (d.Fragment = s), (d.jsx = h), (d.jsxs = h);
+    },
+    2540: (e, d, n) => {
+      e.exports = n(2192);
+    },
+    5081: (e, d, n) => {
+      n.r(d),
+        n.d(d, {
+          assets: () => t,
+          contentTitle: () => c,
+          default: () => j,
+          frontMatter: () => s,
+          metadata: () => l,
+          toc: () => h,
+        });
+      var i = n(2540),
+        r = n(3023);
+      const s = {
+          id: 'ethnicity-detail-property',
+          title: 'Ethnicity Detail Property',
+          description: 'Guide to using the ethnicity detail property',
+        },
+        c = 'Ethnicity Detail Property',
+        l = {
+          id: 'destinations/properties/ethnicity-detail-property',
+          title: 'Ethnicity Detail Property',
+          description: 'Guide to using the ethnicity detail property',
+          source:
+            '@site/versioned_docs/version-0.0.1/destinations/properties/hero-ethnicity-detail-property.md',
+          sourceDirName: 'destinations/properties',
+          slug: '/destinations/properties/ethnicity-detail-property',
+          permalink: '/docs/destinations/properties/ethnicity-detail-property',
+          draft: !1,
+          unlisted: !1,
+          tags: [],
+          version: '0.0.1',
+          frontMatter: {
+            id: 'ethnicity-detail-property',
+            title: 'Ethnicity Detail Property',
+            description: 'Guide to using the ethnicity detail property',
+          },
+          sidebar: 'integrations',
+          previous: {
+            title: 'Generation Ordinal Property',
+            permalink:
+              '/docs/destinations/properties/generation-ordinal-property',
+          },
+          next: {
+            title: 'Credit Range Property',
+            permalink: '/docs/destinations/properties/credit-range-property',
+          },
+        },
+        t = {},
+        h = [
+          {value: 'Introduction', id: 'introduction', level: 2},
+          {value: 'Usage', id: 'usage', level: 2},
+          {value: 'Example', id: 'example', level: 3},
+          {value: 'Potential Values', id: 'potential-values', level: 2},
+          {value: 'Conclusion', id: 'conclusion', level: 2},
+          {value: 'Next Steps', id: 'next-steps', level: 2},
+        ];
+      function x(e) {
+        const d = {
+          a: 'a',
+          code: 'code',
+          h1: 'h1',
+          h2: 'h2',
+          h3: 'h3',
+          li: 'li',
+          p: 'p',
+          pre: 'pre',
+          strong: 'strong',
+          table: 'table',
+          tbody: 'tbody',
+          td: 'td',
+          th: 'th',
+          thead: 'thead',
+          tr: 'tr',
+          ul: 'ul',
+          ...(0, r.R)(),
+          ...e.components,
+        };
+        return (0, i.jsxs)(i.Fragment, {
+          children: [
+            (0, i.jsx)(d.h1, {
+              id: 'ethnicity-detail-property',
+              children: 'Ethnicity Detail Property',
+            }),
+            '\n',
+            (0, i.jsx)(d.h2, {id: 'introduction', children: 'Introduction'}),
+            '\n',
+            (0, i.jsxs)(d.p, {
+              children: [
+                'The ',
+                (0, i.jsx)(d.code, {children: 'ethnicity_detail'}),
+                ' property allows you to tailor your content based on the detailed ethnic background of your visitors. This guide provides an overview of how to use the ',
+                (0, i.jsx)(d.code, {children: 'ethnicity_detail'}),
+                ' property to create personalized experiences and includes a list of potential values.',
+              ],
+            }),
+            '\n',
+            (0, i.jsx)(d.h2, {id: 'usage', children: 'Usage'}),
+            '\n',
+            (0, i.jsxs)(d.p, {
+              children: [
+                'The ',
+                (0, i.jsx)(d.code, {children: 'ethnicity_detail'}),
+                " property can be used to display content that resonates with the visitor's specific ethnic background, ensuring a more relevant and engaging experience.",
+              ],
+            }),
+            '\n',
+            (0, i.jsx)(d.h3, {id: 'example', children: 'Example'}),
+            '\n',
+            (0, i.jsx)(d.p, {
+              children: (0, i.jsx)(d.strong, {children: 'Usage:'}),
+            }),
+            '\n',
+            (0, i.jsx)(d.pre, {
+              children: (0, i.jsx)(d.code, {
+                className: 'language-html',
+                children:
+                  '{{#if (eq ethnicity_detail "Hispanic")}}\n<p>\n  Bienvenido a nuestra comunidad! Explore contenido personalizado\n  para usted.\n</p>\n<img\n  src="/images/hispanic_community.jpg"\n  alt="Hispanic Community" />\n{{else if (eq ethnicity_detail "Japanese")}}\n<p>\n  \u65e5\u672c\u306e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u3078\u3088\u3046\u3053\u305d\uff01\u7279\u5225\u306a\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002\n</p>\n<img\n  src="/images/japanese_community.jpg"\n  alt="Japanese Community" />\n{{else if (eq ethnicity_detail "African American 1")}}\n<p>\n  Welcome to our African American community! Discover content\n  crafted for you.\n</p>\n<img\n  src="/images/african_american_community.jpg"\n  alt="African American Community" />\n{{else}}\n<p>\n  Welcome! We offer a wide range of content to suit various\n  backgrounds.\n</p>\n<img src="/images/general_welcome.jpg" alt="General Welcome" />\n{{/if}}\n',
+              }),
+            }),
+            '\n',
+            (0, i.jsx)(d.p, {
+              children:
+                "In this example, a message and image relevant to the visitor's detailed ethnic background are displayed, helping to create a more personalized and engaging experience.",
+            }),
+            '\n',
+            (0, i.jsx)(d.h2, {
+              id: 'potential-values',
+              children: 'Potential Values',
+            }),
+            '\n',
+            (0, i.jsxs)(d.p, {
+              children: [
+                'The following table lists the potential values for the ',
+                (0, i.jsx)(d.code, {children: 'ethnicity_detail'}),
+                ' property:',
+              ],
+            }),
+            '\n',
+            (0, i.jsxs)(d.table, {
+              children: [
+                (0, i.jsx)(d.thead, {
+                  children: (0, i.jsxs)(d.tr, {
+                    children: [
+                      (0, i.jsx)(d.th, {children: 'Value'}),
+                      (0, i.jsx)(d.th, {children: 'Description'}),
+                    ],
+                  }),
+                }),
+                (0, i.jsxs)(d.tbody, {
+                  children: [
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'African American 1',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'African American'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Afghani'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Afghani'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'African American',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'African American'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Albanian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Albanian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Aleut'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Aleut'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Algerian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Algerian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Amharic'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Amharic'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Angola'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Angolan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Armenian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Armenian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Ashanti'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ashanti'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Asian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Asian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Austrian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Austrian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Azerbejani',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Azerbaijani'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Bangladesh',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bangladeshi'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Bantu'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bantu'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Basque'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Basque'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Basotho'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Basotho'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Belgium'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Belgian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Benin'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Beninese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Bhutanese'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bhutanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Black African',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Black African'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Bosnian Muslim',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bosnian Muslim'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Botswana'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Botswanan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Bulgarian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bulgarian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Burkina Faso',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Burkinabe'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Burundi'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Burundian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Byelorus'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Belarusian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Cameroon'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Cameroonian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Caribbean African American',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {
+                          children: 'Caribbean African American',
+                        }),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Central African Republic',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Central African'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Chechnian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Chechen'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Chad'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Chadian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Chinese'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Chinese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Congo'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Congolese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Cook Islands',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Cook Islander'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Croatian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Croatian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Cuba'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Cuban'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Czech'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Czech'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Danish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Danish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Djibouti'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Djiboutian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Dutch'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Dutch'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Dzongha'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bhutanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Egyptian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Egyptian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'English'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'English'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Equatorial Guinea',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Equatoguinean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Estonian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Estonian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Ethiopian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ethiopian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Filipino'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Filipino'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Finn'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Finnish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'French'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'French'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Ga'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ga'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Gabon'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Gabonese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Gambian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Gambian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Georgian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Georgian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'German'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'German'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Ghana'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ghanaian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Greek'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Greek'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Guinea'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Guinean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Guinea-Bissau',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Bissau-Guinean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Guyana'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Guyanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Hausa'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Hausa'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Hawaii'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Hawaiian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Hebrew'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Hebrew'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Hindi Specific Indian',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Hindi'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Hispanic'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Hispanic'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Hungarian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Hungarian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Icelandic'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Icelandic'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Indian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Indian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Indonesian',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Indonesian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Iranian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Iranian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Iraqi'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Iraqi'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Irish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Irish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Israeli'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Israeli'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Italian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Italian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Ivory Coast',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ivorian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Japanese'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Japanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Jewish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Jewish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Jewish - Hebrew Language Names',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {
+                          children: 'Jewish - Hebrew Language Names',
+                        }),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Jordan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Jordanian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Kampuchea'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Cambodian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Kazakh'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Kazakhstani'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Kenyan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Kenyan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Khazakstani',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Kazakhstani'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Khmer'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Cambodian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Kirghizstan',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Kyrgyz'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Korean'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Korean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Kurdish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Kurdish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Kuwaiti'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Kuwaiti'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Laotian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Laotian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Latvian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Latvian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Lebanese'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Lebanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Liberian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Liberian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Liechtenstein',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Liechtensteiner'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Lithuanian',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Lithuanian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Luxembourg',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Luxembourger'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Macedonian',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Macedonian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Malay'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Malay'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Malawi'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Malawian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Maldives'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Maldivian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Mali'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Malian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Malta'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Maltese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Manx - Isle of Man',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Manx'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Mauritania',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Mauritanian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Mexican'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Mexican'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Misc. South African',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'South African'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Misc. South East Asian',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'South East Asian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Moldavian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Moldovan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Mongolian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Mongolian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Moroccan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Moroccan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Mozambique',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Mozambican'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Multi Ethnic',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Multi Ethnic'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Myanamar'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Burmese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Namibian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Namibian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Nauru'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Nauruan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Nepal'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Nepalese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Niger'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Nigerien'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Nigerian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Nigerian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Norwegian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Norwegian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Other Asian',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Asian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Overt European Jewish Names',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'European Jewish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Pakistani'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Pakistani'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Pakistan (Baluchistan)',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Baloch'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Palau'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Palauan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Palestine'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Palestinian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Papau New Guinea',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Papua New Guinean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Paraguay'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Paraguayan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Persian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Persian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Peru'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Peruvian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Philippine',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Filipino'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Polish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Polish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Polynesia'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Polynesian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Portuguese',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Portuguese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Puerto Rico',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Puerto Rican'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Qatar'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Qatari'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Romanian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Romanian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Rwandan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Rwandan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Saudi'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Saudi Arabian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Scottish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Scottish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Senegalese',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Senegalese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Serbian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Serbian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Seychelles',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Seychellois'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Sierra Leone',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Sierra Leonean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Singaporean',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Singaporean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Sinhalese'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Sinhalese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Slovak'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Slovakian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Slovenian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Slovenian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Somalian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Somali'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'South African',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'South African'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Spanish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Spanish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Sri Lankan',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Sri Lankan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Sudanese'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Sudanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Surinam'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Surinamese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Swaziland'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Swazi'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Swedish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Swedish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Swiss'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Swiss'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Syrian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Syrian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Tagalog'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Filipino'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Taiwan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Taiwanese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Tajik'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Tajik'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Tanzania'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Tanzanian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Telugu'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Telugu'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Thai'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Thai'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Tibetan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Tibetan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Togo'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Togolese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Tonga'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Tongan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Turkish'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Turkish'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Turkmeni'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Turkmen'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Ugandan'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ugandan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Ukrainian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ukrainian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Uniquely African',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'African'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Urdu'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Urdu'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Uzbek'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Uzbek'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Vanuatu'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Ni-Vanuatu'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Vietnamese',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Vietnamese'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Welsh'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Welsh'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {
+                            children: 'Western Somoa',
+                          }),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Samoan'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Xhosa'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Xhosa'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Yemeni'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Yemeni'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Zaire'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Congolese (Zaire)'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Zambian'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Zambian'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Zimbabwe'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Zimbabwean'}),
+                      ],
+                    }),
+                    (0, i.jsxs)(d.tr, {
+                      children: [
+                        (0, i.jsx)(d.td, {
+                          children: (0, i.jsx)(d.code, {children: 'Zulu'}),
+                        }),
+                        (0, i.jsx)(d.td, {children: 'Zulu'}),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            '\n',
+            (0, i.jsx)(d.h2, {id: 'conclusion', children: 'Conclusion'}),
+            '\n',
+            (0, i.jsxs)(d.p, {
+              children: [
+                'Using the ',
+                (0, i.jsx)(d.code, {children: 'ethnicity_detail'}),
+                " property allows you to personalize your landing pages based on the visitor's specific ethnic background. By leveraging this property, you can deliver content that resonates with a diverse audience, enhancing user engagement and effectiveness.",
+              ],
+            }),
+            '\n',
+            (0, i.jsx)(d.h2, {id: 'next-steps', children: 'Next Steps'}),
+            '\n',
+            (0, i.jsx)(d.p, {children: 'Explore more features:'}),
+            '\n',
+            (0, i.jsxs)(d.ul, {
+              children: [
+                '\n',
+                (0, i.jsx)(d.li, {
+                  children: (0, i.jsx)(d.a, {
+                    href: '/docs/personalization/hero-string-number-functions',
+                    children: 'String and Number Functions',
+                  }),
+                }),
+                '\n',
+                (0, i.jsx)(d.li, {
+                  children: (0, i.jsx)(d.a, {
+                    href: '/docs/personalization/hero-conditional-helpers',
+                    children: 'Conditional Helpers',
+                  }),
+                }),
+                '\n',
+                (0, i.jsx)(d.li, {
+                  children: (0, i.jsx)(d.a, {
+                    href: '/docs/personalization/hero-advanced-techniques',
+                    children: 'Advanced Templating Techniques',
+                  }),
+                }),
+                '\n',
+              ],
+            }),
+          ],
+        });
+      }
+      function j(e = {}) {
+        const {wrapper: d} = {...(0, r.R)(), ...e.components};
+        return d
+          ? (0, i.jsx)(d, {...e, children: (0, i.jsx)(x, {...e})})
+          : x(e);
+      }
+    },
+    3023: (e, d, n) => {
+      n.d(d, {R: () => c, x: () => l});
+      var i = n(3696);
+      const r = {},
+        s = i.createContext(r);
+      function c(e) {
+        const d = i.useContext(s);
+        return i.useMemo(
+          function () {
+            return 'function' == typeof e ? e(d) : {...d, ...e};
+          },
+          [d, e]
+        );
+      }
+      function l(e) {
+        let d;
+        return (
+          (d = e.disableParentContext
+            ? 'function' == typeof e.components
+              ? e.components(r)
+              : e.components || r
+            : c(e.components)),
+          i.createElement(s.Provider, {value: d}, e.children)
+        );
+      }
+    },
+  },
+]);

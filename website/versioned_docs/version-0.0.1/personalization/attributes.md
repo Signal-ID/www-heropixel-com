@@ -147,7 +147,3 @@ Personalizing your landing pages can significantly enhance user engagement and c
 ## Conclusion
 
 You may use these properties throughout your Dynamic Text and when application you can use the operators given when using comparison operators to make logical decisions.
-
-## Next Steps
-
-Learn more about the

@@ -47,7 +47,7 @@
       "personalization/hero-conditional-helpers",
       "personalization/hero-advanced-techniques"
     ],
-    "Properties": [
+    "Consumer Attributes": [
       "personalization/hero-language-property",
       "personalization/hero-ethnic-group-property",
       "personalization/hero-generation-property",
@@ -83,8 +83,11 @@
     ]
   },
   "integrations": {
-    "DESTINATIONS": [
+    "Getting Started": [
       "intro-to-integrations",
+      "destinations/properties/unique-leads-attributes"
+    ],
+    "DESTINATIONS": [
       "destinations/astra",
       "destinations/azure-blob-storage",
       "destinations/aws-datalake",
@@ -135,6 +138,40 @@
       "destinations/weaviate",
       "destinations/webhook",
       "destinations/yellowbrick"
+    ],
+    "Consumer Attributes": [
+      "destinations/properties/hero-language-property",
+      "destinations/properties/hero-ethnic-group-property",
+      "destinations/properties/hero-generation-property",
+      "destinations/properties/education-property",
+      "destinations/properties/education-ordinal-property",
+      "destinations/properties/generation-ordinal-property",
+      "destinations/properties/ethnicity-detail-property",
+      "destinations/properties/credit-range-property",
+      "destinations/properties/credit-midpts-property",
+      "destinations/properties/home-owner-property",
+      "destinations/properties/address-type-property",
+      "destinations/properties/dwelling-type-property",
+      "destinations/properties/home-heat-type-property",
+      "destinations/properties/home-owner-ordinal-property",
+      "destinations/properties/income-hh-property",
+      "destinations/properties/income-levels-property",
+      "destinations/properties/income-midpts-hh-property",
+      "destinations/properties/marital-status-property",
+      "destinations/properties/mortgage-loan-type-property",
+      "destinations/properties/mortgage-refi-type-property",
+      "destinations/properties/net-worth-hh-property",
+      "destinations/properties/net-worth-midpt-hh-property",
+      "destinations/properties/occupation-detail-property",
+      "destinations/properties/phone-activity-property",
+      "destinations/properties/phone-carrier-property",
+      "destinations/properties/phone-is-callable-property",
+      "destinations/properties/line-type-property",
+      "destinations/properties/political-party-property",
+      "destinations/properties/premium-income-hh-property",
+      "destinations/properties/premium-income-midpt-hh-property",
+      "destinations/properties/religion-property",
+      "destinations/properties/urbanicity-property"
     ]
   },
   "consentguard": {
