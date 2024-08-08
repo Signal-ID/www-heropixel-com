@@ -1,4 +1,4 @@
-/*! For license information please see 1dd397c9.6e730aec.js.LICENSE.txt */
+/*! For license information please see 1dd397c9.bbd2dbb7.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -72,6 +72,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1723086403e3,
           frontMatter: {
             id: 'consent-categories',
             title: 'Consent Categories',
@@ -186,7 +187,7 @@
               children: (0, i.jsx)(t.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="performance" src="path/to/analytics.js"></script>\n',
+                  '<script\n  data-consent-category="performance"\n  src="path/to/analytics.js"></script>\n',
               }),
             }),
             '\n',
@@ -220,7 +221,7 @@
               children: (0, i.jsx)(t.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="essential" src="path/to/essential.js"></script>\n',
+                  '<script\n  data-consent-category="essential"\n  src="path/to/essential.js"></script>\n',
               }),
             }),
             '\n',

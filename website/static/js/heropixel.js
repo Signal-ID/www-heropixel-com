@@ -7,6 +7,8 @@ window.cookieConsentOptions = window.cookieConsentOptions || [];
 window.cookieConsentOptions = {
   writeKey: 'lvJUuKS8hJaTTitB3BaaW1cBcnIXpWvl:W9IvcK1dAudBNzp34dnpoR9Gexg7qRSQ',
   jitsuUrl: 'https://clz8wa08900003b762fap3gap.d.jitsu.com/p.js',
+  bannerStatement:
+    'We use cookies and similar technologies to optimize site content, analyze site usage, and target advertising. Read our',
   privacyPolicyLink: 'https://heropixel.com/privacy-policy',
 };
 

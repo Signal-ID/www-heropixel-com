@@ -1,4 +1,4 @@
-/*! For license information please see 784abe2e.7063a2c9.js.LICENSE.txt */
+/*! For license information please see 784abe2e.48fa6068.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -72,6 +72,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1723086403e3,
           frontMatter: {
             id: 'using-jitsu',
             title: 'Recording User Preferences',
@@ -84,7 +85,7 @@
             permalink: '/docs/consentguard/explicit-consent',
           },
           next: {
-            title: 'Customizing Colors in ConsentGuard',
+            title: 'Customizing Colors',
             permalink: '/docs/consentguard/customizing-colors',
           },
         },
@@ -218,7 +219,7 @@
               children: (0, i.jsx)(n.code, {
                 className: 'language-html',
                 children:
-                  "<script data-consent-category=\"essential\">\n    window.cookieConsentOptions = window.cookieConsentOptions || {};\n    window.cookieConsentOptions = {\n        writeKey: 'YOUR_JITSU_WRITE_KEY',\n        jitsuUrl: 'https://your-jitsu-url.com',\n        privacy_policy_link: 'https://yourwebsite.com/privacy-policy',\n    };\n</script>\n",
+                  "<script data-consent-category=\"essential\">\n  window.cookieConsentOptions = window.cookieConsentOptions || {};\n  window.cookieConsentOptions = {\n    writeKey: 'YOUR_JITSU_WRITE_KEY',\n    jitsuUrl: 'https://your-jitsu-url.com',\n    privacy_policy_link: 'https://yourwebsite.com/privacy-policy',\n  };\n</script>\n",
               }),
             }),
             '\n',

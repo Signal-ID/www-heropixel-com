@@ -1,4 +1,4 @@
-/*! For license information please see 094a6cc4.a27b52ae.js.LICENSE.txt */
+/*! For license information please see 094a6cc4.43b1b1b7.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -53,14 +53,14 @@
         r = n(3023);
       const i = {
           id: 'customizing-colors',
-          title: 'Customizing Colors in ConsentGuard',
+          title: 'Customizing Colors',
           description:
             'Documentation on how to customize the colors of the ConsentGuard banner.',
         },
         c = void 0,
         s = {
           id: 'consentguard/customizing-colors',
-          title: 'Customizing Colors in ConsentGuard',
+          title: 'Customizing Colors',
           description:
             'Documentation on how to customize the colors of the ConsentGuard banner.',
           source:
@@ -72,9 +72,10 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1723086403e3,
           frontMatter: {
             id: 'customizing-colors',
-            title: 'Customizing Colors in ConsentGuard',
+            title: 'Customizing Colors',
             description:
               'Documentation on how to customize the colors of the ConsentGuard banner.',
           },
@@ -232,7 +233,7 @@
               children: (0, t.jsx)(o.code, {
                 className: 'language-html',
                 children:
-                  "<script data-consent-category=\"essential\">\n    window.cookieConsentOptions = window.cookieConsentOptions || {};\n    window.cookieConsentOptions = {\n        privacy_policy_link: 'https://yourwebsite.com/privacy-policy',\n        accept_color: '#28A745',         // Green color for the \"Accept All\" button\n        nuetral_color: '#6c757d',        // Grey color for the \"Manage Preferences\" button\n        preference_color: '#3482F3',     // Blue color for active elements in the preference manager\n        background_color: '#f8f9fa'      // Light grey background color for the banner and preference manager\n    };\n</script>\n",
+                  "<script data-consent-category=\"essential\">\n  window.cookieConsentOptions = window.cookieConsentOptions || {};\n  window.cookieConsentOptions = {\n    privacy_policy_link: 'https://yourwebsite.com/privacy-policy',\n    accept_color: '#28A745', // Green color for the \"Accept All\" button\n    nuetral_color: '#6c757d', // Grey color for the \"Manage Preferences\" button\n    preference_color: '#3482F3', // Blue color for active elements in the preference manager\n    background_color: '#f8f9fa', // Light grey background color for the banner and preference manager\n  };\n</script>\n",
               }),
             }),
             '\n',
@@ -255,7 +256,7 @@
               children: (0, t.jsx)(o.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="essential" src="https://app.heropixel.com/consentguard_cookie_banner/index.js"></script>\n',
+                  '<script\n  data-consent-category="essential"\n  src="https://app.heropixel.com/consentguard_cookie_banner/index.js"></script>\n',
               }),
             }),
             '\n',

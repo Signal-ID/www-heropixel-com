@@ -1,4 +1,4 @@
-/*! For license information please see f04d5430.409de726.js.LICENSE.txt */
+/*! For license information please see f04d5430.6ba5a016.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -69,6 +69,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1723086403e3,
           frontMatter: {
             id: 'consentguard-oss-license',
             title: 'ConsentGuard OSS License',
@@ -77,7 +78,7 @@
           },
           sidebar: 'consentguard',
           previous: {
-            title: 'Customizing Colors in ConsentGuard',
+            title: 'Customizing Colors',
             permalink: '/docs/consentguard/customizing-colors',
           },
         },

@@ -1,4 +1,4 @@
-/*! For license information please see 3af79684.89a2af65.js.LICENSE.txt */
+/*! For license information please see 3af79684.9be242f2.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -72,6 +72,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1723086403e3,
           frontMatter: {
             id: 'consentguard-installation',
             title: 'Installation Guide',
@@ -156,7 +157,7 @@
               children: (0, o.jsx)(e.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="essential">\n    window.cookieConsentOptions = {\n        privacy_policy_link: \'https://yourwebsite.com/privacy-policy\'\n    };\n</script>\n<script data-consent-category="essential" src="https://app.heropixel.com/consentguard_cookie_banner/index.js"></script>\n',
+                  '<script data-consent-category="essential">\n  window.cookieConsentOptions = {\n    privacy_policy_link: \'https://yourwebsite.com/privacy-policy\',\n  };\n</script>\n<script\n  data-consent-category="essential"\n  src="https://app.heropixel.com/consentguard_cookie_banner/index.js"></script>\n',
               }),
             }),
             '\n',
@@ -182,7 +183,7 @@
               children: (0, o.jsx)(e.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="essential">\n    window.cookieConsentOptions = {\n        privacy_policy_link: \'https://yourwebsite.com/privacy-policy\'\n    };\n</script>\n<script data-consent-category="essential" src="/path/to/your/consentguard.js"></script>\n',
+                  '<script data-consent-category="essential">\n  window.cookieConsentOptions = {\n    privacy_policy_link: \'https://yourwebsite.com/privacy-policy\',\n  };\n</script>\n<script\n  data-consent-category="essential"\n  src="/path/to/your/consentguard.js"></script>\n',
               }),
             }),
             '\n',
