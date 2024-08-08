@@ -36,6 +36,52 @@
     "FAQ": ["faq"],
     "Glossary": ["glossary"]
   },
+  "personalization": {
+    "Getting Started": [
+      "personalization/personalized-landing-pages",
+      "personalization/activate-personalization",
+      "personalization/visitor-attributes"
+    ],
+    "Advanced Functions": [
+      "personalization/hero-string-number-functions",
+      "personalization/hero-conditional-helpers",
+      "personalization/hero-advanced-techniques"
+    ],
+    "Properties": [
+      "personalization/hero-language-property",
+      "personalization/hero-ethnic-group-property",
+      "personalization/hero-generation-property",
+      "personalization/education-property",
+      "personalization/education-ordinal-property",
+      "personalization/generation-ordinal-property",
+      "personalization/ethnicity-detail-property",
+      "personalization/credit-range-property",
+      "personalization/credit-midpts-property",
+      "personalization/home-owner-property",
+      "personalization/address-type-property",
+      "personalization/dwelling-type-property",
+      "personalization/home-heat-type-property",
+      "personalization/home-owner-ordinal-property",
+      "personalization/income-hh-property",
+      "personalization/income-levels-property",
+      "personalization/income-midpts-hh-property",
+      "personalization/marital-status-property",
+      "personalization/mortgage-loan-type-property",
+      "personalization/mortgage-refi-type-property",
+      "personalization/net-worth-hh-property",
+      "personalization/net-worth-midpt-hh-property",
+      "personalization/occupation-detail-property",
+      "personalization/phone-activity-property",
+      "personalization/phone-carrier-property",
+      "personalization/phone-is-callable-property",
+      "personalization/line-type-property",
+      "personalization/political-party-property",
+      "personalization/premium-income-hh-property",
+      "personalization/premium-income-midpt-hh-property",
+      "personalization/religion-property",
+      "personalization/urbanicity-property"
+    ]
+  },
   "integrations": {
     "DESTINATIONS": [
       "intro-to-integrations",

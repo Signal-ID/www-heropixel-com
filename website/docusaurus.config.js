@@ -215,17 +215,17 @@ module.exports = {
         },
         style: 'primary',
         items: [
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            dropdownActiveClassDisabled: true,
-            dropdownItemsAfter: [
-              {
-                to: '/versions',
-                label: 'All versions',
-              },
-            ],
-          },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'left',
+          //   dropdownActiveClassDisabled: true,
+          //   dropdownItemsAfter: [
+          //     {
+          //       to: '/versions',
+          //       label: 'All versions',
+          //     },
+          //   ],
+          // },
           {
             type: 'html',
             position: 'left',
@@ -249,20 +249,25 @@ module.exports = {
                 docId: 'start-registration',
               },
               {
+                label: 'Personalization',
+                type: 'doc',
+                docId: 'personalization/personalized-landing-pages',
+              },
+              {
                 label: 'Integrations',
                 type: 'doc',
                 docId: 'intro-to-integrations',
               },
-              {
-                label: 'GraphQL APIs',
-                type: 'doc',
-                docId: 'intro-to-graphql',
-              },
-              {
-                label: 'REST APIs',
-                type: 'doc',
-                docId: 'intro-to-rest',
-              },
+              // {
+              //   label: 'GraphQL APIs',
+              //   type: 'doc',
+              //   docId: 'intro-to-graphql',
+              // },
+              // {
+              //   label: 'REST APIs',
+              //   type: 'doc',
+              //   docId: 'intro-to-rest',
+              // },
             ],
           },
           {
@@ -304,14 +309,14 @@ module.exports = {
                 label: 'Integrations',
                 to: 'docs/intro-to-integrations',
               },
-              {
-                label: 'GraphQL APIs',
-                to: 'docs/intro-to-graphql',
-              },
-              {
-                label: 'REST APIs',
-                to: 'docs/intro-to-rest',
-              },
+              // {
+              //   label: 'GraphQL APIs',
+              //   to: 'docs/intro-to-graphql',
+              // },
+              // {
+              //   label: 'REST APIs',
+              //   to: 'docs/intro-to-rest',
+              // },
             ],
           },
           {
@@ -319,11 +324,11 @@ module.exports = {
             items: [
               {
                 label: 'Sales',
-                href: 'https://calendly.com/mark-heropixel/30min',
+                href: 'https://calendly.com/mark-heropixel/20min',
               },
               {
                 label: 'Support',
-                href: 'https://app.heropixel.com/support-tickets/',
+                href: 'mailto:support@heropixel.com',
               },
             ],
           },
@@ -358,6 +363,10 @@ module.exports = {
               {
                 label: 'Consumer Rights Request',
                 href: 'https://app.heropixel.com/consumer-rights-request',
+              },
+              {
+                label: 'Privacy Center +1 (855) 474-7028',
+                href: 'tel:8554747028',
               },
             ],
           },

@@ -4,3 +4,5 @@ build:
 
 serve:
     cd ./website && npm run serve
+
+jsut reserve: build serve
