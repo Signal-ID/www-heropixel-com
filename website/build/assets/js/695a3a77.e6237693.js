@@ -1,4 +1,4 @@
-/*! For license information please see 695a3a77.8df5ba57.js.LICENSE.txt */
+/*! For license information please see 695a3a77.e6237693.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -442,7 +442,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1719263167e3,
+          lastUpdatedAt: 1723155911e3,
           frontMatter: {
             id: 'intro-to-integrations',
             title: 'Overview of Destinations',
@@ -539,7 +539,7 @@
                 '\n',
                 (0, i.jsxs)(t.li, {
                   children: [
-                    "In the left menu you'll see a link to ",
+                    "In the left menu, on your dashboard, you'll see a link to ",
                     (0, i.jsx)(t.strong, {
                       children: (0, i.jsx)(t.a, {
                         href: 'https://app.heropixel.com/settings',
