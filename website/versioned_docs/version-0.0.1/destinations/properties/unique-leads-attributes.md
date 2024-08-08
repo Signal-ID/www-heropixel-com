@@ -131,7 +131,7 @@ Not all destinations support receiving all of this data. It's all available to s
 | `veteran_hh`                 | `0`, `1`                                                                  | string     | Veteran status in the household                                                       |
 | `white_collar`               | `0`, `1`                                                                  | number     | White-collar worker ordinal                                                           |
 
-# Device Technology
+## Device Technology
 
 | Property           | Values                        | Value Type | Description                                                |
 | ------------------ | ----------------------------- | ---------- | ---------------------------------------------------------- |
@@ -153,7 +153,7 @@ Not all destinations support receiving all of this data. It's all available to s
 | `utm_term`         | -                             | string     | The utm_term parameter you set in your marketing           |
 | `website_id`       | 0-9999                        | number     | The Pixel ID that identified the visitor                   |
 
-# Consumer Affinities
+## Consumer Affinities
 
 "Affinity" refers to a natural liking, attraction, or inclination towards something or someone. It can also describe a similarity or resemblance between things. In different contexts, it can mean:
 
@@ -175,7 +175,7 @@ In general, it signifies a close relationship or a strong connection.
 | `do_it_yourself_affinity`  | `0`, `1` | boolean    | Consumer's affinity for Do-It-Yourself          |
 | `dog_affinity`             | `0`, `1` | boolean    | Consumer's affinity for Dogs                    |
 
-# Interests
+## Interests
 
 "Interests" refer to the subjects or activities that capture your attention, enthusiasm, and curiosity. They are the things you enjoy doing or learning about in your free time. Interests can vary widely from person to person and can include hobbies, sports, academic subjects, arts, and much more. Here are a few examples:
 
@@ -193,7 +193,7 @@ Interests often reflect a person's personality, values, and lifestyle choices, a
 | `charity_interest`        | `0`, `1` | boolean    | Consumer's interest in charities, either participating or contributing. |
 | `healthy_living_interest` | `0`, `1` | boolean    | Consumer's interest in healthy living                                   |
 
-# Categories
+## Categories
 
 | Property                   | Values   | Value Type | Description                                                    |
 | -------------------------- | -------- | ---------- | -------------------------------------------------------------- |
@@ -243,7 +243,7 @@ Interests often reflect a person's personality, values, and lifestyle choices, a
 | `walking`                  | `0`, `1` | boolean    | Whether visitor is interested in walking                       |
 | `woodworking`              | `0`, `1` | boolean    | Whether visitor is interested in woodworking                   |
 
-# Collectors
+## Collectors
 
 If the consumer is a collector of certain items, meaning that they both have a strong affinity for and they purchase high end items in these categories.
 

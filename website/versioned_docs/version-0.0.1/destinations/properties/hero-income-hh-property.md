@@ -8,45 +8,7 @@ description: Guide to using the household income property
 
 ## Introduction
 
-The `income_hh` property allows you to tailor your content based on the household income range of your visitors. This guide provides an overview of how to use the `income_hh` property to create personalized experiences and includes a list of potential household income values.
-
-## Usage
-
-The `income_hh` property can be used to display content that resonates with the visitor's household income range, making your communication more relevant and effective.
-
-### Example
-
-**Usage:**
-
-```html
-{{#if (eq income_hh "A. Under $10,000")}}
-<p>
-  Explore our budget-friendly options and financial assistance
-  programs designed for you.
-</p>
-<img src="/images/budget_friendly.jpg" alt="Budget Friendly" />
-{{else if (eq income_hh "K. $100,000-$149,999")}}
-<p>
-  Discover our premium products and services tailored for higher
-  income households.
-</p>
-<img src="/images/premium_services.jpg" alt="Premium Services" />
-{{else if (eq income_hh "O. $250K +")}}
-<p>
-  Take advantage of our exclusive offers and luxury experiences
-  available for you.
-</p>
-<img src="/images/exclusive_offers.jpg" alt="Exclusive Offers" />
-{{else}}
-<p>
-  Welcome! Discover our range of services and products tailored to
-  various income levels.
-</p>
-<img src="/images/general_services.jpg" alt="General Services" />
-{{/if}}
-```
-
-In this example, a message and image relevant to the visitor's household income range are displayed, helping to create a more personalized and engaging experience.
+The `income_hh` property
 
 ## Potential Values
 
@@ -67,15 +29,3 @@ The following table lists the potential values for the `income_hh` property:
 | `M. $175,000-$199,999` | Household income between $175,000-$199,999 |
 | `N. $200,000-$249,999` | Household income between $200,000-$249,999 |
 | `O. $250K +`           | Household income of $250,000 and above     |
-
-## Conclusion
-
-Using the `income_hh` property allows you to personalize your landing pages based on the visitor's household income range. By leveraging this property, you can deliver content that resonates with different income levels, enhancing user engagement and effectiveness.
-
-## Next Steps
-
-Explore more features:
-
-- [String and Number Functions](/docs/personalization/hero-string-number-functions)
-- [Conditional Helpers](/docs/personalization/hero-conditional-helpers)
-- [Advanced Templating Techniques](/docs/personalization/hero-advanced-techniques)

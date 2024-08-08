@@ -8,30 +8,7 @@ description: Guide to using the phone is callable property
 
 ## Introduction
 
-The `phone_is_callable` property allows you to determine whether a phone number can be called. This guide provides an overview of how to use the `phone_is_callable` property to create personalized experiences and includes a list of the criteria used to determine if a phone number is callable.
-
-## Usage
-
-The `phone_is_callable` property can be used to display content based on whether the visitor's phone number is callable, making your communication more relevant and effective.
-
-### Example
-
-**Usage:**
-
-```html
-{{#if (eq phone_is_callable 1)}}
-<p></p>
-<img src="/images/callable.jpg" alt="Callable" />
-{{else}}
-<p>
-  Please provide an alternative contact method to stay updated
-  with our offers.
-</p>
-<img src="/images/not_callable.jpg" alt="Not Callable" />
-{{/if}}
-```
-
-In this example, various personalized messages and offers are displayed based on whether the visitor's phone number is callable, providing fresh ideas to enhance user engagement and conversions.
+The `phone_is_callable` property
 
 ## Criteria for Callable Phone Numbers
 
@@ -55,15 +32,3 @@ The `phone_is_callable` property can return the following values:
 | ----- | ---------------------------- |
 | `0`   | Phone number is not callable |
 | `1`   | Phone number is callable     |
-
-## Conclusion
-
-Using the `phone_is_callable` property allows you to personalize your landing pages based on whether the visitor's phone number is callable. By leveraging this property, you can deliver content that resonates with different contact statuses, enhancing user engagement and effectiveness.
-
-## Next Steps
-
-Explore more features:
-
-- [String and Number Functions](/docs/personalization/hero-string-number-functions)
-- [Conditional Helpers](/docs/personalization/hero-conditional-helpers)
-- [Advanced Templating Techniques](/docs/personalization/hero-advanced-techniques)

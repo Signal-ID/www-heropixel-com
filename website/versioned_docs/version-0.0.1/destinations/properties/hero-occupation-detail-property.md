@@ -8,47 +8,7 @@ description: Guide to using the detailed occupation property
 
 ## Introduction
 
-The `Occupation_Detail` property allows you to tailor your content based on the detailed occupation of your visitors. This guide provides an overview of how to use the `Occupation_Detail` property to create personalized experiences and includes a list of potential detailed occupation values.
-
-## Usage
-
-The `Occupation_Detail` property can be used to display content that resonates with the visitor's detailed occupation, making your communication more relevant and effective.
-
-### Example
-
-**Usage:**
-
-```html
-{{#if (eq Occupation_Detail "Accountant")}}
-<p>
-  Welcome, Accountant! Check out our latest financial management
-  tools designed just for you.
-</p>
-<img src="/images/accountant_tools.jpg" alt="Accountant Tools" />
-{{else if (eq Occupation_Detail "Teacher")}}
-<p>
-  Hi, Teacher! Discover our educational resources and tools to
-  help you in the classroom.
-</p>
-<img
-  src="/images/teacher_resources.jpg"
-  alt="Teacher Resources" />
-{{else if (eq Occupation_Detail "Software Developer")}}
-<p>
-  Hello, Software Developer! Explore our advanced coding and
-  development tools.
-</p>
-<img src="/images/developer_tools.jpg" alt="Developer Tools" />
-{{else}}
-<p>
-  Welcome! Explore our range of products and services tailored to
-  various occupations.
-</p>
-<img src="/images/general_offers.jpg" alt="General Offers" />
-{{/if}}
-```
-
-In this example, various personalized messages and offers are displayed based on the visitor's detailed occupation, providing fresh ideas to enhance user engagement and conversions.
+The `Occupation_Detail` property
 
 ## Potential Values
 
@@ -114,15 +74,3 @@ The following table lists a selection of the potential values for the `Occupatio
 | `Waiter/Waitress`                 | Detailed occupation for waiters             |
 | `Welder`                          | Detailed occupation for welders             |
 | `Writer`                          | Detailed occupation for writers             |
-
-## Conclusion
-
-Using the `Occupation_Detail` property allows you to personalize your landing pages based on the visitor's detailed occupation. By leveraging this property, you can deliver content that resonates with different occupations, enhancing user engagement and effectiveness.
-
-## Next Steps
-
-Explore more features:
-
-- [String and Number Functions](/docs/personalization/hero-string-number-functions)
-- [Conditional Helpers](/docs/personalization/hero-conditional-helpers)
-- [Advanced Templating Techniques](/docs/personalization/hero-advanced-techniques)
