@@ -8,7 +8,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="generator" content="Docusaurus v3.2.0" />
-    <title data-rh="true">Consumer Attributes · Hero Pixel by Signal ID</title>
+    <title data-rh="true">Unique Leads Stream · Hero Pixel by Signal ID</title>
     <meta
       data-rh="true"
       name="viewport"
@@ -45,17 +45,17 @@
     <meta
       data-rh="true"
       property="og:title"
-      content="Consumer Attributes · Hero Pixel by Signal ID"
+      content="Unique Leads Stream · Hero Pixel by Signal ID"
     />
     <meta
       data-rh="true"
       name="description"
-      content="The available Consumer Attributes for sync"
+      content="The available Consumer Attributes for Unique Leads Stream"
     />
     <meta
       data-rh="true"
       property="og:description"
-      content="The available Consumer Attributes for sync"
+      content="The available Consumer Attributes for Unique Leads Stream"
     />
     <link data-rh="true" rel="icon" href="/img/heropixel/hero-pixel-icon.png" />
     <link
@@ -136,8 +136,8 @@
     <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
     <script src="/js/heropixel.js" async></script>
     <link rel="stylesheet" href="/assets/css/styles.a6aeaac9.css" />
-    <script src="/assets/js/runtime~main.ac3a5c93.js" defer="defer"></script>
-    <script src="/assets/js/main.386bd116.js" defer="defer"></script>
+    <script src="/assets/js/runtime~main.fd132ec5.js" defer="defer"></script>
+    <script src="/assets/js/main.d6a2c973.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -417,7 +417,7 @@
                               aria-current="page"
                               tabindex="0"
                               href="/docs/destinations/properties/unique-leads-attributes"
-                              >Consumer Attributes</a
+                              >Unique Leads Stream</a
                             >
                           </li>
                         </ul>
@@ -484,10 +484,19 @@
                             >
                           </h2>
                           <p>
+                            When choosing the stream type during integration
+                            config you&#x27;ll see the &quot;Unique Leads&quot;
+                            option. When you choose that option we will send you
+                            one record of the lead ever. No matter how often
+                            they have visited your website. This integration
+                            stream is best for CRMs where you plan to contact
+                            the leads and store their information.
+                          </p>
+                          <p>
                             Here&#x27;s a list of the data fields that are
-                            available through our integrations system. If you
-                            don&#x27;t find the data you&#x27;re looking for,
-                            please request it from support.
+                            available through this stream. If you don&#x27;t
+                            find the data you&#x27;re looking for, please
+                            request it from support.
                           </p>
                           <p>
                             Not all destinations support receiving all of this
@@ -506,961 +515,390 @@
                               >​</a
                             >
                           </h2>
-                          <table>
-                            <thead>
-                              <tr>
-                                <th>Property</th>
-                                <th>Values</th>
-                                <th>Value Type</th>
-                                <th>Description</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td><code>consumer_id</code></td>
-                                <td>0-99999999</td>
-                                <td>number</td>
-                                <td>Unique ID assigned to this individual.</td>
-                              </tr>
-                              <tr>
-                                <td><code>hem</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  Hashed email that was provided by you to us at
-                                  the time of engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>first_name</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s First Name</td>
-                              </tr>
-                              <tr>
-                                <td><code>last_name</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s Last Name</td>
-                              </tr>
-                              <tr>
-                                <td><code>email</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  Consumer&#x27;s Valid and Verified Email
-                                  Address
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>phone</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  Consumer&#x27;s Valid and Verified Phone
-                                  Number
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>address</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s Physical Address</td>
-                              </tr>
-                              <tr>
-                                <td><code>city</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s city</td>
-                              </tr>
-                              <tr>
-                                <td><code>region_name</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>Name of the State</td>
-                              </tr>
-                              <tr>
-                                <td><code>zip</code></td>
-                                <td>99999</td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s ZIP code</td>
-                              </tr>
-                              <tr>
-                                <td><code>country_code</code></td>
-                                <td><code>US</code></td>
-                                <td>string</td>
-                                <td>
-                                  Consumer&#x27;s Country. Hero Pixel only
-                                  returns US persons
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>age</code></td>
-                                <td>0-120</td>
-                                <td>number</td>
-                                <td>Consumer&#x27;s age</td>
-                              </tr>
-                              <tr>
-                                <td><code>amex_card</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns an Amex card</td>
-                              </tr>
-                              <tr>
-                                <td><code>address_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/address-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Type of Consumer&#x27;s address</td>
-                              </tr>
-                              <tr>
-                                <td><code>bank_card</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns a bank card</td>
-                              </tr>
-                              <tr>
-                                <td><code>birth_month_and_year</code></td>
-                                <td><code>1951-10-19</code></td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s birth date</td>
-                              </tr>
-                              <tr>
-                                <td><code>birth_year</code></td>
-                                <td>YYYY</td>
-                                <td>number</td>
-                                <td>Consumer&#x27;s birth year</td>
-                              </tr>
-                              <tr>
-                                <td><code>blue_collar</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Consumer&#x27;s blue collar score</td>
-                              </tr>
-                              <tr>
-                                <td><code>cat_owner</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Consumer&#x27;s blue collar score</td>
-                              </tr>
-                              <tr>
-                                <td><code>child_aged_0_3_hh</code></td>
-                                <td>0-9</td>
-                                <td>number</td>
-                                <td>
-                                  How many children between 0 and 3 yrs of age
-                                  within the HH
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>child_aged_4_6_hh</code></td>
-                                <td>0-9</td>
-                                <td>number</td>
-                                <td>
-                                  How many children between 4 and 6 yrs of age
-                                  within the HH
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>child_aged_10_12_hh</code></td>
-                                <td>0-9</td>
-                                <td>number</td>
-                                <td>
-                                  How many children between 10 and 12 yrs of age
-                                  within the HH
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>child_aged_13_18_hh</code></td>
-                                <td>0-9</td>
-                                <td>number</td>
-                                <td>
-                                  How many children between 13 and 18 yrs of age
-                                  within the HH
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>created_at</code></td>
-                                <td>-</td>
-                                <td>integer</td>
-                                <td>
-                                  The 10 digit epoch timestamp of the first
-                                  Engagement on your website
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>credit_range</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/credit-range-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s credit range</td>
-                              </tr>
-                              <tr>
-                                <td><code>credit_card</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>
-                                  Number of credit cards owned by the visitor
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>credit_midpts</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/credit-midpts-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Credit midpoints</td>
-                              </tr>
-                              <tr>
-                                <td><code>custom_one</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  The Custom parameter you tagged the lead with
-                                  at the time of engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>custom_two</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  The Custom parameter you tagged the lead with
-                                  at the time of engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>custom_three</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  The Custom parameter you tagged the lead with
-                                  at the time of engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>custom_four</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  The Custom parameter you tagged the lead with
-                                  at the time of engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>custom_five</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  The Custom parameter you tagged the lead with
-                                  at the time of engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>dog_owner</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns a Dog</td>
-                              </tr>
-                              <tr>
-                                <td><code>dwelling_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/dwelling-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Type of dwelling</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnic_group</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/hero-ethnic-group-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s ethnic group</td>
-                              </tr>
-                              <tr>
-                                <td><code>education</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/education-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s education level</td>
-                              </tr>
-                              <tr>
-                                <td><code>education_ordinal</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/education-ordinal-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Consumer&#x27;s education ordinal</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_detail</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/ethnicity-detail-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Detailed ethnicity of the visitor</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_white</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>White ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_african_american</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>African American ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_hispanic</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Hispanic ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_asian</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Asian ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_jewish</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Jewish ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>gender</code></td>
-                                <td><code>Male</code>, <code>Female</code></td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s gender</td>
-                              </tr>
-                              <tr>
-                                <td><code>generation</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/hero-generation-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s generation</td>
-                              </tr>
-                              <tr>
-                                <td><code>generation_ordinal</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/generation-ordinal-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Consumer&#x27;s generation ordinal</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_owner</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/home-owner-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Whether visitor is a homeowner</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_owner_ordinal</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/home-owner-ordinal-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Homeowner ordinal</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_heat_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/home-heat-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>
-                                  Type of heating in the Consumer&#x27;s home
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>home_improvement</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor is interested in home
-                                  improvement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>home_price</code></td>
-                                <td>0-999999</td>
-                                <td>number</td>
-                                <td>Price of Consumer&#x27;s home</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_purchased_years_ago</code></td>
-                                <td>0-56</td>
-                                <td>number</td>
-                                <td>Years since visitor purchased home</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_study</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor has a home study</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_value</code></td>
-                                <td>0-999999999</td>
-                                <td>number</td>
-                                <td>Value of Consumer&#x27;s home</td>
-                              </tr>
-                              <tr>
-                                <td><code>income_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/income-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Household income</td>
-                              </tr>
-                              <tr>
-                                <td><code>income_levels</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/income-levels-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Levels of income</td>
-                              </tr>
-                              <tr>
-                                <td><code>income_midpts_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/income-midpts-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Midpoints of household income</td>
-                              </tr>
-                              <tr>
-                                <td><code>investment_type</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>
-                                  Types of investments owned by the visitor
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>language</code></td>
-                                <td><code>en-US</code></td>
-                                <td>string</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td><code>Language</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/hero-language-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s preferred language</td>
-                              </tr>
-                              <tr>
-                                <td><code>lat</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td><code>lon</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td><code>likely_charitable_donor</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor is likely to be a charitable
-                                  donor
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>length_of_residence</code></td>
-                                <td>0-99</td>
-                                <td>number</td>
-                                <td>Length of residence</td>
-                              </tr>
-                              <tr>
-                                <td><code>marital_status</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/marital-status-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Marital status of the visitor</td>
-                              </tr>
-                              <tr>
-                                <td><code>md5</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  32 Character MD5 encrypted hash of their email
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>median_home_value</code></td>
-                                <td>0-999999</td>
-                                <td>number</td>
-                                <td>
-                                  Median value of homes in Consumer&#x27;s area
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>median_income</code></td>
-                                <td>0-250000</td>
-                                <td>number</td>
-                                <td>Median income of Consumer&#x27;s area</td>
-                              </tr>
-                              <tr>
-                                <td><code>mortgage_age</code></td>
-                                <td>0-34</td>
-                                <td>number</td>
-                                <td>Age of Consumer&#x27;s mortgage</td>
-                              </tr>
-                              <tr>
-                                <td><code>mortgage_amount</code></td>
-                                <td>0-999999999</td>
-                                <td>number</td>
-                                <td>Amount of Consumer&#x27;s mortgage</td>
-                              </tr>
-                              <tr>
-                                <td><code>mortgage_loan_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/mortgage-loan-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Type of mortgage loan</td>
-                              </tr>
-                              <tr>
-                                <td><code>mortgage_refi_age</code></td>
-                                <td>0-24</td>
-                                <td>number</td>
-                                <td>
-                                  Age of Consumer&#x27;s mortgage refinance
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>mortgage_refi_amount</code></td>
-                                <td>0-999999999</td>
-                                <td>number</td>
-                                <td>
-                                  Amount of Consumer&#x27;s mortgage refinance
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>mortgage_refi_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/mortgage-refi-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Type of mortgage refinance</td>
-                              </tr>
-                              <tr>
-                                <td><code>multilingual</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor is multilingual</td>
-                              </tr>
-                              <tr>
-                                <td><code>net_worth_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/net-worth-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Household net worth</td>
-                              </tr>
-                              <tr>
-                                <td><code>net_worth_midpt_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/net-worth-midpt-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Midpoint of household net worth</td>
-                              </tr>
-                              <tr>
-                                <td><code>new_credit_offered_hh</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor has been offered new credit
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>num_adults_hh</code></td>
-                                <td>0-9</td>
-                                <td>number</td>
-                                <td>Number of adults in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>num_children_hh</code></td>
-                                <td>0-8</td>
-                                <td>number</td>
-                                <td>Number of children in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>num_generations_hh</code></td>
-                                <td>0-3</td>
-                                <td>number</td>
-                                <td>Number of generations in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>num_persons_hh</code></td>
-                                <td>0-9</td>
-                                <td>number</td>
-                                <td>Number of persons in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>number_of_vehicles_in_hh</code></td>
-                                <td>0-10</td>
-                                <td>number</td>
-                                <td>Number of vehicles in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>occupation_detail</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/occupation-detail-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s occupation details</td>
-                              </tr>
-                              <tr>
-                                <td><code>outdoors</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor is interested in outdoor
-                                  activities
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>owns_investments</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns investments</td>
-                              </tr>
-                              <tr>
-                                <td><code>owns_stocks_and_bonds</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns stocks and bonds</td>
-                              </tr>
-                              <tr>
-                                <td><code>owns_swimming_pool</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>Whether visitor owns a swimming pool</td>
-                              </tr>
-                              <tr>
-                                <td><code>pet_owner</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns pets</td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_activity</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/phone-activity-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Phone activity</td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_can_receive_texts</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether Consumer&#x27;s phone can receive
-                                  texts
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_carrier</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/phone-carrier-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s phone carrier</td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_dialing_code</code></td>
-                                <td>0-9999</td>
-                                <td>number</td>
-                                <td>
-                                  The 1 to 4 digit dialing code for this phone
-                                  number or null if unknown.
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_do_not_call</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether Consumer&#x27;s phone is on the
-                                  do-not-call list
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_formatted</code></td>
-                                <td><code>+18007132618</code></td>
-                                <td>string</td>
-                                <td>
-                                  The phone number formatted in the
-                                  international dialing code. N/A if not
-                                  formattable.
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_is_callable</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/phone-is-callable-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether Consumer&#x27;s phone is callable
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/line-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Type of phone</td>
-                              </tr>
-                              <tr>
-                                <td><code>phone_voip</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether Consumer&#x27;s phone is a VoIP number
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>photography</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor is interested in photography
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>political_contributor</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor is a political contributor
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>political_party</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/political-party-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Political party affiliation</td>
-                              </tr>
-                              <tr>
-                                <td><code>premium_amex_card</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Whether visitor owns a premium Amex card
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>premium_card</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Whether visitor owns a premium card</td>
-                              </tr>
-                              <tr>
-                                <td><code>premium_income_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/premium-income-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Premium household income</td>
-                              </tr>
-                              <tr>
-                                <td><code>premium_income_midpt_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/premium-income-midpt-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Midpoint of premium household income</td>
-                              </tr>
-                              <tr>
-                                <td><code>religion</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/religion-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s religion</td>
-                              </tr>
-                              <tr>
-                                <td><code>sha1</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>The SHA1 encryption of the users email</td>
-                              </tr>
-                              <tr>
-                                <td><code>sha2</code></td>
-                                <td>-</td>
-                                <td>string</td>
-                                <td>
-                                  The SHA2 encryption of the users email
-                                  (perfect for ads)
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>single_family_dwelling</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Single-family dwelling ordinal</td>
-                              </tr>
-                              <tr>
-                                <td><code>timestamp</code></td>
-                                <td><code>2024-06-07 10:18:36.749000</code></td>
-                                <td>string</td>
-                                <td>
-                                  The full timestamp taken at the time of
-                                  engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>timezone</code></td>
-                                <td><code>America/Los_Angeles</code></td>
-                                <td>string</td>
-                                <td>
-                                  The full timestamp taken at the time of
-                                  engagement
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>urbanicity</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/urbanicity-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Degree of urbanization</td>
-                              </tr>
-                              <tr>
-                                <td><code>veteran_hh</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Veteran status in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>white_collar</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>White-collar worker ordinal</td>
-                              </tr>
-                            </tbody>
-                          </table>
+                          <p>
+                            | Property | Values | Value Type | Description | |
+                            ---------------------------- |
+                            -------------------------------------------------------------------------
+                            | ---------- |
+                            -------------------------------------------------------------------------------------
+                            | ------------------------------ | |
+                            <code>consumer_id</code> | 0-99999999 | number |
+                            Unique ID assigned to this individual. | |
+                            <code>hem</code> | - | string | Hashed email that
+                            was provided by you to us at the time of engagement
+                            | | <code>first_name</code> | - | string |
+                            Consumer&#x27;s First Name | |
+                            <code>last_name</code> | - | string |
+                            Consumer&#x27;s Last Name | | <code>email</code> | -
+                            | string | Consumer&#x27;s Valid and Verified Email
+                            Address | | <code>phone</code> | - | string |
+                            Consumer&#x27;s Valid and Verified Phone Number | |
+                            <code>address</code> | - | string | Consumer&#x27;s
+                            Physical Address | | <code>city</code> | - | string
+                            | Consumer&#x27;s city | |
+                            <code>region_name</code> | - | string | Name of the
+                            State | | <code>zip</code> | 99999 | string |
+                            Consumer&#x27;s ZIP code | |
+                            <code>country_code</code> | <code>US</code> | string
+                            | Consumer&#x27;s Country. Hero Pixel only returns
+                            US persons | | <code>age</code> | 0-120 | number |
+                            Consumer&#x27;s age | | <code>amex_card</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor owns an Amex card | |
+                            <code>address_type</code> |
+                            <a
+                              href="/docs/destinations/properties/address-type-property"
+                              >see all</a
+                            >
+                            | string | Type of Consumer&#x27;s address | |
+                            <code>bank_card</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor owns a
+                            bank card | | <code>birth_month_and_year</code> |
+                            <code>1951-10-19</code> | string | Consumer&#x27;s
+                            birth date | | <code>birth_year</code> | YYYY |
+                            number | Consumer&#x27;s birth year | |
+                            <code>blue_collar</code> | <code>0</code>,
+                            <code>1</code> | boolean | Consumer&#x27;s blue
+                            collar score | | <code>cat_owner</code> |
+                            <code>0</code>, <code>1</code> | boolean |
+                            Consumer&#x27;s blue collar score | |
+                            <code>child_aged_0_3_hh</code> | 0-9 | number | How
+                            many children between 0 and 3 yrs of age within the
+                            HH | | <code>child_aged_4_6_hh</code> | 0-9 | number
+                            | How many children between 4 and 6 yrs of age
+                            within the HH | | <code>child_aged_10_12_hh</code> |
+                            0-9 | number | How many children between 10 and 12
+                            yrs of age within the HH | |
+                            <code>child_aged_13_18_hh</code> | 0-9 | number |
+                            How many children between 13 and 18 yrs of age
+                            within the HH | | <code>created_at</code> | - |
+                            integer | The 10 digit epoch timestamp of the first
+                            Engagement on your website | |
+                            <code>credit_range</code> |
+                            <a
+                              href="/docs/destinations/properties/credit-range-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s credit range | |
+                            <code>credit_card</code> | <code>0</code>,
+                            <code>1</code> | number | Number of credit cards
+                            owned by the visitor | |
+                            <code>credit_midpts</code> |
+                            <a
+                              href="/docs/destinations/properties/credit-midpts-property"
+                              >see all</a
+                            >
+                            | number | Credit midpoints | |
+                            <code>custom_one</code> | - | string | The Custom
+                            parameter you tagged the lead with at the time of
+                            engagement | | <code>custom_two</code> | - | string
+                            | The Custom parameter you tagged the lead with at
+                            the time of engagement | |
+                            <code>custom_three</code> | - | string | The Custom
+                            parameter you tagged the lead with at the time of
+                            engagement | | <code>custom_four</code> | - | string
+                            | The Custom parameter you tagged the lead with at
+                            the time of engagement | |
+                            <code>custom_five</code> | - | string | The Custom
+                            parameter you tagged the lead with at the time of
+                            engagement | | <code>dog_owner</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor owns a Dog | | <code>dwelling_type</code> |
+                            <a
+                              href="/docs/destinations/properties/dwelling-type-property"
+                              >see all</a
+                            >
+                            | string | Type of dwelling | |
+                            <code>ethnic_group</code> |
+                            <a
+                              href="/docs/destinations/properties/hero-ethnic-group-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s ethnic group | |
+                            <code>education</code> |
+                            <a
+                              href="/docs/destinations/properties/education-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s education level | |
+                            <code>education_ordinal</code> |
+                            <a
+                              href="/docs/destinations/properties/education-ordinal-property"
+                              >see all</a
+                            >
+                            | number | Consumer&#x27;s education ordinal | |
+                            <code>ethnicity_detail</code> |
+                            <a
+                              href="/docs/destinations/properties/ethnicity-detail-property"
+                              >see all</a
+                            >
+                            | string | Detailed ethnicity of the visitor | |
+                            <code>ethnicity_white</code> | <code>0</code>,
+                            <code>1</code> | string | White ethnicity | |
+                            <code>ethnicity_african_american</code> |
+                            <code>0</code>, <code>1</code> | string | African
+                            American ethnicity | |
+                            <code>ethnicity_hispanic</code> | <code>0</code>,
+                            <code>1</code> | string | Hispanic ethnicity | |
+                            <code>ethnicity_asian</code> | <code>0</code>,
+                            <code>1</code> | string | Asian ethnicity | |
+                            <code>ethnicity_jewish</code> | <code>0</code>,
+                            <code>1</code> | string | Jewish ethnicity | |
+                            <code>gender</code> | <code>Male</code>,
+                            <code>Female</code> | string | Consumer&#x27;s
+                            gender | | <code>generation</code> |
+                            <a
+                              href="/docs/destinations/properties/hero-generation-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s generation | |
+                            <code>generation_ordinal</code> |
+                            <a
+                              href="/docs/destinations/properties/generation-ordinal-property"
+                              >see all</a
+                            >
+                            | number | Consumer&#x27;s generation ordinal | |
+                            <code>home_owner</code> |
+                            <a
+                              href="/docs/destinations/properties/home-owner-property"
+                              >see all</a
+                            >
+                            | string | Whether visitor is a homeowner | |
+                            <code>home_owner_ordinal</code> |
+                            <a
+                              href="/docs/destinations/properties/home-owner-ordinal-property"
+                              >see all</a
+                            >
+                            | number | Homeowner ordinal | |
+                            <code>home_heat_type</code> |
+                            <a
+                              href="/docs/destinations/properties/home-heat-type-property"
+                              >see all</a
+                            >
+                            | string | Type of heating in the Consumer&#x27;s
+                            home | | <code>home_improvement</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor is interested in home improvement | |
+                            <code>home_price</code> | 0-999999 | number | Price
+                            of Consumer&#x27;s home | |
+                            <code>home_purchased_years_ago</code> | 0-56 |
+                            number | Years since visitor purchased home | |
+                            <code>home_study</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor has a
+                            home study | | <code>home_value</code> | 0-999999999
+                            | number | Value of Consumer&#x27;s home | |
+                            <code>income_hh</code> |
+                            <a
+                              href="/docs/destinations/properties/income-hh-property"
+                              >see all</a
+                            >
+                            | string | Household income | |
+                            <code>income_levels</code> |
+                            <a
+                              href="/docs/destinations/properties/income-levels-property"
+                              >see all</a
+                            >
+                            | string | Levels of income | |
+                            <code>income_midpts_hh</code> |
+                            <a
+                              href="/docs/destinations/properties/income-midpts-hh-property"
+                              >see all</a
+                            >
+                            | number | Midpoints of household income | |
+                            <code>investment_type</code> | <code>0</code>,
+                            <code>1</code> | number | Types of investments owned
+                            by the visitor | | <code>language</code> |
+                            <code>en-US</code> | string | | Browser language
+                            specification | | <code>Language</code> |
+                            <a
+                              href="/docs/destinations/properties/hero-language-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s preferred language | |
+                            <code>lat</code> | - | string | | The users
+                            Lattitude | | <code>lon</code> | - | string | | The
+                            users Longitude | |
+                            <code>likely_charitable_donor</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor is likely to be a charitable donor | |
+                            <code>length_of_residence</code> | 0-99 | number |
+                            Length of residence | |
+                            <code>marital_status</code> |
+                            <a
+                              href="/docs/destinations/properties/marital-status-property"
+                              >see all</a
+                            >
+                            | string | Marital status of the visitor | |
+                            <code>md5</code> | - | string | 32 Character MD5
+                            encrypted hash of their email | |
+                            <code>median_home_value</code> | 0-999999 | number |
+                            Median value of homes in Consumer&#x27;s area | |
+                            <code>median_income</code> | 0-250000 | number |
+                            Median income of Consumer&#x27;s area | |
+                            <code>mortgage_age</code> | 0-34 | number | Age of
+                            Consumer&#x27;s mortgage | |
+                            <code>mortgage_amount</code> | 0-999999999 | number
+                            | Amount of Consumer&#x27;s mortgage | |
+                            <code>mortgage_loan_type</code> |
+                            <a
+                              href="/docs/destinations/properties/mortgage-loan-type-property"
+                              >see all</a
+                            >
+                            | string | Type of mortgage loan | |
+                            <code>mortgage_refi_age</code> | 0-24 | number | Age
+                            of Consumer&#x27;s mortgage refinance | |
+                            <code>mortgage_refi_amount</code> | 0-999999999 |
+                            number | Amount of Consumer&#x27;s mortgage
+                            refinance | | <code>mortgage_refi_type</code> |
+                            <a
+                              href="/docs/destinations/properties/mortgage-refi-type-property"
+                              >see all</a
+                            >
+                            | string | Type of mortgage refinance | |
+                            <code>multilingual</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor is
+                            multilingual | | <code>net_worth_hh</code> |
+                            <a
+                              href="/docs/destinations/properties/net-worth-hh-property"
+                              >see all</a
+                            >
+                            | number | Household net worth | |
+                            <code>net_worth_midpt_hh</code> |
+                            <a
+                              href="/docs/destinations/properties/net-worth-midpt-hh-property"
+                              >see all</a
+                            >
+                            | number | Midpoint of household net worth | |
+                            <code>new_credit_offered_hh</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor has been
+                            offered new credit | | <code>num_adults_hh</code> |
+                            0-9 | number | Number of adults in the household | |
+                            <code>num_children_hh</code> | 0-8 | number | Number
+                            of children in the household | |
+                            <code>num_generations_hh</code> | 0-3 | number |
+                            Number of generations in the household | |
+                            <code>num_persons_hh</code> | 0-9 | number | Number
+                            of persons in the household | |
+                            <code>number_of_vehicles_in_hh</code> | 0-10 |
+                            number | Number of vehicles in the household | |
+                            <code>occupation_detail</code> |
+                            <a
+                              href="/docs/destinations/properties/occupation-detail-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s occupation details | |
+                            <code>outdoors</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor is
+                            interested in outdoor activities | |
+                            <code>owns_investments</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor owns
+                            investments | | <code>owns_stocks_and_bonds</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor owns stocks and bonds | |
+                            <code>owns_swimming_pool</code> | <code>0</code>,
+                            <code>1</code> | number | Whether visitor owns a
+                            swimming pool | | <code>pet_owner</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor owns pets | | <code>phone_activity</code> |
+                            <a
+                              href="/docs/destinations/properties/phone-activity-property"
+                              >see all</a
+                            >
+                            | string | Phone activity | |
+                            <code>phone_can_receive_texts</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            Consumer&#x27;s phone can receive texts | |
+                            <code>phone_carrier</code> |
+                            <a
+                              href="/docs/destinations/properties/phone-carrier-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s phone carrier | |
+                            <code>phone_dialing_code</code> | 0-9999 | number |
+                            The 1 to 4 digit dialing code for this phone number
+                            or null if unknown. | |
+                            <code>phone_do_not_call</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether Consumer&#x27;s
+                            phone is on the do-not-call list | |
+                            <code>phone_formatted</code> |
+                            <code>+18007132618</code> | string | The phone
+                            number formatted in the international dialing code.
+                            N/A if not formattable. | |
+                            <code>phone_is_callable</code> |
+                            <a
+                              href="/docs/destinations/properties/phone-is-callable-property"
+                              >see all</a
+                            >
+                            | boolean | Whether Consumer&#x27;s phone is
+                            callable | | <code>phone_type</code> |
+                            <a
+                              href="/docs/destinations/properties/line-type-property"
+                              >see all</a
+                            >
+                            | string | Type of phone | |
+                            <code>phone_voip</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether Consumer&#x27;s
+                            phone is a VoIP number | |
+                            <code>photography</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor is
+                            interested in photography | |
+                            <code>political_contributor</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor is a
+                            political contributor | |
+                            <code>political_party</code> |
+                            <a
+                              href="/docs/destinations/properties/political-party-property"
+                              >see all</a
+                            >
+                            | string | Political party affiliation | |
+                            <code>premium_amex_card</code> | <code>0</code>,
+                            <code>1</code> | boolean | Whether visitor owns a
+                            premium Amex card | | <code>premium_card</code> |
+                            <code>0</code>, <code>1</code> | boolean | Whether
+                            visitor owns a premium card | |
+                            <code>premium_income_hh</code> |
+                            <a
+                              href="/docs/destinations/properties/premium-income-hh-property"
+                              >see all</a
+                            >
+                            | number | Premium household income | |
+                            <code>premium_income_midpt_hh</code> |
+                            <a
+                              href="/docs/destinations/properties/premium-income-midpt-hh-property"
+                              >see all</a
+                            >
+                            | number | Midpoint of premium household income | |
+                            <code>religion</code> |
+                            <a
+                              href="/docs/destinations/properties/religion-property"
+                              >see all</a
+                            >
+                            | string | Consumer&#x27;s religion | |
+                            <code>sha1</code> | - | string | The SHA1 encryption
+                            of the users email | | <code>sha2</code> | - |
+                            string | The SHA2 encryption of the users email
+                            (perfect for ads) | |
+                            <code>single_family_dwelling</code> |
+                            <code>0</code>, <code>1</code> | boolean |
+                            Single-family dwelling ordinal | |
+                            <code>timestamp</code> |
+                            <code>2024-06-07 10:18:36.749000</code> | string |
+                            The full timestamp taken at the time of engagement |
+                            | <code>timezone</code> |
+                            <code>America/Los_Angeles</code> | string | The full
+                            timestamp taken at the time of engagement | |
+                            <code>urbanicity</code> |
+                            <a
+                              href="/docs/destinations/properties/urbanicity-property"
+                              >see all</a
+                            >
+                            | string | Degree of urbanization | |
+                            <code>veteran_hh</code> | <code>0</code>,
+                            <code>1</code> | string | Veteran status in the
+                            household | | <code>white_collar</code> |
+                            <code>0</code>, <code>1</code> | number |
+                            White-collar worker ordinal |
+                          </p>
                           <h2
                             class="anchor anchorWithStickyNavbar_LWe7"
                             id="device-technology"
@@ -2237,7 +1675,7 @@
                                 on
                                 <b
                                   ><time
-                                    datetime="2024-08-08T20:10:16.000Z"
+                                    datetime="2024-08-08T21:24:40.000Z"
                                     itemprop="dateModified"
                                     >Aug 8, 2024</time
                                   ></b

@@ -1,14 +1,16 @@
 ---
 id: unique-leads-attributes
-title: Consumer Attributes
-description: The available Consumer Attributes for sync
+title: Unique Leads Stream
+description: The available Consumer Attributes for Unique Leads Stream
 ---
 
 # Consumer Attributes Available Via Sync
 
 ## Introduction
 
-Here's a list of the data fields that are available through our integrations system. If you don't find the data you're looking for, please request it from support.
+When choosing the stream type during integration config you'll see the "Unique Leads" option. When you choose that option we will send you one record of the lead ever. No matter how often they have visited your website. This integration stream is best for CRMs where you plan to contact the leads and store their information.
+
+Here's a list of the data fields that are available through this stream. If you don't find the data you're looking for, please request it from support.
 
 Not all destinations support receiving all of this data. It's all available to send, but the destination may not be capable of receiving it.
 

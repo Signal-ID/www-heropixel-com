@@ -130,8 +130,8 @@
     <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
     <script src="/js/heropixel.js" async></script>
     <link rel="stylesheet" href="/assets/css/styles.a6aeaac9.css" />
-    <script src="/assets/js/runtime~main.ac3a5c93.js" defer="defer"></script>
-    <script src="/assets/js/main.386bd116.js" defer="defer"></script>
+    <script src="/assets/js/runtime~main.fd132ec5.js" defer="defer"></script>
+    <script src="/assets/js/main.d6a2c973.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -411,7 +411,7 @@
                               class="menu__link"
                               tabindex="0"
                               href="/docs/destinations/properties/unique-leads-attributes"
-                              >Consumer Attributes</a
+                              >Unique Leads Stream</a
                             >
                           </li>
                         </ul>
@@ -453,12 +453,346 @@
                   <div class="col docItemCol_VOVn">
                     <div class="docItemContainer_Djhp">
                       <article>
+                        <div
+                          class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"
+                        >
+                          <button
+                            type="button"
+                            class="clean-btn tocCollapsibleButton_TO0P"
+                          >
+                            On this page
+                          </button>
+                        </div>
                         <div class="theme-doc-markdown markdown">
-                          <h1>Hero Pixel Leads to Destinations</h1>
+                          <h1>What to know about Destinations</h1>
                           <p>
-                            The following table lists various connectors with
-                            their logos, titles, descriptions, and links to
-                            their documentation.
+                            This page will help you understand how to work with
+                            our integrations system and get your first
+                            integration setup. Every destination has a unique
+                            set of connection requirements which will be covered
+                            in their specific docs. This document will cover the
+                            general process that you will need to follow for all
+                            destinations.
+                          </p>
+                          <a
+                            class="btn btn-primary"
+                            href="https://app.heropixel.com/settings/integrations"
+                            target="_blank"
+                            >Open Your Integrations</a
+                          >
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="where-to-find-the-destinations"
+                          >
+                            Where to find the Destinations<a
+                              href="#where-to-find-the-destinations"
+                              class="hash-link"
+                              aria-label="Direct link to Where to find the Destinations"
+                              title="Direct link to Where to find the Destinations"
+                              >​</a
+                            >
+                          </h2>
+                          <ol>
+                            <li>
+                              Access your dashboard
+                              <strong
+                                ><a
+                                  href="https://app.heropixel.com"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  >https://app.heropixel.com</a
+                                ></strong
+                              >
+                            </li>
+                            <li>
+                              In the left menu you&#x27;ll see a link to
+                              <strong
+                                ><a
+                                  href="https://app.heropixel.com/settings"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  >Settings</a
+                                ></strong
+                              >
+                            </li>
+                            <li>
+                              And then click the
+                              <strong
+                                ><a
+                                  href="https://app.heropixel.com/settings/integrations"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  >Integrations Tab</a
+                                ></strong
+                              >
+                              (You can also click this link)
+                            </li>
+                            <li>
+                              Choose the &quot;+ New Integration&quot; button to
+                              get started
+                            </li>
+                          </ol>
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="choose-your-destination"
+                          >
+                            Choose your Destination<a
+                              href="#choose-your-destination"
+                              class="hash-link"
+                              aria-label="Direct link to Choose your Destination"
+                              title="Direct link to Choose your Destination"
+                              >​</a
+                            >
+                          </h2>
+                          <p>
+                            <img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Dropdown of Destinations"
+                              src="/assets/images/dropdown-4b8663d70c7b7aae506ba5d6000eace8.png"
+                              width="2992"
+                              height="1640"
+                              class="img_ev3q"
+                            />
+                          </p>
+                          <p>
+                            Once the integration configurations display we can
+                            begin by choosing our preferred destination.
+                            I&#x27;ve also provided you with a list of those
+                            destinations below, and a sidebar category called
+                            &quot;Destinations&quot; for your perusal.
+                          </p>
+                          <p>
+                            You&#x27;ll have your destination specific
+                            configurations that display, but under those
+                            there&#x27;s two global settings, Stream Type and
+                            Sync Frequency.
+                          </p>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="update-type"
+                          >
+                            Update Type<a
+                              href="#update-type"
+                              class="hash-link"
+                              aria-label="Direct link to Update Type"
+                              title="Direct link to Update Type"
+                              >​</a
+                            >
+                          </h3>
+                          <p>
+                            All integrations are set to only send you new data.
+                            It&#x27;s called an Incremental Append. If you
+                            choose to have your integration a Full Refresh or
+                            other type of sync that&#x27;s listed in the
+                            individual documentation, reach out to support and
+                            we can make that adjustment for you.
+                          </p>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="stream-type"
+                          >
+                            Stream Type<a
+                              href="#stream-type"
+                              class="hash-link"
+                              aria-label="Direct link to Stream Type"
+                              title="Direct link to Stream Type"
+                              >​</a
+                            >
+                          </h3>
+                          <table>
+                            <thead>
+                              <tr>
+                                <th><strong>Type</strong></th>
+                                <th><strong>Description</strong></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <strong>Sync All Unique Individuals</strong>
+                                </td>
+                                <td>
+                                  Syncs all unique individual records from the
+                                  chose pixel, ensuring that each person is
+                                  represented once in the destination. This is
+                                  ideal for a CRM.
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <strong>Sync All Unique Sessions</strong>
+                                </td>
+                                <td>
+                                  Syncs all unique sessions, ensuring that each
+                                  session (typically a user&#x27;s interaction
+                                  within a time frame) is captured once in the
+                                  destination. This is ideal for remarketing ads
+                                  or abandoned cart sessions.
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><strong>Sync Every Pageview</strong></td>
+                                <td>
+                                  Syncs every pageview event, capturing each
+                                  time a page is viewed regardless of sessions
+                                  or individual uniqueness. Ideal for segmenting
+                                  your users based on the product pages they
+                                  visit.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <h3
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="sync-frequency"
+                          >
+                            Sync Frequency<a
+                              href="#sync-frequency"
+                              class="hash-link"
+                              aria-label="Direct link to Sync Frequency"
+                              title="Direct link to Sync Frequency"
+                              >​</a
+                            >
+                          </h3>
+                          <p>
+                            You&#x27;ll have the option to choose how often the
+                            sync runs and passes you data. Every hour, 2, 3, 4,
+                            6, 8, 10, 12, or 24 hours.
+                          </p>
+                          <p>
+                            <img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Custom Cron Options"
+                              src="/assets/images/custom-cron-0ead5bc8770f88075d51a4ed2094b93b.png"
+                              width="3032"
+                              height="652"
+                              class="img_ev3q"
+                            />
+                            We also have a custom cron. If you&#x27;d like
+                            something other than the quick options provided,
+                            scroll to the bottom and choose custom schedule.
+                          </p>
+                          <p>
+                            A cron is a time-based job scheduler in Unix-like
+                            operating systems. It allows users to schedule
+                            scripts or commands to run automatically at
+                            specified intervals, such as daily, weekly, or even
+                            down to the minute.
+                          </p>
+                          <p>
+                            Use this tool to generate a cron schedule that fits
+                            your needs.
+                            <a
+                              href="https://crontab.cronhub.io/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Cron Schedule Tool</a
+                            >
+                          </p>
+                          <p><strong>How Cron Works:</strong></p>
+                          <ul>
+                            <li>
+                              <strong>Cron Jobs:</strong> A cron job is a
+                              specific task or command scheduled to run at a
+                              particular time.
+                            </li>
+                            <li>
+                              <strong>Cron Table (Crontab):</strong> This is a
+                              configuration file where cron jobs are defined.
+                              Each line in the crontab file represents a job,
+                              and includes the schedule, the command to be
+                              executed, and optional output redirection.
+                            </li>
+                          </ul>
+                          <p>
+                            <strong>Cron Syntax:</strong> The schedule for a
+                            cron job is specified using five fields:
+                          </p>
+                          <ol>
+                            <li><strong>Minute (0-59)</strong></li>
+                            <li><strong>Hour (0-23)</strong></li>
+                            <li><strong>Day of the month (1-31)</strong></li>
+                            <li><strong>Month (1-12)</strong></li>
+                            <li>
+                              <strong>Day of the week (0-7)</strong>, where both
+                              0 and 7 represent Sunday.
+                            </li>
+                          </ol>
+                          <p>
+                            For example, the following cron entry runs a script
+                            every day at 2:30 AM:
+                          </p>
+                          <div
+                            class="language-jsx codeBlockContainer_Ckt0 theme-code-block"
+                            style="
+                              --prism-color: #ffffff;
+                              --prism-background-color: #282c34;
+                            "
+                          >
+                            <div class="codeBlockContent_biex">
+                              <pre
+                                tabindex="0"
+                                class="prism-code language-jsx codeBlock_bY9V thin-scrollbar"
+                                style="
+                                  color: #ffffff;
+                                  background-color: #282c34;
+                                "
+                              ><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#FFFFFF"><span class="token number" style="color:#5a9bcf">30</span><span class="token plain"> </span><span class="token number" style="color:#5a9bcf">2</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">*</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">*</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">*</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">/</span><span class="token plain">path</span><span class="token operator" style="color:#fc929e">/</span><span class="token plain">to</span><span class="token operator" style="color:#fc929e">/</span><span class="token plain">script</span><span class="token punctuation" style="color:#657b83">.</span><span class="token property-access">sh</span><br></span></code></pre>
+                              <div class="buttonGroup__atx">
+                                <button
+                                  type="button"
+                                  aria-label="Copy code to clipboard"
+                                  title="Copy"
+                                  class="clean-btn"
+                                >
+                                  <span
+                                    class="copyButtonIcons_eSgA"
+                                    aria-hidden="true"
+                                    ><svg
+                                      viewBox="0 0 24 24"
+                                      class="copyButtonIcon_y97N"
+                                    >
+                                      <path
+                                        fill="currentColor"
+                                        d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"
+                                      ></path></svg
+                                    ><svg
+                                      viewBox="0 0 24 24"
+                                      class="copyButtonSuccessIcon_LjdS"
+                                    >
+                                      <path
+                                        fill="currentColor"
+                                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                                      ></path></svg
+                                  ></span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <p>
+                            Cron is powerful because it can automate repetitive
+                            tasks, ensuring they run consistently and on time
+                            without manual intervention.
+                          </p>
+                          <h2
+                            class="anchor anchorWithStickyNavbar_LWe7"
+                            id="available-destinations"
+                          >
+                            Available Destinations<a
+                              href="#available-destinations"
+                              class="hash-link"
+                              aria-label="Direct link to Available Destinations"
+                              title="Direct link to Available Destinations"
+                              >​</a
+                            >
+                          </h2>
+                          <p>
+                            A destination is a location that we can send the
+                            data to. The following table lists various
+                            connectors with their logos, titles, descriptions,
+                            and links to their configuration docs.
                           </p>
                           <table>
                             <thead>
@@ -1543,10 +1877,64 @@
                           href="/docs/destinations/properties/unique-leads-attributes"
                           ><div class="pagination-nav__sublabel">Next</div>
                           <div class="pagination-nav__label">
-                            Consumer Attributes
+                            Unique Leads Stream
                           </div></a
                         >
                       </nav>
+                    </div>
+                  </div>
+                  <div class="col col--3">
+                    <div
+                      class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"
+                    >
+                      <ul
+                        class="table-of-contents table-of-contents__left-border"
+                      >
+                        <li>
+                          <a
+                            href="#where-to-find-the-destinations"
+                            class="table-of-contents__link toc-highlight"
+                            >Where to find the Destinations</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#choose-your-destination"
+                            class="table-of-contents__link toc-highlight"
+                            >Choose your Destination</a
+                          >
+                          <ul>
+                            <li>
+                              <a
+                                href="#update-type"
+                                class="table-of-contents__link toc-highlight"
+                                >Update Type</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="#stream-type"
+                                class="table-of-contents__link toc-highlight"
+                                >Stream Type</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="#sync-frequency"
+                                class="table-of-contents__link toc-highlight"
+                                >Sync Frequency</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            href="#available-destinations"
+                            class="table-of-contents__link toc-highlight"
+                            >Available Destinations</a
+                          >
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
