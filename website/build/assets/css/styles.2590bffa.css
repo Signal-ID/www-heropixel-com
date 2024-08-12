@@ -7573,7 +7573,8 @@ html[data-theme="dark"] .versions-page td a:hover {
 .DocSearch-Hit[aria-selected="true"] a {
   background-color: var(--docsearch-highlight-color);
 }
-.DocSearch-Hit[aria-selected="true"] mark {
+.DocSearch-Hit[aria-selected="true"] mark,
+.txt-underline {
   text-decoration: underline;
 }
 .DocSearch-Hit-Container {
