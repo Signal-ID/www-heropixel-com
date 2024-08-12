@@ -175,11 +175,7 @@
             o.createElement(
               'div',
               {className: 'content'},
-              o.createElement(
-                'h3',
-                null,
-                'Date of Posting:  August 12th, 2024'
-              ),
+              o.createElement('h3', null, 'Date of Posting: August 12th, 2024'),
               o.createElement(
                 'h1',
                 null,
@@ -202,7 +198,8 @@
                 o.createElement(
                   'p',
                   null,
-                  'To review the \u201cAddendum\u201d we have created specifically to address disclosures required under the ',
+                  'To review the \u201cAddendum\u201d we have created specifically to address disclosures required under the',
+                  ' ',
                   o.createElement(
                     'strong',
                     null,
@@ -307,7 +304,7 @@
                 o.createElement(
                   'p',
                   null,
-                  "Finally, we may create a unique browser or device identifier (sometimes called a unique \u201cfingerprint\u201d), by combining various machine, browser and/or network attributes.  These may include, for instance, information related to a user's operating system, browser type, screen resolution and size, user agent, time zone, keyboard layout, central processing unit (CPU), data processing unit (DPU), and other attributes."
+                  "Finally, we may create a unique browser or device identifier (sometimes called a unique \u201cfingerprint\u201d), by combining various machine, browser and/or network attributes. These may include, for instance, information related to a user's operating system, browser type, screen resolution and size, user agent, time zone, keyboard layout, central processing unit (CPU), data processing unit (DPU), and other attributes."
                 ),
                 o.createElement(
                   'p',
@@ -343,7 +340,7 @@
                     'li',
                     null,
                     o.createElement('strong', null, 'Retargeting Services:'),
-                    ' We often help our customers to \u201cretarget\u201d marketing content to website visitors.  In particular, our Services help customers interested in delivering emails to people who have visited or logged in to their websites (or mobile apps).  These Services may involve sending advertising content to these visitors across other websites, apps, devices or marketing channels, including through digital, email, mobile or television or direct mail channels.  These services often involve combining certain types of personal information, such cookie identifiers and IP addresses  \u2013 which identify your browser or device and/or network \u2013 with other personal information that has been collected by third parties.  Using these Services, our customers may send you an email based on your prior visit to their website \u2013 for instance, reminding you that unpurchased goods are in your \u201ccart,\u201d offering you additional discounts or making additional purchase suggestions.  As described in Section 4 above, you may opt out of this type of advertising.'
+                    ' We often help our customers to \u201cretarget\u201d marketing content to website visitors. In particular, our Services help customers interested in delivering emails to people who have visited or logged in to their websites (or mobile apps). These Services may involve sending advertising content to these visitors across other websites, apps, devices or marketing channels, including through digital, email, mobile or television or direct mail channels. These services often involve combining certain types of personal information, such cookie identifiers and IP addresses \u2013 which identify your browser or device and/or network \u2013 with other personal information that has been collected by third parties. Using these Services, our customers may send you an email based on your prior visit to their website \u2013 for instance, reminding you that unpurchased goods are in your \u201ccart,\u201d offering you additional discounts or making additional purchase suggestions. As described in Section 4 above, you may opt out of this type of advertising.'
                   ),
                   o.createElement(
                     'li',
@@ -365,7 +362,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'We also use the Information described above for our own internal purposes \u2013 such as to improve, test, update and verify our own database; develop new products;  operate, analyze, improve and secure our Services and our databases and servers.'
+                  'We also use the Information described above for our own internal purposes \u2013 such as to improve, test, update and verify our own database; develop new products; operate, analyze, improve and secure our Services and our databases and servers.'
                 )
               ),
               o.createElement(
@@ -379,7 +376,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'Signal ID may share the Information with customers, marketing services and platforms, as well as service providers that help us to provide the Services we\u2019ve described above (or other services we may add in the future).  This includes sharing in the following ways'
+                  'Signal ID may share the Information with customers, marketing services and platforms, as well as service providers that help us to provide the Services we\u2019ve described above (or other services we may add in the future). This includes sharing in the following ways'
                 ),
                 o.createElement(
                   'ul',
@@ -388,7 +385,7 @@
                     'li',
                     null,
                     o.createElement('strong', null, 'With Our Customers:'),
-                    '   As described above, we license the Information in various ways to our customers (and something to partners and resellers, who license the Information to their customer), when we provide our Services.  We may sometimes share the Information with those customers\u2019 service providers (for instance, a provider that prints or sends mailings for a customer).'
+                    ' As described above, we license the Information in various ways to our customers (and something to partners and resellers, who license the Information to their customer), when we provide our Services. We may sometimes share the Information with those customers\u2019 service providers (for instance, a provider that prints or sends mailings for a customer).'
                   ),
                   o.createElement(
                     'li',
@@ -404,7 +401,7 @@
                       null,
                       'With Our Service Providers:'
                     ),
-                    ' We share the Information with a variety of service providers in order to operate, protect and advertise our Services and maintain our website(s).  For instance, we may share the Information with our tech, hosting and customer support providers, marketing and advertising providers, other data providers (such as to enhance or verify our Information), security vendors, payment vendors (as to our business to business information), and other companies help us deliver, secure or develop our Services.'
+                    ' We share the Information with a variety of service providers in order to operate, protect and advertise our Services and maintain our website(s). For instance, we may share the Information with our tech, hosting and customer support providers, marketing and advertising providers, other data providers (such as to enhance or verify our Information), security vendors, payment vendors (as to our business to business information), and other companies help us deliver, secure or develop our Services.'
                   ),
                   o.createElement(
                     'li',
@@ -414,7 +411,8 @@
                       null,
                       'Affiliates, parent companies, and subsidiaries:'
                     ),
-                    ' Signal ID may share some or all of the Information in our possession with any of our affiliated or subsidiary companies (to the extent that we ever have any).'
+                    ' ',
+                    'Signal ID may share some or all of the Information in our possession with any of our affiliated or subsidiary companies (to the extent that we ever have any).'
                   ),
                   o.createElement(
                     'li',
@@ -424,7 +422,8 @@
                       null,
                       'As required by law or to protect any person or entity:'
                     ),
-                    ' Signal ID may disclose Information if we believe that such disclosure is necessary to (a) comply in good faith with relevant laws or to respond to subpoenas or warrants served on us; or (b) to protect or otherwise defend the rights, property or safety of Signal ID, our customers, or any other person or entity.'
+                    ' ',
+                    'Signal ID may disclose Information if we believe that such disclosure is necessary to (a) comply in good faith with relevant laws or to respond to subpoenas or warrants served on us; or (b) to protect or otherwise defend the rights, property or safety of Signal ID, our customers, or any other person or entity.'
                   ),
                   o.createElement(
                     'li',
@@ -453,23 +452,25 @@
                   o.createElement(
                     'li',
                     null,
-                    'First, you may visit our opt-out page at ',
+                    'First, you may visit our opt-out page at',
+                    ' ',
                     o.createElement(
                       'a',
                       {href: 'https://app.heropixel.com/optout'},
                       'https://app.heropixel.com/optout'
                     ),
-                    ' to have your personal information removed from our database (in which case we will generally retain such information for suppression purposes, going forward).   We will then in most cases remove your personal information from our active marketing databases within 15 business days, from the time we received the opt-out request.  We may in certain cases (where legally permissible) require that you verify any of the information that you submit, such as through a verified email response or another verified response.'
+                    ' ',
+                    'to have your personal information removed from our database (in which case we will generally retain such information for suppression purposes, going forward). We will then in most cases remove your personal information from our active marketing databases within 15 business days, from the time we received the opt-out request. We may in certain cases (where legally permissible) require that you verify any of the information that you submit, such as through a verified email response or another verified response.'
                   ),
                   o.createElement(
                     'li',
                     null,
-                    'If you would like to opt-out of email marketing from a particular brand (such as a customer of ours), click on the \u201copt out\u201d or \u201cunsubscribe\u201d link in the footer (at the bottom) of the marketing email you have received.  Please also note that these emails do not generally come from us \u2013 you will need to contact the brand through their unsubscribe methods, whether within their emails or on their websites.'
+                    'If you would like to opt-out of email marketing from a particular brand (such as a customer of ours), click on the \u201copt out\u201d or \u201cunsubscribe\u201d link in the footer (at the bottom) of the marketing email you have received. Please also note that these emails do not generally come from us \u2013 you will need to contact the brand through their unsubscribe methods, whether within their emails or on their websites.'
                   ),
                   o.createElement(
                     'li',
                     null,
-                    'While we generally do not engage in \u201cdirect mail\u201d marketing, some of our customers and partners may.  If you are interested in opting out of this type of marketing \u2013 i.e., materials received in your physical mailbox -- we recommend that you visit the DMA Choice website, at',
+                    'While we generally do not engage in \u201cdirect mail\u201d marketing, some of our customers and partners may. If you are interested in opting out of this type of marketing \u2013 i.e., materials received in your physical mailbox -- we recommend that you visit the DMA Choice website, at',
                     o.createElement(
                       'a',
                       {href: 'http://dmachoice.thedma.org'},
@@ -480,17 +481,21 @@
                   o.createElement(
                     'li',
                     null,
-                    'To opt out of our Retargeting Services described in section 2, go to  ',
+                    'To opt out of our Retargeting Services described in section 2, go to',
+                    ' ',
                     o.createElement(
                       'a',
                       {href: 'https://app.heropixel.com/optout'},
-                      ' https://app.heropixel.com/optout'
+                      ' ',
+                      'https://app.heropixel.com/optout'
                     ),
-                    ' and click on the \u201cManage Cookie Preferences\u201d bar on that page.  You will need to do that from each browser that you use (because the retargeting and thus the \u201copt out\u201d are cookie-based), and if you clear your browser cookies you will need to opt out again.  Alternatively, you may provide us with your email address, on that same page, to opt out that particular email from our email-based Retargeting Services.  You may also \u201copt out\u201d of cross-contextual behavioral advertising by using a browser or browser extension that sends a \u201cGlobal Privacy Control\u201d or \u201cGPC\u201d signal.  We honor this signal when it is detectable by us.  You can learn about this signal by visiting the website',
+                    ' ',
+                    'and click on the \u201cManage Cookie Preferences\u201d bar on that page. You will need to do that from each browser that you use (because the retargeting and thus the \u201copt out\u201d are cookie-based), and if you clear your browser cookies you will need to opt out again. Alternatively, you may provide us with your email address, on that same page, to opt out that particular email from our email-based Retargeting Services. You may also \u201copt out\u201d of cross-contextual behavioral advertising by using a browser or browser extension that sends a \u201cGlobal Privacy Control\u201d or \u201cGPC\u201d signal. We honor this signal when it is detectable by us. You can learn about this signal by visiting the website',
                     o.createElement(
                       'a',
                       {href: 'http://globalprivacycontrol.org'},
-                      ' globalprivacycontrol.org'
+                      ' ',
+                      'globalprivacycontrol.org'
                     ),
                     '.'
                   ),
@@ -513,22 +518,22 @@
                 o.createElement(
                   'p',
                   null,
-                  'Signal ID and its business partners use certain industry-standard technologies, including cookies and similarly functioning technologies, which we describe below.  (We and/or our service providers use these technologies on our website, for instance, and our partners may use these technologies in their own marketing services.)'
+                  'Signal ID and its business partners use certain industry-standard technologies, including cookies and similarly functioning technologies, which we describe below. (We and/or our service providers use these technologies on our website, for instance, and our partners may use these technologies in their own marketing services.)'
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'We may work with third parties or service providers to provide or enhance our services (e.g. for purposes of tailoring ads, or placing browser cookies), or to offer marketers ways to access or use the personal Information that we make available.  These business partners of ours may set and access their own cookies, pixel tags and similar technologies on your browser, which may have cookies with varying expiration periods.  Those partners may, likewise, collect various types of information about your browser, device, or browsing activities through use of these cookies.'
+                  'We may work with third parties or service providers to provide or enhance our services (e.g. for purposes of tailoring ads, or placing browser cookies), or to offer marketers ways to access or use the personal Information that we make available. These business partners of ours may set and access their own cookies, pixel tags and similar technologies on your browser, which may have cookies with varying expiration periods. Those partners may, likewise, collect various types of information about your browser, device, or browsing activities through use of these cookies.'
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'Cookies, in turn, are small data files that contain a string of characters, such as a  unique browser identifier. Cookies are stored on your computer or other device and act as tags that identify your device. Our (or other companies\u2019) servers send your device a cookie when you visit a website. A pixel tag (also commonly known as a web beacon or clear GIF) is an invisible 1 x 1 pixel that is placed on certain web pages.  When you access web pages (such as the website of a marketer we work with), pixel tags may generate a generic notice of the visit and permit our partners (or sometimes, us) to read the cookies that a respective company or server has deployed.  Pixel tags are used in combination with cookies to track the activity on a site by a particular device.  When you turn off cookies, pixel tags simply detect a given  website visit.'
+                  'Cookies, in turn, are small data files that contain a string of characters, such as a unique browser identifier. Cookies are stored on your computer or other device and act as tags that identify your device. Our (or other companies\u2019) servers send your device a cookie when you visit a website. A pixel tag (also commonly known as a web beacon or clear GIF) is an invisible 1 x 1 pixel that is placed on certain web pages. When you access web pages (such as the website of a marketer we work with), pixel tags may generate a generic notice of the visit and permit our partners (or sometimes, us) to read the cookies that a respective company or server has deployed. Pixel tags are used in combination with cookies to track the activity on a site by a particular device. When you turn off cookies, pixel tags simply detect a given website visit.'
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'We or our service providers, and other online marketing platforms that we or they work with, may use cookies to, among other things, \u201cremember\u201d you, determine visitor patterns and trends, collect information about your activities on our clients\u2019 sites, or interact with the advertising you see.  Cookies can be used in this way to provide relevant content to you and replace non-relevant communications with ads that better match your interests.'
+                  'We or our service providers, and other online marketing platforms that we or they work with, may use cookies to, among other things, \u201cremember\u201d you, determine visitor patterns and trends, collect information about your activities on our clients\u2019 sites, or interact with the advertising you see. Cookies can be used in this way to provide relevant content to you and replace non-relevant communications with ads that better match your interests.'
                 ),
                 o.createElement(
                   'p',
@@ -543,13 +548,13 @@
                 o.createElement(
                   'p',
                   null,
-                  'We use cookies and similar technologies (as described above) in our Retargeting Services, which involves combining cookie identifiers and IP addresses  \u2013 which identify your browser or device and/or network \u2013 with other personal information, often that has been collected by third parties.  (We may rely on third party data providers to perform this combination.)  Based on these data combinations, sometimes called an \u201cidentity graph,\u201d when you visit or log into a website (such as a brand that you wish to purchase goods from) you may later receive an email \u2013 for instance, reminding you that un-purchased goods are in your \u201ccart,\u201d offering you additional discounts or making additional purchase suggestions.  As described in Section 4 above, you may opt out of this type of advertising.'
+                  'We use cookies and similar technologies (as described above) in our Retargeting Services, which involves combining cookie identifiers and IP addresses \u2013 which identify your browser or device and/or network \u2013 with other personal information, often that has been collected by third parties. (We may rely on third party data providers to perform this combination.) Based on these data combinations, sometimes called an \u201cidentity graph,\u201d when you visit or log into a website (such as a brand that you wish to purchase goods from) you may later receive an email \u2013 for instance, reminding you that un-purchased goods are in your \u201ccart,\u201d offering you additional discounts or making additional purchase suggestions. As described in Section 4 above, you may opt out of this type of advertising.'
                 ),
                 o.createElement('h3', null, 'Disabling Cookies'),
                 o.createElement(
                   'p',
                   null,
-                  'Most web browsers are set up to accept cookies, or at least to accept certain types of cookies. You may be able to set your browser to warn you before accepting certain cookies or to refuse certain cookies.  However, if you disable the use of cookies in your web browser, some features of our website and other services may be difficult to use or become inoperable.'
+                  'Most web browsers are set up to accept cookies, or at least to accept certain types of cookies. You may be able to set your browser to warn you before accepting certain cookies or to refuse certain cookies. However, if you disable the use of cookies in your web browser, some features of our website and other services may be difficult to use or become inoperable.'
                 )
               ),
               o.createElement(
@@ -582,7 +587,7 @@
                   o.createElement(
                     'li',
                     null,
-                    'Information, including personally identifiable and contact information that you provide, which could include (for instance) survey information, sign-up information (e.g., if you sign up for our webinars, events or newsletters), requests for information, mailing addresses and email addresses.  This might include, for instance, your name, email address and/or telephone number.'
+                    'Information, including personally identifiable and contact information that you provide, which could include (for instance) survey information, sign-up information (e.g., if you sign up for our webinars, events or newsletters), requests for information, mailing addresses and email addresses. This might include, for instance, your name, email address and/or telephone number.'
                   )
                 ),
                 o.createElement(
@@ -636,7 +641,7 @@
                   o.createElement(
                     'li',
                     null,
-                    'We may use IP addresses to help diagnose problems with our servers and to administer our website(s).  We also may use IP addresses to help identify visitors to our website(s) for the duration of a session and to gather demographic information about our visitors. We may use clickstream data to determine how much time visitors spend on each web page of our website(s), how visitors navigate through the website(s), and how we may tailor our website(s) to better meet the needs of our visitors. We also use this Information for compliance with our legal obligations, policies and procedures, including the enforcement of our Terms and Conditions.'
+                    'We may use IP addresses to help diagnose problems with our servers and to administer our website(s). We also may use IP addresses to help identify visitors to our website(s) for the duration of a session and to gather demographic information about our visitors. We may use clickstream data to determine how much time visitors spend on each web page of our website(s), how visitors navigate through the website(s), and how we may tailor our website(s) to better meet the needs of our visitors. We also use this Information for compliance with our legal obligations, policies and procedures, including the enforcement of our Terms and Conditions.'
                   ),
                   o.createElement(
                     'li',
@@ -660,7 +665,7 @@
                   o.createElement(
                     'li',
                     null,
-                    'We may share the Information with service providers who help us deliver the services you request or we provide.  For instance, we share the Information with tech and customer support providers, marketing and advertising providers, other data providers (such as to enhance or verify our Information), security and data hygiene vendors, payment vendors (as to our business to business information), and other companies that may help us deliver or develop Services.'
+                    'We may share the Information with service providers who help us deliver the services you request or we provide. For instance, we share the Information with tech and customer support providers, marketing and advertising providers, other data providers (such as to enhance or verify our Information), security and data hygiene vendors, payment vendors (as to our business to business information), and other companies that may help us deliver or develop Services.'
                   ),
                   o.createElement(
                     'li',
@@ -675,7 +680,7 @@
                   o.createElement(
                     'li',
                     null,
-                    'If we or all or substantially all of our assets, are purchased by another company (such as in a merger, consolidation, restructuring, the sale of stock and/or assets, or other corporate change or financing transaction), the Information in our possession will likely be transferred to the successor entity.  We also may share the Information during the course of any due diligence process leading up to any such transaction.'
+                    'If we or all or substantially all of our assets, are purchased by another company (such as in a merger, consolidation, restructuring, the sale of stock and/or assets, or other corporate change or financing transaction), the Information in our possession will likely be transferred to the successor entity. We also may share the Information during the course of any due diligence process leading up to any such transaction.'
                   )
                 ),
                 o.createElement(
@@ -691,7 +696,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'This website may provide links to other websites that Signal ID thinks users may be interested in.   Signal ID is not responsible for the privacy practices of these other sites or companies.'
+                  'This website may provide links to other websites that Signal ID thinks users may be interested in. Signal ID is not responsible for the privacy practices of these other sites or companies.'
                 )
               ),
               o.createElement(
@@ -701,7 +706,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'Signal ID takes steps to help ensure that the data we possess is housed and transmitted securely. This may include various types of physical and electronic security, including firewall protections, encryption, hashing or truncation of data, and access controls to personal information.  However, you should be aware that neither we nor any platform can guarantee 100 percent safety from hacks or illegal intrusion.'
+                  'Signal ID takes steps to help ensure that the data we possess is housed and transmitted securely. This may include various types of physical and electronic security, including firewall protections, encryption, hashing or truncation of data, and access controls to personal information. However, you should be aware that neither we nor any platform can guarantee 100 percent safety from hacks or illegal intrusion.'
                 )
               ),
               o.createElement(
@@ -715,7 +720,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'From time to time, we may update this Privacy Policy.  Any changes to it will become effective when it is posted to our website or at another date specified.  Please check back to learn of any changes to this Privacy Policy.'
+                  'From time to time, we may update this Privacy Policy. Any changes to it will become effective when it is posted to our website or at another date specified. Please check back to learn of any changes to this Privacy Policy.'
                 )
               ),
               o.createElement(
@@ -729,7 +734,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'If you are accessing our website from outside of the United States, you may wish to note that your connection likely will be through and to servers located in the United States and all Information you provide will likely be processed and securely maintained in our web servers and internal systems located within the United States.  (We generally store the Information used in our Services in the United States.)   Thus, you should be aware that in accessing this website or otherwise communicating with us, the information we collect or receive from you may be subject to laws with lesser or different privacy standards than those in your own country (such as if you are in a country located in the European Union).'
+                  'If you are accessing our website from outside of the United States, you may wish to note that your connection likely will be through and to servers located in the United States and all Information you provide will likely be processed and securely maintained in our web servers and internal systems located within the United States. (We generally store the Information used in our Services in the United States.) Thus, you should be aware that in accessing this website or otherwise communicating with us, the information we collect or receive from you may be subject to laws with lesser or different privacy standards than those in your own country (such as if you are in a country located in the European Union).'
                 )
               ),
               o.createElement(
@@ -738,18 +743,21 @@
                 o.createElement(
                   'h2',
                   null,
-                  '11.        State Privacy Rights:  For Residents of California and Other Applicable States '
+                  '11. State Privacy Rights: For Residents of California and Other Applicable States',
+                  ' '
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'If you are a resident of California, the California Consumer Protection Act (CCPA) provides certain rights of disclosure, access and deletion of your Information as described below in the ',
+                  'If you are a resident of California, the California Consumer Protection Act (CCPA) provides certain rights of disclosure, access and deletion of your Information as described below in the',
+                  ' ',
                   o.createElement(
                     'strong',
                     null,
                     '\u201cAddendum for Residents of California and Other Applicable States\u201d'
                   ),
-                  ' at the end of this Privacy Policy.'
+                  ' ',
+                  'at the end of this Privacy Policy.'
                 )
               ),
               o.createElement(
@@ -759,7 +767,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'Signal ID has a designated privacy contact.  If you have questions related to this Privacy Policy, or regarding our products or services, please contact us:'
+                  'Signal ID has a designated privacy contact. If you have questions related to this Privacy Policy, or regarding our products or services, please contact us:'
                 ),
                 o.createElement(
                   'p',
@@ -775,7 +783,8 @@
                 o.createElement(
                   'p',
                   null,
-                  'Email: ',
+                  'Email:',
+                  ' ',
                   o.createElement(
                     'a',
                     {href: 'mailto:support@heropixel.com'},
@@ -806,12 +815,12 @@
                 o.createElement(
                   'p',
                   null,
-                  'The California Consumer Privacy Act of 2018 as amended by the California Privacy Rights Act (together the \u201cCCPA\u201d) provides certain rights to residents of California.  A number of other states provide the same or similar rights to their residents \u2013 as their own respective privacy laws become effective.  (These states include but are not limited to Virginia, Colorado, Utah, Montana, Connecticut, Indiana, Texas and others.)  This section of the Privacy Policy applies if you are a natural person who is a resident of California or another applicable state (collectively, \u201cApplicable States\u201d), and whose personal information we hold as a \u201ccontroller\u201d or \u201cbusiness\u201d \u2013 in other words, when we decide how that information is used, shared and stored.'
+                  'The California Consumer Privacy Act of 2018 as amended by the California Privacy Rights Act (together the \u201cCCPA\u201d) provides certain rights to residents of California. A number of other states provide the same or similar rights to their residents \u2013 as their own respective privacy laws become effective. (These states include but are not limited to Virginia, Colorado, Utah, Montana, Connecticut, Indiana, Texas and others.) This section of the Privacy Policy applies if you are a natural person who is a resident of California or another applicable state (collectively, \u201cApplicable States\u201d), and whose personal information we hold as a \u201ccontroller\u201d or \u201cbusiness\u201d \u2013 in other words, when we decide how that information is used, shared and stored.'
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'This Addendum supplements the information in the Privacy Policy.  However, this Addendum is intended solely for, and is applicable only as to residents of Applicable States.'
+                  'This Addendum supplements the information in the Privacy Policy. However, this Addendum is intended solely for, and is applicable only as to residents of Applicable States.'
                 ),
                 o.createElement(
                   'p',
@@ -834,7 +843,7 @@
                   o.createElement(
                     'li',
                     null,
-                    'Our Business Purposes \u2013  our business purposes for (a) collecting and (b) sharing Personal Information, which are generally the same.'
+                    'Our Business Purposes \u2013 our business purposes for (a) collecting and (b) sharing Personal Information, which are generally the same.'
                   ),
                   o.createElement(
                     'li',
@@ -883,7 +892,7 @@
                       o.createElement(
                         'td',
                         null,
-                        'Identifiers, e.g., name; alias; postal address; mobile ad or cookie identifiers or other browser or machine IDs and attributes;  IP address; telephone number; email address'
+                        'Identifiers, e.g., name; alias; postal address; mobile ad or cookie identifiers or other browser or machine IDs and attributes; IP address; telephone number; email address'
                       ),
                       o.createElement(
                         'td',
@@ -1057,7 +1066,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'We may sell or share the information collected from and about you as discussed above for various business purposes, with service providers and with third parties including our customers.  The chart below shows how and with whom we sell or share or disclose personal information, and whether (based on the CCPA and other applicable statute\u2019s definitions of \u201csell\u201d or \u201cshared\u201d) we believe we have \u201csold\u201d or \u201cshared\u201d a particular category of information in the prior 12 months.'
+                  'We may sell or share the information collected from and about you as discussed above for various business purposes, with service providers and with third parties including our customers. The chart below shows how and with whom we sell or share or disclose personal information, and whether (based on the CCPA and other applicable statute\u2019s definitions of \u201csell\u201d or \u201cshared\u201d) we believe we have \u201csold\u201d or \u201cshared\u201d a particular category of information in the prior 12 months.'
                 ),
                 o.createElement(
                   'table',
@@ -1090,7 +1099,7 @@
                       o.createElement(
                         'td',
                         null,
-                        'Identifiers, e.g., name; alias; postal address;  IP address; telephone number; email address or other browser or machine IDs and attributes;'
+                        'Identifiers, e.g., name; alias; postal address; IP address; telephone number; email address or other browser or machine IDs and attributes;'
                       ),
                       o.createElement(
                         'td',
@@ -1119,7 +1128,7 @@
                       o.createElement(
                         'td',
                         null,
-                        'Characteristics of protected classifications under California or US law (inferenced or actual) E.g., race; color; religion; sex/gender;  marital status; military or veteran status; national origin; ancestry; age (over 40) (may be inferred, actual or self-reported)'
+                        'Characteristics of protected classifications under California or US law (inferenced or actual) E.g., race; color; religion; sex/gender; marital status; military or veteran status; national origin; ancestry; age (over 40) (may be inferred, actual or self-reported)'
                       ),
                       o.createElement(
                         'td',
@@ -1276,7 +1285,7 @@
                     null,
                     'We also may share any of the personal information we collect as follows:'
                   ),
-                  'Sharing for Legal Purposes:  In addition, we may share personal information with third parties in order to: (a) comply with legal process or a regulatory investigation (e.g. a subpoena or court order); (b) enforce our Terms of Service, this Privacy Policy, or other contracts with you, including investigation of potential violations thereof; (c) respond to claims that any content violates the rights of third parties; and/or (d) protect the rights, property or personal safety of us, our platform, our customers, our agents and affiliates, its users and/or the public.  We likewise may provide information to other companies and organizations (including law enforcement) for fraud protection, and spam/malware prevention, and similar purposes.'
+                  'Sharing for Legal Purposes: In addition, we may share personal information with third parties in order to: (a) comply with legal process or a regulatory investigation (e.g. a subpoena or court order); (b) enforce our Terms of Service, this Privacy Policy, or other contracts with you, including investigation of potential violations thereof; (c) respond to claims that any content violates the rights of third parties; and/or (d) protect the rights, property or personal safety of us, our platform, our customers, our agents and affiliates, its users and/or the public. We likewise may provide information to other companies and organizations (including law enforcement) for fraud protection, and spam/malware prevention, and similar purposes.'
                 ),
                 o.createElement(
                   'p',
@@ -1286,7 +1295,7 @@
                     null,
                     'Sharing In Event of a Corporate Transaction:'
                   ),
-                  '  We may also share personal information in the event of a major corporate transaction, including for example a merger, investment, acquisition, reorganization, consolidation, bankruptcy, liquidation, or sale of some or all of our assets, or for purposes of due diligence connected with any such transaction.'
+                  ' We may also share personal information in the event of a major corporate transaction, including for example a merger, investment, acquisition, reorganization, consolidation, bankruptcy, liquidation, or sale of some or all of our assets, or for purposes of due diligence connected with any such transaction.'
                 ),
                 o.createElement(
                   'p',
@@ -1296,7 +1305,7 @@
                     null,
                     'Sharing With Service Providers:'
                   ),
-                  '  We share any personal information we collect with our service providers, which may include (for instance) providers involved in tech or customer support, operations, web or data hosting, billing, accounting, security, marketing, data management, validation, enhancement or hygiene, or otherwise assisting us to provide, develop, maintain and improve our services.'
+                  ' We share any personal information we collect with our service providers, which may include (for instance) providers involved in tech or customer support, operations, web or data hosting, billing, accounting, security, marketing, data management, validation, enhancement or hygiene, or otherwise assisting us to provide, develop, maintain and improve our services.'
                 ),
                 o.createElement(
                   'p',
@@ -1306,7 +1315,7 @@
                     null,
                     'Sharing of Aggregate Information:'
                   ),
-                  ' We may aggregate and/or de-identify any information collected so that such information can no longer be linked to you or your device (\u201cAggregate/De-Identified Information\u201d).   We may use Aggregate/De-Identified Information for any purpose, including without limitation for research and marketing purposes, and may also share such data with any third parties, including advertisers, promotional partners, and sponsors, at our discretion.'
+                  ' We may aggregate and/or de-identify any information collected so that such information can no longer be linked to you or your device (\u201cAggregate/De-Identified Information\u201d). We may use Aggregate/De-Identified Information for any purpose, including without limitation for research and marketing purposes, and may also share such data with any third parties, including advertisers, promotional partners, and sponsors, at our discretion.'
                 )
               ),
               o.createElement(
@@ -1356,7 +1365,7 @@
                       o.createElement(
                         'td',
                         null,
-                        'Generally, creating data marketing tools and products for our marketer clients, as more fully described in our Privacy Policy (and on our websites).   This may include our provision of datasets, data \u201cappends\u201d (connecting data across datasets), data \u201cscoring\u201d (providing inferences about potential identifiers), data hygiene services (helping customers to evaluate, validate and correct personal information they hold), or security and anti-fraud services (helping customers to identify potentially fraudulent activity).'
+                        'Generally, creating data marketing tools and products for our marketer clients, as more fully described in our Privacy Policy (and on our websites). This may include our provision of datasets, data \u201cappends\u201d (connecting data across datasets), data \u201cscoring\u201d (providing inferences about potential identifiers), data hygiene services (helping customers to evaluate, validate and correct personal information they hold), or security and anti-fraud services (helping customers to identify potentially fraudulent activity).'
                       )
                     ),
                     o.createElement(
@@ -1499,7 +1508,7 @@
                       o.createElement(
                         'td',
                         null,
-                        'We sometimes use the information collected from our own website,  from social networks, from other \u201cbusiness to business\u201d interactions (such as information we collect at trade shows) or from data compilers for the above, as well as for our own marketing purposes.'
+                        'We sometimes use the information collected from our own website, from social networks, from other \u201cbusiness to business\u201d interactions (such as information we collect at trade shows) or from data compilers for the above, as well as for our own marketing purposes.'
                       )
                     )
                   )
@@ -1516,12 +1525,12 @@
                 o.createElement(
                   'p',
                   null,
-                  'Without being discriminated against for exercising these rights, residents of Applicable States (which includes California) have the right to request that we disclose what personal information we collect from you, to delete that information, and to opt-out of the sale of your personal information, subject to certain restrictions. You also have the right to designate an agent to exercise these rights on your behalf. This section describes how to exercise those rights and our process for handling those requests.  (To the extent permitted by applicable law, we may charge a reasonable fee to comply with your request.)'
+                  'Without being discriminated against for exercising these rights, residents of Applicable States (which includes California) have the right to request that we disclose what personal information we collect from you, to delete that information, and to opt-out of the sale of your personal information, subject to certain restrictions. You also have the right to designate an agent to exercise these rights on your behalf. This section describes how to exercise those rights and our process for handling those requests. (To the extent permitted by applicable law, we may charge a reasonable fee to comply with your request.)'
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'Sometimes, we act only as a \u201cservice provider\u201d to our clients (for instance, if they provide information to us for analytics, processing or other data management services), in which case any consumer requests for opt-out, deletion or access to data must be made through that client:  we therefore will forward any such requests to a named client, as feasible, such as where a client has been identified.'
+                  'Sometimes, we act only as a \u201cservice provider\u201d to our clients (for instance, if they provide information to us for analytics, processing or other data management services), in which case any consumer requests for opt-out, deletion or access to data must be made through that client: we therefore will forward any such requests to a named client, as feasible, such as where a client has been identified.'
                 ),
                 o.createElement(
                   'p',
@@ -1535,24 +1544,27 @@
                 o.createElement(
                   'p',
                   null,
-                  'You may request that we not \u201csell\u201d your personal information.   If you wish to make such a \u201cdo not sell\u201d (also called an \u201copt out\u201d request), please go to our \u201cDo Not Sell\u201d web form located at',
+                  'You may request that we not \u201csell\u201d your personal information. If you wish to make such a \u201cdo not sell\u201d (also called an \u201copt out\u201d request), please go to our \u201cDo Not Sell\u201d web form located at',
                   o.createElement(
                     'a',
                     {href: 'https://app.heropixel.com/optout'},
-                    ' https://app.heropixel.com/optout'
+                    ' ',
+                    'https://app.heropixel.com/optout'
                   ),
                   '. Alternatively, you may contact us by email at',
                   o.createElement(
                     'a',
                     {href: 'mailto:support@heropixel.com'},
-                    ' support@heropixel.com'
+                    ' ',
+                    'support@heropixel.com'
                   ),
-                  ' or call our Privacy Center +1 (855) 474-7028. When you make such a request, we will retain your encrypted information on an internal \u201csuppression\u201d list, so that we may remove your data from our active database in the event we obtain it again at a later'
+                  ' ',
+                  'or call our Privacy Center +1 (855) 474-7028. When you make such a request, we will retain your encrypted information on an internal \u201csuppression\u201d list, so that we may remove your data from our active database in the event we obtain it again at a later'
                 ),
                 o.createElement(
                   'p',
                   null,
-                  'Opting out from sale in the above way will also opt out of our \u201csharing\u201d of your personal information.  \u201cSharing\u201d is a term used in California privacy law that means use of personal information for cross-context behavioral advertising, also known as targeted advertising.'
+                  'Opting out from sale in the above way will also opt out of our \u201csharing\u201d of your personal information. \u201cSharing\u201d is a term used in California privacy law that means use of personal information for cross-context behavioral advertising, also known as targeted advertising.'
                 ),
                 o.createElement(
                   'p',
@@ -1562,13 +1574,15 @@
                 o.createElement(
                   'p',
                   null,
-                  'You may request that we delete or correct any personal information that we collected from , such as if you have been a customer of ours.  Note that this is different from your right to \u201copt out\u201d of us selling your personal information, which is described above; also note that we do not generally collect personal information directly from consumers.)    You may make a deletion or correction request by visiting',
+                  'You may request that we delete or correct any personal information that we collected from , such as if you have been a customer of ours. Note that this is different from your right to \u201copt out\u201d of us selling your personal information, which is described above; also note that we do not generally collect personal information directly from consumers.) You may make a deletion or correction request by visiting',
                   o.createElement(
                     'a',
                     {href: 'https://app.heropixel.com/consumer-rights-request'},
-                    ' https://app.heropixel.com/consumer-rights-request'
+                    ' ',
+                    'https://app.heropixel.com/consumer-rights-request'
                   ),
-                  ' or by calling our toll-free number at',
+                  ' ',
+                  'or by calling our toll-free number at',
                   o.createElement(
                     'a',
                     {href: 'tel:18554747028'},
@@ -1579,7 +1593,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'After honoring a deletion request, we may still retain personal information for certain important purposes, such as (a) to protect our business, systems, and users from fraudulent activity, (b) to address technical issues that impair existing functionality (such as debugging purposes), (c) as necessary for us, or others, to exercise their free speech or other rights, (d) to comply with law enforcement requests pursuant to lawful process, (e) for scientific or historical research, (f) for our own internal purposes reasonably related to your relationship with us, or to comply with legal obligations.  Additionally, we need certain types of information so that we can provide our Services to you.  If you ask us to delete it, you may no longer be able to access or use our Services.'
+                  'After honoring a deletion request, we may still retain personal information for certain important purposes, such as (a) to protect our business, systems, and users from fraudulent activity, (b) to address technical issues that impair existing functionality (such as debugging purposes), (c) as necessary for us, or others, to exercise their free speech or other rights, (d) to comply with law enforcement requests pursuant to lawful process, (e) for scientific or historical research, (f) for our own internal purposes reasonably related to your relationship with us, or to comply with legal obligations. Additionally, we need certain types of information so that we can provide our Services to you. If you ask us to delete it, you may no longer be able to access or use our Services.'
                 ),
                 o.createElement(
                   'p',
@@ -1589,11 +1603,12 @@
                 o.createElement(
                   'p',
                   null,
-                  'Residents of Applicable States also have the right to request that we disclose what categories of your personal information that we collect, use, or sell.  As a resident of such a state, you may also request the specific pieces of personal information that we have collected from you.  You may make such an \u201caccess\u201d or \u201cright to know\u201d request by visiting',
+                  'Residents of Applicable States also have the right to request that we disclose what categories of your personal information that we collect, use, or sell. As a resident of such a state, you may also request the specific pieces of personal information that we have collected from you. You may make such an \u201caccess\u201d or \u201cright to know\u201d request by visiting',
                   o.createElement(
                     'a',
                     {href: 'https://app.heropixel.com/consumer-rights-request'},
-                    ' https://app.heropixel.com/consumer-rights-request'
+                    ' ',
+                    'https://app.heropixel.com/consumer-rights-request'
                   ),
                   ', or by calling our toll-free number at',
                   o.createElement(
@@ -1606,7 +1621,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'For security purposes (and as required under California law), we will verify your identity \u2013 in part by requesting certain information from you \u2014 when you request to exercise your California privacy rights.  For instance, if you request specific pieces of personal information we have received about you, you may need to confirm your possession of an identifier (such as an email address) that reasonably confirms you are the person you claim to be.'
+                  'For security purposes (and as required under California law), we will verify your identity \u2013 in part by requesting certain information from you \u2014 when you request to exercise your California privacy rights. For instance, if you request specific pieces of personal information we have received about you, you may need to confirm your possession of an identifier (such as an email address) that reasonably confirms you are the person you claim to be.'
                 ),
                 o.createElement(
                   'p',
@@ -1626,7 +1641,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'If you disagree with a decision we have made in response to your request that we exercise any of the rights we have described, you may (depending what state you are a resident of) have a right to \u201cappeal\u201d our decision.  You may do so by writing to us at',
+                  'If you disagree with a decision we have made in response to your request that we exercise any of the rights we have described, you may (depending what state you are a resident of) have a right to \u201cappeal\u201d our decision. You may do so by writing to us at',
                   o.createElement(
                     'a',
                     {href: 'mailto:support@heropixel.com'},
@@ -1652,7 +1667,7 @@
                 o.createElement(
                   'p',
                   null,
-                  'You may also designate an agent to make requests to exercise your rights under CCPA as described above. We will take steps both to verify the identity of the person seeking to exercise their rights as listed above, and to verify that your agent has been authorized to make a request on your behalf through providing us with a signed written authorization or a copy of a legally sufficient power of attorney.  We likewise may require that you verify your own identity, depending on the type of request you make.'
+                  'You may also designate an agent to make requests to exercise your rights under CCPA as described above. We will take steps both to verify the identity of the person seeking to exercise their rights as listed above, and to verify that your agent has been authorized to make a request on your behalf through providing us with a signed written authorization or a copy of a legally sufficient power of attorney. We likewise may require that you verify your own identity, depending on the type of request you make.'
                 )
               )
             )
