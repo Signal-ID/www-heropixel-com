@@ -6637,6 +6637,9 @@ blockquote > :last-child {
   transition: opacity var(--ifm-transition-fast)
     var(--ifm-transition-timing-default);
 }
+.docusaurus-mt-lg {
+  margin-bottom: 3rem;
+}
 .container_lyt7,
 .container_lyt7 > svg {
   max-width: 100%;
@@ -6724,7 +6727,6 @@ blockquote > :last-child {
   display: inline-block;
   font-weight: 500;
   line-height: 32px;
-  margin-left: -82px;
   margin-top: 42px;
   min-height: 66px;
   padding: 16px 30px 16px 40px;
