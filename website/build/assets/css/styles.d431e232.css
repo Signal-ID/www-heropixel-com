@@ -3190,7 +3190,6 @@ main {
 }
 .container > div > div:first-child {
   border-right: 1px solid #d9d9d9;
-  padding: 2.5rem 5rem !important;
 }
 .anchor,
 .markdown h1:first-child,
