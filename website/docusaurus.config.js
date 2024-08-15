@@ -370,6 +370,10 @@ module.exports = {
                 href: '/terms-and-conditions',
               },
               {
+                label: 'Acceptable Use Policy',
+                href: '/acceptable-use',
+              },
+              {
                 label: 'Do Not Sell My Personal Info',
                 href: 'https://app.heropixel.com/optout',
               },
