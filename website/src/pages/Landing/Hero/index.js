@@ -15,31 +15,70 @@ const Hero = () => {
         <div className={styles.Container}>
           <div className={styles.HeadlineContent}>
             <div className={styles.Text}>
-              <div className={styles.BlueText}>
-                Your Lead Prices Keep Increasing. Now What?
-              </div>
               <div className={styles.HeadingText}>
                 <div className={styles.MainHeading}>
-                  Your leads cost $5 - $10+
+                  Saving Businesses Money,
                 </div>
                 <div className={styles.SubHeading}>
-                  <div className={styles.SubText}>
-                    We'll give them to you for&nbsp;
-                    <span className={styles.PriceText}>$0.50</span>
-                  </div>
+                  <div className={styles.SubText}>One Lead At A Time.</div>
                 </div>
               </div>
               <div className={styles.MobileHeader}>
                 <div className={styles.MainHeading}>
-                  <div className={styles.MainHeading}>Your leads cost</div>
+                  <div className={styles.MainHeading}>
+                    Saving Businesses Money,
+                  </div>
                   <div className={styles.SubHeading}>
-                    <div className={styles.SubText}>
-                      $5 - $10+, We'll give them to you for&nbsp;
-                      <span className={styles.PriceText}>$0.50</span>
+                    <div className={styles.SubText}>One Lead At A Time.</div>
+                  </div>
+                </div>
+              </div>
+              <script
+                src="https://fast.wistia.com/embed/medias/jd5bh4iafg.jsonp"
+                async></script>
+              <script
+                src="https://fast.wistia.com/assets/external/E-v1.js"
+                async></script>
+              <div
+                className={
+                  styles.WistiaVideoWrapper +
+                  ' ' +
+                  styles.Wistia +
+                  ' wistia_responsive_padding'
+                }>
+                <div
+                  className={
+                    styles.WistiaVideo +
+                    ' ' +
+                    styles.Wistia +
+                    ' wistia_responsive_wrapper'
+                  }>
+                  <div
+                    className={
+                      styles.WistiaEmbed +
+                      ' ' +
+                      styles.Wistia +
+                      ' wistia_embed wistia_async_jd5bh4iafg seo=true videoFoam=false'
+                    }>
+                    <div
+                      className={
+                        styles.WistiaSwatch +
+                        ' ' +
+                        styles.Wistia +
+                        ' wistia_swatch'
+                      }>
+                      <img
+                        src="https://fast.wistia.com/embed/medias/jd5bh4iafg/swatch"
+                        className={styles.WistiaImg}
+                        alt=""
+                        aria-hidden="true"
+                        onload="this.parentNode.style.opacity=1;"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className={styles.Description}>
                 If you're spending above $50,000 a month on advertising, book a
                 call with our team to learn more.

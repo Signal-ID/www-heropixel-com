@@ -178,6 +178,12 @@
     8091: (e, c, a) => {
       a.d(c, {A: () => r});
       const r = {
+        WistiaVideoWrapper: 'WistiaVideoWrapper_s1V7',
+        WistiaVideo: 'WistiaVideo_He1W',
+        WistiaEmbed: 'WistiaEmbed_ipMb',
+        WistiaSwatch: 'WistiaSwatch_bCFt',
+        WistiaImg: 'WistiaImg_tTOS',
+        Wistia: 'Wistia_inGM',
         LandingPageNewV2: 'LandingPageNewV2_i2Uv',
         AsetOrnamen: 'AsetOrnamen_A75d',
         MetricCard1: 'MetricCard1_L0wK',

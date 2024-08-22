@@ -1,6 +1,49 @@
+.WistiaVideoWrapper {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+.WistiaVideo {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.WistiaEmbed {
+  position: relative;
+  width: 100%;
+}
+.WistiaSwatch {
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: opacity 200ms;
+}
+.WistiaImg {
+  filter: blur(5px);
+  object-fit: contain;
+}
+.Wistia {
+  width: 640px !important;
+  height: 360px !important;
+  padding: 0 !important;
+}
+@media only screen and (max-width: 640px) {
+  .Wistia {
+    width: calc(
+      100% - 20px
+    ) !important; /* Subtracting 20px to add 10px padding on each side */
+    height: calc((360px - 20px) * 9 / 16) !important;
+    padding: 0 10px !important; /* Adding 10px padding on each side */
+  }
+  .WistiaVideoWrapper {
+    padding: 0;
+  }
+}
+
 .LandingPageNewV2 {
   width: 100%;
-  height: 943px;
+  height: 1343px;
   position: relative;
   overflow: hidden;
   background: linear-gradient(0deg, #e9effc 0%, #e9effc 100%),

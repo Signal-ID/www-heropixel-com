@@ -5937,14 +5937,14 @@
     const params = parseSwParams();
     // eslint-disable-next-line no-underscore-dangle
     const precacheManifest = [
-      {revision: '67bc8523cf38f424e30614884a32ec6f', url: '404.html'},
+      {revision: '4f8a2aadc4cdabd4ecf8bcb8597f0ab0', url: '404.html'},
       {
-        revision: 'aab431e7b9ffca370be8032f22d4cc11',
+        revision: 'd6df7172f35d714f1fb188e35e7c6fc0',
         url: 'acceptable-use.html',
       },
       {
-        revision: '843b3851109a5ffd6a8f23533996106e',
-        url: 'assets/css/styles.0306bade.css',
+        revision: '9996d224de69fc698d1f7b224be3ac59',
+        url: 'assets/css/styles.ff8ff5f3.css',
       },
       {
         revision: '73b96ce15a3bd5901285e6e063d1668d',
@@ -6135,8 +6135,8 @@
         url: 'assets/js/29f10043.0f7d6256.js',
       },
       {
-        revision: 'be68006323d99517f82d731995fd9a45',
-        url: 'assets/js/2bfcd05e.4d45c7a0.js',
+        revision: '25bc2d9e597d11ae9ad2c14d2794c5c1',
+        url: 'assets/js/2bfcd05e.cf485079.js',
       },
       {
         revision: 'f812c2071329b59a650542fc67f12378',
@@ -6171,8 +6171,8 @@
         url: 'assets/js/32aaaf70.5b29ffca.js',
       },
       {
-        revision: '1ab59b2b4c256f60ad7b2cf75275709e',
-        url: 'assets/js/338afeee.e1041704.js',
+        revision: 'd88ca5858f56843b3336eb94855e8557',
+        url: 'assets/js/338afeee.feda5123.js',
       },
       {
         revision: '7ef20f31e6be1db32e80c1ab2d579b2d',
@@ -6195,8 +6195,8 @@
         url: 'assets/js/3a9a46de.b0397079.js',
       },
       {
-        revision: 'ce7c3492271a7883c53a9741fbb0fe0d',
-        url: 'assets/js/3af79684.9be242f2.js',
+        revision: 'aff0e76a678807908e21fb6d135f8046',
+        url: 'assets/js/3af79684.6e53f893.js',
       },
       {
         revision: '308a9d00d79be576da4ff5103c48a706',
@@ -6319,8 +6319,8 @@
         url: 'assets/js/5e95c892.e489d0a9.js',
       },
       {
-        revision: '2e8c6ec8e2d36a72860ce13283a9de9a',
-        url: 'assets/js/602e2c4a.5542225b.js',
+        revision: 'ee5f8986b2949055a909a48822142dcf',
+        url: 'assets/js/602e2c4a.f3cce5d2.js',
       },
       {
         revision: '41068b2cd6aa52fb15f0e429c8008377',
@@ -6383,8 +6383,8 @@
         url: 'assets/js/74984e5c.4ab349b6.js',
       },
       {
-        revision: 'eede865a5addea1370d917ebe90d3d22',
-        url: 'assets/js/74af3424.bf997bca.js',
+        revision: 'cd5260e119899b05975aed67defa598e',
+        url: 'assets/js/74af3424.13548b85.js',
       },
       {
         revision: 'bca54f6a41d82d1f161015a3460b3532',
@@ -6715,8 +6715,8 @@
         url: 'assets/js/c46e29a3.32739bca.js',
       },
       {
-        revision: '51111a0c919e5e688e882aef18960567',
-        url: 'assets/js/c4f5d8e4.c2acbdae.js',
+        revision: '0562cd275213cd961adfc63f634a9a4b',
+        url: 'assets/js/c4f5d8e4.5bab91ef.js',
       },
       {
         revision: '8daee7d38b93ddcd3e36dadf999a4af1',
@@ -6839,16 +6839,16 @@
         url: 'assets/js/ed58481b.0469068e.js',
       },
       {
-        revision: 'c4f58cfff04200c2503f50c95239fe5e',
-        url: 'assets/js/eea5ed86.6dfad984.js',
+        revision: '2c4ab6638ab19474f76c4f736b617899',
+        url: 'assets/js/eea5ed86.470800e4.js',
       },
       {
         revision: '3c8904edfb3a55ee305185fab8d63b67',
         url: 'assets/js/efd7435c.d59517ff.js',
       },
       {
-        revision: 'ac1efbb8f10db4488dbc8e9b39d62dad',
-        url: 'assets/js/f03c2687.17379335.js',
+        revision: '446964bacd819e734bb2d1a05214cda0',
+        url: 'assets/js/f03c2687.63f4a31d.js',
       },
       {
         revision: '627645d47236234d7803fe127780f65d',
@@ -6863,8 +6863,8 @@
         url: 'assets/js/f33cae7f.af088b71.js',
       },
       {
-        revision: '6246969397da0738b0b7fe705575a0ca',
-        url: 'assets/js/f4f9e066.6c3d358c.js',
+        revision: 'bd567715b24176ac2e373868cdff28f8',
+        url: 'assets/js/f4f9e066.8ca7b6d7.js',
       },
       {
         revision: '489fa48627716ce21b1cf47494b7523d',
@@ -6891,768 +6891,768 @@
         url: 'assets/js/main.826d6c15.js',
       },
       {
-        revision: 'ac605f84d72ab1597e04b6602f5a0ef8',
-        url: 'assets/js/runtime~main.cd44d22a.js',
+        revision: '2289d7d033bf297b45973ce130531901',
+        url: 'assets/js/runtime~main.9f36290b.js',
       },
-      {revision: 'eb1e21737b91e999143a8a54898a9f3e', url: 'blog.html'},
+      {revision: '74dbad560d134f2e7dcad46112783a24', url: 'blog.html'},
       {
-        revision: 'cd1c1f402241009b59f555c48bab8d24',
+        revision: 'bcb07e34a8179d863040b774ed600d88',
         url: 'blog/2024/06/18/0.73-real-time-processing-release.html',
       },
-      {revision: '1352552e33f2e87369cb72a3c78871f0', url: 'blog/archive.html'},
+      {revision: '22c0ac3d88eb825b7737377c6a75e490', url: 'blog/archive.html'},
       {revision: '9f8a69c7e1596c5337eb4c0aef94f43d', url: 'blog/feed.json'},
-      {revision: '08aa81ed9c28273b21adcae5b7d3926b', url: 'blog/tags.html'},
+      {revision: 'df7f79a5c89597c973b2dd3eb2850edd', url: 'blog/tags.html'},
       {
-        revision: '60b529e53035129603cd3ac3396b3cbb',
+        revision: '5a1ae10a4e42527a60a18d182bb3e48f',
         url: 'blog/tags/announcement.html',
       },
       {
-        revision: '1ed834be47a0680c9e83ed0dd7e95daa',
+        revision: 'aa0c42514bd4d07989f3268397fe06db',
         url: 'blog/tags/debugging.html',
       },
       {
-        revision: '7287e0b2807f7104c58e5cedaf71a409',
+        revision: '185f93edaaab59ad2e2a28b17dc4cbdd',
         url: 'blog/tags/release.html',
       },
-      {revision: '3bb513f53520a2b0ead0cbca10aa89b2', url: 'docs.html'},
+      {revision: '9288aeef890e486cc8d35b8c22f8ecac', url: 'docs.html'},
       {
-        revision: '69191cd36851170962c9658b3ab03f63',
+        revision: 'a6d87a4f767b2103d49f1778f45e1a04',
         url: 'docs/add-bank-account.html',
       },
-      {revision: '4a8f3d6e200905f2eb0dcbb739d71963', url: 'docs/billing.html'},
-      {revision: '847aea1bbb924d9f30be0d54a2feb076', url: 'docs/blank.html'},
+      {revision: 'fea175d01e1284d6f2116ddfa1a19bd1', url: 'docs/billing.html'},
+      {revision: 'becd25c67e5dccab44cb015efd4c07f7', url: 'docs/blank.html'},
       {
-        revision: '731133acb00a6a67abd2afafa988f8b0',
+        revision: 'b0aaacc36ca812a37bed4d63ebf66c59',
         url: 'docs/changing-member-roles.html',
       },
       {
-        revision: '4369e77b1657555e7caa8b698a24ba6d',
+        revision: '4f9a971622e0011e73582bdf50406e6e',
         url: 'docs/changing-ownership.html',
       },
       {
-        revision: '2980086adf33f1c1d2b480f40a392235',
+        revision: '0773d7bbe785771331cfd418ff9839e2',
         url: 'docs/consentguard/consent-categories.html',
       },
       {
-        revision: '1797e0fd402a2fb95ff888d7391ccc8e',
+        revision: 'd5fd446c857d655b8ce80c2f77edc63c',
         url: 'docs/consentguard/consentguard-installation.html',
       },
       {
-        revision: 'df5f588e53f9cdd71c409df6d9549db6',
+        revision: '55f76fb26d823bacbbf22bc4d955ae0d',
         url: 'docs/consentguard/consentguard-oss-license.html',
       },
       {
-        revision: '4229d722c15dea10b84f8dc3960b272a',
+        revision: 'dc1fb0036ae39954a8dd9a0ca68c01c1',
         url: 'docs/consentguard/consentguard-overview.html',
       },
       {
-        revision: '86cd59711daf0eeb2f3e3b68fe4c5851',
+        revision: '0d2be5d6d06afd24d919f8c0dc3f2ab8',
         url: 'docs/consentguard/customizing-colors.html',
       },
       {
-        revision: 'b041a9fb1f137bd18521c0b2a3a824b7',
+        revision: '3ae651effc7964a5f71efb6471c110f6',
         url: 'docs/consentguard/explicit-consent.html',
       },
       {
-        revision: 'f0a5f43a3bcbe41d58bc3173774098e3',
+        revision: '90f83a207b3ee68d22d1c1609baef7e5',
         url: 'docs/consentguard/implicit-consent.html',
       },
       {
-        revision: '22690bbd1528e44d7130e0ab5a74e3db',
+        revision: '99f24f64daffeb976a5084703ea9dcec',
         url: 'docs/consentguard/using-jitsu.html',
       },
       {
-        revision: 'a2e027c8091a605cdc7829aad5ebe3f9',
+        revision: '367b6e661f925add6fa0fcf7a47feec7',
         url: 'docs/dashboard.html',
       },
       {
-        revision: '823933b0030f4cb49256bd36c26d6665',
+        revision: 'd29378b443ae5ef867f208243302c96c',
         url: 'docs/destinations/astra.html',
       },
       {
-        revision: '08332447029654e61a9fecec4291d1cc',
+        revision: '929954b523a71f657b82a29437c761f0',
         url: 'docs/destinations/aws-datalake.html',
       },
       {
-        revision: '98d12d5530bebc61ea93e9ac0b87eb27',
+        revision: '13cdae84f744e75dfddb32cd1cc4b62a',
         url: 'docs/destinations/azure-blob-storage.html',
       },
       {
-        revision: '2169ca335e6fc775dd29198083c15d7f',
+        revision: 'ae283ba3a1a02ce5cd449508b1336f30',
         url: 'docs/destinations/bigquery.html',
       },
       {
-        revision: 'e26f86212f4d4a96e721704a095dc3f1',
+        revision: 'b5ea3795fce4dd2be2cb0e74972d5a17',
         url: 'docs/destinations/chroma.html',
       },
       {
-        revision: '34479c767c9d6e91b918923c20727001',
+        revision: '4b50f89be17cddee089ab5173cd1c8d1',
         url: 'docs/destinations/clickhouse.html',
       },
       {
-        revision: '1186d25abcf94d1b15733a1e6d59fead',
+        revision: 'f44ba30ff084ff63a9d03d2f16240ae8',
         url: 'docs/destinations/convertkit.html',
       },
       {
-        revision: '44f78b4287a9548b45947debdc0dc71c',
+        revision: 'c395cbff9e2abe12b26a321835d6669d',
         url: 'docs/destinations/convex.html',
       },
       {
-        revision: '7fc0aac8cc6cb0050cfc7a4f5a534361',
+        revision: '3d7e194578c9e93678fa416a75ab6b4e',
         url: 'docs/destinations/databricks.html',
       },
       {
-        revision: '568c630d7d04090bf872d6e598dbbb94',
+        revision: '200d3c091d78d8938c8e93dc0bbbf134',
         url: 'docs/destinations/duckdb.html',
       },
       {
-        revision: '677d1e1a4fabec77028abccb65bef18a',
+        revision: 'fb8b62722c77f9dffdd4a1ab56332365',
         url: 'docs/destinations/dynamodb.html',
       },
       {
-        revision: '825d47e3362b5552ca3d1e30c77f2f22',
+        revision: '4ca8ffc51f1d6963ed4145853603875d',
         url: 'docs/destinations/elasticsearch.html',
       },
       {
-        revision: '111d88d7f6bdbeb475071c1b94b3b052',
+        revision: 'bd2e7cd0f26d48012481973797da9769',
         url: 'docs/destinations/firebolt.html',
       },
       {
-        revision: 'f8d09a7a27e616c3ec7dfb9c37d6cc8e',
+        revision: 'f62c53d35cc26bcacf81a698079cf16a',
         url: 'docs/destinations/firestore.html',
       },
       {
-        revision: '61d6c708f5a0bf1a3fd0bc449b11d524',
+        revision: '613a6fefd18a591edb046c161488e124',
         url: 'docs/destinations/gcs.html',
       },
       {
-        revision: '4205ed090713e8e881cbcdd4aa853d8b',
+        revision: '23ef49de36c62eedb2b3e50a02143ffb',
         url: 'docs/destinations/gohighlevel.html',
       },
       {
-        revision: 'a0839d694e6350a25aa17bc8505a159b',
+        revision: 'd0c6dcf69df9e57b8d9588ff8336af51',
         url: 'docs/destinations/google-sheets.html',
       },
       {
-        revision: '37f189ca3be3dd6d393805a5811d42ec',
+        revision: '789b5fb56a5a5e292648c073b1b3eeee',
         url: 'docs/destinations/hubspot.html',
       },
       {
-        revision: '3078fa8649833a7e254207d631138bea',
+        revision: 'd30697fb569ec7131cb0035f17aaf5ef',
         url: 'docs/destinations/iceberg.html',
       },
       {
-        revision: '15d3704b6c9141e5cb36985c12f58e0f',
+        revision: '712637d6f427f7a7dd2d82f7dfcdaa22',
         url: 'docs/destinations/kafka.html',
       },
       {
-        revision: '2ddc73d308df38ce673fc53094401983',
+        revision: '3fb43ada399fd9092d0744508146096c',
         url: 'docs/destinations/keap.html',
       },
       {
-        revision: '2662fe2822d5f24d8377c7ae7ae23fee',
+        revision: 'ec0d3535ed5790da0ade5d162bdbda48',
         url: 'docs/destinations/klaviyo.html',
       },
       {
-        revision: 'e8914d2c3b1944eaf7ee6f3c6cfed941',
+        revision: 'c96b01cbecd543a5cd2740103c45760c',
         url: 'docs/destinations/mailchimp.html',
       },
       {
-        revision: 'c9e27e0d061ecb93e5df4794d91bbfc8',
+        revision: '75a2a49a0973d397b6002955a1b19cc5',
         url: 'docs/destinations/milvus.html',
       },
       {
-        revision: '010f2382ab6d85a8f507d5984623f0e8',
+        revision: 'afabd1b7621e6fb0dd7f3564588a565e',
         url: 'docs/destinations/mongodb.html',
       },
       {
-        revision: '186104dd54da17e8a4d831961879f28c',
+        revision: 'c09fc4f1a45a895105a77a1198af4d5d',
         url: 'docs/destinations/mssql.html',
       },
       {
-        revision: '0345469acb20d5f7f625828910ba6f14',
+        revision: '61109bf59825f0d3ccad87e2be801329',
         url: 'docs/destinations/mysql.html',
       },
       {
-        revision: 'a97d1a6619b3c665d736a121d7136a69',
+        revision: 'd532cb63c05cc30a631f7c692f31fbee',
         url: 'docs/destinations/ontraport.html',
       },
       {
-        revision: '97f072f51928193b536e2811ad2cf131',
+        revision: '68fec3927af662a6bd88b86792dfae4b',
         url: 'docs/destinations/oracle.html',
       },
       {
-        revision: '238d05ed59d7e9bd633078c4237fdc24',
+        revision: '181530de94480d82af1adf92b7ddadec',
         url: 'docs/destinations/pinecone.html',
       },
       {
-        revision: '4822e498ab427d8403ab9e558086020a',
+        revision: '34ba4b3bd548c4f1c31b4fb9a74b1abc',
         url: 'docs/destinations/postgres.html',
       },
       {
-        revision: 'a3033c09a73118ed39b10763fcc4b9fd',
+        revision: 'ba8bcd55562f308640df5f4a5066a29b',
         url: 'docs/destinations/properties/address-type-property.html',
       },
       {
-        revision: '156ea3b8e1aa2e9e0dc0b06d5cf3d489',
+        revision: '69613205076f71fd5d35e46699c1afaa',
         url: 'docs/destinations/properties/credit-midpts-property.html',
       },
       {
-        revision: '23ba348eda88626a1215f28f706c3d4d',
+        revision: 'f0aec2b6db28e3314940d496eb93a081',
         url: 'docs/destinations/properties/credit-range-property.html',
       },
       {
-        revision: 'e6a28baa3d86918619067b28721d9ffc',
+        revision: '3c51b7c0bbc4d9d32fe88784bf9d225b',
         url: 'docs/destinations/properties/dwelling-type-property.html',
       },
       {
-        revision: '90f1407f744052f3a1a0d4df82716ea6',
+        revision: 'abdcea30bc6657fb8ac26f259f3355f8',
         url: 'docs/destinations/properties/education-ordinal-property.html',
       },
       {
-        revision: '4fa0e8c93c3cf96b8ab9779a0fd83837',
+        revision: 'f18f57d7131f7ce8b8ce02a789792d2a',
         url: 'docs/destinations/properties/education-property.html',
       },
       {
-        revision: '794c91d8681227ca4f81342cf2f4c82b',
+        revision: '3f5b9e6c3843690758c445e0c98e41ee',
         url: 'docs/destinations/properties/ethnicity-detail-property.html',
       },
       {
-        revision: '6c38672977335c9a22521fb75533eb38',
+        revision: '915c6758cddc433b0e2668e00c441878',
         url: 'docs/destinations/properties/generation-ordinal-property.html',
       },
       {
-        revision: '7879df4a86d5399b5135cf00cad26350',
+        revision: '4ed0e1c7d6fa16cc5d42962d7bbada20',
         url: 'docs/destinations/properties/hero-ethnic-group-property.html',
       },
       {
-        revision: '950949cb4b713d26e0f891f520689233',
+        revision: 'a44b93ffb198f1ad58971d5c781f8be4',
         url: 'docs/destinations/properties/hero-generation-property.html',
       },
       {
-        revision: 'ea8e61bc8cb01a4013f8997ae3d116e4',
+        revision: 'ce98fcbffa043c1efb95eaad94524b0a',
         url: 'docs/destinations/properties/hero-language-property.html',
       },
       {
-        revision: '446e63188526f63890d1a726e0308a7d',
+        revision: 'f0cc66638548d8f8ed100eee21e73126',
         url: 'docs/destinations/properties/home-heat-type-property.html',
       },
       {
-        revision: '70dac04ab9c68587becd98463f664031',
+        revision: '8c00000c877c173a67beb02cc0dc2c8a',
         url: 'docs/destinations/properties/home-owner-ordinal-property.html',
       },
       {
-        revision: 'cdd6be9d689a414d858e16edb2a83e22',
+        revision: '92f9a31ee10a8b92f21eaab4c19e2e8f',
         url: 'docs/destinations/properties/home-owner-property.html',
       },
       {
-        revision: '5181eaa59c3dbbf1c4edebcf64266f49',
+        revision: 'c5a65f70993148496e94101568902893',
         url: 'docs/destinations/properties/income-hh-property.html',
       },
       {
-        revision: '551def47fe9f821a75fce853e520ac26',
+        revision: '0a85057ef9dd6eb49dd7cb71dc2a1a5f',
         url: 'docs/destinations/properties/income-levels-property.html',
       },
       {
-        revision: 'cfdd612595509c8e966458ba7c7482dc',
+        revision: 'b84c83af01d60e086e35767acec669f3',
         url: 'docs/destinations/properties/income-midpts-hh-property.html',
       },
       {
-        revision: 'eca6fa9957868fb706707e44e97489b8',
+        revision: '974806c6c9b458152134d7ec37195167',
         url: 'docs/destinations/properties/line-type-property.html',
       },
       {
-        revision: 'fa99a25c521d4bb4e961af1237647c8f',
+        revision: 'a61269802116df2ce26e9cabb7a4bbca',
         url: 'docs/destinations/properties/marital-status-property.html',
       },
       {
-        revision: 'e65d2c55cf2136d0a15793a1e2b6ad9e',
+        revision: 'b68bac98beda41917db20172ed911110',
         url: 'docs/destinations/properties/mortgage-loan-type-property.html',
       },
       {
-        revision: 'f4a8fe8fda537551a680a40806f58e1d',
+        revision: 'b5226333ad7d532a17485545890ff006',
         url: 'docs/destinations/properties/mortgage-refi-type-property.html',
       },
       {
-        revision: '297010a8c8dbba6bb41b796d0e464813',
+        revision: 'a4c2bd6236d59ae26ba9a2f5b427b968',
         url: 'docs/destinations/properties/net-worth-hh-property.html',
       },
       {
-        revision: 'c0b0fbb86162081d9ce6402e1eebd1af',
+        revision: 'ad34e48144e7d4d819df0e44a3db149f',
         url: 'docs/destinations/properties/net-worth-midpt-hh-property.html',
       },
       {
-        revision: '8b2cc3ef94c0e296cf1273632c84af8a',
+        revision: '21fece80710d52df7f579fb0f20967b4',
         url: 'docs/destinations/properties/occupation-detail-property.html',
       },
       {
-        revision: 'a147e2e58a2e1b06b53a7110a309c61e',
+        revision: 'd4e5e37752b12097188588300a5b14c9',
         url: 'docs/destinations/properties/phone-activity-property.html',
       },
       {
-        revision: '0ce478ab0930e1d0e184807ad9d146b0',
+        revision: '22fe2d371fb8bf2ac2c995cab63ab93a',
         url: 'docs/destinations/properties/phone-carrier-property.html',
       },
       {
-        revision: '4294f844ceb837fa5f50b9bd5836fbc7',
+        revision: '554d5b12274eda962b05c65673542358',
         url: 'docs/destinations/properties/phone-is-callable-property.html',
       },
       {
-        revision: '15d979af75ae5de6a007ed761f935f5e',
+        revision: 'c388824e9e37d0d336c85f267a1a7ddb',
         url: 'docs/destinations/properties/political-party-property.html',
       },
       {
-        revision: '190fba40ec10b99edf20096b46dc5adf',
+        revision: 'e533baae41ec7ebe5996751025d89ab4',
         url: 'docs/destinations/properties/premium-income-hh-property.html',
       },
       {
-        revision: '76ecacc4cccde9f73093057f6c32e454',
+        revision: '0e71e8f17c0d4f6e10b38c23cbb87ace',
         url: 'docs/destinations/properties/premium-income-midpt-hh-property.html',
       },
       {
-        revision: '4970d83c1b22010a1b13b71e464cdfa7',
+        revision: 'f1b621c00bde1bd4403e8e1dac39888d',
         url: 'docs/destinations/properties/religion-property.html',
       },
       {
-        revision: 'c95a228a08a10df94c621f9dc361b694',
+        revision: '4a7596b963f420daa8fa14c1994b80a0',
         url: 'docs/destinations/properties/unique-leads-attributes.html',
       },
       {
-        revision: '53e751368ec5420bbb283a9019426ac6',
+        revision: 'febdb10af434dad451a70ab60eae9389',
         url: 'docs/destinations/properties/urbanicity-property.html',
       },
       {
-        revision: '27d1a98924164e84351441adb5e39ebf',
+        revision: '1bf775172f6da67755cedfc97a49516e',
         url: 'docs/destinations/pubsub.html',
       },
       {
-        revision: '98835dc12b6bd116b62c79ac458d3a71',
+        revision: '2243b97984151b2cdc1ad2f35e5f46c1',
         url: 'docs/destinations/qdrant.html',
       },
       {
-        revision: '435a89ae2a21b1133947368ba66c4f2f',
+        revision: '2286837ba4a89f44405609962e8fa748',
         url: 'docs/destinations/rabbitmq.html',
       },
       {
-        revision: 'b69801af32e1ad1818ee6e318145b225',
+        revision: '0fb5d3c5885c315d0155e446dc4c498d',
         url: 'docs/destinations/redis.html',
       },
       {
-        revision: 'ee5e86be23a8f99a64cc9d95c3552f4b',
+        revision: '906dcce4587cd18bdb2c89fa58ce6904',
         url: 'docs/destinations/redshift.html',
       },
       {
-        revision: 'aacdbff223e23847c772f219c3ce6a0e',
+        revision: '5e961f273be89219992971ab3f4728b4',
         url: 'docs/destinations/s3-glue.html',
       },
       {
-        revision: '77544a801eb6d5e93c885fbbf521a32a',
+        revision: '9d2f8bf3935d5ee7067aff76a6d056ef',
         url: 'docs/destinations/s3.html',
       },
       {
-        revision: 'dcf643d4592a10cae604e187a40e0cea',
+        revision: 'c2695a1626a108be50be4b3d41aa2032',
         url: 'docs/destinations/sftp-json.html',
       },
       {
-        revision: '6de25744d8ea8bfc7a747d4a49e99d9d',
+        revision: '8058562ce25b1b873e6fe7e89cdf9522',
         url: 'docs/destinations/smartlead.html',
       },
       {
-        revision: '2d06e3711d493390e5d49c1486c7d0a8',
+        revision: '911ba81c14de1828236832e5a32b28ca',
         url: 'docs/destinations/snowflake-cortex.html',
       },
       {
-        revision: '514f2ab60ddf379570ab38af838078cc',
+        revision: '03f16a55be9c782a73fa53da750a5c5f',
         url: 'docs/destinations/snowflake.html',
       },
       {
-        revision: 'd6b250d87990f30e07cba882c5c8705a',
+        revision: '4d1ecafea0a63da8a384334702f5ee11',
         url: 'docs/destinations/starburst-galaxy.html',
       },
       {
-        revision: 'd88ad7c53a226937441be1e864f1840e',
+        revision: 'ef92210f9d3914af95f9d335bf9f46fd',
         url: 'docs/destinations/teradata.html',
       },
       {
-        revision: 'd160dbbbe90e45c3953a2e4faa195f37',
+        revision: '765da0e17a519e2eec11e075584ceef9',
         url: 'docs/destinations/texthub.html',
       },
       {
-        revision: '527b22d9e33a929cb867bdc612338a99',
+        revision: '7a0db05715150fdbe59e106bfc384e3c',
         url: 'docs/destinations/typesense.html',
       },
       {
-        revision: 'e2ba022912a906455e5f2a62454d87e6',
+        revision: 'e9733fdfbd94cef20db395f58f5fae78',
         url: 'docs/destinations/vectara.html',
       },
       {
-        revision: 'b17f7325db1952d6b3ce2f65a1ea1a56',
+        revision: '328ef8de2bb93f285cb368efe1bc2ba6',
         url: 'docs/destinations/weaviate.html',
       },
       {
-        revision: '7086d6611e832402ccfc4fa1f4827293',
+        revision: 'd43cbb5a089dd8583b4d708f15dcf154',
         url: 'docs/destinations/webhook.html',
       },
       {
-        revision: '5c817906d37a73b066176ef380177e20',
+        revision: '6293041922aa9d5133af14f474d91bdd',
         url: 'docs/destinations/yellowbrick.html',
       },
       {
-        revision: '08d32f37e1102e551ddc44378f275812',
+        revision: '804f2b77dd92ff2a7875595d69ac3efa',
         url: 'docs/dont-install-with-gtm.html',
       },
       {
-        revision: 'b4a6ed9501cc3c1dcf33b21fb765e78c',
+        revision: '2ff62efc50fd0b014f110da560016910',
         url: 'docs/dont-install-with-shopify-settings.html',
       },
       {
-        revision: '660d554340a20d3d8206b411d81408f8',
+        revision: 'b8d42cfa18b0f031852e0180ff926b90',
         url: 'docs/event-pageview.html',
       },
-      {revision: 'c497648274e2730d76251bc487a193ee', url: 'docs/events.html'},
-      {revision: 'f86723e471a10a0d0e01da8b8381acea', url: 'docs/faq.html'},
-      {revision: '6ac41f059d002f685d53b0b9870ca10b', url: 'docs/glossary.html'},
+      {revision: 'e9aef4ddc932b2e1b35d6227c93aef75', url: 'docs/events.html'},
+      {revision: '14a73bd0dec4e6d02d7a2c9264d37433', url: 'docs/faq.html'},
+      {revision: '70cfd8e8e01351fd560553eb6b283f07', url: 'docs/glossary.html'},
       {
-        revision: 'c9feb52fd68905ae3889ac2a692d5141',
+        revision: 'b98274ccf3c78d51fafb6a1ddcdeae40',
         url: 'docs/Integrations.html',
       },
       {
-        revision: 'f29730bd86bb921dc238070bf24409b8',
+        revision: 'ce607f388980d940b3424dc4a321e052',
         url: 'docs/intro-to-dashboard.html',
       },
       {
-        revision: '61cf818373751a15ef566b2827c73c24',
+        revision: '2342fb921fe1f0a3766b38c8e7213fcb',
         url: 'docs/intro-to-graphql.html',
       },
       {
-        revision: 'fe2fea9bddf3d9d0fc2bc6a986f689fd',
+        revision: '82e0bc1946e84f38d25da84ad3c493c8',
         url: 'docs/intro-to-integrations.html',
       },
       {
-        revision: '07bb03d9f9b8df2f1a9d70478d4a6823',
+        revision: '6673a2cd566096a16faa00d17b918178',
         url: 'docs/intro-to-leads.html',
       },
       {
-        revision: 'f2d22497aee010a23a9c4b8b0f8852d2',
+        revision: 'da1851d29fd947817b2992cf39b40bbc',
         url: 'docs/intro-to-pixel-tech.html',
       },
       {
-        revision: 'fa5b163f26801fa4dd02e5ac8a6cda95',
+        revision: '0849cf22e110ba71e8f19dd8d06e8131',
         url: 'docs/intro-to-rest.html',
       },
       {
-        revision: 'ebacdf5bedfa8ec7127e9790359e9239',
+        revision: 'f30ddf339f180f369fef15406f7edc6d',
         url: 'docs/intro-to-suppressing.html',
       },
-      {revision: '0eb3bc50576964937d6b4bc7394b7283', url: 'docs/inviting.html'},
+      {revision: '767ba161a324b331c646589ec9447a5b', url: 'docs/inviting.html'},
       {
-        revision: 'e1f0d574a65adb9f6dbaf5de035a8d0b',
+        revision: 'cf1e7a026fc62c4e4f6e8bc63b9c4507',
         url: 'docs/Journeyimg.html',
       },
       {
-        revision: '3d42384e35fa4590c409cc3246ad7545',
+        revision: 'f7705146d1a0b46de5d8a6abb86e04bb',
         url: 'docs/next/blank.html',
       },
       {
-        revision: '17a6b303d42477d7ac13916f23517673',
+        revision: 'f7fd11459873141fdc524e861d65a80d',
         url: 'docs/next/event-add-to-cart.html',
       },
       {
-        revision: 'd5c52f3a9569369d7321d3ea4faf06b2',
+        revision: 'e4372b5d889dfb8ead42759eac2e0192',
         url: 'docs/next/event-pageview.html',
       },
       {
-        revision: 'ff0138dfe4367aa3a408efb1e669afd0',
+        revision: '47f9f2784dc26a42829ab3988fc38a89',
         url: 'docs/next/events.html',
       },
       {
-        revision: 'ef6878421cfa0fb090b7c11a4cb93b02',
+        revision: '17845b45fe5ddfbed3f88b3bae01f170',
         url: 'docs/next/intro-to-dashboard.html',
       },
       {
-        revision: '69610e8399107cdaebd4dc551cf1a80b',
+        revision: '1896248ee792158d3d70b362b9556353',
         url: 'docs/next/intro-to-graphql.html',
       },
       {
-        revision: 'a670ea905779125767a47dcfb2190544',
+        revision: 'd3d31987cb0e54d02739f0e565f653a9',
         url: 'docs/next/intro-to-integrations.html',
       },
       {
-        revision: '8e273f23e5d9260ba88625290e23e56e',
+        revision: '3af635865f79d336bc66d6bb7f399d95',
         url: 'docs/next/intro-to-leads.html',
       },
       {
-        revision: '12afbbd3ea75c9b480a159b735ca4271',
+        revision: '8ac132c25e258edaba375a0a939daa2f',
         url: 'docs/next/intro-to-pixel-tech.html',
       },
       {
-        revision: 'd6d2942fd51730fc08fc3cf00fb2543f',
+        revision: '1fa22bd7e1d57fee64678a2e27847e84',
         url: 'docs/next/intro-to-rest.html',
       },
       {
-        revision: '10bdc77f5ef7a41e445ecae627574b5f',
+        revision: '6f1cea999a81292538eded85d26c818c',
         url: 'docs/next/intro-to-suppressing.html',
       },
       {
-        revision: '94be9c61f489c9baa5a3f6a684d82f22',
+        revision: '2bb481d0640b8ab2d7e64d989eff5124',
         url: 'docs/next/personalization/personalized-landing-pages.html',
       },
       {
-        revision: '7b0a38618c1691faba16458771f01d38',
+        revision: 'e30a86b1a50e3f4886731e230bb7fde7',
         url: 'docs/next/start-create-a-pixel.html',
       },
       {
-        revision: 'f08f4fad36793d3f29b66e6c0818d103',
+        revision: 'bfb7a00cf91ddd73b994d81c621b294e',
         url: 'docs/next/start-get-your-leads.html',
       },
       {
-        revision: 'ce5dfebc032305a2d6b8b4c9ad849c07',
+        revision: '770965776f98015792e41da2f59865c9',
         url: 'docs/next/start-pixel-installation.html',
       },
       {
-        revision: '36848ca38891dddf15d1e55c77a2b8b0',
+        revision: '9cbb779414b081ef116cb34c53261415',
         url: 'docs/next/start-registration.html',
       },
       {
-        revision: '36bdc47d77a3d7cde5c816350b315d2d',
+        revision: 'cab0214fdfa602e9ed152f80ebd74a7f',
         url: 'docs/organizations.html',
       },
       {
-        revision: '0887605b92a3744de75f4b91fba73004',
+        revision: 'd3cc080b5a61f15dc1a9379a6333e3ae',
         url: 'docs/personalization/activate-personalization.html',
       },
       {
-        revision: 'cc0bcb272f05a44a4e0a493ee9d04836',
+        revision: '1b0a19bd826bb9c7194e22a9ede78f0e',
         url: 'docs/personalization/address-type-property.html',
       },
       {
-        revision: 'b975b0b8a4644c6036d570b97a797044',
+        revision: 'a729704eb9c52baa788962c9445d45b0',
         url: 'docs/personalization/credit-midpts-property.html',
       },
       {
-        revision: '3c76aa4db3f85796fc80a8bbd01afa21',
+        revision: '662ad0ce753a06e224e7d391669da4a9',
         url: 'docs/personalization/credit-range-property.html',
       },
       {
-        revision: 'db0a5f1fa1d119cd54727ff9854f07ef',
+        revision: '9a1a943474e192e1148a604891271f82',
         url: 'docs/personalization/dwelling-type-property.html',
       },
       {
-        revision: '145b0613b4f86e5c87af21def5b655b9',
+        revision: '536b060a79afe2f725c3e370df74d5ef',
         url: 'docs/personalization/education-ordinal-property.html',
       },
       {
-        revision: '9e17151db831ffed427d72655553fa35',
+        revision: 'ab2eafa7c076f209cd2384cb59e35fa3',
         url: 'docs/personalization/education-property.html',
       },
       {
-        revision: '005bdc85e33083aa84ab1794b8dd84d9',
+        revision: '7da6d953b7aadc0d9bba912563c574d7',
         url: 'docs/personalization/ethnicity-detail-property.html',
       },
       {
-        revision: '3d44df25da3597fa8130756c0dbba26e',
+        revision: 'e62e739450b031b074546cb6873b5ae3',
         url: 'docs/personalization/generation-ordinal-property.html',
       },
       {
-        revision: 'fdb5b98ce72681e7fac681fa9edc979a',
+        revision: 'b48a46566714f3f2c1a0346e9a6c6131',
         url: 'docs/personalization/hero-advanced-techniques.html',
       },
       {
-        revision: 'a431f2fd5f6adc5014164d3c42814edd',
+        revision: '04410491e0bc8308de05caebfe19f462',
         url: 'docs/personalization/hero-conditional-helpers.html',
       },
       {
-        revision: 'c2dad1ae220198986fb8c4fa611f6cba',
+        revision: '6b8c2c184510d34ae12ffbc8be716720',
         url: 'docs/personalization/hero-ethnic-group-property.html',
       },
       {
-        revision: '1cd7ddd83d284fa1917ea1f328e71416',
+        revision: '3be2d445fb3ba421029dca4fae1ee5da',
         url: 'docs/personalization/hero-generation-property.html',
       },
       {
-        revision: '1e0a2833097ecca32891492fc9fb040a',
+        revision: '6819e55f70102e7b6549df6706f0d7c2',
         url: 'docs/personalization/hero-language-property.html',
       },
       {
-        revision: '3e7a8cf4111d40ba36480076227b64f0',
+        revision: '2cab61bcd3f7736b1a3cbc871ec032e8',
         url: 'docs/personalization/hero-string-number-functions.html',
       },
       {
-        revision: 'b88e630b3685923dcc3d335c3a0b3e18',
+        revision: 'eb191202a8e3855f50a815673ee04933',
         url: 'docs/personalization/home-heat-type-property.html',
       },
       {
-        revision: '1479924f7b11fa4ef24f1c2638564686',
+        revision: 'c40bf3cef6fd57ff03d34f67700166a4',
         url: 'docs/personalization/home-owner-ordinal-property.html',
       },
       {
-        revision: 'fda61d9130dae180c0da74d3f91ddf70',
+        revision: '22f34a694d6f25022696240fd2938dbd',
         url: 'docs/personalization/home-owner-property.html',
       },
       {
-        revision: 'c42f86d415ac8d30c7dee8cddc5a51c4',
+        revision: 'c448cd96fba12d51c61d2e164999673a',
         url: 'docs/personalization/income-hh-property.html',
       },
       {
-        revision: 'bb9bb71b784375eec0e7cf17931c6093',
+        revision: '71397fbee6ea79dcc9945ed4905cf214',
         url: 'docs/personalization/income-levels-property.html',
       },
       {
-        revision: 'e728972c37d4bf90a98f53c0f60196ad',
+        revision: '7f3df660dc2f1934afaaed85c3c9288a',
         url: 'docs/personalization/income-midpts-hh-property.html',
       },
       {
-        revision: 'e1c3d171a0c1536b052b1934e7e931f5',
+        revision: '85f73fe419c6614b2f96c5531f4f9d39',
         url: 'docs/personalization/line-type-property.html',
       },
       {
-        revision: '8b588bcd789b986176416402affafa1d',
+        revision: 'df598e2ad0fc4c2e816fe0f7434a1e29',
         url: 'docs/personalization/marital-status-property.html',
       },
       {
-        revision: '4ba1cfc8a17ca70d7b8a76596cf8ab79',
+        revision: '95ba246c51139b2af70b2d0af861befa',
         url: 'docs/personalization/mortgage-loan-type-property.html',
       },
       {
-        revision: '61bcdd3657d4811a2396f127df96f651',
+        revision: '12f79a5a1cce5779901425878d1dbde7',
         url: 'docs/personalization/mortgage-refi-type-property.html',
       },
       {
-        revision: '3ab04230d4e0bdad410a62207611d59d',
+        revision: '5a86ef5c6e7595e310ee5c8fff12ae72',
         url: 'docs/personalization/net-worth-hh-property.html',
       },
       {
-        revision: '6c7034001bfab293f0787c45077290b1',
+        revision: 'ca3d6f209640896224008440ac0faf60',
         url: 'docs/personalization/net-worth-midpt-hh-property.html',
       },
       {
-        revision: 'c035a325e9beb2bc4a0f740d43b4f51a',
+        revision: 'b1443d1631b454052de33c5edda032d0',
         url: 'docs/personalization/occupation-detail-property.html',
       },
       {
-        revision: '4abff877f1a6524afc9d0ae0e38a7a13',
+        revision: '4b123f5c453fe81425474c1cd059a202',
         url: 'docs/personalization/personalized-landing-pages.html',
       },
       {
-        revision: '492f0108666000e9dc23335f97f8a055',
+        revision: '586ef53f12d7a76a7fd922f0a1858c66',
         url: 'docs/personalization/phone-activity-property.html',
       },
       {
-        revision: '3542c18aaa13f60169d9558ee07fa316',
+        revision: '5a4bc369b5139fdda1b90fcfc7c52aa4',
         url: 'docs/personalization/phone-carrier-property.html',
       },
       {
-        revision: 'a1aceeb31f995735ed40a1e8e209a8ff',
+        revision: 'a939556f01954b134c3db1d51f4a311f',
         url: 'docs/personalization/phone-is-callable-property.html',
       },
       {
-        revision: 'e4b35d355a0c68566c5e785c6b16bc39',
+        revision: 'e32e3f7e69e3d397e35976de886d83c3',
         url: 'docs/personalization/political-party-property.html',
       },
       {
-        revision: '2d32b86f9b9e17cdeba4e7f4c3b8eda7',
+        revision: '0827ed9889c6c0acd08fd6fd0069b166',
         url: 'docs/personalization/premium-income-hh-property.html',
       },
       {
-        revision: 'ec6c640255e91abb212e50c161874a2e',
+        revision: 'cd4740cce4ee60206e6390c6cc4810b7',
         url: 'docs/personalization/premium-income-midpt-hh-property.html',
       },
       {
-        revision: 'd792c33d6589858598b2a8a16dacb051',
+        revision: '0dd718ad8318638fea6741e83a7de04c',
         url: 'docs/personalization/religion-property.html',
       },
       {
-        revision: 'a6db6b864e50b60768fc8b669b53a529',
+        revision: 'cf29086aaefcd528648abe9ecf533f81',
         url: 'docs/personalization/urbanicity-property.html',
       },
       {
-        revision: '44f86983889084106352bfa94dc68c5e',
+        revision: '2f3cbcb667e087bc484b582955bd8cb7',
         url: 'docs/personalization/visitor-attributes.html',
       },
       {
-        revision: '31209c8b0fc375627d0f228acd1f2a86',
+        revision: 'f7893e01ff358c96d47a778f1f516b1d',
         url: 'docs/QuickLinks.html',
       },
       {
-        revision: '890ee67fbe675d5e65e02a48ebfb999d',
+        revision: 'f63d7e9ae948b591ad32a122485d2715',
         url: 'docs/removing-a-member.html',
       },
       {
-        revision: '35d673cc6835d093bb4b347ff75c1102',
+        revision: '025f5cfe444ae6b2fac3f294ac6f2694',
         url: 'docs/start-create-a-pixel.html',
       },
       {
-        revision: '0cec72b11494c879256ab5b5f0d4b51d',
+        revision: '90e98000570a34bc3a388e1a919ef9aa',
         url: 'docs/start-get-your-leads.html',
       },
       {
-        revision: '31ca21672d62bbf469a898cbed48e90c',
+        revision: '36cffefefc374ade4dd4c47d62d2a314',
         url: 'docs/start-pixel-installation.html',
       },
       {
-        revision: '9dc4d4109dee2e6212ccf7b72e7b275c',
+        revision: '9485101574778bf9e2dda50b4e434508',
         url: 'docs/start-registration.html',
       },
-      {revision: '12bb4c8c739959e4e88376b2caa0655d', url: 'docs/teams.html'},
+      {revision: '7f85afdc3af1a4a5b1c961c14bc01d68', url: 'docs/teams.html'},
       {
-        revision: '451e8deb0c75ebe6d5ffe897b7c720f8',
+        revision: 'f12cc439e441f4c05bf3cec7b3d1cbc3',
         url: 'Home/CallToAction.html',
       },
       {
-        revision: 'fb473d847478cb06cebf484d251ed268',
+        revision: '177c654e29a79502fd4ea57e58b4bced',
         url: 'Home/components/Section.html',
       },
       {
-        revision: 'c859683a7410462d2482ce016b1a974c',
+        revision: 'c0ed9ebc1fa339f2f5aca614426b5fab',
         url: 'Home/components/SectionTitle.html',
       },
       {
-        revision: 'e1a7411f56d7232850105d1d49adde53',
+        revision: '1e4021f5a2d9546947c237cbc104bb78',
         url: 'Home/components/ThemeImage.html',
       },
       {
-        revision: '958605e69d2b09a4fb02ace43e32fb0e',
+        revision: '1db6d69e5e263c015c9b65aaaeb3713e',
         url: 'Home/Framework.html',
       },
-      {revision: '9cab198fa0c7f18a539210abc165e406', url: 'Home/Logo.html'},
-      {revision: 'a239ba511670fe3b19caff4b4e2f3ad8', url: 'Home/Native.html'},
+      {revision: '0eebaede9e808dd6f0f39385f3ec35e6', url: 'Home/Logo.html'},
+      {revision: '1d0a0faff216065a2e260fbfd9d9a98b', url: 'Home/Native.html'},
       {
-        revision: '5e66044c51370ad753c13e7d5bf70427',
+        revision: '45bd914c3a7c21909c03400c01ac3073',
         url: 'Home/Platforms.html',
       },
       {
-        revision: '04a4240dcb4118b49539ff628a8e8ba2',
+        revision: '4fbd5e7fb75ba7d76e4e748d4fe7c317',
         url: 'Home/Platforms/FoxFact.html',
       },
-      {revision: 'e43a359ec829b4059b35962bca426450', url: 'Home/Watch.html'},
-      {revision: 'a24f77a41288b0422e2be4ae2b46e78c', url: 'index.html'},
+      {revision: 'eaf912a2d541fc6870c5e8500a940d64', url: 'Home/Watch.html'},
+      {revision: '14fe3a98b9b7420051dff21fab5c3ef9', url: 'index.html'},
       {revision: 'c57095fa3e6ce1fc51aa8bb62ff06770', url: 'js/heropixel.js'},
-      {revision: 'f636c20f2b64ef00a7b3ec7e08c8354a', url: 'Landing.html'},
-      {revision: '44946410a4f0fb4952b2d142a13253e4', url: 'Landing/Hero.html'},
+      {revision: '0147990715516767951c000680c896b6', url: 'Landing.html'},
+      {revision: 'ea2a4448785747177529f98b9b5d4d03', url: 'Landing/Hero.html'},
       {
-        revision: '0863bc77c3e1e2a89ef004c423328454',
+        revision: '09a47209332eeb1dad95f2eeca6f8204',
         url: 'Landing/Hero/Devices.html',
       },
       {
-        revision: 'c02b3e81bd730ffb031cbb607e33a694',
+        revision: '6afa9742b4ba43dae24992d8a7d0d869',
         url: 'Landing/Hero/FloorBackground.html',
       },
       {
-        revision: 'b2a31087b849f552b3e728dd2e62b719',
+        revision: 'f6ecf8d8e53dbe9726eac612a39634d9',
         url: 'Landing/Hero/GridBackground.html',
       },
       {revision: '9c08fe691089d13a7c178407fa32e32b', url: 'manifest.json'},
       {revision: '2d2a11cb9524bebd70d56b4c77b99d42', url: 'movies.json'},
       {
-        revision: '90178c9296c544051efe98b423f9afa8',
+        revision: 'a1bdc7bb2dfc1a5039edaa113377f376',
         url: 'privacy-policy.html',
       },
-      {revision: '5692826a0f74f3d9219decb792922345', url: 'search.html'},
+      {revision: '9e608284e5e2ae6c61815f242f35bea8', url: 'search.html'},
       {
-        revision: 'e0a31903f7e864993b61e46ef48c15c2',
+        revision: '54fa38da5a36b0c354cf72bc670e9375',
         url: 'terms-and-conditions.html',
       },
-      {revision: 'd30f033f895c37e5a18c7807fcaf9dc9', url: 'versions.html'},
+      {revision: '9d691399d47f413d5d5130e3e139cfae', url: 'versions.html'},
       {
         revision: '89b76b52d3bfd5c51d6e4f8b8c02f479',
         url: 'assets/images/click-on-leads-761d8a50a3fc2933c0cc852bead683b6.gif',

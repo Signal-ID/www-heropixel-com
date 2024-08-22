@@ -19,7 +19,7 @@ To use ConsentGuard via CDN, simply include the following script in your HTML. M
 ```html
 <script data-consent-category="essential">
   window.cookieConsentOptions = {
-    privacy_policy_link: 'https://yourwebsite.com/privacy-policy',
+    privacyPolicyLink: 'https://yourwebsite.com/privacy-policy',
   };
 </script>
 <script
@@ -34,7 +34,7 @@ If you prefer to host ConsentGuard locally, download the script from the [Github
 ```html
 <script data-consent-category="essential">
   window.cookieConsentOptions = {
-    privacy_policy_link: 'https://yourwebsite.com/privacy-policy',
+    privacyPolicyLink: 'https://yourwebsite.com/privacy-policy',
   };
 </script>
 <script

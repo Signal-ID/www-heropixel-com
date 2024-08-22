@@ -1,4 +1,4 @@
-/*! For license information please see 3af79684.9be242f2.js.LICENSE.txt */
+/*! For license information please see 3af79684.6e53f893.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -157,7 +157,7 @@
               children: (0, o.jsx)(e.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="essential">\n  window.cookieConsentOptions = {\n    privacy_policy_link: \'https://yourwebsite.com/privacy-policy\',\n  };\n</script>\n<script\n  data-consent-category="essential"\n  src="https://app.heropixel.com/consentguard_cookie_banner/index.js"></script>\n',
+                  '<script data-consent-category="essential">\n  window.cookieConsentOptions = {\n    privacyPolicyLink: \'https://yourwebsite.com/privacy-policy\',\n  };\n</script>\n<script\n  data-consent-category="essential"\n  src="https://app.heropixel.com/consentguard_cookie_banner/index.js"></script>\n',
               }),
             }),
             '\n',
@@ -183,7 +183,7 @@
               children: (0, o.jsx)(e.code, {
                 className: 'language-html',
                 children:
-                  '<script data-consent-category="essential">\n  window.cookieConsentOptions = {\n    privacy_policy_link: \'https://yourwebsite.com/privacy-policy\',\n  };\n</script>\n<script\n  data-consent-category="essential"\n  src="/path/to/your/consentguard.js"></script>\n',
+                  '<script data-consent-category="essential">\n  window.cookieConsentOptions = {\n    privacyPolicyLink: \'https://yourwebsite.com/privacy-policy\',\n  };\n</script>\n<script\n  data-consent-category="essential"\n  src="/path/to/your/consentguard.js"></script>\n',
               }),
             }),
             '\n',

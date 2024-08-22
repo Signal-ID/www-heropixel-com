@@ -41,7 +41,7 @@ Ensure you have included the ConsentGuard JavaScript snippet in your HTML or thi
 ```html
 <script data-consent-category="essential">
   window.cookieConsentOptions = {
-    privacy_policy_link: 'https://yourwebsite.com/privacy-policy',
+    privacyPolicyLink: 'https://yourwebsite.com/privacy-policy',
   };
 </script>
 <script
