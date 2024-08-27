@@ -1,15 +1,15 @@
-/*! For license information please see 602e2c4a.f3cce5d2.js.LICENSE.txt */
+/*! For license information please see f03c2687.56e823f6.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
-  [8750],
+  [9368],
   {
     2192: (e, t, n) => {
       var i = n(3696),
         s = Symbol.for('react.element'),
         r = Symbol.for('react.fragment'),
-        o = Object.prototype.hasOwnProperty,
-        c =
+        c = Object.prototype.hasOwnProperty,
+        o =
           i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
             .ReactCurrentOwner,
         a = {key: !0, ref: !0, __self: !0, __source: !0};
@@ -22,7 +22,7 @@
         void 0 !== t.key && (l = '' + t.key),
         void 0 !== t.ref && (d = t.ref),
         t))
-          o.call(t, i) && !a.hasOwnProperty(i) && (r[i] = t[i]);
+          c.call(t, i) && !a.hasOwnProperty(i) && (r[i] = t[i]);
         if (e && e.defaultProps)
           for (i in (t = e.defaultProps)) void 0 === r[i] && (r[i] = t[i]);
         return {
@@ -31,7 +31,7 @@
           key: l,
           ref: d,
           props: r,
-          _owner: c.current,
+          _owner: o.current,
         };
       }
       (t.Fragment = r), (t.jsx = l), (t.jsxs = l);
@@ -39,67 +39,67 @@
     2540: (e, t, n) => {
       e.exports = n(2192);
     },
-    4353: (e, t, n) => {
+    2850: (e, t, n) => {
       n.r(t),
         n.d(t, {
           assets: () => a,
-          contentTitle: () => o,
+          contentTitle: () => c,
           default: () => h,
           frontMatter: () => r,
-          metadata: () => c,
+          metadata: () => o,
           toc: () => l,
         });
       var i = n(2540),
         s = n(3023);
       const r = {
-          id: 'implicit-consent',
-          title: 'Implicit Consent',
+          id: 'explicit-consent',
+          title: 'Explicit Consent',
           description:
-            'Documentation on how to use the implicit consent tag with ConsentGuard.',
+            'Documentation on how to use the explicit consent tag with ConsentGuard.',
         },
-        o = void 0,
-        c = {
-          id: 'consentguard/implicit-consent',
-          title: 'Implicit Consent',
+        c = void 0,
+        o = {
+          id: 'consentguard/explicit-consent',
+          title: 'Explicit Consent',
           description:
-            'Documentation on how to use the implicit consent tag with ConsentGuard.',
+            'Documentation on how to use the explicit consent tag with ConsentGuard.',
           source:
-            '@site/versioned_docs/version-0.0.1/consentguard/implicit-consent.md',
+            '@site/versioned_docs/version-0.0.1/consentguard/explicit-consent.md',
           sourceDirName: 'consentguard',
-          slug: '/consentguard/implicit-consent',
-          permalink: '/docs/consentguard/implicit-consent',
+          slug: '/consentguard/explicit-consent',
+          permalink: '/docs/consentguard/explicit-consent',
           draft: !1,
           unlisted: !1,
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1723086403e3,
+          lastUpdatedAt: 1724363592e3,
           frontMatter: {
-            id: 'implicit-consent',
-            title: 'Implicit Consent',
+            id: 'explicit-consent',
+            title: 'Explicit Consent',
             description:
-              'Documentation on how to use the implicit consent tag with ConsentGuard.',
+              'Documentation on how to use the explicit consent tag with ConsentGuard.',
           },
           sidebar: 'consentguard',
           previous: {
-            title: 'Consent Categories',
-            permalink: '/docs/consentguard/consent-categories',
+            title: 'Implicit Consent',
+            permalink: '/docs/consentguard/implicit-consent',
           },
           next: {
-            title: 'Explicit Consent',
-            permalink: '/docs/consentguard/explicit-consent',
+            title: 'Recording User Preferences',
+            permalink: '/docs/consentguard/using-jitsu',
           },
         },
         a = {},
         l = [
           {
-            value: 'Implicit Consent Management',
-            id: 'implicit-consent-management',
+            value: 'Explicit Consent Management',
+            id: 'explicit-consent-management',
             level: 2,
           },
           {value: 'Overview', id: 'overview', level: 3},
           {
-            value: 'What is Implicit Consent?',
-            id: 'what-is-implicit-consent',
+            value: 'What is Explicit Consent?',
+            id: 'what-is-explicit-consent',
             level: 3,
           },
           {value: 'How it Works', id: 'how-it-works', level: 3},
@@ -138,28 +138,40 @@
         return (0, i.jsxs)(i.Fragment, {
           children: [
             (0, i.jsx)(t.h2, {
-              id: 'implicit-consent-management',
-              children: 'Implicit Consent Management',
+              id: 'explicit-consent-management',
+              children: 'Explicit Consent Management',
             }),
             '\n',
             (0, i.jsx)(t.h3, {id: 'overview', children: 'Overview'}),
             '\n',
-            (0, i.jsxs)(t.p, {
-              children: [
-                'Implicit consent allows your scripts to load as normal unless the user explicitly opts out of certain categories. This is useful for compliance with regulations like CCPA, where users are considered to have given consent unless they take action to opt-out. This documentation explains how to use the ',
-                (0, i.jsx)(t.code, {children: 'script-implicit'}),
-                ' tag provided by ConsentGuard.',
-              ],
+            (0, i.jsx)(t.p, {
+              children:
+                'Explicit consent requires users to actively agree to the collection and use of their data by providing clear consent. This is typically required for non-essential cookies, such as those used for tracking or targeting, especially under GDPR regulations.',
             }),
             '\n',
             (0, i.jsx)(t.h3, {
-              id: 'what-is-implicit-consent',
-              children: 'What is Implicit Consent?',
+              id: 'what-is-explicit-consent',
+              children: 'What is Explicit Consent?',
             }),
             '\n',
             (0, i.jsx)(t.p, {
               children:
-                'Implicit consent means that users are considered to have given consent by not taking any action to opt-out. For example, continuing to use the website might be seen as implicit consent. This approach is less commonly used in GDPR jurisdictions due to stricter data protection regulations, but it is compliant with CCPA as long as users are provided with a clear option to opt-out.',
+                'Explicit consent means that users must actively opt-in to allow the collection and use of their data. This can be done by clicking an "Accept" button or checking a box. For scripts that collect data, explicit consent is crucial to ensure compliance with GDPR.',
+            }),
+            '\n',
+            (0, i.jsxs)('div', {
+              className: 'content-banner',
+              children: [
+                (0, i.jsx)(t.p, {
+                  children:
+                    'Rest assured that much research has gone into the study of acceptance rates. ConsentGuard has been designed specifically to get the highest number of opt-ins possible.',
+                }),
+                (0, i.jsx)('img', {
+                  className: 'content-banner-img',
+                  src: '/docs/assets/p_android-ios-devices.svg',
+                  alt: ' ',
+                }),
+              ],
             }),
             '\n',
             (0, i.jsx)(t.h3, {id: 'how-it-works', children: 'How it Works'}),
@@ -167,22 +179,17 @@
             (0, i.jsxs)(t.p, {
               children: [
                 'Adding the ',
-                (0, i.jsx)(t.code, {children: 'script-implicit'}),
-                ' tag to your scripts will cause their loading to be controlled by the ConsentGuard System. As long as this JavaScript snippet is included on your pages, the script tag will load as normal unless the user adjusts their allowed categories. Once the script preferences are made, and only if categories are blocked, ConsentGuard will step in and block the loading for implicit tags according to the user\u2019s blocked categories.',
+                (0, i.jsx)(t.code, {children: 'script-explicit'}),
+                ' tag to your scripts ensures they are only loaded if the user explicitly opts in to the relevant categories. These categories are not loaded unless the user consents to them. Selecting the "Accept All" option is an explicit opt-in and will cause these scripts to load.',
               ],
-            }),
-            '\n',
-            (0, i.jsx)(t.p, {
-              children:
-                'Essential scripts cannot be disabled by users and therefore should not receive the special script tag as it may interfere with the functional loading of your essential scripts.',
             }),
             '\n',
             (0, i.jsx)(t.h3, {id: 'example', children: 'Example'}),
             '\n',
             (0, i.jsxs)(t.p, {
               children: [
-                'Identify the script tags on your website that should be controlled by implicit consent and replace them with the ',
-                (0, i.jsx)(t.code, {children: 'script-implicit'}),
+                'Identify the script tags on your website that should be controlled by explicit consent and replace them with the ',
+                (0, i.jsx)(t.code, {children: 'script-explicit'}),
                 ' tag. Add the ',
                 (0, i.jsx)(t.code, {children: 'data-consent-category'}),
                 ' attribute to specify the category of the script.',
@@ -193,7 +200,7 @@
               children: (0, i.jsx)(t.code, {
                 className: 'language-html',
                 children:
-                  '\x3c!-- Original script tag --\x3e\n<script src="path/to/your/script.js"></script>\n\n\x3c!-- Updated script tag with implicit consent --\x3e\n<script-implicit\n  data-consent-category="performance"\n  src="path/to/your/script.js"></script-implicit>\n',
+                  '\x3c!-- Original script tag --\x3e\n<script src="path/to/your/script.js"></script>\n\n\x3c!-- Updated script tag with explicit consent --\x3e\n<script-explicit\n  data-consent-category="targeting"\n  src="path/to/your/script.js"></script-explicit>\n',
               }),
             }),
             '\n',
@@ -204,7 +211,7 @@
             '\n',
             (0, i.jsx)(t.p, {
               children:
-                'Ensure you have included the ConsentGuard JavaScript snippet in your HTML or this script-implicit will not load.',
+                'Ensure you have included the ConsentGuard JavaScript snippet in your HTML:',
             }),
             '\n',
             (0, i.jsx)(t.pre, {
@@ -306,16 +313,16 @@
                   children: [
                     (0, i.jsx)(t.strong, {children: 'Essential Scripts:'}),
                     ' Essential scripts should not be tagged with ',
-                    (0, i.jsx)(t.code, {children: 'script-implicit'}),
-                    ' as this may interfere with the functional loading of your essential scripts. These scripts are always loaded regardless of user consent preferences.',
+                    (0, i.jsx)(t.code, {children: 'script-explicit'}),
+                    " as they are necessary for the website's basic functionality and should always be loaded.",
                   ],
                 }),
                 '\n',
                 (0, i.jsxs)(t.li, {
                   children: [
                     (0, i.jsx)(t.strong, {children: 'User Preferences:'}),
-                    ' ConsentGuard will manage the loading of scripts based on the user\u2019s preferences. If a user blocks a category, the corresponding scripts with ',
-                    (0, i.jsx)(t.code, {children: 'script-implicit'}),
+                    ' ConsentGuard will manage the loading of scripts based on the user\u2019s preferences. If a user does not opt in to a category, the corresponding scripts with ',
+                    (0, i.jsx)(t.code, {children: 'script-explicit'}),
                     ' tags will not be loaded.',
                   ],
                 }),
@@ -325,7 +332,7 @@
                     (0, i.jsx)(t.strong, {
                       children: 'Include consentguard.js:',
                     }),
-                    ' Without the ConsentGuard.js this tag will not load.',
+                    ' Without the ConsentGuard.js, this tag will not load.',
                   ],
                 }),
                 '\n',
@@ -342,11 +349,11 @@
       }
     },
     3023: (e, t, n) => {
-      n.d(t, {R: () => o, x: () => c});
+      n.d(t, {R: () => c, x: () => o});
       var i = n(3696);
       const s = {},
         r = i.createContext(s);
-      function o(e) {
+      function c(e) {
         const t = i.useContext(r);
         return i.useMemo(
           function () {
@@ -355,14 +362,14 @@
           [t, e]
         );
       }
-      function c(e) {
+      function o(e) {
         let t;
         return (
           (t = e.disableParentContext
             ? 'function' == typeof e.components
               ? e.components(s)
               : e.components || s
-            : o(e.components)),
+            : c(e.components)),
           i.createElement(r.Provider, {value: t}, e.children)
         );
       }

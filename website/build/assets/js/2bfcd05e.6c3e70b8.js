@@ -65,57 +65,51 @@
                       )
                     )
                   ),
-                  i.createElement('script', {
-                    src: 'https://fast.wistia.com/embed/medias/jd5bh4iafg.jsonp',
-                    async: !0,
-                  }),
-                  i.createElement('script', {
-                    src: 'https://fast.wistia.com/assets/external/E-v1.js',
-                    async: !0,
-                  }),
                   i.createElement(
                     'div',
-                    {
-                      className:
-                        s.A.WistiaVideoWrapper +
-                        ' ' +
-                        s.A.Wistia +
-                        ' wistia_responsive_padding',
-                    },
+                    {className: s.A.WistiaWrapper},
+                    i.createElement('script', {
+                      src: 'https://fast.wistia.com/embed/medias/jd5bh4iafg.jsonp',
+                      async: !0,
+                    }),
+                    i.createElement('script', {
+                      src: 'https://fast.wistia.com/assets/external/E-v1.js',
+                      async: !0,
+                    }),
                     i.createElement(
                       'div',
                       {
                         className:
-                          s.A.WistiaVideo +
-                          ' ' +
-                          s.A.Wistia +
-                          ' wistia_responsive_wrapper',
+                          s.A.WistiaVideoWrapper + ' wistia_responsive_padding',
                       },
                       i.createElement(
                         'div',
                         {
                           className:
-                            s.A.WistiaEmbed +
-                            ' ' +
-                            s.A.Wistia +
-                            ' wistia_embed wistia_async_jd5bh4iafg seo=true videoFoam=false',
+                            s.A.WistiaVideoResponsive +
+                            ' wistia_responsive_wrapper',
                         },
                         i.createElement(
                           'div',
                           {
                             className:
-                              s.A.WistiaSwatch +
-                              ' ' +
-                              s.A.Wistia +
-                              ' wistia_swatch',
+                              s.A.WistiaEmbed +
+                              ' wistia_embed wistia_async_jd5bh4iafg seo=true videoFoam=true',
                           },
-                          i.createElement('img', {
-                            src: 'https://fast.wistia.com/embed/medias/jd5bh4iafg/swatch',
-                            className: s.A.WistiaImg,
-                            alt: '',
-                            'aria-hidden': 'true',
-                            onload: 'this.parentNode.style.opacity=1;',
-                          })
+                          i.createElement(
+                            'div',
+                            {
+                              className:
+                                s.A.WistiaSwatchResponsive + ' wistia_swatch',
+                            },
+                            i.createElement('img', {
+                              src: 'https://fast.wistia.com/embed/medias/jd5bh4iafg/swatch',
+                              className: s.A.WistiaImgResponsive,
+                              alt: '',
+                              'aria-hidden': 'true',
+                              onload: 'this.parentNode.style.opacity=1;',
+                            })
+                          )
                         )
                       )
                     )
@@ -282,11 +276,16 @@
     8091: (e, a, t) => {
       t.d(a, {A: () => i});
       const i = {
+        WistiaWrapper: 'WistiaWrapper_O5O1',
         WistiaVideoWrapper: 'WistiaVideoWrapper_s1V7',
         WistiaVideo: 'WistiaVideo_He1W',
+        WistiaVideoResponsive: 'WistiaVideoResponsive_WabZ',
         WistiaEmbed: 'WistiaEmbed_ipMb',
+        WistiaEmbedResponsive: 'WistiaEmbedResponsive_gi5x',
         WistiaSwatch: 'WistiaSwatch_bCFt',
+        WistiaSwatchResponsive: 'WistiaSwatchResponsive_G8wv',
         WistiaImg: 'WistiaImg_tTOS',
+        WistiaImgResponsive: 'WistiaImgResponsive_Jeoz',
         Wistia: 'Wistia_inGM',
         LandingPageNewV2: 'LandingPageNewV2_i2Uv',
         AsetOrnamen: 'AsetOrnamen_A75d',

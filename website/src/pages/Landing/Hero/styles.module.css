@@ -1,13 +1,36 @@
-.WistiaVideoWrapper {
-  padding: 56.25% 0 0 0;
+.WistiaWrapper {
+  margin: 0 auto;
+
   position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Aspect ratio: 16:9 */
+  overflow: hidden;
+}
+div.WistiaVideoWrapper {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .WistiaVideo {
   left: 0;
   position: absolute;
   top: 0;
 }
+.WistiaVideoResponsive {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 .WistiaEmbed {
+  position: relative;
+  width: 100%;
+}
+.WistiaEmbedResponsive {
+  height: 100%;
   position: relative;
   width: 100%;
 }
@@ -19,9 +42,25 @@
   top: 0;
   transition: opacity 200ms;
 }
+.WistiaSwatchResponsive {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: opacity 200ms;
+  width: 100%;
+}
 .WistiaImg {
   filter: blur(5px);
   object-fit: contain;
+}
+.WistiaImgResponsive {
+  filter: blur(5px);
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
 }
 .Wistia {
   width: 640px !important;
@@ -124,8 +163,8 @@
     display: none;
   }
   div.Description {
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 24px;
   }
   div.BlueText {
     font-size: 20px;
@@ -365,18 +404,18 @@
   .PriceText,
   .SubText,
   .MainHeading {
-    font-size: 50px;
+    font-size: 40px;
   }
   div.BlueText {
     font-size: 18px;
   }
 }
 
-@media only screen and (max-width: 531px) {
+@media only screen and (max-width: 585px) {
   .PriceText,
   .SubText,
   .MainHeading {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 45px;
   }
   div.BlueText {
@@ -393,10 +432,10 @@
   align-self: stretch;
   text-align: center;
   color: #606570;
-  font-size: 16px;
+  font-size: 24px;
   font-family: "GeneralSans-Regular";
   font-weight: 400;
-  line-height: 24px;
+  line-height: 35px;
   letter-spacing: 0.15px;
   word-wrap: break-word;
 }

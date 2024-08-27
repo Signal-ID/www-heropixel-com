@@ -1655,6 +1655,7 @@ area[href].breadcrumbs__link:hover {
   flex-direction: column;
   overflow: hidden;
 }
+.WistiaEmbedResponsive_gi5x,
 .card--full-height,
 .deviceContainer_M3IR,
 body,
@@ -7879,19 +7880,38 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   color: red;
   padding: 0.55rem;
 }
-.WistiaVideoWrapper_s1V7 {
-  padding: 56.25% 0 0;
+.WistiaWrapper_O5O1 {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 56.25%;
   position: relative;
+  width: 100%;
 }
+div.WistiaVideoWrapper_s1V7 {
+  height: 100%;
+  left: 0;
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+}
+.WistiaVideoResponsive_WabZ,
 .WistiaVideo_He1W {
   left: 0;
   position: absolute;
   top: 0;
 }
+.WistiaImgResponsive_Jeoz,
+.WistiaSwatchResponsive_G8wv,
+.WistiaVideoResponsive_WabZ {
+  height: 100%;
+  width: 100%;
+}
+.WistiaEmbedResponsive_gi5x,
 .WistiaEmbed_ipMb {
   position: relative;
   width: 100%;
 }
+.WistiaSwatchResponsive_G8wv,
 .WistiaSwatch_bCFt {
   left: 0;
   opacity: 0;
@@ -7900,6 +7920,7 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   top: 0;
   transition: opacity 0.2s;
 }
+.WistiaImgResponsive_Jeoz,
 .WistiaImg_tTOS {
   filter: blur(5px);
   object-fit: contain;
@@ -8145,10 +8166,10 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   align-self: stretch;
   color: #606570;
   font-family: GeneralSans-Regular;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 0.15px;
-  line-height: 24px;
+  line-height: 35px;
   text-align: center;
 }
 .Button_NeJs {
@@ -9137,8 +9158,8 @@ html:not([data-theme]) .themedComponent--light_NVdE {
     display: none;
   }
   div.Description_IxMx {
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .HeadingText_rtgH {
     display: none !important;
@@ -9149,7 +9170,7 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   .MainHeading_db9D,
   .PriceText_vAEH,
   .SubText_IrcO {
-    font-size: 50px;
+    font-size: 40px;
   }
   div.BlueText_M6iY {
     font-size: 18px;
@@ -9290,6 +9311,22 @@ html:not([data-theme]) .themedComponent--light_NVdE {
     display: none;
   }
 }
+@media only screen and (max-width: 585px) {
+  .MainHeading_db9D,
+  .PriceText_vAEH,
+  .SubText_IrcO {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  div.BlueText_M6iY {
+    font-size: 15px;
+    transform: none !important;
+  }
+  .Container_EuSx {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 @media (max-width: 576px) {
   .markdown h1:first-child {
     --ifm-h1-font-size: 2rem;
@@ -9319,22 +9356,6 @@ html:not([data-theme]) .themedComponent--light_NVdE {
   }
   .theme-doc-footer .col:first-child {
     margin-bottom: 16px;
-  }
-}
-@media only screen and (max-width: 531px) {
-  .MainHeading_db9D,
-  .PriceText_vAEH,
-  .SubText_IrcO {
-    font-size: 40px;
-    line-height: 45px;
-  }
-  div.BlueText_M6iY {
-    font-size: 15px;
-    transform: none !important;
-  }
-  .Container_EuSx {
-    padding-left: 25px;
-    padding-right: 25px;
   }
 }
 @media only screen and (max-width: 500px) {

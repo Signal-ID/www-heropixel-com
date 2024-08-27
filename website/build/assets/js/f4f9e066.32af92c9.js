@@ -4,10 +4,10 @@
   [5889],
   {
     4696: (e, c, a) => {
-      a.r(c), a.d(c, {default: () => h});
+      a.r(c), a.d(c, {default: () => i});
       var r = a(3696),
         t = a(8091);
-      const h = function () {
+      const i = function () {
         return r.createElement(
           'svg',
           {
@@ -178,11 +178,16 @@
     8091: (e, c, a) => {
       a.d(c, {A: () => r});
       const r = {
+        WistiaWrapper: 'WistiaWrapper_O5O1',
         WistiaVideoWrapper: 'WistiaVideoWrapper_s1V7',
         WistiaVideo: 'WistiaVideo_He1W',
+        WistiaVideoResponsive: 'WistiaVideoResponsive_WabZ',
         WistiaEmbed: 'WistiaEmbed_ipMb',
+        WistiaEmbedResponsive: 'WistiaEmbedResponsive_gi5x',
         WistiaSwatch: 'WistiaSwatch_bCFt',
+        WistiaSwatchResponsive: 'WistiaSwatchResponsive_G8wv',
         WistiaImg: 'WistiaImg_tTOS',
+        WistiaImgResponsive: 'WistiaImgResponsive_Jeoz',
         Wistia: 'Wistia_inGM',
         LandingPageNewV2: 'LandingPageNewV2_i2Uv',
         AsetOrnamen: 'AsetOrnamen_A75d',

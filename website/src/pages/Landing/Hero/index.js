@@ -33,47 +33,40 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <script
-                src="https://fast.wistia.com/embed/medias/jd5bh4iafg.jsonp"
-                async></script>
-              <script
-                src="https://fast.wistia.com/assets/external/E-v1.js"
-                async></script>
-              <div
-                className={
-                  styles.WistiaVideoWrapper +
-                  ' ' +
-                  styles.Wistia +
-                  ' wistia_responsive_padding'
-                }>
+
+              <div className={styles.WistiaWrapper}>
+                <script
+                  src="https://fast.wistia.com/embed/medias/jd5bh4iafg.jsonp"
+                  async></script>
+                <script
+                  src="https://fast.wistia.com/assets/external/E-v1.js"
+                  async></script>
                 <div
                   className={
-                    styles.WistiaVideo +
-                    ' ' +
-                    styles.Wistia +
-                    ' wistia_responsive_wrapper'
+                    styles.WistiaVideoWrapper + ' wistia_responsive_padding'
                   }>
                   <div
                     className={
-                      styles.WistiaEmbed +
-                      ' ' +
-                      styles.Wistia +
-                      ' wistia_embed wistia_async_jd5bh4iafg seo=true videoFoam=false'
+                      styles.WistiaVideoResponsive +
+                      ' wistia_responsive_wrapper'
                     }>
                     <div
                       className={
-                        styles.WistiaSwatch +
-                        ' ' +
-                        styles.Wistia +
-                        ' wistia_swatch'
+                        styles.WistiaEmbed +
+                        ' wistia_embed wistia_async_jd5bh4iafg seo=true videoFoam=true'
                       }>
-                      <img
-                        src="https://fast.wistia.com/embed/medias/jd5bh4iafg/swatch"
-                        className={styles.WistiaImg}
-                        alt=""
-                        aria-hidden="true"
-                        onload="this.parentNode.style.opacity=1;"
-                      />
+                      <div
+                        className={
+                          styles.WistiaSwatchResponsive + ' wistia_swatch'
+                        }>
+                        <img
+                          src="https://fast.wistia.com/embed/medias/jd5bh4iafg/swatch"
+                          className={styles.WistiaImgResponsive}
+                          alt=""
+                          aria-hidden="true"
+                          onload="this.parentNode.style.opacity=1;"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
