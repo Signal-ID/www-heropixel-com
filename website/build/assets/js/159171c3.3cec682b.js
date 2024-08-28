@@ -1,4 +1,4 @@
-/*! For license information please see 159171c3.83537d95.js.LICENSE.txt */
+/*! For license information please see 159171c3.3cec682b.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -130,7 +130,7 @@
                     }),
                     ' To receive an invite please join our ',
                     (0, n.jsx)(t.a, {
-                      href: 'mailto:mark@heropixel.com',
+                      href: 'https://go.heropixel.com/waitlist',
                       children: 'waiting list',
                     }),
                     '. We will contact you directly before sending out your invite.',

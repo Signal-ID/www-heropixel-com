@@ -72,7 +72,7 @@ description: desc
 
 ### How do I create an account?
 
-- All account registrations are currently locked. Or system is invite only. You can join our [waiting list](mailto:mark@heropixel.com).
+- All account registrations are currently locked. Or system is invite only. You can join our [waiting list](https://go.heropixel.com/waitlist).
 
 ### I forgot my password. How can I reset it?
 

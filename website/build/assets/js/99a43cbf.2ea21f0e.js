@@ -1,4 +1,4 @@
-/*! For license information please see 99a43cbf.6528c6fc.js.LICENSE.txt */
+/*! For license information please see 99a43cbf.2ea21f0e.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -529,7 +529,7 @@
                   children: [
                     'All account registrations are currently locked. Or system is invite only. You can join our ',
                     (0, n.jsx)(o.a, {
-                      href: 'mailto:mark@heropixel.com',
+                      href: 'https://go.heropixel.com/waitlist',
                       children: 'waiting list',
                     }),
                     '.',

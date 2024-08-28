@@ -6,7 +6,7 @@ description: desc
 
 # User Registration Guide
 
-> <strong>REGISTRATION IS BY INVITE ONLY</strong> To receive an invite please join our [waiting list](mailto:mark@heropixel.com). We will contact you directly before sending out your invite.
+> <strong>REGISTRATION IS BY INVITE ONLY</strong> To receive an invite please join our [waiting list](https://go.heropixel.com/waitlist). We will contact you directly before sending out your invite.
 
 ## Purpose
 
