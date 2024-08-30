@@ -8,7 +8,7 @@ description: snowflake
 
 Setting up the Snowflake destination connector involves setting up Snowflake entities (warehouse,
 database, schema, user, and role) in the Snowflake console and configuring the Snowflake destination
-connector using the Hero Pixel UI.
+connector using the HeroPixelUI.
 
 This page describes the step-by-step process of setting up the Snowflake destination connector.
 
@@ -25,7 +25,7 @@ By default, Snowflake allows users to connect to the service from any computer o
 A security administrator (i.e. users with the SECURITYADMIN role) or higher can create a network
 policy to allow or deny access to a single IP address or a list of addresses.
 
-If you have any issues connecting with Hero Pixel Cloud please make sure that the list of IP addresses
+If you have any issues connecting with HeroPixelCloud please make sure that the list of IP addresses
 is on the allowed list
 
 To determine whether a network policy is set on your account or for a specific user, execute the
@@ -48,11 +48,11 @@ To read more please check official
 
 ## Setup guide
 
-### Step 1: Set up Hero Pixel-specific entities in Snowflake
+### Step 1: Set up HeroPixelspecific entities in Snowflake
 
-To set up the Snowflake destination connector, you first need to create Hero Pixel-specific Snowflake
+To set up the Snowflake destination connector, you first need to create HeroPixelspecific Snowflake
 entities (a warehouse, database, schema, user, and role) with the `OWNERSHIP` permission to write
-data into Snowflake, track costs pertaining to Hero Pixel, and control permissions at a granular level.
+data into Snowflake, track costs pertaining to HeroPixel and control permissions at a granular level.
 
 You can use the following script in a new
 [Snowflake worksheet](https://docs.snowflake.com/en/user-guide/ui-worksheet.html) to create the
@@ -79,12 +79,12 @@ set airbyte_password = 'password';
 
 begin;
 
--- create Hero Pixel role
+-- create HeroPixelrole
 use role securityadmin;
 create role if not exists identifier($airbyte_role);
 grant role identifier($airbyte_role) to role SYSADMIN;
 
--- create Hero Pixel user
+-- create HeroPixeluser
 create user if not exists identifier($airbyte_username)
 password = $airbyte_password
 default_role = $airbyte_role
@@ -95,7 +95,7 @@ grant role identifier($airbyte_role) to user identifier($airbyte_username);
 -- change role to sysadmin for warehouse / database steps
 use role sysadmin;
 
--- create Hero Pixel warehouse
+-- create HeroPixelwarehouse
 create warehouse if not exists identifier($airbyte_warehouse)
 warehouse_size = xsmall
 warehouse_type = standard
@@ -103,15 +103,15 @@ auto_suspend = 60
 auto_resume = true
 initially_suspended = true;
 
--- create Hero Pixel database
+-- create HeroPixeldatabase
 create database if not exists identifier($airbyte_database);
 
--- grant Hero Pixel warehouse access
+-- grant HeroPixelwarehouse access
 grant USAGE
 on warehouse identifier($airbyte_warehouse)
 to role identifier($airbyte_role);
 
--- grant Hero Pixel database access
+-- grant HeroPixeldatabase access
 grant OWNERSHIP
 on database identifier($airbyte_database)
 to role identifier($airbyte_role);
@@ -122,14 +122,14 @@ begin;
 
 USE DATABASE identifier($airbyte_database);
 
--- create schema for Hero Pixel data
+-- create schema for HeroPixeldata
 CREATE SCHEMA IF NOT EXISTS identifier($airbyte_schema);
 
 commit;
 
 begin;
 
--- grant Hero Pixel schema access
+-- grant HeroPixelschema access
 grant OWNERSHIP
 on schema identifier($airbyte_schema)
 to role identifier($airbyte_role);
@@ -144,15 +144,15 @@ commit;
 
 ### Step 2: Set up a data loading method
 
-Hero Pixel uses Snowflake’s
+HeroPixeluses Snowflake’s
 [Internal Stage](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage.html)
 to load data.
 
 Make sure the database and schema have the `USAGE` privilege.
 
-### Step 3: Set up Snowflake as a destination in Hero Pixel
+### Step 3: Set up Snowflake as a destination in HeroPixel
 
-Navigate to the Hero Pixel UI to set up Snowflake as a destination. You can authenticate using
+Navigate to the HeroPixelUI to set up Snowflake as a destination. You can authenticate using
 username/password or key pair authentication:
 
 ### Login and Password
@@ -160,11 +160,11 @@ username/password or key pair authentication:
 | Field                                                                                                 | Description                                                                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Host](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html)                        | The host domain of the snowflake instance (must include the account, region, cloud environment, and end with snowflakecomputing.com). Example: `accountname.us-east-2.aws.snowflakecomputing.com`                                    |
-| [Role](https://docs.snowflake.com/en/user-guide/security-access-control-overview.html#roles)          | The role you created in Step 1 for Hero Pixel to access Snowflake. Example: `AIRBYTE_ROLE`                                                                                                                                           |
-| [Warehouse](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#overview-of-warehouses) | The warehouse you created in Step 1 for Hero Pixel to sync data into. Example: `AIRBYTE_WAREHOUSE`                                                                                                                                   |
-| [Database](https://docs.snowflake.com/en/sql-reference/ddl-database.html#database-schema-share-ddl)   | The database you created in Step 1 for Hero Pixel to sync data into. Example: `AIRBYTE_DATABASE`                                                                                                                                     |
+| [Role](https://docs.snowflake.com/en/user-guide/security-access-control-overview.html#roles)          | The role you created in Step 1 for HeroPixelto access Snowflake. Example: `AIRBYTE_ROLE`                                                                                                                                             |
+| [Warehouse](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#overview-of-warehouses) | The warehouse you created in Step 1 for HeroPixelto sync data into. Example: `AIRBYTE_WAREHOUSE`                                                                                                                                     |
+| [Database](https://docs.snowflake.com/en/sql-reference/ddl-database.html#database-schema-share-ddl)   | The database you created in Step 1 for HeroPixelto sync data into. Example: `AIRBYTE_DATABASE`                                                                                                                                       |
 | [Schema](https://docs.snowflake.com/en/sql-reference/ddl-database.html#database-schema-share-ddl)     | The default schema used as the target schema for all statements issued from the connection that do not explicitly specify a schema name.                                                                                             |
-| Username                                                                                              | The username you created in Step 1 to allow Hero Pixel to access the database. Example: `AIRBYTE_USER`                                                                                                                               |
+| Username                                                                                              | The username you created in Step 1 to allow HeroPixelto access the database. Example: `AIRBYTE_USER`                                                                                                                                 |
 | Password                                                                                              | The password associated with the username.                                                                                                                                                                                           |
 | [JDBC URL Params](https://docs.snowflake.com/en/user-guide/jdbc-parameters.html) (Optional)           | Additional properties to pass to the JDBC URL string when connecting to the database formatted as `key=value` pairs separated by the symbol `&`. Example: `key1=value1&key2=value2&key3=value3`                                      |
 | Disable Final Tables (Optional)                                                                       | Disables writing final Typed tables See [output schema](#output-schema). WARNING! The data format in \_airbyte_data is likely stable but there are no guarantees that other metadata columns will remain the same in future versions |
@@ -195,13 +195,13 @@ username/password or key pair authentication:
 
 ## Output schema
 
-Hero Pixel outputs each stream into its own raw table in `airbyte_internal` schema by default (can be
+HeroPixeloutputs each stream into its own raw table in `airbyte_internal` schema by default (can be
 overriden by user) and a final table with Typed columns. Contents in raw table are _NOT_
 deduplicated.
 
 ### Raw Table schema
 
-| Hero Pixel field       | Description                                                        | Column type              |
+| HeroPixelfield         | Description                                                        | Column type              |
 | ---------------------- | ------------------------------------------------------------------ | ------------------------ |
 | \_airbyte_raw_id       | A UUID assigned to each processed event                            | VARCHAR                  |
 | \_airbyte_extracted_at | A timestamp for when the event was pulled from the data source     | TIMESTAMP WITH TIME ZONE |
@@ -211,13 +211,13 @@ deduplicated.
 **Note:** Although the contents of the `_airbyte_data` are fairly stable, schema of the raw table
 could be subject to change in future versions.
 
-**Note:** By default, Hero Pixel creates permanent tables. If you prefer transient tables, create a
-dedicated transient database for Hero Pixel. For more information, refer
+**Note:** By default, HeroPixelcreates permanent tables. If you prefer transient tables, create a
+dedicated transient database for HeroPixel For more information, refer
 to[ Working with Temporary and Transient Tables](https://docs.snowflake.com/en/user-guide/tables-temp-transient.html)
 
 ## Data type map
 
-| Hero Pixel type                     | Snowflake type |
+| HeroPixeltype                       | Snowflake type |
 | :---------------------------------- | :------------- |
 | STRING                              | TEXT           |
 | STRING (BASE64)                     | TEXT           |

@@ -32,7 +32,7 @@ You'll need the following information to configure the Teradata destination:
 
 Each stream will be output into its own table in Teradata. Each table will contain 3 columns:
 
-- `_airbyte_ab_id`: a unique uuid assigned by Hero Pixel to each event that is processed. This is the primary index column. The column type in Teradata is `VARCHAR(256)`.
+- `_airbyte_ab_id`: a unique uuid assigned by HeroPixelto each event that is processed. This is the primary index column. The column type in Teradata is `VARCHAR(256)`.
 - `_airbyte_emitted_at`: a timestamp representing when the event was pulled from the data source. The column type in Teradata is `TIMESTAMP(6)`.
 - `_airbyte_data`: a json blob representing with the event data. The column type in Teradata is `JSON`.
 
@@ -66,13 +66,13 @@ GRANT ALL on dbc to airbyte_user;
 
 ```
 
-You can also use a pre-existing user but we highly recommend creating a dedicated user for Hero Pixel.
+You can also use a pre-existing user but we highly recommend creating a dedicated user for HeroPixel
 
 ### Setup guide
 
 #### Set up the Teradata Destination connector
 
-1. Log into your Hero Pixel account.
+1. Log into your HeroPixelaccount.
 2. Click **Destinations** and then click **+ New destination**.
 3. On the Set up the destination page, select **Teradata** from the **Destination type** dropdown.
 4. Enter the **Name** for the Teradata connector.
@@ -83,4 +83,4 @@ You can also use a pre-existing user but we highly recommend creating a dedicate
 
    Example: key1=value1&key2=value2&key3=value3
 
-   These parameters will be added at the end of the JDBC URL that the Hero Pixel will use to connect to your Teradata database.
+   These parameters will be added at the end of the JDBC URL that the HeroPixelwill use to connect to your Teradata database.

@@ -6,7 +6,7 @@ description: desc
 
 # What are Suppression Lists?
 
-You already have customers that you know of. You may not want to be charged by Hero Pixel for resolving these customers.
+You already have customers that you know of. You may not want to be charged by HeroPixelfor resolving these customers.
 
 A suppression list gives you the ability to block us from resolving, and thus charging you for, customers you already know. Keep in mind that you must add these identites to your suppression list before we determine who they are.
 

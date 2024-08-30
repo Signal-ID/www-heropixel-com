@@ -8,7 +8,7 @@ description: desc
 
 This destination writes data to AWS DynamoDB.
 
-The Hero Pixel DynamoDB destination allows you to sync data to AWS DynamoDB. Each stream is written to
+The HeroPixelDynamoDB destination allows you to sync data to AWS DynamoDB. Each stream is written to
 its own table under the DynamoDB.
 
 ## Sync overview
@@ -18,7 +18,7 @@ its own table under the DynamoDB.
 Each stream will be output into its own DynamoDB table. Each table will a collections of `json`
 objects containing 4 fields:
 
-- `_airbyte_ab_id`: a uuid assigned by Hero Pixel to each event that is processed.
+- `_airbyte_ab_id`: a uuid assigned by HeroPixelto each event that is processed.
 - `_airbyte_emitted_at`: a timestamp representing when the event was pulled from the data source.
 - `_airbyte_data`: a json blob representing with the extracted data.
 - `sync_time`: a timestamp representing when the sync up task be triggered.
@@ -41,7 +41,7 @@ provision more capacity units in the DynamoDB console when there are performance
 
 ### Requirements
 
-1. Allow connections from Hero Pixel server to your AWS DynamoDB tables \(if they exist in separate
+1. Allow connections from HeroPixelserver to your AWS DynamoDB tables \(if they exist in separate
    VPCs\).
 2. The credentials for AWS DynamoDB \(for the COPY strategy\).
 
@@ -58,15 +58,15 @@ provision more capacity units in the DynamoDB console when there are performance
     - See
       [this](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
       on how to generate an access key.
-    - We recommend creating an Hero Pixel-specific user. This user will require
+    - We recommend creating an HeroPixelspecific user. This user will require
       [read and write permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_dynamodb_specific-table.html)
       to the DynamoDB table.
   - **Secret Access Key**
     - Corresponding key to the above key id.
-- Make sure your DynamoDB tables are accessible from Hero Pixel.
+- Make sure your DynamoDB tables are accessible from HeroPixel
   - This depends on your networking setup.
   - You can check AWS DynamoDB documentation with a tutorial on how to properly configure your
     DynamoDB's access
     [here](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-overview.html).
-  - The easiest way to verify if Hero Pixel is able to connect to your DynamoDB tables is via the check
+  - The easiest way to verify if HeroPixelis able to connect to your DynamoDB tables is via the check
     connection tool in the UI.

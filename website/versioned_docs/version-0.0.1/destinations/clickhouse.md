@@ -25,7 +25,7 @@ Each stream will be output into its own table in ClickHouse. Each table will con
 
 ## Getting Started \(Airbyte Cloud\)
 
-Hero Pixel only supports connecting to your ClickHouse instance with SSL or TLS encryption, which is supported by [ClickHouse JDBC driver](https://github.com/ClickHouse/clickhouse-jdbc).
+HeroPixelonly supports connecting to your ClickHouse instance with SSL or TLS encryption, which is supported by [ClickHouse JDBC driver](https://github.com/ClickHouse/clickhouse-jdbc).
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ To use the ClickHouse destination, you'll need:
 
 #### Configure Network Access
 
-Make sure your ClickHouse database can be accessed by Hero Pixel. If your database is within a VPC, you may need to allow access from the Hero Pixel IPs.
+Make sure your ClickHouse database can be accessed by HeroPixel If your database is within a VPC, you may need to allow access from the HHeroPixelPs.
 
 #### **Permissions**
 
@@ -63,13 +63,13 @@ GRANT INSERT ON airbyte_internal.* TO heropixel_user;
 GRANT SELECT ON airbyte_internal.* TO heropixel_user;
 ```
 
-You can also use a pre-existing user but we highly recommend creating a dedicated user for Hero Pixel.
+You can also use a pre-existing user but we highly recommend creating a dedicated user for HeroPixel
 
 #### Target Database
 
-You will need to choose an existing database or create a new database that will be used to store synced data from Hero Pixel.
+You will need to choose an existing database or create a new database that will be used to store synced data from HeroPixel
 
-### Setup the ClickHouse Destination in Hero Pixel
+### Setup the ClickHouse Destination in HeroPixel
 
 You should now have all the requirements needed to configure ClickHouse as a destination in the UI. You'll need the following information to configure the ClickHouse destination:
 
@@ -90,4 +90,4 @@ From [ClickHouse SQL Identifiers syntax](https://clickhouse.com/docs/en/sql-refe
 - If you want to use identifiers the same as keywords or you want to use other symbols in identifiers, quote it using double quotes or backticks, for example, "id", `id`.
 - If you want to write portable applications you are advised to always quote a particular name or never quote it.
 
-Therefore, Hero Pixel's ClickHouse destination will create tables and schemas using the Unquoted identifiers when possible or fallback to Quoted Identifiers if the names are containing special characters.
+Therefore, HeroPixels ClickHouse destination will create tables and schemas using the Unquoted identifiers when possible or fallback to Quoted Identifiers if the names are containing special characters.

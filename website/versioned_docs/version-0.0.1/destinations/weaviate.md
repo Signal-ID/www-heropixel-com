@@ -28,7 +28,7 @@ To use the Weaviate destination, you'll need:
 You'll need the following information to configure the destination:
 
 - **Embedding service API Key** - The API key for your OpenAI or Cohere account
-- **Weaviate cluster URL** - The URL of the Weaviate cluster to load data into. Hero Pixel Cloud only supports connecting to your Weaviate Instance instance with TLS encryption.
+- **Weaviate cluster URL** - The URL of the Weaviate cluster to load data into. HeroPixelCloud only supports connecting to your Weaviate Instance instance with TLS encryption.
 - **Weaviate credentials** - The credentials for your Weaviate instance (either API token or username/password)
 
 ## Features

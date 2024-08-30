@@ -38,7 +38,7 @@ function QuickLinks() {
                 Get Started
               </h4>
               <p>
-                Learn how to get started with Hero Pixel and deploy an Advanced
+                Learn how to get started with HeroPixeland deploy an Advanced
                 Remarketing Pixel on your Website in minutes.
               </p>
               <ul class="menu__list">

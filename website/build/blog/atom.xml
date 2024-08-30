@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heropixel.com/blog</id>
-    <title>Hero Pixel by Signal ID Blog</title>
+    <title>HeroPixelby Signal ID Blog</title>
     <updated>2024-06-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heropixel.com/blog"/>
-    <subtitle>Hero Pixel by Signal ID Blog</subtitle>
+    <subtitle>HeroPixelby Signal ID Blog</subtitle>
     <icon>https://heropixel.com/img/heropixel/hero-pixel-icon.png</icon>
     <rights>Copyright © 2024 Signal ID, LLC.</rights>
     <entry>
-        <title type="html"><![CDATA[Hero Pixel 0.0.1 - Rolling Out With Real-Time Processing]]></title>
+        <title type="html"><![CDATA[HeroPixel0.0.1 - Rolling Out With Real-Time Processing]]></title>
         <id>https://heropixel.com/blog/2024/06/18/0.73-real-time-processing-release</id>
         <link href="https://heropixel.com/blog/2024/06/18/0.73-real-time-processing-release"/>
         <updated>2024-06-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This month we're releasing Hero Pixel 0.0.1! This release has been three years in the making and comes after four complete rebuilds. Hero Pixel's remarketing pixel processes leads in real-time, with the most efficient infrastructure to date. Capable of processing a Billion pageviews per minute with 97% accuracy!]]></summary>
-        <content type="html"><![CDATA[<p>This month we're releasing Hero Pixel 0.0.1! This release has been three years in the making and comes after four complete rebuilds. Hero Pixel's remarketing pixel processes leads in real-time, with the most efficient infrastructure to date. Capable of processing a Billion pageviews per minute with 97% accuracy!</p>
+        <summary type="html"><![CDATA[This month we're releasing HeroPixel0.0.1! This release has been three years in the making and comes after four complete rebuilds. HHeroPixel remarketing pixel processes leads in real-time, with the most efficient infrastructure to date. Capable of processing a Billion pageviews per minute with 97% accuracy!]]></summary>
+        <content type="html"><![CDATA[<p>This month we're releasing HeroPixel0.0.1! This release has been three years in the making and comes after four complete rebuilds. HHeroPixel remarketing pixel processes leads in real-time, with the most efficient infrastructure to date. Capable of processing a Billion pageviews per minute with 97% accuracy!</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="https://heropixel.com/blog/2024/06/18/0.73-real-time-processing-release#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h3>
 <ul>
 <li><a href="https://heropixel.com/blog/2024/06/18/0.73-real-time-processing-release#every-email-is-verified">Every Email is Verified</a></li>

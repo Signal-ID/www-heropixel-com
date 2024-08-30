@@ -56,7 +56,7 @@ You are only allowed to add new subscribers to a specific form within Convertkit
 
 The FormID is located here `https://app.convertkit.com/forms/designers/{{form_id}}/edit`
 
-### Step 3: Set up the ConvertKit Destination in Hero Pixel
+### Step 3: Set up the ConvertKit Destination in HeroPixel
 
 1. Click **Destinations** and then click **+ New destination**.
 2. On the Set up the destination page, select **ConvertKit** from the **Destination type** dropdown.

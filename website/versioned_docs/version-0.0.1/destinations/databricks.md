@@ -99,7 +99,7 @@ to setup AWS bucket with necessary permissions.
 
   ![](/img/connector-ss/databricks_sql_warehouse_connection_details.png)
 
-> **_IMPORTANT:_** `Server hostname`, `Port`, `HTTP path` are used for Hero Pixel connection
+> **_IMPORTANT:_** `Server hostname`, `Port`, `HTTP path` are used for HeroPixelconnection
 
 ### 5. Create Databricks Cluster
 
@@ -130,7 +130,7 @@ to setup AWS bucket with necessary permissions.
 
   ![](/img/connector-ss/databricks_cluster_connection_details2.png)
 
-  > **_IMPORTANT:_** `Server hostname`, `Port`, `HTTP path` are used for Hero Pixel connection
+  > **_IMPORTANT:_** `Server hostname`, `Port`, `HTTP path` are used for HeroPixelconnection
 
 ### 7. Create Databricks Token
 
@@ -161,7 +161,7 @@ to setup AWS bucket with necessary permissions.
 > **_TIP:_** The new `Storage credential` can be added in the `Storage Credentials` tab or use same
 > as for Metastore.
 
-## Hero Pixel Setup
+## HeroPixelSetup
 
 ### Databricks fields
 
@@ -213,7 +213,7 @@ Provide your Amazon S3 data:
   - See
     [this](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
     on how to generate an access key.
-  - We recommend creating an Hero Pixel-specific user. This user will require
+  - We recommend creating an HeroPixelspecific user. This user will require
     [read and write permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)
     to objects in the bucket.
 - `S3 Filename pattern` - The pattern allows you to set the file-name format for the S3 staging
@@ -333,7 +333,7 @@ Each table will have the following columns:
 | `_airbyte_emitted_at` | timestamp | Data emission timestamp.                         |
 | `_airbyte_data`       |   JSON    | The data from your source will be in this column |
 
-Under the hood, an Hero Pixel data stream in Json schema is first converted to an Avro schema, then the
+Under the hood, an HeroPixeldata stream in Json schema is first converted to an Avro schema, then the
 Json object is converted to an Avro record, and finally the Avro record is outputted to the Parquet
 format. Because the data stream can come from any data source, the Json to Avro conversion process
 has arbitrary rules and limitations.

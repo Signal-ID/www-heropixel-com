@@ -6,14 +6,14 @@ description: desc
 
 ## How does it work?
 
-**1. Install the Hero Pixel**
-First, add the Hero Pixel Site Tag (aka. pixel) to your website. Our pixel will begin immediately reckognizing the identites of 30% to 40% of your visitors.
+\*_1. Install the HeroPixel_
+First, add the HeroPixelSite Tag (aka. pixel) to your website. Our pixel will begin immediately reckognizing the identites of 30% to 40% of your visitors.
 
 **2. Build Your Audience**
-As visitors land on your website, the Hero Pixel collects their data even without them having to enter their details anywhere, allowing you to build a detailed audience list. This list includes contact details, which you can use to reach out to them directly.
+As visitors land on your website, the HeroPixelcollects their data even without them having to enter their details anywhere, allowing you to build a detailed audience list. This list includes contact details, which you can use to reach out to them directly.
 
 **3. Contact Your Audience**
-With the contact details provided by Hero Pixel, you can initiate personal conversations with your audience via email. This approach enables you to send tailored messages, increasing the chances of engagement and conversion.
+With the contact details provided by HeroPixel you can initiate personal conversations with your audience via email. This approach enables you to send tailored messages, increasing the chances of engagement and conversion.
 
 ## How do you access your leads?
 
@@ -28,4 +28,4 @@ On your leads list you can search, sort and filter your leads. Once you have the
 
 We offer more than 100+ integrations, making it possible to create a regular sync of your Leads to many different destinations.
 
-For this reason, after the initial setup of the pixel combined with an integration, you'll rarely need to access your Hero Pixel dashboard.
+For this reason, after the initial setup of the pixel combined with an integration, you'll rarely need to access your HeroPixeldashboard.

@@ -6,7 +6,7 @@ description: desc
 
 # Google Sheets
 
-The Google Sheets Destination is configured to push data to a single Google Sheets spreadsheet with multiple Worksheets as streams. To replicate data to multiple spreadsheets, you can create multiple instances of the Google Sheets Destination in your Hero Pixel instance.
+The Google Sheets Destination is configured to push data to a single Google Sheets spreadsheet with multiple Worksheets as streams. To replicate data to multiple spreadsheets, you can create multiple instances of the Google Sheets Destination in your HeroPixelinstance.
 
 :::warning
 
@@ -32,7 +32,7 @@ To create a Google account, visit [Google](https://support.google.com/accounts/a
 1. Once you are logged into your Google account, create a new Google Sheet. [Follow this guide](https://support.google.com/docs/answer/6000292?hl=en&co=GENIE.Platform%3DDesktop) to create a new sheet. You may use an existing Google Sheet.
 2. You will need the link of the Google Sheet you'd like to sync. To get it, click "Share" in the top right corner of the Google Sheets interface, and then click Copy Link in the dialog that pops up.
 
-## Step 2: Set up the Google Sheets destination connector in Hero Pixel
+## Step 2: Set up the Google Sheets destination connector in HeroPixel
 
 Authentication to Google Sheets is only available using OAuth for authentication.
 
@@ -44,7 +44,7 @@ Authentication to Google Sheets is only available using OAuth for authentication
 6. Click the cog in the top-right corner, select `Use your own OAuth credentials` and enter the `OAuth Client ID` and `OAuth Client secret` from the previous step.
 7. In the left sidebar, find and select `Google Sheets API v4`, then choose the `https://www.googleapis.com/auth/spreadsheets` scope. Click `Authorize APIs`.
 8. In **step 2**, click `Exchange authorization code for tokens`. Take note of the `Refresh token`.
-9. Set up a new destination in Hero Pixel, select `Google Sheets` and enter the `Client ID`, `Client Secret`, `Refresh Token` and `Spreadsheet Link` from the previous steps.
+9. Set up a new destination in HeroPixel select `Google Sheets` and enter the `Client ID`, `Client Secret`, `Refresh Token` and `Spreadsheet Link` from the previous steps.
 
 ### Output schema
 
@@ -55,11 +55,11 @@ The output columns are re-ordered in alphabetical order. The output columns shou
 All data is coerced to a `string` format in Google Sheets.
 Any nested lists and objects will be formatted as a string rather than normal lists and objects. Further data processing is required if you require the data for downstream analysis.
 
-Hero Pixel only supports replicating `Grid Sheets`, which means only text is replicated. Objects like charts or images cannot be synced. See the [Google Sheets API docs](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/sheets#SheetType) for more info on all available sheet types.
+HeroPixelonly supports replicating `Grid Sheets`, which means only text is replicated. Objects like charts or images cannot be synced. See the [Google Sheets API docs](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/sheets#SheetType) for more info on all available sheet types.
 
 ### Rate Limiting & Performance Considerations
 
-The [Google API rate limit](https://developers.google.com/sheets/api/limits) is 60 requests per 60 seconds per user and 300 requests per 60 seconds per project, which will result in slow sync speeds. Hero Pixel batches requests to the API in order to efficiently pull data and respects these rate limits.
+The [Google API rate limit](https://developers.google.com/sheets/api/limits) is 60 requests per 60 seconds per user and 300 requests per 60 seconds per project, which will result in slow sync speeds. HeroPixelbatches requests to the API in order to efficiently pull data and respects these rate limits.
 
 ### <a name="limitations"></a>Limitations
 
@@ -126,9 +126,9 @@ EXAMPLE:
 
 ### Data type mapping
 
-| Integration Type | Hero Pixel Type |
-| :--------------- | :-------------- |
-| Any Type         | `string`        |
+| Integration Type | HeroPixelType |
+| :--------------- | :------------ |
+| Any Type         | `string`      |
 
 ### Features & Supported sync modes
 

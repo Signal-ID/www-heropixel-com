@@ -22,7 +22,7 @@ To use the Postgres destination, you'll need:
 
 - A Postgres server version 9.5 or above
 
-Hero Pixel only supports connecting to your Postgres instances with SSL or TLS encryption. TLS is
+HeroPixelonly supports connecting to your Postgres instances with SSL or TLS encryption. TLS is
 used by default.
 
 You'll need the following information to configure the Postgres destination:
@@ -43,8 +43,8 @@ You'll need the following information to configure the Postgres destination:
 
 #### Configure Network Access
 
-Make sure your Postgres database can be accessed by Hero Pixel. If your database is within a VPC, you
-may need to allow access from the IP you're using to expose Hero Pixel.
+Make sure your Postgres database can be accessed by HeroPixel If your database is within a VPC, you
+may need to allow access from the IP you're using to expose HeroPixel
 
 ## Step 1: Set up Postgres
 
@@ -62,14 +62,14 @@ CREATE USER hero_user WITH PASSWORD '<password>';
 GRANT CREATE, TEMPORARY ON DATABASE <database> TO hero_user;
 ```
 
-You can also use a pre-existing user but we highly recommend creating a dedicated user for Hero Pixel.
+You can also use a pre-existing user but we highly recommend creating a dedicated user for HeroPixel
 
-## Step 2: Set up the Postgres connector in Hero Pixel
+## Step 2: Set up the Postgres connector in HeroPixel
 
 #### Target Database
 
 You will need to choose an existing database or create a new database that will be used to store
-synced data from Hero Pixel.
+synced data from HeroPixel
 
 ## Naming Conventions
 
@@ -100,14 +100,14 @@ From
 
 :::info
 
-Hero Pixel Postgres destination will create raw tables and schemas using the Unquoted identifiers by
+HeroPixelPostgres destination will create raw tables and schemas using the Unquoted identifiers by
 replacing any special characters with an underscore. All final tables and their corresponding
 columns are created using Quoted identifiers preserving the case sensitivity. Special characters in final
 tables are replaced with underscores.
 
 :::
 
-1. Log into your Hero Pixel account.
+1. Log into your HeroPixelaccount.
 2. In the left navigation bar, click **Destinations**. In the top-right corner, click **new
    destination**.
 3. On the Set up the destination page, enter the name for the Postgres connector and select
@@ -127,7 +127,7 @@ used at one time. No schemas set explicitly - will sync all of existing.
 7. For **User** and **Password**, enter the username and password you created for postgres.
 8. Toggle the switch to connect using SSL.
 9. For SSL Modes, select:
-   - **disable** to disable encrypted communication between Hero Pixel and the source
+   - **disable** to disable encrypted communication between HeroPixeland the source
    - **allow** to enable encrypted communication only when required by the source
    - **prefer** to allow unencrypted communication only when the source doesn't support encryption
    - **require** to always require encryption. Note: The connection will fail if the source doesn't
@@ -141,14 +141,14 @@ used at one time. No schemas set explicitly - will sync all of existing.
 
     Example: key1=value1&key2=value2&key3=value3
 
-    These parameters will be added at the end of the JDBC URL that the Hero Pixel will use to connect
+    These parameters will be added at the end of the JDBC URL that the HeroPixelwill use to connect
     to your Postgres database.
 
     The connector now supports `connectTimeout` and defaults to 60 seconds. Setting connectTimeout
     to 0 seconds will set the timeout to the longest time available.
 
     **Note:** Do not use the following keys in JDBC URL Params field as they will be overwritten by
-    Hero Pixel: `currentSchema`, `user`, `password`, `ssl`, and `sslmode`.
+    HeroPixel `currentSchema`, `user`, `password`, `ssl`, and `sslmode`.
 
 :::warning
 
@@ -165,7 +165,7 @@ This is an advanced configuration option. Users are advised to use it with cauti
 
 :::warning
 
-Since Hero Pixel requires encrypted communication, select **SSH Key Authentication** or
+Since HeroPixelrequires encrypted communication, select **SSH Key Authentication** or
 **Password Authentication** if you selected **disable**, **allow**, or **prefer** as the **SSL
 Mode**; otherwise, the connection will fail.
 
@@ -193,7 +193,7 @@ Each stream will be mapped to a separate raw table in Postgres. The default sche
 tables are created is `airbyte_internal`. This can be overridden in the configuration. Each table
 will contain 3 columns:
 
-- `_airbyte_raw_id`: a uuid assigned by Hero Pixel to each event that is processed. The column type in
+- `_airbyte_raw_id`: a uuid assigned by HeroPixelto each event that is processed. The column type in
   Postgres is `VARCHAR`.
 - `_airbyte_extracted_at`: a timestamp representing when the event was pulled from the data source.
   The column type in Postgres is `TIMESTAMP WITH TIME ZONE`.
@@ -204,7 +204,7 @@ will contain 3 columns:
 
 ### Final Tables Data type mapping
 
-| Hero Pixel Type            | Postgres Type            |
+| HeroPixelType              | Postgres Type            |
 | :------------------------- | :----------------------- |
 | string                     | VARCHAR                  |
 | number                     | DECIMAL                  |
@@ -222,19 +222,19 @@ will contain 3 columns:
 
 Postgres restricts all identifiers to 63 characters or less. If your stream includes column names
 longer than 63 characters, they will be truncated to this length. If this results in two columns
-having the same name, Hero Pixel may modify these column names to avoid the collision.
+having the same name, HeroPixelmay modify these column names to avoid the collision.
 
 ## Creating dependent objects
 
 :::caution
 
-This section involves running `DROP ... CASCADE` on the tables that Hero Pixel produces. Make sure you
+This section involves running `DROP ... CASCADE` on the tables that HeroPixelproduces. Make sure you
 fully understand the consequences before enabling this option. **Permanent** data loss is possible
 with this option!
 
 :::
 
-You may want to create objects that depend on the tables generated by Hero Pixel, such as views. If you
+You may want to create objects that depend on the tables generated by HeroPixel such as views. If you
 do so, we strongly recommend:
 
 - Using a tool like `dbt` to automate the creation

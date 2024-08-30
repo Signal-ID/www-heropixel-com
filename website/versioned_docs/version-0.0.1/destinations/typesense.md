@@ -8,7 +8,7 @@ description: typesense
 
 ## Overview
 
-The Hero Pixel Typesense destination allows you to sync data to Typesense. Typesense is a modern, privacy-friendly, open source search engine built from the ground up using cutting-edge search algorithms, that take advantage of the latest advances in hardware capabilities.
+The HeroPixelTypesense destination allows you to sync data to Typesense. Typesense is a modern, privacy-friendly, open source search engine built from the ground up using cutting-edge search algorithms, that take advantage of the latest advances in hardware capabilities.
 
 ### Sync overview
 

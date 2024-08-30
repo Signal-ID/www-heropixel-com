@@ -10,7 +10,7 @@ description: redis
 
 ### Output schema
 
-The incoming Hero Pixel data is structured depending on the target Redis cache/data type.
+The incoming HeroPixeldata is structured depending on the target Redis cache/data type.
 This connector maps an incoming data from a namespace and stream to a unique Redis key.
 
 For the **_hash_** implementation as a Redis data type the keys and the hashes are structured in the following way:
@@ -54,5 +54,5 @@ save snapshots periodically on disk.
   - **_cache_type_**: Redis cache/data type to use when storing the incoming messages. i.e hash,set,list,stream,etc.
 - SSL toggle the switch to connect using SSL
 - For SSL Modes, select:
-  - **disable** to disable encrypted communication between Hero Pixel and the source
+  - **disable** to disable encrypted communication between HeroPixeland the source
   - **verify-full** to always require encryption and verify the identity of the source

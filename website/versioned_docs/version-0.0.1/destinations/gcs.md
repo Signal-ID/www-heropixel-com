@@ -10,24 +10,24 @@ description: desc
 
 This destination writes data to GCS bucket.
 
-The Hero Pixel GCS destination allows you to sync data to cloud storage buckets. Each stream is written to its own directory under the bucket.
+The HeroPixelGCS destination allows you to sync data to cloud storage buckets. Each stream is written to its own directory under the bucket.
 
 ### Sync overview
 
 #### Features
 
-| Feature                        | Support | Notes                                                                                                       |
-| :----------------------------- | :-----: | :---------------------------------------------------------------------------------------------------------- |
-| Full Refresh Sync              |   ✅    | Warning: this mode deletes all previously synced data in the configured bucket path.                        |
-| Incremental - Append Sync      |   ✅    | Warning: Hero Pixel provides at-least-once delivery. Depending on your source, you may see duplicated data. |
-| Incremental - Append + Deduped |   ❌    |                                                                                                             |
-| Namespaces                     |   ❌    | Setting a specific bucket path is equivalent to having separate namespaces.                                 |
+| Feature                        | Support | Notes                                                                                                     |
+| :----------------------------- | :-----: | :-------------------------------------------------------------------------------------------------------- |
+| Full Refresh Sync              |   ✅    | Warning: this mode deletes all previously synced data in the configured bucket path.                      |
+| Incremental - Append Sync      |   ✅    | Warning: HeroPixelprovides at-least-once delivery. Depending on your source, you may see duplicated data. |
+| Incremental - Append + Deduped |   ❌    |                                                                                                           |
+| Namespaces                     |   ❌    | Setting a specific bucket path is equivalent to having separate namespaces.                               |
 
 ## Getting started
 
 ### Requirements
 
-1. Allow connections from Hero Pixel server to your GCS cluster \(if they exist in separate VPCs\).
+1. Allow connections from HeroPixelserver to your GCS cluster \(if they exist in separate VPCs\).
 2. An GCP bucket with credentials \(for the COPY strategy\).
 
 ### Setup guide
@@ -38,7 +38,7 @@ The Hero Pixel GCS destination allows you to sync data to cloud storage buckets.
   - **GCS Bucket Region**
   - **HMAC Key Access ID**
     - See [this](https://cloud.google.com/storage/docs/authentication/managing-hmackeys) on how to generate an access key. For more information on hmac keys please reference the [GCP docs](https://cloud.google.com/storage/docs/authentication/hmackeys)
-    - We recommend creating an Hero Pixel-specific user or service account. This user or account will require the following permissions for the bucket:
+    - We recommend creating an HeroPixelspecific user or service account. This user or account will require the following permissions for the bucket:
       ```
       storage.multipartUploads.abort
       storage.multipartUploads.create
@@ -50,7 +50,7 @@ The Hero Pixel GCS destination allows you to sync data to cloud storage buckets.
       You can set those by going to the permissions tab in the GCS bucket and adding the appropriate the email address of the service account or user and adding the aforementioned permissions.
   - **Secret Access Key**
     - Corresponding key to the above access ID.
-- Make sure your GCS bucket is accessible from the machine running Hero Pixel. This depends on your networking setup. The easiest way to verify if Hero Pixel is able to connect to your GCS bucket is via the check connection tool in the UI.
+- Make sure your GCS bucket is accessible from the machine running HeroPixel This depends on your networking setup. The easiest way to verify if HHeroPixels able to connect to your GCS bucket is via the check connection tool in the UI.
 
 ## Configuration
 
@@ -106,7 +106,7 @@ Each stream will be outputted to its dedicated directory according to the config
 
 ### Avro
 
-[Apache Avro](https://avro.apache.org/) serializes data in a compact binary format. Currently, the Hero Pixel S3 Avro connector always uses the [binary encoding](http://avro.apache.org/docs/current/spec.html#binary_encoding), and assumes that all data records follow the same schema.
+[Apache Avro](https://avro.apache.org/) serializes data in a compact binary format. Currently, the HeroPixelS3 Avro connector always uses the [binary encoding](http://avro.apache.org/docs/current/spec.html#binary_encoding), and assumes that all data records follow the same schema.
 
 #### Configuration
 
@@ -137,15 +137,15 @@ Here is the available compression codecs:
 
 #### Data schema
 
-Under the hood, an Hero Pixel data stream in Json schema is first converted to an Avro schema, then the Json object is converted to an Avro record. Because the data stream can come from any data source, the Json to Avro conversion process has arbitrary rules and limitations.
+Under the hood, an HeroPixeldata stream in Json schema is first converted to an Avro schema, then the Json object is converted to an Avro record. Because the data stream can come from any data source, the Json to Avro conversion process has arbitrary rules and limitations.
 
 ### CSV
 
-Like most of the other Hero Pixel destination connectors, usually the output has three columns: a UUID, an emission timestamp, and the data blob. With the CSV output, it is possible to normalize \(flatten\) the data blob to multiple columns.
+Like most of the other HeroPixeldestination connectors, usually the output has three columns: a UUID, an emission timestamp, and the data blob. With the CSV output, it is possible to normalize \(flatten\) the data blob to multiple columns.
 
 | Column                | Condition                                                                                         | Description                                                              |
 | :-------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------- |
-| `_airbyte_ab_id`      | Always exists                                                                                     | A uuid assigned by Hero Pixel to each processed record.                  |
+| `_airbyte_ab_id`      | Always exists                                                                                     | A uuid assigned by HeroPixelto each processed record.                    |
 | `_airbyte_emitted_at` | Always exists.                                                                                    | A timestamp representing when the event was pulled from the data source. |
 | `_airbyte_data`       | When no normalization \(flattening\) is needed, all data reside under this column as a json blob. |                                                                          |
 | root level fields     | When root level normalization \(flattening\) is selected, the root level fields are expanded.     |                                                                          |
@@ -237,4 +237,4 @@ These parameters are related to the `ParquetOutputFormat`. See the [Java doc](ht
 
 #### Data schema
 
-Under the hood, an Hero Pixel data stream in Json schema is first converted to an Avro schema, then the Json object is converted to an Avro record, and finally the Avro record is outputted to the Parquet format. Because the data stream can come from any data source, the Json to Avro conversion process has arbitrary rules and limitations.
+Under the hood, an HeroPixeldata stream in Json schema is first converted to an Avro schema, then the Json object is converted to an Avro record, and finally the Avro record is outputted to the Parquet format. Because the data stream can come from any data source, the Json to Avro conversion process has arbitrary rules and limitations.

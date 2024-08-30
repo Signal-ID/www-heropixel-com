@@ -18,7 +18,7 @@ export default function Docs() {
         <div class="container">
           <div class="row">
             <div class="column">
-              <h1>Hero Pixel Docs</h1>
+              <h1>HeroPixelDocs</h1>
               <h2>Help for wherever you are on your Hero journey.</h2>
             </div>
             <div class="column">

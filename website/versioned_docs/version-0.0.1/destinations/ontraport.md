@@ -41,7 +41,7 @@ To use the Ontraport destination connector, you need:
 2. Navigate to the "Administration" section under "Integrations".
 3. Go to "API Keys" and generate a new API Key. Copy the APP ID and API Key for use in the connector setup.
 
-### Step 2: Set up the Ontraport Destination in Hero Pixel
+### Step 2: Set up the Ontraport Destination in HeroPixel
 
 1. Click **Destinations** and then click **+ New destination**.
 2. On the Set up the destination page, select **Ontraport** from the **Destination type** dropdown.

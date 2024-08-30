@@ -28,7 +28,7 @@ Not all destinations support receiving all of this data. It's all available to s
 | `city`  | -       | string  | Consumer's city     |
 | `region_name` | -       | string  | Name of the State      |
 | `zip`   | 99999      | string  | Consumer's ZIP code       |
-| `country_code`   | `US`       | string  | Consumer's Country. Hero Pixel only returns US persons  |
+| `country_code`   | `US`       | string  | Consumer's Country. HeroPixelonly returns US persons  |
 | `age`   | 0-120      | number  | Consumer's age      |
 | `amex_card`   | `0`, `1`      | boolean | Whether visitor owns an Amex card     |
 | `address_type`   | [see all](/docs/destinations/properties/address-type-property)   | string  | Type of Consumer's address      |

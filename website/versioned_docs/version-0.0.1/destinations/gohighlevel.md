@@ -47,7 +47,7 @@ If you have GoHighLevel set up to allow duplicates, then duplicates will be crea
 
 ## Setup Guide
 
-### Step 1: Set Up the GoHighLevel Destination in Hero Pixel
+### Step 1: Set Up the GoHighLevel Destination in HeroPixel
 
 1. Click **Settings** and then click **Integrations**.
 2. On the integrations page, select **+ New Integration** and then **GoHighLevel** from the dropdown.
@@ -74,4 +74,4 @@ Our system supports the use of custom fields in GoHighLevel. If a custom field i
 
 ## Troubleshooting
 
-For further assistance, refer to the [GoHighLevel API Documentation](https://developers.gohighlevel.com) or contact GoHighLevel support. If you encounter issues specific to the Hero Pixel integration, please reach out to our support team for help.
+For further assistance, refer to the [GoHighLevel API Documentation](https://developers.gohighlevel.com) or contact GoHighLevel support. If you encounter issues specific to the HeroPixelintegration, please reach out to our support team for help.

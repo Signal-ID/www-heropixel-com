@@ -42,7 +42,7 @@ To use the Mailchimp destination connector, you need:
 3. Go to "API Keys" and generate a new API Key. Copy this key for use in the connector setup.
 4. Obtain the List ID for the list you want to sync data to.
 
-### Step 2: Set up the Mailchimp Destination in Hero Pixel
+### Step 2: Set up the Mailchimp Destination in HeroPixel
 
 1. Click **Destinations** and then click **+ New destination**.
 2. On the Set up the destination page, select **Mailchimp** from the **Destination type** dropdown.

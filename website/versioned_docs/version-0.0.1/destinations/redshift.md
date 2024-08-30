@@ -10,7 +10,7 @@ This page guides you through the process of setting up the Redshift destination 
 
 ## Prerequisites
 
-The Hero Pixel Redshift destination allows you to sync data to Redshift.
+The HeroPixelRedshift destination allows you to sync data to Redshift.
 
 This Redshift destination connector has two replication strategies:
 
@@ -38,8 +38,8 @@ This Redshift destination connector has two replication strategies:
    Requires an S3 bucket and credentials. Data is copied into S3 as multiple files with a manifest
    file.
 
-Hero Pixel automatically picks an approach depending on the given configuration - if S3 configuration
-is present, Hero Pixel will use the COPY strategy and vice versa.
+HeroPixelautomatically picks an approach depending on the given configuration - if S3 configuration
+is present, HeroPixelwill use the COPY strategy and vice versa.
 
 ### For COPY strategy:
 
@@ -52,7 +52,7 @@ is present, Hero Pixel will use the COPY strategy and vice versa.
   - See
     [this](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
     on how to generate an access key.
-  - We recommend creating an Hero Pixel-specific user. This user will require
+  - We recommend creating an HeroPixelspecific user. This user will require
     [read and write permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)
     to objects in the staging bucket.
 - **Secret Access Key**
@@ -90,24 +90,24 @@ and deduping queries on final table are executed over using provided SSH Tunnel 
    activate AWS Redshift cluster if you don't have one ready.
 4. (Optional)
    [Allow](https://aws.amazon.com/premiumsupport/knowledge-center/cannot-connect-redshift-cluster/)
-   connections from Hero Pixel to your Redshift cluster \(if they exist in separate VPCs\).
+   connections from HeroPixelto your Redshift cluster \(if they exist in separate VPCs\).
 5. (Optional)
    [Create](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html) a
    staging S3 bucket \(for the COPY strategy\).
 
 ### Permissions in Redshift
 
-Hero Pixel writes data into two schemas, whichever schema you want your data to land in, e.g.
-`my_schema` and a "Raw Data" schema that Hero Pixel uses to improve ELT reliability. By default, this
+HeroPixelwrites data into two schemas, whichever schema you want your data to land in, e.g.
+`my_schema` and a "Raw Data" schema that HeroPixeluses to improve ELT reliability. By default, this
 raw data schema is `airbyte_internal` but this can be overridden in the Redshift Destination's
-advanced settings. Hero Pixel also needs to query Redshift's
+advanced settings. HeroPixelalso needs to query Redshift's
 [SVV_TABLE_INFO](https://docs.aws.amazon.com/redshift/latest/dg/r_SVV_TABLE_INFO.html) table for
-metadata about the tables Hero Pixel manages.
+metadata about the tables HeroPixelmanages.
 
 To ensure the `airbyte_user` has the correction permissions to:
 
 - create schemas in your database
-- grant usage to any existing schemas you want Hero Pixel to use
+- grant usage to any existing schemas you want HeroPixelto use
 - grant select to the `svv_table_info` table
 
 You can execute the following SQL statements
@@ -125,9 +125,9 @@ Tunneling. Setup of the host is beyond the scope of this document but several tu
 available online to fascilitate this task. Enter the bastion host, port and credentials in the
 destination configuration.
 
-## Step 2: Set up the destination connector in Hero Pixel
+## Step 2: Set up the destination connector in HeroPixel
 
-1. Go to local Hero Pixel page.
+1. Go to local HeroPixelpage.
 2. In the left navigation bar, click **Destinations**. In the top-right corner, click **+ new
    destination**.
 3. On the destination setup page, select **Redshift** from the Destination type dropdown and enter a
@@ -173,7 +173,7 @@ otherwise illegal characters, such as spaces or the percent symbol. ASCII letter
 identifiers are case-insensitive and are folded to lowercase. To use a double quotation mark in a
 string, you must precede it with another double quotation mark character.
 
-Therefore, Hero Pixel Redshift destination will create tables and schemas using the Unquoted
+Therefore, HeroPixelRedshift destination will create tables and schemas using the Unquoted
 identifiers when possible or fallback to Quoted Identifiers if the names are containing special
 characters.
 
@@ -202,7 +202,7 @@ All Redshift connections are encrypted using SSL.
 
 Each stream will be output into its own raw table in Redshift. Each table will contain 3 columns:
 
-- `_airbyte_raw_id`: a uuid assigned by Hero Pixel to each event that is processed. The column type in
+- `_airbyte_raw_id`: a uuid assigned by HeroPixelto each event that is processed. The column type in
   Redshift is `VARCHAR`.
 - `_airbyte_extracted_at`: a timestamp representing when the event was pulled from the data source.
   The column type in Redshift is `TIMESTAMP WITH TIME ZONE`.
@@ -213,7 +213,7 @@ Each stream will be output into its own raw table in Redshift. Each table will c
 
 ## Data type map
 
-| Hero Pixel type                     | Redshift type                          |
+| HeroPixeltype                       | Redshift type                          |
 | :---------------------------------- | :------------------------------------- |
 | STRING                              | VARCHAR                                |
 | STRING (BASE64)                     | VARCHAR                                |

@@ -82,7 +82,7 @@ Each table in the output schema has the following columns:
 | Data fields from the source stream |        various        | All the fields from the source stream will be populated as an individual column in the target table. |
 | `_airbyte_additional_properties`   | map(varchar, varchar) | Additional properties.                                                                               |
 
-The Hero Pixel data stream's JSON schema is converted to an Avro schema. The JSON object is then converted to an Avro record;
+The HeroPixeldata stream's JSON schema is converted to an Avro schema. The JSON object is then converted to an Avro record;
 the Avro record is written to a staging Iceberg table. As the data stream can be generated from any data source,
 the JSON-to-Avro conversion process has arbitrary rules and limitations.
 

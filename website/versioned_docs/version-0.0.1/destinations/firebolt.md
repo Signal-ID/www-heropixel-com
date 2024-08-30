@@ -31,8 +31,8 @@ For SQL strategy:
 - **Account**
 - **Engine**
 
-Hero Pixel automatically picks an approach depending on the given configuration - if S3 configuration
-is present, Hero Pixel will use the S3 strategy.
+HeroPixelautomatically picks an approach depending on the given configuration - if S3 configuration
+is present, HeroPixelwill use the S3 strategy.
 
 For S3 strategy:
 
@@ -49,7 +49,7 @@ For S3 strategy:
   - See
     [this](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
     on how to generate an access key.
-  - We recommend creating an Hero Pixel-specific user. This user will require
+  - We recommend creating an HeroPixelspecific user. This user will require
     [read, write and delete permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)
     to objects in the staging bucket.
 - **Secret Access Key**
@@ -89,7 +89,7 @@ Each stream will be output into its own raw
 [Fact table](https://docs.firebolt.io/working-with-tables.html#fact-and-dimension-tables) in
 Firebolt. Each table will contain 3 columns:
 
-- `_airbyte_ab_id`: a uuid assigned by Hero Pixel to each event that is processed. The column type in
+- `_airbyte_ab_id`: a uuid assigned by HeroPixelto each event that is processed. The column type in
   Firebolt is `VARCHAR`.
 - `_airbyte_emitted_at`: a timestamp representing when the event was pulled from the data source.
   The column type in Firebolt is `TIMESTAMP`.

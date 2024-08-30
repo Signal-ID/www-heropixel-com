@@ -34,21 +34,21 @@ description: desc
 
 - A remarketing pixel is a small piece of code that you add to your website. It helps you track visitors and build audiences for your marketing and advertising campaigns based on their behavior on your site.
 
-### How does the Hero Pixel work?
+### How does the HeroPixelwork?
 
-- The Hero Pixel tracks visitors to your website and collects their contact information. This data allows you to create detailed audience lists and reach out to your audience directly through personalized messages.
+- The HeroPixeltracks visitors to your website and collects their contact information. This data allows you to create detailed audience lists and reach out to your audience directly through personalized messages.
 
-### How do I install the Hero Pixel on my website?
+### How do I install the HeroPixelon my website?
 
-- To install the Hero Pixel, add the provided pixel code to the HTML of your website. Detailed instructions for installation can be found in our [Getting Started Guide](/docs/start-registration).
+- To install the HeroPixel add the provided pixel code to the HTML of your website. Detailed instructions for installation can be found in our [Getting Started Guide](/docs/start-registration).
 
-### What kind of data does the Hero Pixel collect?
+### What kind of data does the HeroPixelcollect?
 
-- The Hero Pixel collects data such as contact information, pageview information, browser information, browsing behavior, and custom data fields that you define. This data helps you build a detailed profile of your audience.
+- The HeroPixelcollects data such as contact information, pageview information, browser information, browsing behavior, and custom data fields that you define. This data helps you build a detailed profile of your audience.
 
-### Can I use the Hero Pixel for email marketing?
+### Can I use the HeroPixelfor email marketing?
 
-- Yes, the Hero Pixel collects contact details that you can use to initiate personal conversations and email marketing campaigns with your audience.
+- Yes, the HeroPixelcollects contact details that you can use to initiate personal conversations and email marketing campaigns with your audience.
 
 ### Is the data accurate?
 
@@ -58,9 +58,9 @@ description: desc
 
 - Yes, every email we return to you has been vetted through a series of checks to determine that it's not only a valid email address, but one that has been used by a human. All emails go through a 20 point check to ensure accuracy.
 
-### What is the difference between the Hero Pixel and other remarketing pixels?
+### What is the difference between the HeroPixeland other remarketing pixels?
 
-- The Hero Pixel allows you to own your audience by providing you with their contact details, unlike other remarketing pixels that rely solely on displaying ads through their ad networks.
+- The HeroPixelallows you to own your audience by providing you with their contact details, unlike other remarketing pixels that rely solely on displaying ads through their ad networks.
 
 ## Privacy and Security
 
@@ -108,9 +108,9 @@ description: desc
 
 ## Analysis and Reporting
 
-### How do I analyze the data collected by the Hero Pixel?
+### How do I analyze the data collected by the HeroPixel
 
-- Our dashboard provides tools for analyzing the data collected by the Hero Pixel. You can monitor key metrics, track performance, and gain insights into your audience's behavior.
+- Our dashboard provides tools for analyzing the data collected by the HeroPixel You can monitor key metrics, track performance, and gain insights into your audience's behavior.
 
 ### How do I generate reports using the dashboard?
 

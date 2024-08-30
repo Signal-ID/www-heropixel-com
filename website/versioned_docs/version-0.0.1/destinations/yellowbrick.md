@@ -10,7 +10,7 @@ This page guides you through the process of setting up the Yellowbrick destinati
 
 ## Prerequisites
 
-Hero Pixel Cloud only supports connecting to your Yellowbrick instances with SSL or TLS encryption. TLS is
+HeroPixelCloud only supports connecting to your Yellowbrick instances with SSL or TLS encryption. TLS is
 used by default. Other than that, you can proceed with the open-source instructions below.
 
 You'll need the following information to configure the Yellowbrick destination:
@@ -27,8 +27,8 @@ You'll need the following information to configure the Yellowbrick destination:
 
 #### Configure Network Access
 
-Make sure your Yellowbrick database can be accessed by Hero Pixel. If your database is within a VPC, you
-may need to allow access from the IP you're using to expose Hero Pixel.
+Make sure your Yellowbrick database can be accessed by HeroPixel If your database is within a VPC, you
+may need to allow access from the IP you're using to expose HeroPixel
 
 ## Step 1: Set up Yellowbrick
 
@@ -46,14 +46,14 @@ CREATE USER airbyte_user WITH ENCRYPTED PASSWORD '<password>';
 GRANT CREATE, TEMPORARY ON DATABASE <database> TO airbyte_user;
 ```
 
-You can also use a pre-existing user but we highly recommend creating a dedicated user for Hero Pixel.
+You can also use a pre-existing user but we highly recommend creating a dedicated user for HeroPixel
 
-## Step 2: Set up the Yellowbrick connector in Hero Pixel
+## Step 2: Set up the Yellowbrick connector in HeroPixel
 
 #### Target Database
 
 You will need to choose an existing database or create a new database that will be used to store
-synced data from Hero Pixel.
+synced data from HeroPixel
 
 ## Naming Conventions
 
@@ -70,13 +70,13 @@ Note the following restrictions on unquoted SQL identifiers:
 
 :::info
 
-Hero Pixel Yellowbrick destination will create raw tables and schemas using the Unquoted
+HeroPixelYellowbrick destination will create raw tables and schemas using the Unquoted
 identifiers by replacing any special characters with an underscore. All final tables and their corresponding
 columns are created using Quoted identifiers preserving the case sensitivity.
 
 :::
 
-1. Log into your Hero Pixel account.
+1. Log into your HeroPixelaccount.
 2. In the left navigation bar, click **Destinations**. In the top-right corner, click **new destination**.
 3. On the Set up the destination page, enter the name for the Yellowbrick connector
    and select **Yellowbrick** from the Destination type dropdown.
@@ -89,7 +89,7 @@ columns are created using Quoted identifiers preserving the case sensitivity.
 7. For **User** and **Password**, enter the username and password you created in Yellowbrick
 8. Toggle the switch to connect using SSL.
 9. For SSL Modes, select:
-   - **disable** to disable encrypted communication between Hero Pixel and the source
+   - **disable** to disable encrypted communication between HeroPixeland the source
    - **allow** to enable encrypted communication only when required by the source
    - **prefer** to allow unencrypted communication only when the source doesn't support encryption
    - **require** to always require encryption. Note: The connection will fail if the source doesn't support encryption.
@@ -99,11 +99,11 @@ columns are created using Quoted identifiers preserving the case sensitivity.
 
     Example: key1=value1&key2=value2&key3=value3
 
-    These parameters will be added at the end of the JDBC URL that the Hero Pixel will use to connect to your Yellowbrick database.
+    These parameters will be added at the end of the JDBC URL that the HeroPixelwill use to connect to your Yellowbrick database.
 
     The connector now supports `connectTimeout` and defaults to 60 seconds. Setting connectTimeout to 0 seconds will set the timeout to the longest time available.
 
-    **Note:** Do not use the following keys in JDBC URL Params field as they will be overwritten by Hero Pixel:
+    **Note:** Do not use the following keys in JDBC URL Params field as they will be overwritten by HeroPixel
     `currentSchema`, `user`, `password`, `ssl`, and `sslmode`.
 
     :::warning
@@ -117,7 +117,7 @@ columns are created using Quoted identifiers preserving the case sensitivity.
     - **Password Authentication** to use a password as your secret for establishing the SSH tunnel
 
     :::warning
-    Since Hero Pixel Cloud requires encrypted communication, select **SSH Key Authentication** or **Password Authentication** if you selected **disable**, **allow**, or **prefer** as the **SSL Mode**; otherwise, the connection will fail.
+    Since HeroPixelCloud requires encrypted communication, select **SSH Key Authentication** or **Password Authentication** if you selected **disable**, **allow**, or **prefer** as the **SSL Mode**; otherwise, the connection will fail.
     :::
 
 12. Click **Set up destination**.
@@ -141,7 +141,7 @@ Each stream will be mapped to a separate raw table in Yellowbrick. The default s
 created is `airbyte_internal`. This can be overridden in the configuration.
 Each table will contain 3 columns:
 
-- `_airbyte_raw_id`: a uuid assigned by Hero Pixel to each event that is processed. The column type in
+- `_airbyte_raw_id`: a uuid assigned by HeroPixelto each event that is processed. The column type in
   Yellowbrick is `VARCHAR`.
 - `_airbyte_extracted_at`: a timestamp representing when the event was pulled from the data source.
   The column type in Yellowbrick is `TIMESTAMP WITH TIME ZONE`.
@@ -152,7 +152,7 @@ Each table will contain 3 columns:
 
 ### Final Tables Data type mapping
 
-| Hero Pixel Type            | Yellowbrick Type         |
+| HeroPixelType              | Yellowbrick Type         |
 | :------------------------- | :----------------------- |
 | string                     | VARCHAR                  |
 | number                     | DECIMAL                  |

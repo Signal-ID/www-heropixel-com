@@ -12,9 +12,9 @@ This page guides you through the process of setting up the Iceberg destination c
 
 ### Output schema
 
-The incoming Hero Pixel data is structured in keyspaces and tables and is partitioned and replicated
+The incoming HeroPixeldata is structured in keyspaces and tables and is partitioned and replicated
 across different nodes in the cluster. This connector maps an incoming `stream` to an Iceberg
-`table` and a `namespace` to an Iceberg `database`. Fields in the Hero Pixel message become different
+`table` and a `namespace` to an Iceberg `database`. Fields in the HeroPixelmessage become different
 columns in the Iceberg tables. Each table will contain the following columns.
 
 - `_airbyte_ab_id`: A random generated uuid.
@@ -34,7 +34,7 @@ This section should contain a table with the following format:
 
 ### Performance considerations
 
-Every ten thousand pieces of incoming Hero Pixel data in a stream ————we call it a batch, would produce
+Every ten thousand pieces of incoming HeroPixeldata in a stream ————we call it a batch, would produce
 one data file (Parquet/Avro) in an Iceberg table. As the quantity of Iceberg data files grows, it causes an
 unnecessary amount of metadata and less efficient queries from file open costs. Iceberg provides
 data file compaction action to improve this case, you can read more about compaction

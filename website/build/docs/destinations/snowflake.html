@@ -8,7 +8,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="generator" content="Docusaurus v3.2.0" />
-    <title data-rh="true">Snowflake · Hero Pixel by Signal ID</title>
+    <title data-rh="true">Snowflake · HeroPixelby Signal ID</title>
     <meta
       data-rh="true"
       name="viewport"
@@ -45,7 +45,7 @@
     <meta
       data-rh="true"
       property="og:title"
-      content="Snowflake · Hero Pixel by Signal ID"
+      content="Snowflake · HeroPixelby Signal ID"
     />
     <meta data-rh="true" name="description" content="snowflake" />
     <meta data-rh="true" property="og:description" content="snowflake" />
@@ -77,25 +77,25 @@
       rel="alternate"
       type="application/rss+xml"
       href="/blog/rss.xml"
-      title="Hero Pixel by Signal ID RSS Feed"
+      title="HeroPixelby Signal ID RSS Feed"
     />
     <link
       rel="alternate"
       type="application/atom+xml"
       href="/blog/atom.xml"
-      title="Hero Pixel by Signal ID Atom Feed"
+      title="HeroPixelby Signal ID Atom Feed"
     />
     <link
       rel="alternate"
       type="application/json"
       href="/blog/feed.json"
-      title="Hero Pixel by Signal ID JSON Feed"
+      title="HeroPixelby Signal ID JSON Feed"
     />
 
     <link
       rel="search"
       type="application/opensearchdescription+xml"
-      title="Hero Pixel by Signal ID"
+      title="HeroPixelby Signal ID"
       href="/opensearch.xml"
     />
 
@@ -128,8 +128,8 @@
     <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
     <script src="/js/heropixel.js" async></script>
     <link rel="stylesheet" href="/assets/css/styles.dac24a43.css" />
-    <script src="/assets/js/runtime~main.9050f206.js" defer="defer"></script>
-    <script src="/assets/js/main.87778ba7.js" defer="defer"></script>
+    <script src="/assets/js/runtime~main.5311054c.js" defer="defer"></script>
+    <script src="/assets/js/main.9ce4dafa.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -198,11 +198,11 @@
               ><div class="navbar__logo">
                 <img
                   src="/img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png"
-                  alt="Hero Pixel"
+                  alt="HeroPixel"
                   class="themedComponent_mlkZ themedComponent--light_NVdE"
                 /><img
                   src="/img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-White-Medium.png"
-                  alt="Hero Pixel"
+                  alt="HeroPixel"
                   class="themedComponent_mlkZ themedComponent--dark_xIcU"
                 /></div
             ></a>
@@ -221,7 +221,7 @@
             <a
               class="navbar__item navbar__link"
               href="/docs/intro-to-pixel-tech"
-              >What is Hero Pixel?</a
+              >What is HeroPixel</a
             >
             <div
               class="navbar__item dropdown dropdown--hoverable dropdown--right"
@@ -948,7 +948,7 @@
                             involves setting up Snowflake entities (warehouse,
                             database, schema, user, and role) in the Snowflake
                             console and configuring the Snowflake destination
-                            connector using the Hero Pixel UI.
+                            connector using the HeroPixelUI.
                           </p>
                           <p>
                             This page describes the step-by-step process of
@@ -1001,9 +1001,9 @@
                             address or a list of addresses.
                           </p>
                           <p>
-                            If you have any issues connecting with Hero Pixel
-                            Cloud please make sure that the list of IP addresses
-                            is on the allowed list
+                            If you have any issues connecting with
+                            HeroPixelCloud please make sure that the list of IP
+                            addresses is on the allowed list
                           </p>
                           <p>
                             To determine whether a network policy is set on your
@@ -1129,24 +1129,24 @@
                           </h2>
                           <h3
                             class="anchor anchorWithStickyNavbar_LWe7"
-                            id="step-1-set-up-hero-pixel-specific-entities-in-snowflake"
+                            id="step-1-set-up-heropixelspecific-entities-in-snowflake"
                           >
-                            Step 1: Set up Hero Pixel-specific entities in
+                            Step 1: Set up HeroPixelspecific entities in
                             Snowflake<a
-                              href="#step-1-set-up-hero-pixel-specific-entities-in-snowflake"
+                              href="#step-1-set-up-heropixelspecific-entities-in-snowflake"
                               class="hash-link"
-                              aria-label="Direct link to Step 1: Set up Hero Pixel-specific entities in Snowflake"
-                              title="Direct link to Step 1: Set up Hero Pixel-specific entities in Snowflake"
+                              aria-label="Direct link to Step 1: Set up HeroPixelspecific entities in Snowflake"
+                              title="Direct link to Step 1: Set up HeroPixelspecific entities in Snowflake"
                               >​</a
                             >
                           </h3>
                           <p>
                             To set up the Snowflake destination connector, you
-                            first need to create Hero Pixel-specific Snowflake
+                            first need to create HeroPixelspecific Snowflake
                             entities (a warehouse, database, schema, user, and
                             role) with the <code>OWNERSHIP</code> permission to
                             write data into Snowflake, track costs pertaining to
-                            Hero Pixel, and control permissions at a granular
+                            HeroPixel and control permissions at a granular
                             level.
                           </p>
                           <p>
@@ -1203,7 +1203,7 @@
                                   color: #ffffff;
                                   background-color: #282c34;
                                 "
-                              ><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#FFFFFF"><span class="token comment" style="color:#93a1a1">-- set variables (these need to be uppercase)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_role </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_ROLE&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_username </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_USER&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_warehouse </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_WAREHOUSE&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_database </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_DATABASE&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_schema </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_SCHEMA&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- set user password</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_password </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;password&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">begin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create Hero Pixel role</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">use</span><span class="token plain"> role securityadmin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> role </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role SYSADMIN</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create Hero Pixel user</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">user</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_username</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">password </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> $airbyte_password</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">default_role </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> $airbyte_role</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">default_warehouse </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> $airbyte_warehouse</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">user</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_username</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- change role to sysadmin for warehouse / database steps</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">use</span><span class="token plain"> role sysadmin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create Hero Pixel warehouse</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> warehouse </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_warehouse</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">warehouse_size </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> xsmall</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">warehouse_type </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> standard</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">auto_suspend </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token number" style="color:#5a9bcf">60</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">auto_resume </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token boolean" style="color:#ff8b50">true</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">initially_suspended </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token boolean" style="color:#ff8b50">true</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create Hero Pixel database</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">database</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_database</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- grant Hero Pixel warehouse access</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">USAGE</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">on</span><span class="token plain"> warehouse identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_warehouse</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- grant Hero Pixel database access</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> OWNERSHIP</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">on</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">database</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_database</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">commit</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">begin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">USE</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">DATABASE</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_database</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create schema for Hero Pixel data</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">CREATE</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">SCHEMA</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">IF</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">NOT</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">EXISTS</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_schema</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">commit</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">begin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- grant Hero Pixel schema access</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> OWNERSHIP</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">on</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">schema</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_schema</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">commit</span><span class="token punctuation" style="color:#657b83">;</span><br></span></code></pre>
+                              ><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#FFFFFF"><span class="token comment" style="color:#93a1a1">-- set variables (these need to be uppercase)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_role </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_ROLE&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_username </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_USER&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_warehouse </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_WAREHOUSE&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_database </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_DATABASE&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_schema </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;AIRBYTE_SCHEMA&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- set user password</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">set</span><span class="token plain"> airbyte_password </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token string" style="color:#8dc891">&#x27;password&#x27;</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">begin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create HeroPixelrole</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">use</span><span class="token plain"> role securityadmin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> role </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role SYSADMIN</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create HeroPixeluser</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">user</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_username</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">password </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> $airbyte_password</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">default_role </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> $airbyte_role</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">default_warehouse </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> $airbyte_warehouse</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">user</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_username</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- change role to sysadmin for warehouse / database steps</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">use</span><span class="token plain"> role sysadmin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create HeroPixelwarehouse</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> warehouse </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_warehouse</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">warehouse_size </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> xsmall</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">warehouse_type </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> standard</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">auto_suspend </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token number" style="color:#5a9bcf">60</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">auto_resume </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token boolean" style="color:#ff8b50">true</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain">initially_suspended </span><span class="token operator" style="color:#fc929e">=</span><span class="token plain"> </span><span class="token boolean" style="color:#ff8b50">true</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create HeroPixeldatabase</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">create</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">database</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">if</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">not</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">exists</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_database</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- grant HeroPixelwarehouse access</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">USAGE</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">on</span><span class="token plain"> warehouse identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_warehouse</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- grant HeroPixeldatabase access</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> OWNERSHIP</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">on</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">database</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_database</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">commit</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">begin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">USE</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">DATABASE</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_database</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- create schema for HeroPixeldata</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">CREATE</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">SCHEMA</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">IF</span><span class="token plain"> </span><span class="token operator" style="color:#fc929e">NOT</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">EXISTS</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_schema</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">commit</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">begin</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token comment" style="color:#93a1a1">-- grant HeroPixelschema access</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">grant</span><span class="token plain"> OWNERSHIP</span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">on</span><span class="token plain"> </span><span class="token keyword" style="color:#c5a5c5">schema</span><span class="token plain"> identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_schema</span><span class="token punctuation" style="color:#657b83">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">to</span><span class="token plain"> role identifier</span><span class="token punctuation" style="color:#657b83">(</span><span class="token plain">$airbyte_role</span><span class="token punctuation" style="color:#657b83">)</span><span class="token punctuation" style="color:#657b83">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#FFFFFF"><span class="token plain"></span><span class="token keyword" style="color:#c5a5c5">commit</span><span class="token punctuation" style="color:#657b83">;</span><br></span></code></pre>
                               <div class="buttonGroup__atx">
                                 <button
                                   type="button"
@@ -1267,7 +1267,7 @@
                             >
                           </h3>
                           <p>
-                            Hero Pixel uses Snowflake’s
+                            HeroPixeluses Snowflake’s
                             <a
                               href="https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage.html"
                               target="_blank"
@@ -1282,20 +1282,20 @@
                           </p>
                           <h3
                             class="anchor anchorWithStickyNavbar_LWe7"
-                            id="step-3-set-up-snowflake-as-a-destination-in-hero-pixel"
+                            id="step-3-set-up-snowflake-as-a-destination-in-heropixel"
                           >
-                            Step 3: Set up Snowflake as a destination in Hero
-                            Pixel<a
-                              href="#step-3-set-up-snowflake-as-a-destination-in-hero-pixel"
+                            Step 3: Set up Snowflake as a destination in
+                            HeroPixel<a
+                              href="#step-3-set-up-snowflake-as-a-destination-in-heropixel"
                               class="hash-link"
-                              aria-label="Direct link to Step 3: Set up Snowflake as a destination in Hero Pixel"
-                              title="Direct link to Step 3: Set up Snowflake as a destination in Hero Pixel"
+                              aria-label="Direct link to Step 3: Set up Snowflake as a destination in HeroPixel"
+                              title="Direct link to Step 3: Set up Snowflake as a destination in HeroPixel"
                               >​</a
                             >
                           </h3>
                           <p>
-                            Navigate to the Hero Pixel UI to set up Snowflake as
-                            a destination. You can authenticate using
+                            Navigate to the HeroPixelUI to set up Snowflake as a
+                            destination. You can authenticate using
                             username/password or key pair authentication:
                           </p>
                           <h3
@@ -1347,8 +1347,8 @@
                                   >
                                 </td>
                                 <td>
-                                  The role you created in Step 1 for Hero Pixel
-                                  to access Snowflake. Example:
+                                  The role you created in Step 1 for HeroPixelto
+                                  access Snowflake. Example:
                                   <code>AIRBYTE_ROLE</code>
                                 </td>
                               </tr>
@@ -1362,8 +1362,8 @@
                                   >
                                 </td>
                                 <td>
-                                  The warehouse you created in Step 1 for Hero
-                                  Pixel to sync data into. Example:
+                                  The warehouse you created in Step 1 for
+                                  HeroPixelto sync data into. Example:
                                   <code>AIRBYTE_WAREHOUSE</code>
                                 </td>
                               </tr>
@@ -1377,8 +1377,8 @@
                                   >
                                 </td>
                                 <td>
-                                  The database you created in Step 1 for Hero
-                                  Pixel to sync data into. Example:
+                                  The database you created in Step 1 for
+                                  HeroPixelto sync data into. Example:
                                   <code>AIRBYTE_DATABASE</code>
                                 </td>
                               </tr>
@@ -1401,7 +1401,7 @@
                                 <td>Username</td>
                                 <td>
                                   The username you created in Step 1 to allow
-                                  Hero Pixel to access the database. Example:
+                                  HeroPixelto access the database. Example:
                                   <code>AIRBYTE_USER</code>
                                 </td>
                               </tr>
@@ -1522,10 +1522,10 @@
                             >
                           </h2>
                           <p>
-                            Hero Pixel outputs each stream into its own raw
-                            table in <code>airbyte_internal</code> schema by
-                            default (can be overriden by user) and a final table
-                            with Typed columns. Contents in raw table are
+                            HeroPixeloutputs each stream into its own raw table
+                            in <code>airbyte_internal</code> schema by default
+                            (can be overriden by user) and a final table with
+                            Typed columns. Contents in raw table are
                             <em>NOT</em> deduplicated.
                           </p>
                           <h3
@@ -1543,7 +1543,7 @@
                           <table>
                             <thead>
                               <tr>
-                                <th>Hero Pixel field</th>
+                                <th>HeroPixelfield</th>
                                 <th>Description</th>
                                 <th>Column type</th>
                               </tr>
@@ -1584,10 +1584,10 @@
                             future versions.
                           </p>
                           <p>
-                            <strong>Note:</strong> By default, Hero Pixel
-                            creates permanent tables. If you prefer transient
-                            tables, create a dedicated transient database for
-                            Hero Pixel. For more information, refer to<a
+                            <strong>Note:</strong> By default, HeroPixelcreates
+                            permanent tables. If you prefer transient tables,
+                            create a dedicated transient database for HeroPixel
+                            For more information, refer to<a
                               href="https://docs.snowflake.com/en/user-guide/tables-temp-transient.html"
                               target="_blank"
                               rel="noopener noreferrer"
@@ -1610,9 +1610,7 @@
                           <table>
                             <thead>
                               <tr>
-                                <th style="text-align: left">
-                                  Hero Pixel type
-                                </th>
+                                <th style="text-align: left">HeroPixeltype</th>
                                 <th style="text-align: left">Snowflake type</th>
                               </tr>
                             </thead>
@@ -1867,9 +1865,9 @@
                           <ul>
                             <li>
                               <a
-                                href="#step-1-set-up-hero-pixel-specific-entities-in-snowflake"
+                                href="#step-1-set-up-heropixelspecific-entities-in-snowflake"
                                 class="table-of-contents__link toc-highlight"
-                                >Step 1: Set up Hero Pixel-specific entities in
+                                >Step 1: Set up HeroPixelspecific entities in
                                 Snowflake</a
                               >
                             </li>
@@ -1882,10 +1880,10 @@
                             </li>
                             <li>
                               <a
-                                href="#step-3-set-up-snowflake-as-a-destination-in-hero-pixel"
+                                href="#step-3-set-up-snowflake-as-a-destination-in-heropixel"
                                 class="table-of-contents__link toc-highlight"
                                 >Step 3: Set up Snowflake as a destination in
-                                Hero Pixel</a
+                                HeroPixel</a
                               >
                             </li>
                             <li>
@@ -2147,10 +2145,10 @@
               <a class="footerLogoLink_BH7S" href="/docs"
                 ><img
                   src="/img/heropixel/hero-pixel-logo.png"
-                  alt="Hero Pixel Logo"
+                  alt="HeroPixelLogo"
                   class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" /><img
                   src="/img/heropixel/hero-pixel-logo.png"
-                  alt="Hero Pixel Logo"
+                  alt="HeroPixelLogo"
                   class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU"
               /></a>
             </div>

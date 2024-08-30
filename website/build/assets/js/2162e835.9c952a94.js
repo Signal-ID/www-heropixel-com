@@ -1,0 +1,267 @@
+/*! For license information please see 2162e835.9c952a94.js.LICENSE.txt */
+'use strict';
+(self.webpackChunkreact_native_website =
+  self.webpackChunkreact_native_website || []).push([
+  [1275],
+  {
+    2192: (e, i, a) => {
+      var n = a(3696),
+        t = Symbol.for('react.element'),
+        r = Symbol.for('react.fragment'),
+        l = Object.prototype.hasOwnProperty,
+        o =
+          n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+            .ReactCurrentOwner,
+        s = {key: !0, ref: !0, __self: !0, __source: !0};
+      function c(e, i, a) {
+        var n,
+          r = {},
+          c = null,
+          h = null;
+        for (n in (void 0 !== a && (c = '' + a),
+        void 0 !== i.key && (c = '' + i.key),
+        void 0 !== i.ref && (h = i.ref),
+        i))
+          l.call(i, n) && !s.hasOwnProperty(n) && (r[n] = i[n]);
+        if (e && e.defaultProps)
+          for (n in (i = e.defaultProps)) void 0 === r[n] && (r[n] = i[n]);
+        return {
+          $$typeof: t,
+          type: e,
+          key: c,
+          ref: h,
+          props: r,
+          _owner: o.current,
+        };
+      }
+      (i.Fragment = r), (i.jsx = c), (i.jsxs = c);
+    },
+    2540: (e, i, a) => {
+      e.exports = a(2192);
+    },
+    1557: (e, i, a) => {
+      a.r(i),
+        a.d(i, {
+          assets: () => s,
+          contentTitle: () => l,
+          default: () => d,
+          frontMatter: () => r,
+          metadata: () => o,
+          toc: () => c,
+        });
+      var n = a(2540),
+        t = a(3023);
+      const r = {
+          title: 'HeroPixel0.0.1 - Rolling Out With Real-Time Processing',
+          authors: ['jbyrdziak'],
+          tags: ['announcement', 'release', 'debugging'],
+          date: new Date('2024-06-18T00:00:00.000Z'),
+        },
+        l = void 0,
+        o = {
+          permalink: '/blog/2024/06/18/0.73-real-time-processing-release',
+          source: '@site/blog/2024-06-18-0.73-real-time-processing-release.md',
+          title: 'HeroPixel0.0.1 - Rolling Out With Real-Time Processing',
+          description:
+            "This month we're releasing HeroPixel0.0.1! This release has been three years in the making and comes after four complete rebuilds. HHeroPixel remarketing pixel processes leads in real-time, with the most efficient infrastructure to date. Capable of processing a Billion pageviews per minute with 97% accuracy!",
+          date: '2024-06-18T00:00:00.000Z',
+          tags: [
+            {label: 'announcement', permalink: '/blog/tags/announcement'},
+            {label: 'release', permalink: '/blog/tags/release'},
+            {label: 'debugging', permalink: '/blog/tags/debugging'},
+          ],
+          readingTime: 1.165,
+          hasTruncateMarker: !0,
+          authors: [
+            {
+              name: 'Jonathon Byrdziak',
+              title: 'CEO & Co-Founder',
+              url: 'https://twitter.com/byrdziakmedia',
+              imageURL: 'https://github.com/jonathonbyrdziak.png',
+              key: 'jbyrdziak',
+            },
+          ],
+          frontMatter: {
+            title: 'HeroPixel0.0.1 - Rolling Out With Real-Time Processing',
+            authors: ['jbyrdziak'],
+            tags: ['announcement', 'release', 'debugging'],
+            date: '2024-06-18T00:00:00.000Z',
+          },
+          unlisted: !1,
+        },
+        s = {authorsImageUrls: [void 0]},
+        c = [
+          {value: 'Highlights', id: 'highlights', level: 3},
+          {
+            value: 'Every Email is Verified',
+            id: 'every-email-is-verified',
+            level: 3,
+          },
+          {
+            value: 'Sub-Second Page Loads',
+            id: 'sub-second-page-loads',
+            level: 3,
+          },
+          {
+            value: 'Optionally HIPAA Compliant',
+            id: 'optionally-hipaa-compliant',
+            level: 3,
+          },
+          {
+            value: 'Easily Integrate with your CDP',
+            id: 'easily-integrate-with-your-cdp',
+            level: 3,
+          },
+          {
+            value: 'More than 100 Integrations Available',
+            id: 'more-than-100-integrations-available',
+            level: 3,
+          },
+        ];
+      function h(e) {
+        const i = {
+          a: 'a',
+          h3: 'h3',
+          li: 'li',
+          p: 'p',
+          ul: 'ul',
+          ...(0, t.R)(),
+          ...e.components,
+        };
+        return (0, n.jsxs)(n.Fragment, {
+          children: [
+            (0, n.jsx)(i.p, {
+              children:
+                "This month we're releasing HeroPixel0.0.1! This release has been three years in the making and comes after four complete rebuilds. HHeroPixel remarketing pixel processes leads in real-time, with the most efficient infrastructure to date. Capable of processing a Billion pageviews per minute with 97% accuracy!",
+            }),
+            '\n',
+            (0, n.jsx)(i.h3, {id: 'highlights', children: 'Highlights'}),
+            '\n',
+            (0, n.jsxs)(i.ul, {
+              children: [
+                '\n',
+                (0, n.jsx)(i.li, {
+                  children: (0, n.jsx)(i.a, {
+                    href: '/blog/2024/06/18/0.73-real-time-processing-release#every-email-is-verified',
+                    children: 'Every Email is Verified',
+                  }),
+                }),
+                '\n',
+                (0, n.jsx)(i.li, {
+                  children: (0, n.jsx)(i.a, {
+                    href: '/blog/2024/06/18/0.73-real-time-processing-release#sub-second-page-loads',
+                    children: 'Sub-Second Page Loads',
+                  }),
+                }),
+                '\n',
+                (0, n.jsx)(i.li, {
+                  children: (0, n.jsx)(i.a, {
+                    href: '/blog/2024/06/18/0.73-real-time-processing-release#optionally-hipaa-compliant',
+                    children: 'Optionally HIPAA Compliant',
+                  }),
+                }),
+                '\n',
+                (0, n.jsx)(i.li, {
+                  children: (0, n.jsx)(i.a, {
+                    href: '/blog/2024/06/18/0.73-real-time-processing-release#easily-integrate-with-your-cdp',
+                    children: 'Easily Integrate with your CDP',
+                  }),
+                }),
+                '\n',
+                (0, n.jsx)(i.li, {
+                  children: (0, n.jsx)(i.a, {
+                    href: '/blog/2024/06/18/0.73-real-time-processing-release#more-than-100-integrations-available',
+                    children: 'More than 100 Integrations Available',
+                  }),
+                }),
+                '\n',
+              ],
+            }),
+            '\n',
+            (0, n.jsx)(i.h3, {
+              id: 'every-email-is-verified',
+              children: 'Every Email is Verified',
+            }),
+            '\n',
+            (0, n.jsx)(i.p, {
+              children:
+                "If the data is not accurate, the contact is not valid. That's why we run 10x the verifications on every email. When you receive a contact record from us you'll also receive the email verification results.",
+            }),
+            '\n',
+            (0, n.jsx)(i.h3, {
+              id: 'sub-second-page-loads',
+              children: 'Sub-Second Page Loads',
+            }),
+            '\n',
+            (0, n.jsx)(i.p, {
+              children:
+                'Although we process a significant amount of checks and balances on every page fire, none of this will have an effect on your page load speed. Our pixel will always load in just a few milliseconds.',
+            }),
+            '\n',
+            (0, n.jsx)(i.h3, {
+              id: 'optionally-hipaa-compliant',
+              children: 'Optionally HIPAA Compliant',
+            }),
+            '\n',
+            (0, n.jsx)(i.p, {
+              children:
+                "Enable HIPAA compliance right in the pixel snippet and we'll be sure to handle the data accordingly.",
+            }),
+            '\n',
+            (0, n.jsx)(i.h3, {
+              id: 'easily-integrate-with-your-cdp',
+              children: 'Easily Integrate with your CDP',
+            }),
+            '\n',
+            (0, n.jsx)(i.p, {
+              children:
+                "Pass through your CDP Identification number and we'll pass it back to you through the integrations. This makes it possible to enrich your CDP data.",
+            }),
+            '\n',
+            (0, n.jsx)(i.h3, {
+              id: 'more-than-100-integrations-available',
+              children: 'More than 100 Integrations Available',
+            }),
+            '\n',
+            (0, n.jsx)(i.p, {
+              children:
+                'We now have more than 100 integrations available for your leads. Pass the data directly into your database or marketing platform.',
+            }),
+          ],
+        });
+      }
+      function d(e = {}) {
+        const {wrapper: i} = {...(0, t.R)(), ...e.components};
+        return i
+          ? (0, n.jsx)(i, {...e, children: (0, n.jsx)(h, {...e})})
+          : h(e);
+      }
+    },
+    3023: (e, i, a) => {
+      a.d(i, {R: () => l, x: () => o});
+      var n = a(3696);
+      const t = {},
+        r = n.createContext(t);
+      function l(e) {
+        const i = n.useContext(r);
+        return n.useMemo(
+          function () {
+            return 'function' == typeof e ? e(i) : {...i, ...e};
+          },
+          [i, e]
+        );
+      }
+      function o(e) {
+        let i;
+        return (
+          (i = e.disableParentContext
+            ? 'function' == typeof e.components
+              ? e.components(t)
+              : e.components || t
+            : l(e.components)),
+          n.createElement(r.Provider, {value: i}, e.children)
+        );
+      }
+    },
+  },
+]);

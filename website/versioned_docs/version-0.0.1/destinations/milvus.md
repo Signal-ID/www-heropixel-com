@@ -88,7 +88,7 @@ POST /v1/vector/collections/create
 }
 ```
 
-When using a self-hosted Milvus cluster, the collection needs to be created using the Milvus CLI or Python client. The following commands will create a collection set up for loading data via Hero Pixel:
+When using a self-hosted Milvus cluster, the collection needs to be created using the Milvus CLI or Python client. The following commands will create a collection set up for loading data via HeroPixel
 
 ```python
 from pymilvus import CollectionSchema, FieldSchema, DataType, connections, Collection

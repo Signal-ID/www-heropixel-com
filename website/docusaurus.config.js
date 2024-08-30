@@ -23,7 +23,7 @@ const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Hero Pixel by Signal ID',
+  title: 'HeroPixelby Signal ID',
   tagline: 'Our most advanced remarketing pixel to date.',
   organizationName: 'Signal ID',
   projectName: 'hero-pixel',
@@ -210,7 +210,7 @@ module.exports = {
           src: 'img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-Black-Medium.png',
           srcDark:
             'img/heropixel/Hero-Pixel-Horizontal-Logo-RGB-White-Medium.png',
-          alt: 'Hero Pixel',
+          alt: 'HeroPixel',
           href: '/docs',
         },
         style: 'primary',
@@ -235,7 +235,7 @@ module.exports = {
           {
             type: 'doc',
             docId: 'intro-to-pixel-tech',
-            label: 'What is Hero Pixel?',
+            label: 'What is HeroPixel',
             position: 'right',
           },
           {
@@ -389,7 +389,7 @@ module.exports = {
           },
         ],
         logo: {
-          alt: 'Hero Pixel Logo',
+          alt: 'HeroPixelLogo',
           src: 'img/heropixel/hero-pixel-logo.png',
           href: '/docs',
         },

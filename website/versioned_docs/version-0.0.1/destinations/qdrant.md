@@ -41,9 +41,9 @@ To use the Qdrant destination, you'll need:
 
 #### Configure Network Access
 
-Make sure your Qdrant database can be accessed by Hero Pixel. If your database is within a VPC, you may need to allow access from the IP you're using to expose Hero Pixel.
+Make sure your Qdrant database can be accessed by HeroPixel If your database is within a VPC, you may need to allow access from the IP you're using to expose HHeroPixel
 
-### Setup the Qdrant Destination in Hero Pixel
+### Setup the Qdrant Destination in HeroPixel
 
 You should now have all the requirements needed to configure Qdrant as a destination in the UI. You'll need the following information to configure the Qdrant destination:
 

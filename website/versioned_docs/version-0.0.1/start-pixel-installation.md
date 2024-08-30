@@ -13,7 +13,7 @@ description: desc
 
 ## Purpose
 
-Our pixel snippet (aka. Hero Pixel Site Tag) installs just like the Google Analytics Site Tag.
+Our pixel snippet (aka. HeroPixelSite Tag) installs just like the Google Analytics Site Tag.
 
 ## FOLLOW THESE STEPS
 
@@ -24,11 +24,11 @@ Our pixel snippet (aka. Hero Pixel Site Tag) installs just like the Google Analy
 A. **Locating your snippet**
 
 - You can find the following snippet of code already customized for your preferences when "editing" or "creating" your pixel in the dashboard.
-- Copy the Hero Pixel Site Tag from this page, or email it to your developer for assistance.
+- Copy the HeroPixelSite Tag from this page, or email it to your developer for assistance.
 
 B. **Copy and Paste the snippet into your website head section**
 
-- Paste the Hero Pixel Site Tag into the `<head>` section of your HTML, before the closing `</head>` tag.
+- Paste the HeroPixelSite Tag into the `<head>` section of your HTML, before the closing `</head>` tag.
 - It's best to have the snippet to the top of your website and not the bottom.
 
 <br/>

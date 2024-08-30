@@ -33,7 +33,7 @@ To use the Chroma destination, you'll need:
 
 #### Configure Network Access
 
-Make sure your Chroma database can be accessed by Hero Pixel. If your database is within a VPC, you may need to allow access from Hero Pixel IPs
+Make sure your Chroma database can be accessed by HeroPixel If your database is within a VPC, you may need to allow access from HHeroPixelPs
 
 ### Setup the Chroma Destination in Airbyte
 

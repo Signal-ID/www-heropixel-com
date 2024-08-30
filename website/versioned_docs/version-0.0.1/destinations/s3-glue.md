@@ -20,12 +20,12 @@ List of required fields:
 - **Glue database**
 - **Glue serialization library**
 
-1. Allow connections from Hero Pixel server to your AWS S3/ Minio S3 cluster \(if they exist in
+1. Allow connections from HeroPixelserver to your AWS S3/ Minio S3 cluster \(if they exist in
    separate VPCs\).
 2. An S3 bucket with credentials or an instance profile with read/write permissions configured for
    the host (ec2, eks).
 3. [Enforce encryption of data in transit](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html#transit)
-4. Allow permissions to access the AWS Glue service from the Hero Pixel connector
+4. Allow permissions to access the AWS Glue service from the HeroPixelconnector
 
 ## Step 1: Set up S3
 
@@ -37,7 +37,7 @@ Prepare S3 bucket that will be used as destination, see
 an S3 bucket.
 
 NOTE: If the S3 cluster is not configured to use TLS, the connection to Amazon S3 silently reverts
-to an unencrypted connection. Hero Pixel recommends all connections be configured to use TLS/SSL as
+to an unencrypted connection. HeroPixelrecommends all connections be configured to use TLS/SSL as
 support for AWS's
 [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
@@ -49,9 +49,9 @@ support for AWS's
 Prepare the Glue database that will be used as destination, see
 [this](https://docs.aws.amazon.com/glue/latest/dg/console-databases.html) to create a Glue database
 
-## Step 3: Set up the S3-Glue destination connector in Hero Pixel
+## Step 3: Set up the S3-Glue destination connector in HeroPixel
 
-1. Go to local Hero Pixel page.
+1. Go to local HeroPixelpage.
 2. In the left navigation bar, click **Destinations**. In the top-right corner, click **+ new
    destination**.
 3. On the destination setup page, select **S3** from the Destination type dropdown and enter a name
@@ -65,21 +65,21 @@ Prepare the Glue database that will be used as destination, see
      - See
        [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
        on how to create a instanceprofile.
-     - We recommend creating an Hero Pixel-specific user. This user will require
+     - We recommend creating an HeroPixelspecific user. This user will require
        [read and write permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)
        to objects in the staging bucket.
      - If the Access Key and Secret Access Key are not provided, the authentication will rely on the
        instanceprofile.
    - **Secret Access Key**
      - Corresponding key to the above key id.
-   - Make sure your S3 bucket is accessible from the machine running Hero Pixel.
+   - Make sure your S3 bucket is accessible from the machine running HeroPixel
      - This depends on your networking setup.
      - You can check AWS S3 documentation with a tutorial on how to properly configure your S3's
        access
        [here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-overview.html).
      - If you use instance profile authentication, make sure the role has permission to read/write
        on the bucket.
-     - The easiest way to verify if Hero Pixel is able to connect to your S3 bucket is via the check
+     - The easiest way to verify if HeroPixelis able to connect to your S3 bucket is via the check
        connection tool in the UI.
    - **S3 Bucket Name**
      - See [this](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html)
@@ -189,11 +189,11 @@ sync may create multiple files as the output files can be partitioned by size (t
 | Feature                        | Support | Notes                                                                                |
 | :----------------------------- | :-----: | :----------------------------------------------------------------------------------- |
 | Full Refresh Sync              |   ✅    | Warning: this mode deletes all previously synced data in the configured bucket path. |
-| Incremental - Append Sync      |   ✅    | Warning: Hero Pixel provides at-least-once delivery.                                 |
+| Incremental - Append Sync      |   ✅    | Warning: HeroPixelprovides at-least-once delivery.                                   |
 | Incremental - Append + Deduped |   ❌    |                                                                                      |
 | Namespaces                     |   ❌    | Setting a specific bucket path is equivalent to having separate namespaces.          |
 
-The Hero Pixel S3 destination allows you to sync data to AWS S3 or Minio S3. Each stream is written to
+The HeroPixelS3 destination allows you to sync data to AWS S3 or Minio S3. Each stream is written to
 its own directory under the bucket. ⚠️ Please note that under "Full Refresh Sync" mode, data in the
 configured bucket and path will be wiped out before each sync. We recommend you to provision a
 dedicated S3 resource for this sync to prevent unexpected data deletion from misconfiguration. ⚠️

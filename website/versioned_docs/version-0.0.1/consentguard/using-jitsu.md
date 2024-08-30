@@ -22,9 +22,9 @@ To get started with Jitsu, you need a Jitsu Cloud account. You can sign up for a
 
 ConsentGuard can send all user preferences to Jitsu for storage. This integration allows you to easily connect to any database, including the free ClickHouse DB provided by Jitsu Cloud.
 
-### Hero Pixel Integration
+### HeroPixelIntegration
 
-Hero Pixel offers a complimentary Jitsu URL and write key that maps user preferences directly to your account. This data can be accessed through our extensive integrations, and we use opt-out data to control the Hero Pixel.
+HeroPixeloffers a complimentary Jitsu URL and write key that maps user preferences directly to your account. This data can be accessed through our extensive integrations, and we use opt-out data to control the HHeroPixel
 
 ### Configuration
 
@@ -50,7 +50,7 @@ Place your configuration options for the banner by defining the global `window.c
 - **Compliance:** Demonstrate that you are honoring user preferences by tracking opt-ins and opt-outs.
 - **Integration:** Easily connect to any database, including the free ClickHouse DB provided by Jitsu Cloud.
 - **Analytics:** Analyze user preferences and behaviors to improve your website and services.
-- **Control:** Use the opt-out data to control the Hero Pixel, ensuring that user preferences are respected.
+- **Control:** Use the opt-out data to control the HeroPixel ensuring that user preferences are respected.
 
 ### Additional Resources
 

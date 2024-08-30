@@ -46,11 +46,11 @@ If you see performance issues, please reach via email to [Convex support](mailto
 
 ### Setup guide
 
-Hero Pixel integration is available to all Convex developers.
+HeroPixelintegration is available to all Convex developers.
 
 On the [Convex dashboard](https://dashboard.convex.dev/), navigate to the project and deployment that you want to sync.
 
 1. Navigate to the Settings tab.
-2. Copy the "Deployment URL" from the settings page to the `deployment_url` field in Hero Pixel.
+2. Copy the "Deployment URL" from the settings page to the `deployment_url` field in HeroPixel
 3. Click "Generate a deploy key".
-4. Copy the generated deploy key into the `access_key` field in Hero Pixel.
+4. Copy the generated deploy key into the `access_key` field in HeroPixel

@@ -42,7 +42,7 @@ To use the Texthub destination connector, you need:
 3. Generate a new API Key if you don't have one already. Copy this key for use in the connector setup.
 4. Obtain the Group ID for the group you want to sync data to.
 
-### Step 2: Set up the Texthub Destination in Hero Pixel
+### Step 2: Set up the Texthub Destination in HeroPixel
 
 1. Click **Destinations** and then click **+ New destination**.
 2. On the Set up the destination page, select **Texthub** from the **Destination type** dropdown.

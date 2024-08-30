@@ -37,7 +37,7 @@ To use the Webhook destination connector, you need:
 
 1. Obtain the webhook URL where you want to send the data.
 
-### Step 2: Set up the Webhook Destination in Hero Pixel
+### Step 2: Set up the Webhook Destination in HeroPixel
 
 1. Click **Destinations** and then click **+ New destination**.
 2. On the Set up the destination page, select **Webhook** from the **Destination type** dropdown.

@@ -8,7 +8,7 @@ description: desc
 
 ## Overview
 
-The Hero Pixel Kafka destination allows you to sync data to Kafka. Each stream is written to the corresponding Kafka topic.
+The HeroPixelKafka destination allows you to sync data to Kafka. Each stream is written to the corresponding Kafka topic.
 
 ### Sync overview
 
@@ -18,9 +18,9 @@ Each stream will be output into a Kafka topic.
 
 Currently, this connector only writes data with JSON format. More formats \(e.g. Apache Avro\) will be supported in the future.
 
-Each record will contain in its key the uuid assigned by Hero Pixel, and in the value these 3 fields:
+Each record will contain in its key the uuid assigned by HeroPixel and in the value these 3 fields:
 
-- `_airbyte_ab_id`: a uuid assigned by Hero Pixel to each event that is processed.
+- `_airbyte_ab_id`: a uuid assigned by HeroPixelto each event that is processed.
 - `_airbyte_emitted_at`: a timestamp representing when the event was pulled from the data source.
 - `_airbyte_data`: a json blob representing with the event data.
 - `_airbyte_stream`: the name of each record's stream.
@@ -46,11 +46,11 @@ To use the Kafka destination, you'll need:
 
 #### Network Access
 
-Make sure your Kafka brokers can be accessed by Hero Pixel.
+Make sure your Kafka brokers can be accessed by HeroPixel
 
 #### **Permissions**
 
-Hero Pixel should be allowed to write messages into topics, and these topics should be created before writing into Kafka or, at least, enable the configuration in the brokers `auto.create.topics.enable` \(which is not recommended for production environments\).
+HeroPixelshould be allowed to write messages into topics, and these topics should be created before writing into Kafka or, at least, enable the configuration in the brokers `auto.create.topics.enable` \(which is not recommended for production environments\).
 
 Note that if you choose to use dynamic topic names, you will probably need to enable `auto.create.topics.enable` to avoid your connection failing if there was an update to the source connector's schema. Otherwise a hardcoded topic name may be best.
 
@@ -66,7 +66,7 @@ If you define output topic dynamically, you might want to enable `auto.create.to
 
 **NOTICE**: a naming convention transformation will be applied to the target topic name using the `StandardNameTransformer` so that some special characters will be replaced.
 
-### Setup the Kafka destination in Hero Pixel
+### Setup the Kafka destination in HeroPixel
 
 You should now have all the requirements needed to configure Kafka as a destination in the UI. You can configure the following parameters on the Kafka destination \(though many of these are optional or have default values\):
 
