@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heropixel.com/blog</id>
-    <title>HeroPixelby Signal ID Blog</title>
+    <title>HeroPixel by Signal ID Blog</title>
     <updated>2024-06-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heropixel.com/blog"/>
-    <subtitle>HeroPixelby Signal ID Blog</subtitle>
+    <subtitle>HeroPixel by Signal ID Blog</subtitle>
     <icon>https://heropixel.com/img/heropixel/hero-pixel-icon.png</icon>
     <rights>Copyright © 2024 Signal ID, LLC.</rights>
     <entry>

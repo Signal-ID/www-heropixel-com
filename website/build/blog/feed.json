@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "HeroPixelby Signal ID Blog",
+  "title": "HeroPixel by Signal ID Blog",
   "home_page_url": "https://heropixel.com/blog",
-  "description": "HeroPixelby Signal ID Blog",
+  "description": "HeroPixel by Signal ID Blog",
   "items": [
     {
       "id": "https://heropixel.com/blog/2024/06/18/0.73-real-time-processing-release",

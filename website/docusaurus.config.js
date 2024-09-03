@@ -23,10 +23,10 @@ const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'HeroPixelby Signal ID',
-  tagline: 'Our most advanced remarketing pixel to date.',
+  title: 'HeroPixel by Signal ID',
+  tagline: 'The most advanced remarketing technology to date.',
   organizationName: 'Signal ID',
-  projectName: 'hero-pixel',
+  projectName: 'heropixel',
   url: 'https://heropixel.com',
   baseUrl: '/',
   clientModules: [
