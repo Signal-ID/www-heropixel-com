@@ -2,7 +2,7 @@
 build:
     cd ./website && npm run build
 
-serve:
+serve: build
     cd ./website && npm run serve
 
 jsut reserve: build serve

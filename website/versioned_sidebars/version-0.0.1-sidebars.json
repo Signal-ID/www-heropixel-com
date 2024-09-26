@@ -36,6 +36,14 @@
     "FAQ": ["faq"],
     "Glossary": ["glossary"]
   },
+  "leadcapture": {
+    "Getting Started": [
+      "leadcapture/overview",
+      "leadcapture/optin-forms",
+      "leadcapture/sales-qualifying-optin",
+      "leadcapture/form-customization"
+    ]
+  },
   "personalization": {
     "Getting Started": [
       "personalization/personalized-landing-pages",

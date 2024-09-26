@@ -249,6 +249,11 @@ module.exports = {
                 docId: 'start-registration',
               },
               {
+                label: 'Optin Forms',
+                type: 'doc',
+                docId: 'leadcapture/overview',
+              },
+              {
                 label: 'Personalization',
                 type: 'doc',
                 docId: 'personalization/personalized-landing-pages',
