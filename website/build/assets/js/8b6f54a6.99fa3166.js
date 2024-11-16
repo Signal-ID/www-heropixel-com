@@ -1,4 +1,4 @@
-/*! For license information please see 8b6f54a6.b7755525.js.LICENSE.txt */
+/*! For license information please see 8b6f54a6.99fa3166.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -72,6 +72,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1727314913e3,
           frontMatter: {
             id: 'optin-forms',
             title: 'Intelligent Optin Forms',
@@ -200,7 +201,7 @@
                       children: (0, i.jsx)(n.code, {
                         className: 'language-html',
                         children:
-                          "<script>\n    (function() {\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src='https://app.heropixel.com/'+'pixel/script.js';\n        s.parentNode.insertBefore(g,s);\n    })();\n</script>\n",
+                          "<script>\n  (function () {\n    var d = document,\n      g = d.createElement('script'),\n      s = d.getElementsByTagName('script')[0];\n    g.async = true;\n    g.src = 'https://app.heropixel.com/' + 'pixel/script.js';\n    s.parentNode.insertBefore(g, s);\n  })();\n</script>\n",
                       }),
                     }),
                     '\n',
@@ -224,7 +225,7 @@
                       children: (0, i.jsx)(n.code, {
                         className: 'language-html',
                         children:
-                          '<opt-in-form\nheadline="You Qualify for Access to a Free LIVE Training! Submit your mobile # to get access to it..."\ntcpa-text="I consent to receive SMS alerts and marketing. Msg freq varies. Msg & data rates may apply. Reply STOP to opt-out. By providing your number, you agree to our Privacy Policy."\nwebsite-id="{{ your pixel id }}"\n>\n</opt-in-form>\n<script src="https://app.heropixel.com/forms/optin.js"></script>\n',
+                          '<opt-in-form\n  headline="You Qualify for Access to a Free LIVE Training! Submit your mobile # to get access to it..."\n  tcpa-text="I consent to receive SMS alerts and marketing. Msg freq varies. Msg & data rates may apply. Reply STOP to opt-out. By providing your number, you agree to our Privacy Policy."\n  website-id="{{ your pixel id }}">\n</opt-in-form>\n<script src="https://app.heropixel.com/forms/optin.js"></script>\n',
                       }),
                     }),
                     '\n',

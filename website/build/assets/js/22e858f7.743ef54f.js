@@ -1,4 +1,4 @@
-/*! For license information please see 22e858f7.aa69c94b.js.LICENSE.txt */
+/*! For license information please see 22e858f7.743ef54f.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -72,6 +72,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1727314913e3,
           frontMatter: {
             id: 'sales-qualifying-optin',
             title: 'Sales Qualifying Optin Form',
@@ -200,7 +201,7 @@
                       children: (0, t.jsx)(i.code, {
                         className: 'language-html',
                         children:
-                          "<script>\n    (function() {\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src='https://app.heropixel.com/'+'pixel/script.js';\n        s.parentNode.insertBefore(g,s);\n    })();\n</script>\n<script src=\"https://app.heropixel.com/forms/funding.js\"></script>\n",
+                          "<script>\n  (function () {\n    var d = document,\n      g = d.createElement('script'),\n      s = d.getElementsByTagName('script')[0];\n    g.async = true;\n    g.src = 'https://app.heropixel.com/' + 'pixel/script.js';\n    s.parentNode.insertBefore(g, s);\n  })();\n</script>\n<script src=\"https://app.heropixel.com/forms/funding.js\"></script>\n",
                       }),
                     }),
                     '\n',
@@ -224,7 +225,7 @@
                       children: (0, t.jsx)(i.code, {
                         className: 'language-html',
                         children:
-                          '<opt-in-form\nheadline-sqls="{{FIRST_NAME}} You\'re Approved for {{AMOUNT}} in Business Funding! Submit your mobile # to get access to it.."\nheadline-nqls="{{FIRST_NAME}} You Qualify for Access to our Private Skool Community! Submit your mobile # to get access to it..."\nheadline-unknowns="You Qualify for Access to a Free LIVE Training with The Man himself! Submit your mobile # to get access to it..."\ntcp-text="I consent to receive SMS alerts and marketing. Msg freq varies. Msg & data rates may apply. Reply STOP to opt-out. By providing your number, you agree to our Privacy Policy."\nwebsite-id="18"\n>\n</opt-in-form>\n',
+                          '<opt-in-form\n  headline-sqls="{{FIRST_NAME}} You\'re Approved for {{AMOUNT}} in Business Funding! Submit your mobile # to get access to it.."\n  headline-nqls="{{FIRST_NAME}} You Qualify for Access to our Private Skool Community! Submit your mobile # to get access to it..."\n  headline-unknowns="You Qualify for Access to a Free LIVE Training with The Man himself! Submit your mobile # to get access to it..."\n  tcp-text="I consent to receive SMS alerts and marketing. Msg freq varies. Msg & data rates may apply. Reply STOP to opt-out. By providing your number, you agree to our Privacy Policy."\n  website-id="18">\n</opt-in-form>\n',
                       }),
                     }),
                     '\n',

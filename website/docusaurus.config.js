@@ -264,6 +264,11 @@ module.exports = {
                 docId: 'intro-to-integrations',
               },
               {
+                label: 'API',
+                type: 'doc',
+                docId: 'intro-to-graphql',
+              },
+              {
                 label: 'ConsentGuard ™',
                 type: 'doc',
                 docId: 'consentguard/consentguard-overview',
