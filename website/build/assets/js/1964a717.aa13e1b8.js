@@ -1,4 +1,4 @@
-/*! For license information please see 1964a717.78ee4a59.js.LICENSE.txt */
+/*! For license information please see 1964a717.aa13e1b8.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -39,7 +39,7 @@
     2540: (e, t, n) => {
       e.exports = n(2192);
     },
-    9965: (e, t, n) => {
+    5964: (e, t, n) => {
       n.d(t, {A: () => o});
       const o =
         n.p +
@@ -109,7 +109,7 @@
             (0, o.jsxs)(t.p, {
               children: [
                 (0, o.jsx)(t.img, {
-                  src: n(9965).A + '',
+                  src: n(5964).A + '',
                   width: '1112',
                   height: '2248',
                 }),

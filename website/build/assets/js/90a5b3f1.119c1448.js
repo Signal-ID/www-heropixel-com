@@ -1,4 +1,4 @@
-/*! For license information please see 90a5b3f1.f8694f43.js.LICENSE.txt */
+/*! For license information please see 90a5b3f1.119c1448.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -39,85 +39,85 @@
     2540: (e, t, s) => {
       e.exports = s(2192);
     },
-    3549: (e, t, s) => {
+    5794: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databrick_new_cluster-ebe107ed1070b7c81439c862721f306c.png';
     },
-    9270: (e, t, s) => {
+    8211: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_add_external_location-602bd5e04d96f820b2b82856fe425cfe.png';
     },
-    6811: (e, t, s) => {
+    9594: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_cluster_connection_details2-5ae9e21d8d489be08483f3bb479953b9.png';
     },
-    6727: (e, t, s) => {
+    7744: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_cluster_details_open-554fad837f72d8bfbaba11ecef2aa284.png';
     },
-    624: (e, t, s) => {
+    5451: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_generate_token-a6eaed2a1d9acfca77414655bd689145.png';
     },
-    3397: (e, t, s) => {
+    3972: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_new_external_location-e3235d583f300daa88c1a45938bf0c2c.png';
     },
-    3730: (e, t, s) => {
+    1247: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_new_metastore-1350d667b628f9a837c91e9d9381e1a5.png';
     },
-    5029: (e, t, s) => {
+    6644: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_new_warehouse-1da87ce787e707aafbdfb143a64f98b6.png';
     },
-    4950: (e, t, s) => {
+    8165: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_open_sql_warehouse-45c92346a31613a0a1398f4cd9c3aafe.png';
     },
-    6362: (e, t, s) => {
+    1567: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_open_worspace-54fcb71a96d4c89ad57d2f9b452c7cc8.png';
     },
-    9183: (e, t, s) => {
+    1652: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_sql_warehouse_connection_details-91f70fd5a196d5fd21ade7c83c906fa4.png';
     },
-    5609: (e, t, s) => {
+    9554: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databricks_workspace_quciksetup-6495a7120b383a389690c12dce72b90c.png';
     },
-    8721: (e, t, s) => {
+    7170: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
         'assets/images/databrikcs_metastore_fields-33efe65b3c761bc56abd20f0ff68767e.png';
     },
-    7918: (e, t, s) => {
+    2203: (e, t, s) => {
       s.d(t, {A: () => n});
       const n =
         s.p +
@@ -372,7 +372,7 @@
                     }),
                     ' Alternatively use Databricks quickstart for new workspace\n',
                     (0, n.jsx)(t.img, {
-                      src: s(5609).A + '',
+                      src: s(9554).A + '',
                       width: '1470',
                       height: '208',
                     }),
@@ -453,7 +453,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(3730).A + '',
+                        src: s(1247).A + '',
                         width: '1479',
                         height: '215',
                       }),
@@ -471,7 +471,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(8721).A + '',
+                        src: s(7170).A + '',
                         width: '801',
                         height: '729',
                       }),
@@ -577,7 +577,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(6362).A + '',
+                        src: s(1567).A + '',
                         width: '1480',
                         height: '221',
                       }),
@@ -599,7 +599,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(5029).A + '',
+                        src: s(6644).A + '',
                         width: '584',
                         height: '492',
                       }),
@@ -674,7 +674,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(4950).A + '',
+                        src: s(8165).A + '',
                         width: '961',
                         height: '435',
                       }),
@@ -690,7 +690,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(9183).A + '',
+                        src: s(1652).A + '',
                         width: '879',
                         height: '689',
                       }),
@@ -756,7 +756,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(6362).A + '',
+                        src: s(1567).A + '',
                         width: '1480',
                         height: '221',
                       }),
@@ -772,7 +772,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(3549).A + '',
+                        src: s(5794).A + '',
                         width: '515',
                         height: '443',
                       }),
@@ -839,7 +839,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(6727).A + '',
+                        src: s(7744).A + '',
                         width: '878',
                         height: '438',
                       }),
@@ -858,7 +858,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(6811).A + '',
+                        src: s(9594).A + '',
                         width: '844',
                         height: '795',
                       }),
@@ -919,7 +919,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(7918).A + '',
+                        src: s(2203).A + '',
                         width: '1595',
                         height: '369',
                       }),
@@ -938,7 +938,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(624).A + '',
+                        src: s(5451).A + '',
                         width: '419',
                         height: '230',
                       }),
@@ -1016,7 +1016,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(9270).A + '',
+                        src: s(8211).A + '',
                         width: '1606',
                         height: '357',
                       }),
@@ -1034,7 +1034,7 @@
                     '\n',
                     (0, n.jsx)(t.p, {
                       children: (0, n.jsx)(t.img, {
-                        src: s(3397).A + '',
+                        src: s(3972).A + '',
                         width: '598',
                         height: '623',
                       }),

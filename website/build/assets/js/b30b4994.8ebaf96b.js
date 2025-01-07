@@ -1,11 +1,11 @@
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
-  [2763],
+  [6298],
   {
-    1966: e => {
+    4061: e => {
       e.exports = JSON.parse(
-        '{"name":"docusaurus-plugin-content-docs","id":"default"}'
+        '{"name":"docusaurus-plugin-content-pages","id":"default"}'
       );
     },
   },

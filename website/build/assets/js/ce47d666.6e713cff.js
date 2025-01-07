@@ -1,4 +1,4 @@
-/*! For license information please see ce47d666.c15f396a.js.LICENSE.txt */
+/*! For license information please see ce47d666.6e713cff.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -39,13 +39,13 @@
     2540: (e, n, t) => {
       e.exports = t(2192);
     },
-    8923: (e, n, t) => {
+    5020: (e, n, t) => {
       t.d(n, {A: () => r});
       const r =
         t.p +
         'assets/images/consentguard-cookie-banner-dfb3ccfa0356b26170e59e876713ae08.png';
     },
-    7753: (e, n, t) => {
+    4686: (e, n, t) => {
       t.d(n, {A: () => r});
       const r =
         t.p + 'assets/images/consentguard-207c95af9d94b047730f501ec6bf2168.png';
@@ -124,7 +124,7 @@
               children: [
                 (0, r.jsx)(n.img, {
                   alt: 'ConsentGuard Privacy Controls',
-                  src: t(7753).A + '',
+                  src: t(4686).A + '',
                   width: '3228',
                   height: '2524',
                 }),
@@ -182,7 +182,7 @@
             (0, r.jsx)(n.p, {
               children: (0, r.jsx)(n.img, {
                 alt: 'ConsentGuard Cookie Banner',
-                src: t(8923).A + '',
+                src: t(5020).A + '',
                 width: '5976',
                 height: '464',
               }),

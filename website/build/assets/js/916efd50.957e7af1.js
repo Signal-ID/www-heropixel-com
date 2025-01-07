@@ -1,4 +1,4 @@
-/*! For license information please see 916efd50.01f31122.js.LICENSE.txt */
+/*! For license information please see 916efd50.957e7af1.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -70,6 +70,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
+          lastUpdatedAt: 1731717576e3,
           frontMatter: {
             id: 'link-to-zapier-docs',
             title: 'Zapier',
@@ -245,7 +246,7 @@
                               children: (0, r.jsx)(n.code, {
                                 className: 'language-javascript',
                                 children:
-                                  "// Import the crypto library\nconst crypto = require('crypto');\n\n// Input data: email from the previous step\nconst email = inputData.email;\n\n// Trim and lowercase the email\nconst cleanEmail = email.trim().toLowerCase();\n\n// Generate MD5 hash of the cleaned email\nconst md5Hash = crypto.createHash('md5').update(cleanEmail).digest('hex');\n\n// Return the hashed value\nreturn { md5: md5Hash };\n",
+                                  "// Import the crypto library\nconst crypto = require('crypto');\n\n// Input data: email from the previous step\nconst email = inputData.email;\n\n// Trim and lowercase the email\nconst cleanEmail = email.trim().toLowerCase();\n\n// Generate MD5 hash of the cleaned email\nconst md5Hash = crypto\n  .createHash('md5')\n  .update(cleanEmail)\n  .digest('hex');\n\n// Return the hashed value\nreturn {md5: md5Hash};\n",
                               }),
                             }),
                             '\n',
@@ -427,7 +428,7 @@
               children: (0, r.jsx)(n.code, {
                 className: 'language-json',
                 children:
-                  '{\n  "query": "mutation HeroPixel($event: PagviewEventInput!) { pageview(auth: { appId: \\"yourAppId\\", appSecret: \\"yourAppSecret\\" }, event: $event) { message code data } }",\n  "variables": {\n    "event": {\n      "md5": "{{ $md5 }}",\n      "pixelId": 1,\n      "domain": "example.com"\n    }\n  }\n}\n\n',
+                  '{\n  "query": "mutation HeroPixel($event: PagviewEventInput!) { pageview(auth: { appId: \\"yourAppId\\", appSecret: \\"yourAppSecret\\" }, event: $event) { message code data } }",\n  "variables": {\n    "event": {\n      "md5": "{{ $md5 }}",\n      "pixelId": 1,\n      "domain": "example.com"\n    }\n  }\n}\n',
               }),
             }),
             '\n',

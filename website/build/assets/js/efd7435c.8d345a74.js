@@ -1,4 +1,4 @@
-/*! For license information please see efd7435c.d59517ff.js.LICENSE.txt */
+/*! For license information please see efd7435c.8d345a74.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -39,7 +39,7 @@
     2540: (e, t, o) => {
       e.exports = o(2192);
     },
-    2459: (e, t, o) => {
+    500: (e, t, o) => {
       o.d(t, {A: () => r});
       const r =
         o.p + 'assets/images/dashboard-ss-11a77701dd63d9da67812603c2946645.png';
@@ -113,7 +113,7 @@
             (0, r.jsxs)(t.p, {
               children: [
                 (0, r.jsx)(t.img, {
-                  src: o(2459).A + '',
+                  src: o(500).A + '',
                   width: '4548',
                   height: '3220',
                 }),
