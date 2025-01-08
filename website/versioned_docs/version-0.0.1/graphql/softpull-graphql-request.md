@@ -42,8 +42,11 @@ Tracks a softpull event for analytics.
 #### Endpoint
 
 ```graphql
-mutation HeroPixel($event: SoftpullEventInput!) {
-  softpull(auth: {appId: "", appSecret: ""}, event: $event) {
+mutation HeroPixel(
+  $auth: AuthRequestInput!
+  $event: SoftpullEventInput!
+) {
+  softpull(auth: $auth, event: $event) {
     message
     code
     data
@@ -55,7 +58,7 @@ mutation HeroPixel($event: SoftpullEventInput!) {
 
 | Parameter | Type               | Required | Description                     |
 | --------- | ------------------ | -------- | ------------------------------- |
-| `auth`    | AuthInput          | Yes      | The authentication credentials. |
+| `auth`    | AuthRequestInput   | Yes      | The authentication credentials. |
 | `event`   | SoftpullEventInput | Yes      | Details of the softpull event.  |
 
 #### `SoftpullEventInput` Fields
@@ -82,8 +85,12 @@ mutation HeroPixel($event: SoftpullEventInput!) {
 
 ```json
 {
-  "query": "mutation HeroPixel($event: SoftpullEventInput!) { softpull(auth: { appId: \"yourAppIdHere\", appSecret: \"yourAppSecretHere\" }, event: $event) { message code data } }",
+  "query": "mutation HeroPixel($auth: AuthRequestInput!, $event: SoftpullEventInput!) { softpull(auth: $auth, event: $event) { message code data } }",
   "variables": {
+    "auth": {
+      "appId": "yourAppIdHere",
+      "appSecret": "yourAppSecretHere"
+    },
     "event": {
       "pixelId": 1,
       "email": "john@doe.com",
@@ -103,8 +110,12 @@ mutation HeroPixel($event: SoftpullEventInput!) {
 curl -X POST https://sweet-colt-9750.ddn.hasura.app/graphql \
 -H "Content-Type: application/json" \
 -d '{
-  "query": "mutation HeroPixel($event: SoftpullEventInput!) { softpull(auth: { appId: \"yourAppIdHere\", appSecret: \"yourAppSecretHere\" }, event: $event) { message code data } }",
+  "query": "mutation HeroPixel($auth: AuthRequestInput!, $event: SoftpullEventInput!) { softpull(auth: $auth, event: $event) { message code data } }",
   "variables": {
+    "auth": {
+      "appId": "yourAppIdHere",
+      "appSecret": "yourAppSecretHere"
+    },
     "event": {
       "pixelId": 1,
       "email": "john@doe.com",

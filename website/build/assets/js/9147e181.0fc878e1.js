@@ -1,4 +1,4 @@
-/*! For license information please see 9147e181.b9568e31.js.LICENSE.txt */
+/*! For license information please see 9147e181.0fc878e1.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -70,7 +70,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1736251418e3,
+          lastUpdatedAt: 1736305647e3,
           frontMatter: {
             id: 'basic-graphql-request',
             title: 'Basic GraphQL Request',
