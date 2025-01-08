@@ -197,7 +197,11 @@
     "Support": ["consentguard/consentguard-oss-license"]
   },
   "graphql": {
-    "GRAPHQL APIs": ["intro-to-graphql", "graphql/basic-graphql-request"]
+    "GRAPHQL APIs": [
+      "intro-to-graphql",
+      "graphql/basic-graphql-request",
+      "graphql/softpull-graphql-request"
+    ]
   },
   "rest": {
     "REST APIs": ["intro-to-rest"]
