@@ -1,10 +1,1 @@
-'use strict';
-(self.webpackChunkreact_native_website =
-  self.webpackChunkreact_native_website || []).push([
-  [2470],
-  {
-    2470: (e, t, s) => {
-      s.r(t);
-    },
-  },
-]);
+"use strict";(self.webpackChunkreact_native_website=self.webpackChunkreact_native_website||[]).push([[2470],{2470:(e,t,s)=>{s.r(t)}}]);

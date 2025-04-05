@@ -16,7 +16,7 @@ const commonDocsOptions = {
   showLastUpdateAuthor: false,
   showLastUpdateTime: true,
   // editUrl: 'https://github.com/Signal-ID/www-heropixel-com/blob/main/website/',
-  remarkPlugins: [require('@react-native-website/remark-snackplayer')],
+  remarkPlugins: [],
 };
 
 const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
