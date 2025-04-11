@@ -109,4 +109,4 @@
 /help         https://reactnative.dev/community/overview
 
 # Latest version might be linked to directly and should redirect
-/docs/0.0.1/*  /docs/:splat
+/docs/$LATEST_VERSION$/*  /docs/:splat
