@@ -22,25 +22,12 @@ This guide will walk you through reviewing the leads that you've receiving and t
 
 2. **Search or Filter Your Leads**
 
-   - Use the filter options on this page to narrow down the list of leads you're going to export.
-   - Remember that larger lists take more time.
-   - You'll receive all of the lead attributes in your exported document.
+   - Use the filter options on this page to narrow down the list of leads.
+   - You can filter by various attributes to find specific leads.
 
-3. **Click the EXPORT LEADS button**
-   - In the upper right of the page you'll find a black button to "Export Leads"
-   - This button will honor whatever you have set in your filters and should match exactly what you see in your lead list.
+## Integrations
 
-> When you've done this correctly you'll receive a notice at the top of your screen stating "Your leads are exporting". This process may take some time depending on the size of your list.
-
-## Or Integrate it with your ecosystem
-
-Here's a short list of integrations that we offer natively from HeroPixel Choose from any of these integrations and send the leads directly into your ecosystem without incurring additional charges. [See all Integrations](/docs/intro-to-integrations).
-
-## Troubleshooting
-
-- **Is Your Export Stalling?**
-  - Exports can take up to two hours depending on the number of customers that are exporting before you.
-  - If your export has taken longer than 6 hours, contact support.
+HeroPixel offers native integrations that allow you to automatically send leads to your ecosystem. [See all Integrations](/docs/intro-to-integrations).
 
 ## Support
 
