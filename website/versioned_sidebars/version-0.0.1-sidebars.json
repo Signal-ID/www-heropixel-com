@@ -200,7 +200,6 @@
     "GRAPHQL APIs": [
       "intro-to-graphql",
       "graphql/basic-graphql-request",
-      "graphql/softpull-graphql-request",
       "graphql/suppression-graphql-request"
     ]
   },
