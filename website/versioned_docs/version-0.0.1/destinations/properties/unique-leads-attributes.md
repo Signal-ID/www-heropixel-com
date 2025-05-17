@@ -39,9 +39,11 @@ Not all destinations support receiving all of this data. It's all available to s
 | `cat_owner`   | `0`, `1`      | boolean | Consumer's blue collar score    |
 | `child_aged_0_3_hh` | 0-9     | number  | How many children between 0 and 3 yrs of age within the HH    |
 | `child_aged_4_6_hh` | 0-9     | number  | How many children between 4 and 6 yrs of age within the HH    |
+| `child_aged_7_9_hh` | 0-9     | number  | How many children between 7 and 9 yrs of age within the HH    |
 | `child_aged_10_12_hh`  | 0-9     | number  | How many children between 10 and 12 yrs of age within the HH  |
 | `child_aged_13_18_hh`  | 0-9     | number  | How many children between 13 and 18 yrs of age within the HH  |
 | `created_at`  | -       | integer | The 10 digit epoch timestamp of the first Engagement on your website   |
+| `unique_id`  | -       | string | Unique identifier for the lead record   |
 | `credit_range`   | [see all](/docs/destinations/properties/credit-range-property)   | string  | Consumer's credit range      |
 | `credit_card` | `0`, `1`      | number  | Number of credit cards owned by the visitor    |
 | `credit_midpts`  | [see all](/docs/destinations/properties/credit-midpts-property)  | number  | Credit midpoints       |
@@ -75,6 +77,7 @@ Not all destinations support receiving all of this data. It's all available to s
 | `income_hh`   | [see all](/docs/destinations/properties/income-hh-property)   | string  | Household income       |
 | `income_levels`  | [see all](/docs/destinations/properties/income-levels-property)  | string  | Levels of income       |
 | `income_midpts_hh`  | [see all](/docs/destinations/properties/income-midpts-hh-property)  | number  | Midpoints of household income      |
+| `is_eu`   | `0`, `1`    | boolean | Is the user in Europe right now?   |
 | `investment_type`   | `0`, `1`      | number  | Types of investments owned by the visitor   |
 | `language`    | `en-US`       | string  |      | Browser language specification |
 | `Language`    | [see all](/docs/destinations/properties/hero-language-property)  | string  | Consumer's preferred language      |
@@ -123,9 +126,11 @@ Not all destinations support receiving all of this data. It's all available to s
 | `premium_card`   | `0`, `1`      | boolean | Whether visitor owns a premium card      |
 | `premium_income_hh` | [see all](/docs/destinations/properties/premium-income-hh-property) | number  | Premium household income     |
 | `premium_income_midpt_hh` | [see all](/docs/destinations/properties/premium-income-midpt-hh-property) | number  | Midpoint of premium household income     |
+| `political_contributor`   | `0`, `1`      | boolean | Whether visitor is a political contributor     |
 | `religion`    | [see all](/docs/destinations/properties/religion-property) | string  | Consumer's religion       |
 | `sha1`  | -       | string  | The SHA1 encryption of the users email   |
 | `sha2`  | -       | string  | The SHA2 encryption of the users email (perfect for ads)   |
+| `fingerprint` | -       | string  | Browser fingerprint identifier   |
 | `single_family_dwelling`  | `0`, `1`      | boolean | Single-family dwelling ordinal     |
 | `timestamp`   | `2024-06-07 10:18:36.749000`    | string  | The full timestamp taken at the time of engagement   |
 | `timezone`    | `America/Los_Angeles`     | string  | The full timestamp taken at the time of engagement   |
@@ -154,6 +159,10 @@ Not all destinations support receiving all of this data. It's all available to s
 | `utm_source` | -  | string  | The utm_source parameter you set in your marketing   |
 | `utm_term`   | -  | string  | The utm_term parameter you set in your marketing  |
 | `website_id` | 0-9999   | number  | The Pixel ID that identified the visitor    |
+| `url` | -  | string  | The URL where the lead was captured   |
+| `ip` | -  | string  | The IP address of the visitor   |
+| `event` | -  | string  | The event type that triggered the lead capture   |
+| `tcpa` | `0`, `1`  | boolean | Whether TCPA consent was provided   |
 
 ## Consumer Affinities
 
@@ -176,6 +185,7 @@ In general, it signifies a close relationship or a strong connection.
 | `trucks_affinity` | `0`, `1` | boolean | Consumer's affinity for trucks   |
 | `do_it_yourself_affinity`  | `0`, `1` | boolean | Consumer's affinity for Do-It-Yourself |
 | `dog_affinity` | `0`, `1` | boolean | Consumer's affinity for Dogs  |
+| `healthy_living_affinity` | `0`, `1` | boolean | Consumer's affinity for healthy living |
 
 ## Interests
 
@@ -199,8 +209,11 @@ Interests often reflect a person's personality, values, and lifestyle choices, a
 
 | Property    | Values   | Value Type | Description    |
 | ---- | -- | -- | -------- |
+| `_unmapped_data` | -  | string  | Additional data that doesn't map to defined fields   |
+| `team_id` | 0-9999999  | number  | The team identifier associated with the lead   |
 | `aerobics`  | `0`, `1` | boolean | Does the consumer like aerobics?    |
 | `antiques`  | `0`, `1` | boolean | Does the consumer like Antiques?    |
+| `cars_interest`  | `0`, `1` | boolean | Consumer's interest in Cars   |
 | `arts_and_crafts` | `0`, `1` | boolean | Does the consumer like Arts and Crafts?   |
 | `baseball`  | `0`, `1` | boolean | Does the consumer like Baseball?    |
 | `basketball`   | `0`, `1` | boolean | Does the consumer like Basketball?  |
@@ -244,6 +257,9 @@ Interests often reflect a person's personality, values, and lifestyle choices, a
 | `truck_owner`  | `0`, `1` | boolean | Whether visitor owns a truck     |
 | `walking`   | `0`, `1` | boolean | Whether visitor is interested in walking  |
 | `woodworking`  | `0`, `1` | boolean | Whether visitor is interested in woodworking    |
+| `aerobics`  | `0`, `1` | boolean | Whether visitor is interested in aerobics    |
+| `antiques`  | `0`, `1` | boolean | Whether visitor is interested in antiques    |
+| `sports_memoribilia_collector` | `0`, `1` | boolean | Whether visitor collects sports memorabilia |
 
 ## Collectors
 
