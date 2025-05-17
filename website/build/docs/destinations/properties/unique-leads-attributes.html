@@ -136,8 +136,8 @@
     <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
     <script src="/js/heropixel.js" async></script>
     <link rel="stylesheet" href="/assets/css/styles.dac24a43.css" />
-    <script src="/assets/js/runtime~main.3ec8f9eb.js" defer="defer"></script>
-    <script src="/assets/js/main.57285433.js" defer="defer"></script>
+    <script src="/assets/js/runtime~main.1f4958c9.js" defer="defer"></script>
+    <script src="/assets/js/main.6ea61b40.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -626,39 +626,10 @@
                                 <td>Whether visitor owns an Amex card</td>
                               </tr>
                               <tr>
-                                <td><code>address_type</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/address-type-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Type of Consumer&#x27;s address</td>
-                              </tr>
-                              <tr>
                                 <td><code>bank_card</code></td>
                                 <td><code>0</code>, <code>1</code></td>
                                 <td>boolean</td>
                                 <td>Whether visitor owns a bank card</td>
-                              </tr>
-                              <tr>
-                                <td><code>birth_month_and_year</code></td>
-                                <td><code>1951-10-19</code></td>
-                                <td>string</td>
-                                <td>Consumer&#x27;s birth date</td>
-                              </tr>
-                              <tr>
-                                <td><code>birth_year</code></td>
-                                <td>YYYY</td>
-                                <td>number</td>
-                                <td>Consumer&#x27;s birth year</td>
-                              </tr>
-                              <tr>
-                                <td><code>blue_collar</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Consumer&#x27;s blue collar score</td>
                               </tr>
                               <tr>
                                 <td><code>cat_owner</code></td>
@@ -681,6 +652,15 @@
                                 <td>number</td>
                                 <td>
                                   How many children between 4 and 6 yrs of age
+                                  within the HH
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><code>child_aged_7_9_hh</code></td>
+                                <td>0-9</td>
+                                <td>number</td>
+                                <td>
+                                  How many children between 7 and 9 yrs of age
                                   within the HH
                                 </td>
                               </tr>
@@ -712,6 +692,12 @@
                                 </td>
                               </tr>
                               <tr>
+                                <td><code>unique_id</code></td>
+                                <td>-</td>
+                                <td>string</td>
+                                <td>Unique identifier for the lead record</td>
+                              </tr>
+                              <tr>
                                 <td><code>credit_range</code></td>
                                 <td>
                                   <a
@@ -721,25 +707,6 @@
                                 </td>
                                 <td>string</td>
                                 <td>Consumer&#x27;s credit range</td>
-                              </tr>
-                              <tr>
-                                <td><code>credit_card</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>
-                                  Number of credit cards owned by the visitor
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>credit_midpts</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/credit-midpts-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Credit midpoints</td>
                               </tr>
                               <tr>
                                 <td><code>custom_one</code></td>
@@ -826,58 +793,6 @@
                                 <td>Consumer&#x27;s education level</td>
                               </tr>
                               <tr>
-                                <td><code>education_ordinal</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/education-ordinal-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Consumer&#x27;s education ordinal</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_detail</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/ethnicity-detail-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>string</td>
-                                <td>Detailed ethnicity of the visitor</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_white</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>White ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_african_american</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>African American ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_hispanic</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Hispanic ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_asian</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Asian ethnicity</td>
-                              </tr>
-                              <tr>
-                                <td><code>ethnicity_jewish</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>string</td>
-                                <td>Jewish ethnicity</td>
-                              </tr>
-                              <tr>
                                 <td><code>gender</code></td>
                                 <td><code>Male</code>, <code>Female</code></td>
                                 <td>string</td>
@@ -915,17 +830,6 @@
                                 </td>
                                 <td>string</td>
                                 <td>Whether visitor is a homeowner</td>
-                              </tr>
-                              <tr>
-                                <td><code>home_owner_ordinal</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/home-owner-ordinal-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Homeowner ordinal</td>
                               </tr>
                               <tr>
                                 <td><code>home_heat_type</code></td>
@@ -1007,18 +911,16 @@
                                 <td>Midpoints of household income</td>
                               </tr>
                               <tr>
-                                <td><code>investment_type</code></td>
+                                <td><code>is_eu</code></td>
                                 <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>
-                                  Types of investments owned by the visitor
-                                </td>
+                                <td>boolean</td>
+                                <td>Is the user in Europe right now?</td>
                               </tr>
                               <tr>
                                 <td><code>language</code></td>
                                 <td><code>en-US</code></td>
                                 <td>string</td>
-                                <td></td>
+                                <td>Browser language specification</td>
                               </tr>
                               <tr>
                                 <td><code>Language</code></td>
@@ -1053,12 +955,6 @@
                                 </td>
                               </tr>
                               <tr>
-                                <td><code>length_of_residence</code></td>
-                                <td>0-99</td>
-                                <td>number</td>
-                                <td>Length of residence</td>
-                              </tr>
-                              <tr>
                                 <td><code>marital_status</code></td>
                                 <td>
                                   <a
@@ -1076,20 +972,6 @@
                                 <td>
                                   32 Character MD5 encrypted hash of their email
                                 </td>
-                              </tr>
-                              <tr>
-                                <td><code>median_home_value</code></td>
-                                <td>0-999999</td>
-                                <td>number</td>
-                                <td>
-                                  Median value of homes in Consumer&#x27;s area
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>median_income</code></td>
-                                <td>0-250000</td>
-                                <td>number</td>
-                                <td>Median income of Consumer&#x27;s area</td>
                               </tr>
                               <tr>
                                 <td><code>mortgage_age</code></td>
@@ -1159,17 +1041,6 @@
                                 <td>Household net worth</td>
                               </tr>
                               <tr>
-                                <td><code>net_worth_midpt_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/net-worth-midpt-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Midpoint of household net worth</td>
-                              </tr>
-                              <tr>
                                 <td><code>new_credit_offered_hh</code></td>
                                 <td><code>0</code>, <code>1</code></td>
                                 <td>boolean</td>
@@ -1188,12 +1059,6 @@
                                 <td>0-8</td>
                                 <td>number</td>
                                 <td>Number of children in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>num_generations_hh</code></td>
-                                <td>0-3</td>
-                                <td>number</td>
-                                <td>Number of generations in the household</td>
                               </tr>
                               <tr>
                                 <td><code>num_persons_hh</code></td>
@@ -1238,12 +1103,6 @@
                                 <td><code>0</code>, <code>1</code></td>
                                 <td>boolean</td>
                                 <td>Whether visitor owns stocks and bonds</td>
-                              </tr>
-                              <tr>
-                                <td><code>owns_swimming_pool</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>Whether visitor owns a swimming pool</td>
                               </tr>
                               <tr>
                                 <td><code>pet_owner</code></td>
@@ -1395,17 +1254,6 @@
                                 <td>Premium household income</td>
                               </tr>
                               <tr>
-                                <td><code>premium_income_midpt_hh</code></td>
-                                <td>
-                                  <a
-                                    href="/docs/destinations/properties/premium-income-midpt-hh-property"
-                                    >see all</a
-                                  >
-                                </td>
-                                <td>number</td>
-                                <td>Midpoint of premium household income</td>
-                              </tr>
-                              <tr>
                                 <td><code>religion</code></td>
                                 <td>
                                   <a
@@ -1432,10 +1280,10 @@
                                 </td>
                               </tr>
                               <tr>
-                                <td><code>single_family_dwelling</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>Single-family dwelling ordinal</td>
+                                <td><code>fingerprint</code></td>
+                                <td>-</td>
+                                <td>string</td>
+                                <td>Browser fingerprint identifier</td>
                               </tr>
                               <tr>
                                 <td><code>timestamp</code></td>
@@ -1471,12 +1319,6 @@
                                 <td><code>0</code>, <code>1</code></td>
                                 <td>string</td>
                                 <td>Veteran status in the household</td>
-                              </tr>
-                              <tr>
-                                <td><code>white_collar</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>number</td>
-                                <td>White-collar worker ordinal</td>
                               </tr>
                             </tbody>
                           </table>
@@ -1639,6 +1481,32 @@
                                   The Pixel ID that identified the visitor
                                 </td>
                               </tr>
+                              <tr>
+                                <td><code>url</code></td>
+                                <td>-</td>
+                                <td>string</td>
+                                <td>The URL where the lead was captured</td>
+                              </tr>
+                              <tr>
+                                <td><code>ip</code></td>
+                                <td>-</td>
+                                <td>string</td>
+                                <td>The IP address of the visitor</td>
+                              </tr>
+                              <tr>
+                                <td><code>event</code></td>
+                                <td>-</td>
+                                <td>string</td>
+                                <td>
+                                  The event type that triggered the lead capture
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><code>tcpa</code></td>
+                                <td><code>0</code>, <code>1</code></td>
+                                <td>boolean</td>
+                                <td>Whether TCPA consent was provided</td>
+                              </tr>
                             </tbody>
                           </table>
                           <h2
@@ -1761,6 +1629,14 @@
                                 <td>boolean</td>
                                 <td>Consumer&#x27;s affinity for Dogs</td>
                               </tr>
+                              <tr>
+                                <td><code>healthy_living_affinity</code></td>
+                                <td><code>0</code>, <code>1</code></td>
+                                <td>boolean</td>
+                                <td>
+                                  Consumer&#x27;s affinity for healthy living
+                                </td>
+                              </tr>
                             </tbody>
                           </table>
                           <h2
@@ -1834,23 +1710,6 @@
                                 <td>boolean</td>
                                 <td>Consumer&#x27;s interest in Cars</td>
                               </tr>
-                              <tr>
-                                <td><code>charity_interest</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Consumer&#x27;s interest in charities, either
-                                  participating or contributing.
-                                </td>
-                              </tr>
-                              <tr>
-                                <td><code>healthy_living_interest</code></td>
-                                <td><code>0</code>, <code>1</code></td>
-                                <td>boolean</td>
-                                <td>
-                                  Consumer&#x27;s interest in healthy living
-                                </td>
-                              </tr>
                             </tbody>
                           </table>
                           <h2
@@ -1876,6 +1735,23 @@
                             </thead>
                             <tbody>
                               <tr>
+                                <td><code>_unmapped_data</code></td>
+                                <td>-</td>
+                                <td>string</td>
+                                <td>
+                                  Additional data that doesn&#x27;t map to
+                                  defined fields
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><code>team_id</code></td>
+                                <td>0-9999999</td>
+                                <td>number</td>
+                                <td>
+                                  The team identifier associated with the lead
+                                </td>
+                              </tr>
+                              <tr>
                                 <td><code>aerobics</code></td>
                                 <td><code>0</code>, <code>1</code></td>
                                 <td>boolean</td>
@@ -1886,6 +1762,12 @@
                                 <td><code>0</code>, <code>1</code></td>
                                 <td>boolean</td>
                                 <td>Does the consumer like Antiques?</td>
+                              </tr>
+                              <tr>
+                                <td><code>cars_interest</code></td>
+                                <td><code>0</code>, <code>1</code></td>
+                                <td>boolean</td>
+                                <td>Consumer&#x27;s interest in Cars</td>
                               </tr>
                               <tr>
                                 <td><code>arts_and_crafts</code></td>
@@ -2198,6 +2080,32 @@
                                   Whether visitor is interested in woodworking
                                 </td>
                               </tr>
+                              <tr>
+                                <td><code>aerobics</code></td>
+                                <td><code>0</code>, <code>1</code></td>
+                                <td>boolean</td>
+                                <td>
+                                  Whether visitor is interested in aerobics
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><code>antiques</code></td>
+                                <td><code>0</code>, <code>1</code></td>
+                                <td>boolean</td>
+                                <td>
+                                  Whether visitor is interested in antiques
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>sports_memoribilia_collector</code>
+                                </td>
+                                <td><code>0</code>, <code>1</code></td>
+                                <td>boolean</td>
+                                <td>
+                                  Whether visitor collects sports memorabilia
+                                </td>
+                              </tr>
                             </tbody>
                           </table>
                           <h2
@@ -2256,9 +2164,9 @@
                                 on
                                 <b
                                   ><time
-                                    datetime="2024-08-30T03:58:34.000Z"
+                                    datetime="2025-05-17T00:53:39.000Z"
                                     itemprop="dateModified"
-                                    >Aug 30, 2024</time
+                                    >May 17, 2025</time
                                   ></b
                                 ></span
                               >
