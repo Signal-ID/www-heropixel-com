@@ -1,4 +1,4 @@
-/*! For license information please see cbda5d25.82fe955d.js.LICENSE.txt */
+/*! For license information please see cbda5d25.277ae3b9.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -78,8 +78,8 @@
           },
           sidebar: 'graphql',
           previous: {
-            title: 'Basic GraphQL Request',
-            permalink: '/docs/graphql/basic-graphql-request',
+            title: 'Super Leads GraphQL Request',
+            permalink: '/docs/graphql/super-leads-graphql-request',
           },
         },
         o = {},

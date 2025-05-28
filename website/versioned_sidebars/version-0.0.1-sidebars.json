@@ -200,6 +200,7 @@
     "GRAPHQL APIs": [
       "intro-to-graphql",
       "graphql/basic-graphql-request",
+      "graphql/super-leads-graphql-request",
       "graphql/suppression-graphql-request"
     ]
   },
