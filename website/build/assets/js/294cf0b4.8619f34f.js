@@ -1,4 +1,4 @@
-/*! For license information please see 294cf0b4.08e61877.js.LICENSE.txt */
+/*! For license information please see 294cf0b4.8619f34f.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -78,8 +78,8 @@
           },
           sidebar: 'graphql',
           previous: {
-            title: 'Enrichment GraphQL Request',
-            permalink: '/docs/graphql/enrichment-graphql-request',
+            title: 'Lead Capture GraphQL Request',
+            permalink: '/docs/graphql/leadcapture-graphql-request',
           },
           next: {
             title: 'Suppression GraphQL Request',

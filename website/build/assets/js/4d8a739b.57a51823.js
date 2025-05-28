@@ -1,4 +1,4 @@
-/*! For license information please see 4d8a739b.0c65ac98.js.LICENSE.txt */
+/*! For license information please see 4d8a739b.57a51823.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -72,7 +72,7 @@
           unlisted: !1,
           tags: [],
           version: '0.0.1',
-          lastUpdatedAt: 1748448408e3,
+          lastUpdatedAt: 1748450196e3,
           frontMatter: {
             id: 'enrichment-graphql-request',
             title: 'Enrichment GraphQL Request',
@@ -85,8 +85,8 @@
             permalink: '/docs/graphql/basic-graphql-request',
           },
           next: {
-            title: 'Super Leads GraphQL Request',
-            permalink: '/docs/graphql/super-leads-graphql-request',
+            title: 'Lead Capture GraphQL Request',
+            permalink: '/docs/graphql/leadcapture-graphql-request',
           },
         },
         l = {},
