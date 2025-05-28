@@ -143,7 +143,7 @@ mutation ApiLeadsSuper(
 
 ```json
 {
-  "query": "mutation ApiLeadsSuper($auth: AuthRequestInput!, $event: ApiLeadsEventInput!) { apiLeadsSuper(auth: { appId: \"yourAppIdHere\", appSecret: \"yourAppSecretHere\" }, event: $event) { message code data } }",
+  "query": "mutation ApiLeadsSuper($auth: AuthRequestInput!, $event: ApiLeadsEventInput!) { apiLeadsSuper(auth: $auth, event: $event) { message code data } }",
   "variables": {
     "auth": {
       "appId": "yourAppIdHere",
@@ -166,7 +166,7 @@ mutation ApiLeadsSuper(
 curl -X POST https://sweet-colt-9750.ddn.hasura.app/graphql \
 -H "Content-Type: application/json" \
 -d '{
-  "query": "mutation ApiLeadsSuper($auth: AuthRequestInput!, $event: ApiLeadsEventInput!) { apiLeadsSuper(auth: { appId: \"yourAppIdHere\", appSecret: \"yourAppSecretHere\" }, event: $event) { message code data } }",
+  "query": "mutation ApiLeadsSuper($auth: AuthRequestInput!, $event: ApiLeadsEventInput!) { apiLeadsSuper(auth: $auth, event: $event) { message code data } }",
   "variables": {
     "auth": {
       "appId": "yourAppIdHere",
