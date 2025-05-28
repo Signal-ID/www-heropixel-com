@@ -64,14 +64,64 @@ mutation Enrichment(
 
 #### `EnrichmentEventInput` Fields
 
-| Field        | Type   | Required | Description                  |
-| ------------ | ------ | -------- | ---------------------------- |
-| `pixelId`    | Int    | Yes      | The unique ID for the pixel. |
-| `email`      | String | No       | Email address of the user.   |
-| `phone`      | String | No       | Phone number of the user.    |
-| `md5`        | String | No       | MD5 hash for identification. |
-| `first_name` | String | No       | First name of the lead.      |
-| `last_name`  | String | No       | Last name of the lead.       |
+| Field              | Type    | Required | Description                          |
+| ------------------ | ------- | -------- | ------------------------------------ |
+| `md5`              | String  | Yes      | MD5 hash for identification.         |
+| `pixel_id`         | Int     | Yes      | The unique ID for the pixel.         |
+| `domain`           | String  | No       | The domain where the event occurred. |
+| `pusher_channel`   | String  | No       | Pusher channel identifier.           |
+| `tcpa`             | Int     | No       | TCPA compliance flag.                |
+| `phone`            | String  | No       | Phone number of the user.            |
+| `email`            | String  | No       | Email address of the user.           |
+| `hem`              | String  | No       | HEM identifier.                      |
+| `request_id`       | String  | No       | Unique request identifier.           |
+| `as`               | String  | No       | AS identifier.                       |
+| `canonical`        | String  | No       | Canonical URL.                       |
+| `city`             | String  | No       | City of the user.                    |
+| `country`          | String  | No       | Country of the user.                 |
+| `description`      | String  | No       | Description of the event.            |
+| `ip`               | String  | No       | IP address of the user.              |
+| `isp`              | String  | No       | Internet Service Provider.           |
+| `language`         | String  | No       | Language preference of the user.     |
+| `lat`              | Float   | No       | Latitude coordinate.                 |
+| `lon`              | Float   | No       | Longitude coordinate.                |
+| `org`              | String  | No       | Organization.                        |
+| `referrer`         | String  | No       | Referring URL.                       |
+| `timestamp`        | Int     | No       | Timestamp of the event.              |
+| `timezone`         | String  | No       | Timezone of the user.                |
+| `title`            | String  | No       | Page title.                          |
+| `url`              | String  | No       | Current URL.                         |
+| `sessionid`        | String  | No       | Session identifier.                  |
+| `zip`              | String  | No       | ZIP/Postal code.                     |
+| `age`              | String  | No       | Age of the user.                     |
+| `gender`           | String  | No       | Gender of the user.                  |
+| `sha1`             | String  | No       | SHA-1 hash.                          |
+| `sha2`             | String  | No       | SHA-2 hash.                          |
+| `nonId`            | String  | No       | Non-ID identifier.                   |
+| `utm_source`       | String  | No       | UTM source parameter.                |
+| `utm_medium`       | String  | No       | UTM medium parameter.                |
+| `utm_campaign`     | String  | No       | UTM campaign parameter.              |
+| `utm_term`         | String  | No       | UTM term parameter.                  |
+| `utm_content`      | String  | No       | UTM content parameter.               |
+| `os`               | String  | No       | Operating system.                    |
+| `fingerprint`      | String  | No       | Browser fingerprint.                 |
+| `user_agent`       | String  | No       | User agent string.                   |
+| `browser`          | String  | No       | Browser name and version.            |
+| `device_type`      | String  | No       | Type of device.                      |
+| `resolution`       | String  | No       | Screen resolution.                   |
+| `event`            | String  | No       | Event type.                          |
+| `region_name`      | String  | No       | Region/state name.                   |
+| `country_code`     | String  | No       | Country code.                        |
+| `unique_id`        | String  | No       | Unique identifier.                   |
+| `is_new_session`   | Boolean | No       | Whether this is a new session.       |
+| `is_eu`            | Boolean | No       | Whether the user is in the EU.       |
+| `referring_domain` | String  | No       | Referring domain.                    |
+| `inner_resolution` | String  | No       | Inner window resolution.             |
+| `custom_one`       | String  | No       | Custom field one.                    |
+| `custom_two`       | String  | No       | Custom field two.                    |
+| `custom_three`     | String  | No       | Custom field three.                  |
+| `custom_four`      | String  | No       | Custom field four.                   |
+| `custom_five`      | String  | No       | Custom field five.                   |
 
 #### Example Request
 

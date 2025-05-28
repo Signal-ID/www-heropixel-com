@@ -138,8 +138,8 @@
     <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
     <script src="/js/heropixel.js" async></script>
     <link rel="stylesheet" href="/assets/css/styles.dac24a43.css" />
-    <script src="/assets/js/runtime~main.f6309ec8.js" defer="defer"></script>
-    <script src="/assets/js/main.3457d6ea.js" defer="defer"></script>
+    <script src="/assets/js/runtime~main.74698543.js" defer="defer"></script>
+    <script src="/assets/js/main.2be11262.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -762,16 +762,34 @@
                             </thead>
                             <tbody>
                               <tr>
-                                <td><code>pixelId</code></td>
+                                <td><code>md5</code></td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>MD5 hash for identification.</td>
+                              </tr>
+                              <tr>
+                                <td><code>pixel_id</code></td>
                                 <td>Int</td>
                                 <td>Yes</td>
                                 <td>The unique ID for the pixel.</td>
                               </tr>
                               <tr>
-                                <td><code>email</code></td>
+                                <td><code>domain</code></td>
                                 <td>String</td>
                                 <td>No</td>
-                                <td>Email address of the user.</td>
+                                <td>The domain where the event occurred.</td>
+                              </tr>
+                              <tr>
+                                <td><code>pusher_channel</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Pusher channel identifier.</td>
+                              </tr>
+                              <tr>
+                                <td><code>tcpa</code></td>
+                                <td>Int</td>
+                                <td>No</td>
+                                <td>TCPA compliance flag.</td>
                               </tr>
                               <tr>
                                 <td><code>phone</code></td>
@@ -780,22 +798,304 @@
                                 <td>Phone number of the user.</td>
                               </tr>
                               <tr>
-                                <td><code>md5</code></td>
+                                <td><code>email</code></td>
                                 <td>String</td>
                                 <td>No</td>
-                                <td>MD5 hash for identification.</td>
+                                <td>Email address of the user.</td>
                               </tr>
                               <tr>
-                                <td><code>first_name</code></td>
+                                <td><code>hem</code></td>
                                 <td>String</td>
                                 <td>No</td>
-                                <td>First name of the lead.</td>
+                                <td>HEM identifier.</td>
                               </tr>
                               <tr>
-                                <td><code>last_name</code></td>
+                                <td><code>request_id</code></td>
                                 <td>String</td>
                                 <td>No</td>
-                                <td>Last name of the lead.</td>
+                                <td>Unique request identifier.</td>
+                              </tr>
+                              <tr>
+                                <td><code>as</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>AS identifier.</td>
+                              </tr>
+                              <tr>
+                                <td><code>canonical</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Canonical URL.</td>
+                              </tr>
+                              <tr>
+                                <td><code>city</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>City of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>country</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Country of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>description</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Description of the event.</td>
+                              </tr>
+                              <tr>
+                                <td><code>ip</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>IP address of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>isp</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Internet Service Provider.</td>
+                              </tr>
+                              <tr>
+                                <td><code>language</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Language preference of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>lat</code></td>
+                                <td>Float</td>
+                                <td>No</td>
+                                <td>Latitude coordinate.</td>
+                              </tr>
+                              <tr>
+                                <td><code>lon</code></td>
+                                <td>Float</td>
+                                <td>No</td>
+                                <td>Longitude coordinate.</td>
+                              </tr>
+                              <tr>
+                                <td><code>org</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Organization.</td>
+                              </tr>
+                              <tr>
+                                <td><code>referrer</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Referring URL.</td>
+                              </tr>
+                              <tr>
+                                <td><code>timestamp</code></td>
+                                <td>Int</td>
+                                <td>No</td>
+                                <td>Timestamp of the event.</td>
+                              </tr>
+                              <tr>
+                                <td><code>timezone</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Timezone of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>title</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Page title.</td>
+                              </tr>
+                              <tr>
+                                <td><code>url</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Current URL.</td>
+                              </tr>
+                              <tr>
+                                <td><code>sessionid</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Session identifier.</td>
+                              </tr>
+                              <tr>
+                                <td><code>zip</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>ZIP/Postal code.</td>
+                              </tr>
+                              <tr>
+                                <td><code>age</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Age of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>gender</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Gender of the user.</td>
+                              </tr>
+                              <tr>
+                                <td><code>sha1</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>SHA-1 hash.</td>
+                              </tr>
+                              <tr>
+                                <td><code>sha2</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>SHA-2 hash.</td>
+                              </tr>
+                              <tr>
+                                <td><code>nonId</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Non-ID identifier.</td>
+                              </tr>
+                              <tr>
+                                <td><code>utm_source</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>UTM source parameter.</td>
+                              </tr>
+                              <tr>
+                                <td><code>utm_medium</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>UTM medium parameter.</td>
+                              </tr>
+                              <tr>
+                                <td><code>utm_campaign</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>UTM campaign parameter.</td>
+                              </tr>
+                              <tr>
+                                <td><code>utm_term</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>UTM term parameter.</td>
+                              </tr>
+                              <tr>
+                                <td><code>utm_content</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>UTM content parameter.</td>
+                              </tr>
+                              <tr>
+                                <td><code>os</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Operating system.</td>
+                              </tr>
+                              <tr>
+                                <td><code>fingerprint</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Browser fingerprint.</td>
+                              </tr>
+                              <tr>
+                                <td><code>user_agent</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>User agent string.</td>
+                              </tr>
+                              <tr>
+                                <td><code>browser</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Browser name and version.</td>
+                              </tr>
+                              <tr>
+                                <td><code>device_type</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Type of device.</td>
+                              </tr>
+                              <tr>
+                                <td><code>resolution</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Screen resolution.</td>
+                              </tr>
+                              <tr>
+                                <td><code>event</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Event type.</td>
+                              </tr>
+                              <tr>
+                                <td><code>region_name</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Region/state name.</td>
+                              </tr>
+                              <tr>
+                                <td><code>country_code</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Country code.</td>
+                              </tr>
+                              <tr>
+                                <td><code>unique_id</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Unique identifier.</td>
+                              </tr>
+                              <tr>
+                                <td><code>is_new_session</code></td>
+                                <td>Boolean</td>
+                                <td>No</td>
+                                <td>Whether this is a new session.</td>
+                              </tr>
+                              <tr>
+                                <td><code>is_eu</code></td>
+                                <td>Boolean</td>
+                                <td>No</td>
+                                <td>Whether the user is in the EU.</td>
+                              </tr>
+                              <tr>
+                                <td><code>referring_domain</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Referring domain.</td>
+                              </tr>
+                              <tr>
+                                <td><code>inner_resolution</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Inner window resolution.</td>
+                              </tr>
+                              <tr>
+                                <td><code>custom_one</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Custom field one.</td>
+                              </tr>
+                              <tr>
+                                <td><code>custom_two</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Custom field two.</td>
+                              </tr>
+                              <tr>
+                                <td><code>custom_three</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Custom field three.</td>
+                              </tr>
+                              <tr>
+                                <td><code>custom_four</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Custom field four.</td>
+                              </tr>
+                              <tr>
+                                <td><code>custom_five</code></td>
+                                <td>String</td>
+                                <td>No</td>
+                                <td>Custom field five.</td>
                               </tr>
                             </tbody>
                           </table>
@@ -1093,6 +1393,24 @@
                             >.
                           </p>
                         </div>
+                        <footer class="theme-doc-footer docusaurus-mt-lg">
+                          <div class="theme-doc-footer-edit-meta-row row">
+                            <div class="col"></div>
+                            <div class="col lastUpdated_VsjB">
+                              <span class="theme-last-updated"
+                                >Last updated<!-- -->
+                                on
+                                <b
+                                  ><time
+                                    datetime="2025-05-28T16:06:48.000Z"
+                                    itemprop="dateModified"
+                                    >May 28, 2025</time
+                                  ></b
+                                ></span
+                              >
+                            </div>
+                          </div>
+                        </footer>
                       </article>
                       <nav
                         class="pagination-nav docusaurus-mt-lg"
