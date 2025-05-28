@@ -34,9 +34,9 @@ Tracks a pageview event for analytics.
 #### Endpoint
 
 ```graphql
-mutation HeroPixel(
+mutation Pageview(
   $auth: AuthRequestInput!
-  $event: PageviewEventInput!
+  $event: PagviewEventInput!
 ) {
   pageview(auth: $auth, event: $event) {
     message
@@ -48,12 +48,12 @@ mutation HeroPixel(
 
 #### Parameters
 
-| Parameter | Type               | Required | Description                     |
-| --------- | ------------------ | -------- | ------------------------------- |
-| `auth`    | AuthInput          | Yes      | The authentication credentials. |
-| `event`   | PageviewEventInput | Yes      | Details of the pageview event.  |
+| Parameter | Type              | Required | Description                     |
+| --------- | ----------------- | -------- | ------------------------------- |
+| `auth`    | AuthInput         | Yes      | The authentication credentials. |
+| `event`   | PagviewEventInput | Yes      | Details of the pageview event.  |
 
-#### `PageviewEventInput` Fields
+#### `PagviewEventInput` Fields
 
 | Field              | Type    | Required | Description                          |
 | ------------------ | ------- | -------- | ------------------------------------ |
@@ -118,7 +118,7 @@ mutation HeroPixel(
 
 ```json
 {
-  "query": "mutation HeroPixel($auth: AuthRequestInput!, $event: PageviewEventInput!) { pageview(auth: $auth, event: $event) { code data message } }",
+  "query": "mutation Pageview($auth: AuthRequestInput!, $event: PagviewEventInput!) { pageview(auth: $auth, event: $event) { code data message } }",
   "variables": {
     "auth": {
       "appId": "yourAppIdHere",
@@ -139,7 +139,7 @@ mutation HeroPixel(
 curl -X POST https://sweet-colt-9750.ddn.hasura.app/graphql \
 -H "Content-Type: application/json" \
 -d '{
-  "query": "mutation HeroPixel($auth: AuthRequestInput!, $event: PageviewEventInput!) { pageview(auth: $auth, event: $event) { code data message } }",
+  "query": "mutation Pageview($auth: AuthRequestInput!, $event: PagviewEventInput!) { pageview(auth: $auth, event: $event) { code data message } }",
   "variables": {
     "auth": {
       "appId": "yourAppIdHere",
