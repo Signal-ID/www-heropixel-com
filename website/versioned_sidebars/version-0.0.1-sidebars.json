@@ -202,6 +202,7 @@
       "graphql/basic-graphql-request",
       "graphql/enrichment-graphql-request",
       "graphql/leadcapture-graphql-request",
+      "graphql/email-graphql-request",
       "graphql/super-leads-graphql-request",
       "graphql/suppression-graphql-request"
     ]

@@ -1,4 +1,4 @@
-/*! For license information please see 4d3de177.2cfbac9e.js.LICENSE.txt */
+/*! For license information please see 4d3de177.eb82f323.js.LICENSE.txt */
 'use strict';
 (self.webpackChunkreact_native_website =
   self.webpackChunkreact_native_website || []).push([
@@ -83,8 +83,8 @@
             permalink: '/docs/graphql/enrichment-graphql-request',
           },
           next: {
-            title: 'Super Leads GraphQL Request',
-            permalink: '/docs/graphql/super-leads-graphql-request',
+            title: 'Email Opt-in GraphQL Request',
+            permalink: '/docs/graphql/email-graphql-request',
           },
         },
         l = {},
