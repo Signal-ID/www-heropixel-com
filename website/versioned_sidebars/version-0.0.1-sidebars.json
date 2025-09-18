@@ -200,6 +200,7 @@
     "GRAPHQL APIs": [
       "intro-to-graphql",
       "graphql/basic-graphql-request",
+      "graphql/domains-graphql-request",
       "graphql/enrichment-graphql-request",
       "graphql/leadcapture-graphql-request",
       "graphql/email-graphql-request",

@@ -1,298 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr" data-has-hydrated="false">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="generator" content="Docusaurus v3.2.0" />
-    <title data-rh="true">HeroPixel by Signal ID</title>
-    <meta data-rh="true" property="og:title" content="HeroPixel by Signal ID" />
-    <meta
-      data-rh="true"
-      name="viewport"
-      content="width=device-width,initial-scale=1"
-    />
-    <meta
-      data-rh="true"
-      property="og:url"
-      content="https://heropixel.com/docs/Integrations"
-    />
-    <meta data-rh="true" property="og:locale" content="en" />
-    <meta data-rh="true" name="docusaurus_locale" content="en" />
-    <meta data-rh="true" name="docusaurus_tag" content="default" />
-    <meta data-rh="true" name="docsearch:language" content="en" />
-    <meta data-rh="true" name="docsearch:docusaurus_tag" content="default" />
-    <meta
-      data-rh="true"
-      property="og:image"
-      content="https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
-    />
-    <meta data-rh="true" name="twitter:card" content="summary_large_image" />
-    <meta
-      data-rh="true"
-      name="twitter:image"
-      content="https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
-    />
-    <meta data-rh="true" name="twitter:site" content="@reactnative" />
-    <link data-rh="true" rel="icon" href="/img/heropixel/hero-pixel-icon.png" />
-    <link
-      data-rh="true"
-      rel="canonical"
-      href="https://heropixel.com/docs/Integrations"
-    />
-    <link
-      data-rh="true"
-      rel="alternate"
-      href="https://heropixel.com/docs/Integrations"
-      hreflang="en"
-    />
-    <link
-      data-rh="true"
-      rel="alternate"
-      href="https://heropixel.com/docs/Integrations"
-      hreflang="x-default"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      href="/blog/rss.xml"
-      title="HeroPixel by Signal ID RSS Feed"
-    />
-    <link
-      rel="alternate"
-      type="application/atom+xml"
-      href="/blog/atom.xml"
-      title="HeroPixel by Signal ID Atom Feed"
-    />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="/blog/feed.json"
-      title="HeroPixel by Signal ID JSON Feed"
-    />
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.2.0">
+<title data-rh="true">HeroPixel by Signal ID</title><meta data-rh="true" property="og:title" content="HeroPixel by Signal ID"><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:url" content="https://heropixel.com/docs/Integrations"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:image" content="https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:image" content="https://heropixel.com/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"><meta data-rh="true" name="twitter:site" content="@reactnative"><link data-rh="true" rel="icon" href="/img/heropixel/hero-pixel-icon.png"><link data-rh="true" rel="canonical" href="https://heropixel.com/docs/Integrations"><link data-rh="true" rel="alternate" href="https://heropixel.com/docs/Integrations" hreflang="en"><link data-rh="true" rel="alternate" href="https://heropixel.com/docs/Integrations" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="HeroPixel by Signal ID RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="HeroPixel by Signal ID Atom Feed">
+<link rel="alternate" type="application/json" href="/blog/feed.json" title="HeroPixel by Signal ID JSON Feed">
 
-    <link
-      rel="search"
-      type="application/opensearchdescription+xml"
-      title="HeroPixel by Signal ID"
-      href="/opensearch.xml"
-    />
 
-    <link
-      rel="icon"
-      href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
-    />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#20232a" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#20232a" />
-    <link
-      rel="apple-touch-icon"
-      href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
-    />
-    <link
-      rel="mask-icon"
-      href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
-      color="#06bcee"
-    />
-    <meta
-      name="msapplication-TileImage"
-      href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg"
-    />
-    <meta name="msapplication-TileColor" content="#20232a" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/focus-visible@5.2.0/dist/focus-visible.min.js"
-      defer="defer"
-    ></script>
-    <script src="https://snack.expo.dev/embed.js" defer="defer"></script>
-    <script src="/js/heropixel.js" async></script>
-    <link rel="stylesheet" href="/assets/css/styles.dac24a43.css" />
-    <script src="/assets/js/runtime~main.a9003900.js" defer="defer"></script>
-    <script src="/assets/js/main.70f671a0.js" defer="defer"></script>
-  </head>
-  <body class="navigation-with-keyboard">
-    <script>
-      !(function () {
-        function t(t) {
-          document.documentElement.setAttribute("data-theme", t);
-        }
-        var e =
-          (function () {
-            try {
-              return new URLSearchParams(window.location.search).get(
-                "docusaurus-theme"
-              );
-            } catch (t) {}
-          })() ||
-          (function () {
-            try {
-              return localStorage.getItem("theme");
-            } catch (t) {}
-          })();
-        t(null !== e ? e : "light");
-      })(),
-        (function () {
-          try {
-            const c = new URLSearchParams(window.location.search).entries();
-            for (var [t, e] of c)
-              if (t.startsWith("docusaurus-data-")) {
-                var a = t.replace("docusaurus-data-", "data-");
-                document.documentElement.setAttribute(a, e);
-              }
-          } catch (t) {}
-        })();
-    </script>
-    <div id="__docusaurus">
-      <div class="wrapper_Xf0B">
-        <div class="container_fmIq">
-          <div class="container_Csy9">
-            <h1 class="title_Bic6">Prospects Streamed Into Your Ecosystem</h1>
-            <h3 class="description_jkP7"></h3>
-          </div>
-          <div class="featureContainer_JCYB">
-            <div>
-              <p>
-                Prior to providing integrations natively we saw our customers
-                spending thousands upon thousands of dollars on zapier
-                connections.
-              </p>
-              <p>
-                We didn&#x27;t want our service to impose uneccessary costs onto
-                our clients, just so they could take position of their leads.
-                For that reason, we decided to build and maintain the necessary
-                integrations to make our client&#x27;s lives easier.
-              </p>
-              <p>
-                If you don&#x27;t find the integration you&#x27;re looking for,
-                just reach out to our support team and they&#x27;ll be happy to
-                build it for you.
-              </p>
-            </div>
-            <div>
-              <ul class="AppList">
-                <li class="item">
-                  <a href="/docs/destinations/astra"
-                    ><img src="/img/connectors/astra.svg" alt="astra.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/azure-blob-storage"
-                    ><img
-                      src="/img/connectors/azure-blob-storage.svg"
-                      alt="azure-blob-storage.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/aws-datalake"
-                    ><img src="/img/connectors/datalake.svg" alt="datalake.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/bigquery"
-                    ><img src="/img/connectors/bigquery.svg" alt="bigquery.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/chroma"
-                    ><img src="/img/connectors/chroma.svg" alt="chroma.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/clickhouse"
-                    ><img
-                      src="/img/connectors/clickhouse.svg"
-                      alt="clickhouse.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/convertkit"
-                    ><img
-                      src="/img/connectors/convertkit.png"
-                      alt="convertkit.png"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/convex"
-                    ><img src="/img/connectors/convex.svg" alt="convex.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/databricks"
-                    ><img
-                      src="/img/connectors/databricks.svg"
-                      alt="databricks.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/duckdb"
-                    ><img src="/img/connectors/duckdb.svg" alt="duckdb.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/dynamodb"
-                    ><img src="/img/connectors/dynamodb.svg" alt="dynamodb.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/elasticsearch"
-                    ><img
-                      src="/img/connectors/elasticsearch.svg"
-                      alt="elasticsearch.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/firebolt"
-                    ><img src="/img/connectors/firebolt.svg" alt="firebolt.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/firestore"
-                    ><img
-                      src="/img/connectors/firestore.svg"
-                      alt="firestore.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/gcs"
-                    ><img src="/img/connectors/gcs.svg" alt="gcs.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/gohighlevel"
-                    ><img
-                      src="/img/connectors/gohighlevel.png"
-                      alt="gohighlevel.png"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/google-sheets"
-                    ><img
-                      src="/img/connectors/google-sheets.svg"
-                      alt="google-sheets.svg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/hubspot"
-                    ><img src="/img/connectors/hubspot.jpeg" alt="hubspot.jpeg"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/iceberg"
-                    ><img src="/img/connectors/iceberg.png" alt="iceberg.png"
-                  /></a>
-                </li>
-                <li class="item">
-                  <a href="/docs/destinations/kafka"
-                    ><img src="/img/connectors/kafka.svg" alt="kafka.svg"
-                  /></a>
-                </li>
-              </ul>
-              <p>
-                and<!-- -->
-                <a href="/docs/intro-to-integrations">many more</a>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+
+<link rel="search" type="application/opensearchdescription+xml" title="HeroPixel by Signal ID" href="/opensearch.xml">
+
+<link rel="icon" href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#20232a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#20232a">
+<link rel="apple-touch-icon" href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg">
+<link rel="mask-icon" href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg" color="#06bcee">
+<meta name="msapplication-TileImage" href="/img/heropixel/Hero-Pixel-Icon-RGB-Black-Medium.svg">
+<meta name="msapplication-TileColor" content="#20232a">
+<script src="https://cdn.jsdelivr.net/npm/focus-visible@5.2.0/dist/focus-visible.min.js" defer="defer"></script>
+<script src="https://snack.expo.dev/embed.js" defer="defer"></script>
+<script src="/js/heropixel.js" async></script><link rel="stylesheet" href="/assets/css/styles.dac24a43.css">
+<script src="/assets/js/runtime~main.2339f399.js" defer="defer"></script>
+<script src="/assets/js/main.dd1edbc5.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div class="wrapper_Xf0B"><div class="container_fmIq"><div class="container_Csy9"><h1 class="title_Bic6">Prospects Streamed Into Your Ecosystem</h1><h3 class="description_jkP7"></h3></div><div class="featureContainer_JCYB"><div><p>Prior to providing integrations natively we saw our customers spending thousands upon thousands of dollars on zapier connections.</p><p>We didn&#x27;t want our service to impose uneccessary costs onto our clients, just so they could take position of their leads. For that reason, we decided to build and maintain the necessary integrations to make our client&#x27;s lives easier.</p><p>If you don&#x27;t find the integration you&#x27;re looking for, just reach out to our support team and they&#x27;ll be happy to build it for you.</p></div><div><ul class="AppList"><li class="item"><a href="/docs/destinations/astra"><img src="/img/connectors/astra.svg" alt="astra.svg"></a></li><li class="item"><a href="/docs/destinations/azure-blob-storage"><img src="/img/connectors/azure-blob-storage.svg" alt="azure-blob-storage.svg"></a></li><li class="item"><a href="/docs/destinations/aws-datalake"><img src="/img/connectors/datalake.svg" alt="datalake.svg"></a></li><li class="item"><a href="/docs/destinations/bigquery"><img src="/img/connectors/bigquery.svg" alt="bigquery.svg"></a></li><li class="item"><a href="/docs/destinations/chroma"><img src="/img/connectors/chroma.svg" alt="chroma.svg"></a></li><li class="item"><a href="/docs/destinations/clickhouse"><img src="/img/connectors/clickhouse.svg" alt="clickhouse.svg"></a></li><li class="item"><a href="/docs/destinations/convertkit"><img src="/img/connectors/convertkit.png" alt="convertkit.png"></a></li><li class="item"><a href="/docs/destinations/convex"><img src="/img/connectors/convex.svg" alt="convex.svg"></a></li><li class="item"><a href="/docs/destinations/databricks"><img src="/img/connectors/databricks.svg" alt="databricks.svg"></a></li><li class="item"><a href="/docs/destinations/duckdb"><img src="/img/connectors/duckdb.svg" alt="duckdb.svg"></a></li><li class="item"><a href="/docs/destinations/dynamodb"><img src="/img/connectors/dynamodb.svg" alt="dynamodb.svg"></a></li><li class="item"><a href="/docs/destinations/elasticsearch"><img src="/img/connectors/elasticsearch.svg" alt="elasticsearch.svg"></a></li><li class="item"><a href="/docs/destinations/firebolt"><img src="/img/connectors/firebolt.svg" alt="firebolt.svg"></a></li><li class="item"><a href="/docs/destinations/firestore"><img src="/img/connectors/firestore.svg" alt="firestore.svg"></a></li><li class="item"><a href="/docs/destinations/gcs"><img src="/img/connectors/gcs.svg" alt="gcs.svg"></a></li><li class="item"><a href="/docs/destinations/gohighlevel"><img src="/img/connectors/gohighlevel.png" alt="gohighlevel.png"></a></li><li class="item"><a href="/docs/destinations/google-sheets"><img src="/img/connectors/google-sheets.svg" alt="google-sheets.svg"></a></li><li class="item"><a href="/docs/destinations/hubspot"><img src="/img/connectors/hubspot.jpeg" alt="hubspot.jpeg"></a></li><li class="item"><a href="/docs/destinations/iceberg"><img src="/img/connectors/iceberg.png" alt="iceberg.png"></a></li><li class="item"><a href="/docs/destinations/kafka"><img src="/img/connectors/kafka.svg" alt="kafka.svg"></a></li></ul><p>and<!-- --> <a href="/docs/intro-to-integrations">many more</a>.</p></div></div></div></div></div>
+</body>
 </html>
