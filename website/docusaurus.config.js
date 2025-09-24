@@ -347,7 +347,7 @@ module.exports = {
             items: [
               {
                 label: 'Sales',
-                href: 'https://calendly.com/mark-heropixel/20min',
+                href: 'https://calendly.com/heropixel/30min',
               },
               {
                 label: 'Support',

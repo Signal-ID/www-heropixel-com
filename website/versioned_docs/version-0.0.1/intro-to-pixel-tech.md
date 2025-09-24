@@ -83,7 +83,7 @@ HeroPixelsaves you money one lead at a time, which is why we believe you should 
 
 ## HOW CAN I START USING HeroPixel
 
-You can book a call directly with one of our founders, by [clicking here](https://calendly.com/mark-heropixel/20min).
+You can book a call directly with one of our founders, by [clicking here](https://calendly.com/heropixel/30min).
 
 Thanks for reading!
 <br/>Mike, Mark & Jon

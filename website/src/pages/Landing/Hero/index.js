@@ -78,7 +78,7 @@ const Hero = () => {
               </div>
             </div>
             <a
-              href="https://calendly.com/mark-heropixel/20min"
+              href="https://calendly.com/heropixel/30min"
               className={styles.Button}>
               <div className={styles.ButtonText}>Get started</div>
               <div className={styles.Right}>
