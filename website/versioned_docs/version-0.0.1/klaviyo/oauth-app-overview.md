@@ -54,10 +54,19 @@ HeroPixel integrates with Klaviyo via OAuth2 to provide seamless marketing autom
 ### Connection Status Screens
 
 **Not Connected State:**
-![Klaviyo Not Connected](/img/heropixel/klaviyo-not-connected.png)
+<br/>
+<div align="left">
+  <img src="/img/heropixel/klaviyo-not-connected.png" alt="Klaviyo Not Connected" width="600"/>
+</div>
+<br/>
+<br/>
 
 **Connected State:**
-![Klaviyo Connected](/img/heropixel/klaviyo-connected.png)
+<br/>
+<div align="left">
+  <img src="/img/heropixel/klaviyo-connected.png" alt="Klaviyo Connected" width="600"/>
+</div>
+<br/>
 
 ## Integration Details
 
