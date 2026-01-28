@@ -9,7 +9,7 @@ const users = require('./showcase.json');
 const versions = require('./versions.json');
 
 const lastVersion = versions[0];
-const copyright = `Copyright © ${new Date().getFullYear()} Merchant Protocol LLC, LLC.`;
+const copyright = `Copyright © ${new Date().getFullYear()} Merchant Protocol, LLC.`;
 
 const commonDocsOptions = {
   breadcrumbs: false,
