@@ -259,7 +259,7 @@ For Klaviyo OAuth flow testing and approval, we provide:
 **Final Requirements:**
 - ✅ Recorded demo of installation and use cases
 - ✅ Klaviyo brand guidelines are met and references to Klaviyo are accurate
-- ⏳ 5 active user installs (in progress)
+- ✅ 5 active user installs
 
 ## Support and Contact
 

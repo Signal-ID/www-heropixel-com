@@ -9,7 +9,7 @@ const users = require('./showcase.json');
 const versions = require('./versions.json');
 
 const lastVersion = versions[0];
-const copyright = `Copyright © ${new Date().getFullYear()} Signal ID, LLC.`;
+const copyright = `Copyright © ${new Date().getFullYear()} Merchant Protocol LLC, LLC.`;
 
 const commonDocsOptions = {
   breadcrumbs: false,
@@ -23,9 +23,9 @@ const isDeployPreview = process.env.PREVIEW_DEPLOY === 'true';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'HeroPixel by Signal ID',
+  title: 'HeroPixel by Merchant Protocol LLC',
   tagline: 'The most advanced remarketing technology to date.',
-  organizationName: 'Signal ID',
+  organizationName: 'Merchant Protocol LLC',
   projectName: 'heropixel',
   url: 'https://heropixel.com',
   baseUrl: '/',

@@ -91,7 +91,7 @@ function PrivacyPolicy() {
           <section id="introduction">
             <h2>Introduction</h2>
             <p>
-              Signal ID Inc. (“We” “Our” “Signal ID”) provides data marketing
+              Merchant Protocol LLC Inc. (“We” “Our” “Merchant Protocol LLC”) provides data marketing
               services (the “Services”) that assist for-profit and not-profit
               organizations (and other companies that service them) to market
               their goods and services in a relevant and efficient way. Our
@@ -219,7 +219,7 @@ function PrivacyPolicy() {
               receive with other Information.
             </p>
             <p>
-              Signal ID also receives Information through this website (and any
+              Merchant Protocol LLC also receives Information through this website (and any
               other website we operate), and our business operations. We
               describe this Information in Section 6.
             </p>
@@ -228,7 +228,7 @@ function PrivacyPolicy() {
           <section id="information-use">
             <h2>2. How We Use the Information</h2>
             <p>
-              Signal ID uses the Information for various purposes, including the
+              Merchant Protocol LLC uses the Information for various purposes, including the
               following:
             </p>
             <h3>As Part of Our Services:</h3>
@@ -304,7 +304,7 @@ function PrivacyPolicy() {
               Providers
             </h2>
             <p>
-              Signal ID may share the Information with customers, marketing
+              Merchant Protocol LLC may share the Information with customers, marketing
               services and platforms, as well as service providers that help us
               to provide the Services we’ve described above (or other services
               we may add in the future). This includes sharing in the following
@@ -343,7 +343,7 @@ function PrivacyPolicy() {
               </li>
               <li>
                 <strong>Affiliates, parent companies, and subsidiaries:</strong>{' '}
-                Signal ID may share some or all of the Information in our
+                Merchant Protocol LLC may share some or all of the Information in our
                 possession with any of our affiliated or subsidiary companies
                 (to the extent that we ever have any).
               </li>
@@ -351,15 +351,15 @@ function PrivacyPolicy() {
                 <strong>
                   As required by law or to protect any person or entity:
                 </strong>{' '}
-                Signal ID may disclose Information if we believe that such
+                Merchant Protocol LLC may disclose Information if we believe that such
                 disclosure is necessary to (a) comply in good faith with
                 relevant laws or to respond to subpoenas or warrants served on
                 us; or (b) to protect or otherwise defend the rights, property
-                or safety of Signal ID, our customers, or any other person or
+                or safety of Merchant Protocol LLC, our customers, or any other person or
                 entity.
               </li>
               <li>
-                <strong>Corporate transfers:</strong> If Signal ID, its stock or
+                <strong>Corporate transfers:</strong> If Merchant Protocol LLC, its stock or
                 its significant assets are acquired by or merged into another
                 entity, our information will be transferred to that entity, and
                 may be shared during due diligence in anticipation of any such
@@ -447,7 +447,7 @@ function PrivacyPolicy() {
             <h2>5. Cookies and Similar Technologies</h2>
             <h3>Cookies and How We Use Them</h3>
             <p>
-              Signal ID and its business partners use certain industry-standard
+              Merchant Protocol LLC and its business partners use certain industry-standard
               technologies, including cookies and similarly functioning
               technologies, which we describe below. (We and/or our service
               providers use these technologies on our website, for instance, and
@@ -528,7 +528,7 @@ function PrivacyPolicy() {
             <h2>6. Data Collected Through Our Corporate Website</h2>
             <h3>Information Collected</h3>
             <p>
-              Signal ID collects information from users of our website(s)
+              Merchant Protocol LLC collects information from users of our website(s)
               (including any page on which this Privacy Policy is posted),
               including:
             </p>
@@ -555,7 +555,7 @@ function PrivacyPolicy() {
               </li>
             </ul>
             <h3>
-              How Signal ID Uses the Information We Collect Through Our Website
+              How Merchant Protocol LLC Uses the Information We Collect Through Our Website
             </h3>
             <p>
               We use the Information we collect through our website(s) to do the
@@ -610,7 +610,7 @@ function PrivacyPolicy() {
               </li>
             </ul>
             <h3>
-              How Signal ID Shares the Information We Collect Through Our
+              How Merchant Protocol LLC Shares the Information We Collect Through Our
               Websites and For Corporate Purposes
             </h3>
             <p>
@@ -664,8 +664,8 @@ function PrivacyPolicy() {
           <section id="links">
             <h2>7. Links</h2>
             <p>
-              This website may provide links to other websites that Signal ID
-              thinks users may be interested in. Signal ID is not responsible
+              This website may provide links to other websites that Merchant Protocol LLC
+              thinks users may be interested in. Merchant Protocol LLC is not responsible
               for the privacy practices of these other sites or companies.
             </p>
           </section>
@@ -673,7 +673,7 @@ function PrivacyPolicy() {
           <section id="security">
             <h2>8. Security and Data Integrity</h2>
             <p>
-              Signal ID takes steps to help ensure that the data we possess is
+              Merchant Protocol LLC takes steps to help ensure that the data we possess is
               housed and transmitted securely. This may include various types of
               physical and electronic security, including firewall protections,
               encryption, hashing or truncation of data, and access controls to
@@ -731,14 +731,14 @@ function PrivacyPolicy() {
           <section id="contact">
             <h2>12. Contact Us</h2>
             <p>
-              Signal ID has a designated privacy contact. If you have questions
+              Merchant Protocol LLC has a designated privacy contact. If you have questions
               related to this Privacy Policy, or regarding our products or
               services, please contact us:
             </p>
             <p>
               Privacy Officer
               <br />
-              Signal ID Inc.
+              Merchant Protocol LLC Inc.
               <br />
               1317 Edgewater Dr #7039
               <br />
@@ -749,7 +749,7 @@ function PrivacyPolicy() {
               <a href="mailto:support@heropixel.com"> support@heropixel.com</a>
             </p>
             <p>
-              We appreciate your comments and questions regarding Signal ID’s
+              We appreciate your comments and questions regarding Merchant Protocol LLC’s
               privacy practices.
             </p>
             <p>Last updated: August 12th 2024</p>

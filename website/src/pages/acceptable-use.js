@@ -73,7 +73,7 @@ function AcceptableUse() {
             <p>
               In order to maintain a high level of business integrity, social
               responsibility, and to comply with applicable state and federal
-              laws, Signal ID will not knowingly engage with any party that
+              laws, Merchant Protocol LLC will not knowingly engage with any party that
               participates in any of the following activities:
             </p>
             <p>Distributes, manufactures, markets, or promotes:</p>
